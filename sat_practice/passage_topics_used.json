@@ -1,3 +1,29 @@
 {
-  "topics_used": []
+  "topics_used": [
+    {"date": "2026-09-13", "topic": "a violinist rehearsing before a recital", "category": "literature"},
+    {"date": "2026-09-13", "topic": "coral polyp reef formation", "category": "natural_science"},
+    {"date": "2026-09-13", "topic": "a community garden changing neighborhood habits", "category": "social_science"},
+    {"date": "2026-09-13", "topic": "colonial committee debate over a unified postal system", "category": "historical"},
+    {"date": "2026-09-13", "topic": "an old fisherman's daily pier ritual", "category": "literature"},
+    {"date": "2026-09-13", "topic": "bat echolocation research paper structure", "category": "natural_science"},
+    {"date": "2026-09-13", "topic": "a commuter's account framing a transit report", "category": "social_science"},
+    {"date": "2026-09-13", "topic": "a founder's extended ship metaphor in a letter", "category": "historical"},
+    {"date": "2026-09-13", "topic": "withholding a character's name in an opening scene", "category": "literature"},
+    {"date": "2026-09-13", "topic": "crow tool-use: insight vs. practice debate", "category": "natural_science"},
+    {"date": "2026-09-13", "topic": "four-day workweek pilot study selection bias", "category": "social_science"},
+    {"date": "2026-09-13", "topic": "founding-era interstate trade regulation compromise motives", "category": "historical"},
+    {"date": "2026-09-13", "topic": "ambiguous open-door ending interpretations in a short story", "category": "literature"},
+    {"date": "2026-09-13", "topic": "monarch butterfly multigenerational migration", "category": "natural_science"},
+    {"date": "2026-09-13", "topic": "bike lanes paired with secure parking study", "category": "social_science"},
+    {"date": "2026-09-13", "topic": "neutral capital city site selection", "category": "historical"},
+    {"date": "2026-09-13", "topic": "a boy's selective silence at family dinners", "category": "literature"},
+    {"date": "2026-09-13", "topic": "ant seed dispersal via elaiosomes", "category": "natural_science"},
+    {"date": "2026-09-13", "topic": "library late-fee elimination and return rates", "category": "social_science"},
+    {"date": "2026-09-13", "topic": "a delegate's private notebook vs. public vote", "category": "historical"},
+    {"date": "2026-09-13", "topic": "sorting a sister's letters and a photograph before moving", "category": "literature"},
+    {"date": "2026-09-13", "topic": "drought vs. fungal pathogen explaining a tree die-off", "category": "natural_science"},
+    {"date": "2026-09-13", "topic": "mentorship vs. funding predicting startup survival", "category": "social_science"},
+    {"date": "2026-09-13", "topic": "famine vs. tax as cause of a regional uprising", "category": "historical"},
+    {"date": "2026-09-13", "topic": "a lighthouse setting mirroring a protagonist's isolation", "category": "literature"}
+  ]
 }

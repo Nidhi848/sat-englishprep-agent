@@ -1,0 +1,290 @@
+{
+  "sample": false,
+  "date": "2026-09-13",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "Before her recital, Elena rehearsed the same four measures for nearly an hour, ignoring the rest of the piece entirely. Her teacher, listening from the hallway, found the repetition almost obsessive, yet noticed that each pass grew subtly more assured, the earlier hesitation replaced by something closer to confidence. By the time Elena set down her violin, the phrase that had once seemed impossibly difficult sounded, to any listener passing by, effortless.",
+      "question": "As used in the passage, \"assured\" most nearly means",
+      "choices": {"A": "doubtful", "B": "confident", "C": "loud", "D": "careless"},
+      "correct_answer": "B",
+      "explanation": "The passage says hesitation was replaced by \"something closer to confidence,\" so \"assured\" means confident here."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Individually, a coral polyp is barely larger than a grain of rice, yet colonies of thousands can construct reef structures visible from space. Each polyp secretes a hard calcium skeleton, and as generations build upon the remains of their predecessors, the reef gradually accretes into towering formations. This slow accumulation, rather than the effort of any single polyp, explains how such modest organisms produce structures of such enormous scale.",
+      "question": "As used in the passage, \"accretes\" most nearly means",
+      "choices": {"A": "shrinks", "B": "grows through gradual buildup", "C": "dissolves", "D": "moves quickly"},
+      "correct_answer": "B",
+      "explanation": "The passage describes the reef \"gradually\" building from accumulated skeletons, so \"accretes\" means grows through gradual buildup."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "social_science",
+      "passage": "When a vacant lot was converted into a community garden, city planners expected modest gains in local food access. Instead, residents reported a more unexpected shift: neighbors who had rarely spoken began coordinating watering schedules and swapping produce, gradually turning a lot once seen as an eyesore into a hub of everyday social exchange. Planners now consider such gardens as much about community as about food.",
+      "question": "As used in the passage, \"modest\" most nearly means",
+      "choices": {"A": "small", "B": "expensive", "C": "unpopular", "D": "permanent"},
+      "correct_answer": "A",
+      "explanation": "Planners expected only small (\"modest\") gains in food access, before the larger social shift occurred."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "historical",
+      "passage": "Committee members disputed whether a unified postal system would serve the colonies' scattered towns efficiently, or whether it would prove an extravagant undertaking better left to individual merchants. Proponents argued that even a modest investment would soon repay itself through faster, more reliable correspondence between distant settlements, tying the colonies together in ways separate private couriers never could.",
+      "question": "As used in the passage, \"extravagant\" most nearly means",
+      "choices": {"A": "affordable", "B": "excessively costly", "C": "illegal", "D": "temporary"},
+      "correct_answer": "B",
+      "explanation": "Opponents feared it would be an \"extravagant undertaking,\" meaning wastefully costly, better left to private merchants."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "Every dawn, regardless of weather, old Mr. Halloway walked to the end of the pier and stood motionless for exactly ten minutes before casting his line. Younger fishermen found the ritual quaint, even superstitious, but Halloway maintained that the stillness had nothing to do with luck. It was, he said, the only part of his day when his mind stopped rehearsing arguments he could no longer have with people long gone.",
+      "question": "As used in the passage, \"quaint\" most nearly means",
+      "choices": {"A": "charmingly old-fashioned", "B": "dangerous", "C": "profitable", "D": "forbidden"},
+      "correct_answer": "A",
+      "explanation": "Younger fishermen see the ritual as \"quaint, even superstitious,\" meaning charmingly odd rather than practical."
+    },
+    {
+      "id": 6,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "The study begins by describing a puzzling observation: bats in total darkness avoided obstacles invisible to human researchers using even specialized equipment. Only after presenting this puzzle does the paper introduce echolocation as the explanation, walking readers through the physics of sound reflection before returning to the original observation, now fully accounted for. The structure invites readers to share the researchers' initial confusion before resolving it.",
+      "question": "Which choice best describes the function of opening with the puzzling observation?",
+      "choices": {"A": "It proves that bats cannot see at all.", "B": "It draws readers into the researchers' confusion before the explanation resolves it.", "C": "It criticizes earlier researchers for missing echolocation.", "D": "It summarizes the paper's conclusion before the evidence."},
+      "correct_answer": "B",
+      "explanation": "The passage says the structure \"invites readers to share the researchers' initial confusion before resolving it.\""
+    },
+    {
+      "id": 7,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "Rather than beginning with regional traffic data, the report opens with a commuter's account of a two-hour bus transfer that could be driven in twenty minutes. Only afterward does the report introduce citywide statistics on transit gaps. This ordering lets the abstract figures that follow be read against a concrete inconvenience, so that the data gains a human weight it might otherwise lack.",
+      "question": "Which choice best states the main purpose of opening with the commuter's account?",
+      "choices": {"A": "To question whether the statistics are accurate", "B": "To give the later data a concrete human context", "C": "To argue that buses should be eliminated", "D": "To summarize the report's policy recommendations"},
+      "correct_answer": "B",
+      "explanation": "The account lets the \"abstract figures... be read against a concrete inconvenience,\" giving the data human weight."
+    },
+    {
+      "id": 8,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "Rather than stating his objection outright, the delegate frames his entire letter around an extended metaphor comparing the proposed union to a poorly built ship, patched together with mismatched planks. Only in the final paragraph does he drop the metaphor and state his actual demand: a stronger, uniform framework of laws. The metaphor, sustained throughout, prepares readers to accept the demand as an obvious remedy to a vividly imagined flaw.",
+      "question": "Which choice best describes how the sustained metaphor serves the letter's purpose?",
+      "choices": {"A": "It distracts readers from the delegate's real concern.", "B": "It prepares readers to see the final demand as an obvious solution to a vividly described problem.", "C": "It proves that ships were poorly built in this period.", "D": "It replaces the need for the delegate to state any demand."},
+      "correct_answer": "B",
+      "explanation": "The metaphor \"prepares readers to accept the demand as an obvious remedy\" to the flaw it vividly describes."
+    },
+    {
+      "id": 9,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "literature",
+      "passage": "For the first several pages, the narrator refers to the central character only as \"the woman in the gray coat,\" withholding her name even as she is described walking the same route each morning. Only when she finally speaks to a stranger on the platform does the narrator reveal her name, Ilsa. The delay transforms an ordinary commute into something readers watch with unusual attentiveness, waiting for the anonymity to resolve into identity.",
+      "question": "Which choice best describes the function of withholding the character's name early in the passage?",
+      "choices": {"A": "It suggests the character is unimportant to the story.", "B": "It heightens readers' attentiveness by delaying the resolution of her identity.", "C": "It reveals that the character has forgotten her own name.", "D": "It shows that the narrator dislikes the character."},
+      "correct_answer": "B",
+      "explanation": "The delay makes readers watch \"with unusual attentiveness, waiting for the anonymity to resolve into identity.\""
+    },
+    {
+      "id": 10,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Some researchers argue that crows' tool-making abilities reflect genuine insight, pointing to individuals who bent wire into hooks they had never encountered before.",
+      "passage_2": "Other researchers argue that such behavior reflects refined trial-and-error learning rather than insight, noting that crows who succeeded had extensive prior practice manipulating similar materials.",
+      "question": "Which choice best describes how the author of Text 2 would most likely respond to the claim in Text 1?",
+      "choices": {"A": "By agreeing that the wire-bending shows genuine insight", "B": "By arguing that prior practice, not insight, better explains the crows' success", "C": "By denying that crows can manipulate objects at all", "D": "By claiming Text 1 misidentifies the species studied"},
+      "correct_answer": "B",
+      "explanation": "Text 2 attributes the behavior to \"refined trial-and-error learning\" from \"extensive prior practice,\" not insight."
+    },
+    {
+      "id": 11,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "social_science",
+      "passage_1": "A pilot study of a four-day workweek found that participating companies reported steady productivity alongside improved employee well-being.",
+      "passage_2": "A follow-up review cautions that most pilot companies volunteered for the program, meaning results may reflect workplaces already inclined toward efficient practices rather than the schedule change itself.",
+      "question": "Which choice best describes the relationship between the two texts?",
+      "choices": {"A": "Text 2 confirms Text 1's findings with new data.", "B": "Text 2 raises a concern about selection bias that complicates Text 1's conclusion.", "C": "Text 2 argues the four-day workweek reduces productivity.", "D": "Text 1 and Text 2 studied entirely unrelated topics."},
+      "correct_answer": "B",
+      "explanation": "Text 2 questions whether volunteer companies were representative, a selection-bias concern complicating Text 1's conclusion."
+    },
+    {
+      "id": 12,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "historical",
+      "passage_1": "One historian argues that the compromise granting the central government power to regulate interstate trade was primarily a concession to merchants seeking uniform rules.",
+      "passage_2": "Another historian argues the same provision was driven less by merchants than by lawmakers seeking to prevent states from waging retaliatory trade disputes against one another.",
+      "question": "Which choice best describes how Text 2 relates to the claim in Text 1?",
+      "choices": {"A": "Text 2 offers a different motivation for the same provision Text 1 discusses.", "B": "Text 2 confirms that merchants were the primary force behind the provision.", "C": "Text 2 denies that the provision was ever adopted.", "D": "Text 2 discusses a completely different provision than Text 1."},
+      "correct_answer": "A",
+      "explanation": "Both texts explain the same trade-regulation provision, but Text 2 attributes it to preventing interstate disputes rather than merchant pressure."
+    },
+    {
+      "id": 13,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "literature",
+      "passage_1": "Some readers interpret the story's ambiguous final image, a door left slightly open, as a symbol of hope for reconciliation between the estranged siblings.",
+      "passage_2": "Other readers interpret the same open door as a sign of unresolved tension, suggesting the conflict remains dangerously unsettled rather than hopeful.",
+      "question": "Which choice best describes how the author of Text 2 would most likely respond to the interpretation in Text 1?",
+      "choices": {"A": "By agreeing that the open door signals hopeful reconciliation", "B": "By arguing that the same image instead signals unresolved, unsettled conflict", "C": "By claiming the door is not actually mentioned in the story", "D": "By insisting that both interpretations are equally impossible"},
+      "correct_answer": "B",
+      "explanation": "Text 2 reads the same open door as indicating conflict remains \"dangerously unsettled,\" contrasting with Text 1's hopeful reading."
+    },
+    {
+      "id": 14,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "No single monarch butterfly completes the full migration from Canada to central Mexico; the journey instead spans three or four generations, each flying a segment before laying eggs and dying. Remarkably, the final generation, having never made the trip before, navigates to the same overwintering forests their great-grandparents departed from, relying on cues its own generation has never directly experienced.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {"A": "Monarch butterflies live far longer than most insects.", "B": "The monarch migration is completed across multiple generations, with later generations navigating routes they have never traveled.", "C": "Monarch butterflies only migrate once every four years.", "D": "Each monarch generation follows a different route to Mexico."},
+      "correct_answer": "B",
+      "explanation": "The passage states the journey \"spans three or four generations\" and that later generations navigate without prior experience of the route."
+    },
+    {
+      "id": 15,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "social_science",
+      "passage": "A transportation study found that adding bike lanes alone did not significantly increase cycling rates in most surveyed neighborhoods. Only in neighborhoods that paired new lanes with secure bike parking near transit stations did cycling rates rise substantially, suggesting that the lanes' impact depended heavily on complementary infrastructure rather than functioning as an effective solution by themselves.",
+      "question": "Which choice best states the central idea of the passage?",
+      "choices": {"A": "Bike lanes are ineffective and should not be built.", "B": "Bike lanes increase cycling rates most effectively when paired with supporting infrastructure like secure parking.", "C": "Secure bike parking matters more than bike lanes in every neighborhood studied.", "D": "Cycling rates rose equally in all neighborhoods studied."},
+      "correct_answer": "B",
+      "explanation": "Cycling rose substantially only where lanes were \"paired with secure bike parking,\" showing lanes work best alongside supporting infrastructure."
+    },
+    {
+      "id": 16,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "historical",
+      "passage": "Delegates debating the new capital's location rejected sites favored by the largest states, worried that placing the capital within any single state's borders would grant that state undue influence. They ultimately chose a site claimed by no existing state, reasoning that neutral ground would reassure smaller states that the new government would not simply serve its most powerful members.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {"A": "The capital was placed in the largest state to reward its influence.", "B": "A neutral location for the capital was chosen to reassure smaller states about undue influence.", "C": "Delegates could not agree on any location for the capital.", "D": "Smaller states opposed creating a capital city at all."},
+      "correct_answer": "B",
+      "explanation": "The neutral site was chosen so that it would \"reassure smaller states\" worried about undue influence from a single state."
+    },
+    {
+      "id": 17,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "literature",
+      "passage": "At every family dinner, Theo answered questions about school with a single word, then returned to rearranging the food on his plate. His aunts assumed he was simply shy. But on the rare nights when a conversation turned to his late father, Theo spoke in full, careful sentences, as though he had been saving his words, all along, for the subjects that actually mattered to him.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {"A": "Theo is generally shy and dislikes speaking at family gatherings.", "B": "Theo reserves fuller speech for subjects he considers meaningful, rather than being simply shy.", "C": "Theo's aunts correctly understand why he stays quiet.", "D": "Theo refuses to discuss his father under any circumstances."},
+      "correct_answer": "B",
+      "explanation": "Theo speaks fully only when the conversation turns to his father, undercutting the aunts' assumption that he is simply shy."
+    },
+    {
+      "id": 18,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "natural_science",
+      "passage": "Researchers observed that certain forest ants carried away seeds coated with a fatty appendage called an elaiosome, consuming the appendage and discarding the seed intact some distance from the parent plant. Seeds lacking this appendage were left untouched at the same sites, even when equally accessible to the ants.",
+      "question": "Which choice best describes what can reasonably be inferred from the passage?",
+      "choices": {"A": "The ants transport seeds specifically because of the fatty appendage, not the seed itself.", "B": "Ants are unable to detect seeds without an elaiosome.", "C": "All forest plants produce seeds with elaiosomes.", "D": "Ants damage every seed they encounter."},
+      "correct_answer": "A",
+      "explanation": "Ants only carried seeds with the appendage and ignored otherwise-accessible seeds lacking it, indicating the appendage itself drives the behavior."
+    },
+    {
+      "id": 19,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "social_science",
+      "passage": "After a city library eliminated late fees, staff expected return rates to drop, assuming fines were necessary to motivate patrons. Instead, return rates held steady, and staff noted a modest rise in the number of patrons resuming visits after previously avoiding the library altogether due to accumulated debt.",
+      "question": "Which choice best describes what can reasonably be inferred from the passage?",
+      "choices": {"A": "Late fees were not the primary reason most patrons returned items on time.", "B": "Return rates dropped sharply after the change.", "C": "No patrons had previously avoided the library due to fees.", "D": "The library reinstated fees shortly after the study."},
+      "correct_answer": "A",
+      "explanation": "Return rates held steady without fees, suggesting fees weren't the main reason patrons returned items."
+    },
+    {
+      "id": 20,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "historical",
+      "passage": "Though he voted in favor of the final measure, one delegate's private notebook, discovered decades later, records repeated doubts about several of its provisions, along with a line noting that he voted \"for unity's sake, not conviction.\"",
+      "question": "Which choice best describes what can reasonably be inferred about the delegate's vote?",
+      "choices": {"A": "It reflected genuine enthusiasm for every provision.", "B": "It was cast primarily to preserve unity despite private reservations.", "C": "It was later reversed through a formal objection.", "D": "It was identical to the votes of all other delegates."},
+      "correct_answer": "B",
+      "explanation": "His note that he voted \"for unity's sake, not conviction\" indicates the vote prioritized unity over genuine agreement."
+    },
+    {
+      "id": 21,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Before moving out of the apartment she had shared with her sister, Priya read through a decade of old letters one final time, then placed each one, without hesitation, into the recycling bin. She kept only a single photograph, worn soft at the corners from handling far more frequent than the letters themselves seemed to invite.",
+      "question": "Which choice best describes what can reasonably be inferred about Priya?",
+      "choices": {"A": "She valued the photograph more than the letters as a keepsake of her sister.", "B": "She had never read the letters before this final rereading.", "C": "She regretted discarding the photograph.", "D": "She discarded the photograph along with the letters."},
+      "correct_answer": "A",
+      "explanation": "The worn photograph, handled far more than the letters, suggests it mattered more to her, while the letters were discarded without hesitation."
+    },
+    {
+      "id": 22,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "natural_science",
+      "passage": "A team of foresters hypothesizes that a recent die-off among a stand of pine trees is caused primarily by prolonged drought stress rather than a fungal pathogen, which they consider a secondary, opportunistic factor.",
+      "question": "Which finding, if true, would most directly support the foresters' hypothesis?",
+      "choices": {"A": "The fungal pathogen has been detected in pine forests worldwide.", "B": "Trees in the driest sections of the stand died at significantly higher rates than equally exposed trees in irrigated sections, regardless of fungal presence.", "C": "The die-off began shortly after the fungal pathogen was first identified in the region.", "D": "Pine trees are generally more drought-tolerant than other conifer species."},
+      "correct_answer": "B",
+      "explanation": "Showing die-off tracks drought exposure rather than fungal presence directly isolates drought as the driving cause."
+    },
+    {
+      "id": 23,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "A researcher argues that access to experienced mentors, more than the amount of initial funding received, best predicts which early-stage startups survive their first three years.",
+      "question": "Which finding, if true, would most directly support the researcher's argument?",
+      "choices": {"A": "Startups with the most funding closed at similar rates whether or not they had mentors.", "B": "Startups with active mentors survived at notably higher rates than similarly funded startups without mentors.", "C": "Government funding for startups increased over the past decade.", "D": "Most surviving startups were founded by experienced entrepreneurs."},
+      "correct_answer": "B",
+      "explanation": "Comparing survival rates between mentored and non-mentored startups with similar funding isolates mentorship as the key factor."
+    },
+    {
+      "id": 24,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "historical",
+      "passage": "A historian argues that a regional uprising was driven primarily by a severe grain shortage rather than the newly imposed tax that occurred around the same time, which she considers a lesser contributing grievance.",
+      "question": "Which finding, if true, would most directly support the historian's argument?",
+      "choices": {"A": "The tax was repealed shortly after the uprising ended.", "B": "Regions with the most severe grain shortages rose up even where the new tax had not yet been collected.", "C": "The uprising occurred in multiple regions across several years.", "D": "Grain prices had been rising gradually for a decade before the uprising."},
+      "correct_answer": "B",
+      "explanation": "Uprisings occurring where the tax hadn't even been collected, but grain shortages were severe, isolates the shortage as the driving grievance."
+    },
+    {
+      "id": 25,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "literature",
+      "passage": "A critic claims that the novel's remote lighthouse setting functions structurally, not just decoratively, mirroring the protagonist's growing psychological isolation as the narrative progresses.",
+      "question": "Which finding, if true, would most directly support the critic's claim?",
+      "choices": {"A": "The lighthouse is mentioned in the novel's opening paragraph.", "B": "Descriptions of the lighthouse's isolation grow more frequent and detailed in direct proportion to the protagonist's withdrawal from other characters.", "C": "The author lived near a lighthouse for several years.", "D": "The novel contains more descriptions of the lighthouse than of any other setting."},
+      "correct_answer": "B",
+      "explanation": "Only B shows a direct correspondence between the setting's isolation and the protagonist's psychological withdrawal, matching the critic's structural claim."
+    }
+  ]
+}

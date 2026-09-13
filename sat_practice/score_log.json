@@ -4,5 +4,22 @@
     "information_and_ideas": 2,
     "craft_and_structure": 2
   },
-  "history": []
+  "history": [
+    {
+      "date": "2026-09-13",
+      "test_file": "2026-09-13_test.json",
+      "graded": false,
+      "questions_attempted": null,
+      "accuracy": null,
+      "tiers_before": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "tiers_after": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "notes": "First run of the program. No prior test existed to grade, so both domain tiers were initialized at the default of 2. Generated and saved the first practice test (25 questions, 13 Craft and Structure / 12 Information and Ideas). Emails to the student and parent could NOT be sent this run because the Gmail connector is not connected/enabled in this session."
+    }
+  ]
 }
