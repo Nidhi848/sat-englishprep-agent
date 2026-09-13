@@ -1,0 +1,280 @@
+{
+  "sample": true,
+  "note": "Sample/dry-run test generated for format and quality review before the routine goes live. Not counted in score_log.json history or passage_topics_used.json.",
+  "date": "2026-09-13",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Marine biologists once assumed octopuses lived largely solitary lives, communicating only through brief, aggressive displays. Recent underwater footage complicates this view: in certain reef systems, octopuses appear to signal to one another using color changes that vary in duration and intensity, patterns too consistent to be random. Some researchers now argue these signals constitute a rudimentary language, though the claim remains contested among specialists who study animal communication.",
+      "question": "As used in the passage, \"contested\" most nearly means",
+      "choices": {"A": "welcomed", "B": "disputed", "C": "simplified", "D": "settled"},
+      "correct_answer": "B",
+      "explanation": "The passage says the claim \"remains contested among specialists,\" meaning they disagree about it, matching \"disputed.\""
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "When the old clock finally stopped, Mara felt an odd relief, as though a burden she hadn't named had been set down. For years the ticking had seemed to hound her, marking every unfinished letter and unspoken apology. Now the silence in the hallway felt less empty than restorative, a pause in which she might finally attend to the parts of her life she had let a machine keep track of instead.",
+      "question": "As used in the passage, \"hound\" most nearly means",
+      "choices": {"A": "chase playfully", "B": "pursue relentlessly", "C": "ignore completely", "D": "comfort quietly"},
+      "correct_answer": "B",
+      "explanation": "The ticking \"seemed to hound her\" by constantly reminding her of unfinished tasks, matching \"pursue relentlessly.\""
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "social_science",
+      "passage": "Urban planners have grown wary of one-size-fits-all zoning codes, noting that policies effective in dense downtown corridors often prove counterproductive in low-density suburbs. A code requiring ground-floor retail, for instance, can revitalize a busy street but leave storefronts vacant where foot traffic is thin. Increasingly, planners advocate for zoning that is calibrated to a neighborhood's existing patterns of movement and commerce rather than imposed uniformly across a city.",
+      "question": "As used in the passage, \"calibrated\" most nearly means",
+      "choices": {"A": "restricted", "B": "adjusted", "C": "advertised", "D": "invented"},
+      "correct_answer": "B",
+      "explanation": "The passage argues zoning should be \"calibrated to a neighborhood's existing patterns,\" meaning fine-tuned to fit local conditions."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "historical",
+      "passage": "In their petition to the colonial assembly, the town's merchants argued that the proposed tariff would not merely burden trade but would undermine the very confidence upon which commerce depended. They warned that once merchants ceased to trust that their goods could move freely, no subsequent repeal of the tariff would fully restore the credit and goodwill so easily squandered.",
+      "question": "As used in the passage, \"squandered\" most nearly means",
+      "choices": {"A": "wasted", "B": "multiplied", "C": "protected", "D": "borrowed"},
+      "correct_answer": "A",
+      "explanation": "The merchants warn that goodwill, once \"squandered,\" cannot be fully restored, so \"wasted\" fits best."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Lichens grow so slowly that a single patch on an exposed rock face may take centuries to spread a few inches. Because of this near-imperceptible pace, scientists have used lichen growth to date rockfalls and glacial retreats, treating the organisms as a kind of living clock. Yet this method falters when a lichen's growth is interrupted by drought, competition, or disturbance, complicating what once seemed a straightforward technique.",
+      "question": "As used in the passage, \"falters\" most nearly means",
+      "choices": {"A": "accelerates", "B": "fails to work reliably", "C": "becomes visible", "D": "multiplies quickly"},
+      "correct_answer": "B",
+      "explanation": "The dating method \"falters\" when growth is interrupted, meaning it stops working reliably."
+    },
+    {
+      "id": 6,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "literature",
+      "passage": "The narrator spends the opening paragraph describing, in exhaustive detail, the dust on every shelf of her grandmother's house—the exact shade, the pattern it makes in sunlight, the way it clings to old photographs. Only in the final line does she reveal that she has come to sell the house the next morning. The earlier description, then, is not mere scene-setting; it is a way of delaying, and dramatizing, a goodbye she is reluctant to say directly.",
+      "question": "Which choice best describes the function of the opening paragraph's detailed description in the passage as a whole?",
+      "choices": {"A": "It emphasizes the grandmother's neglect of the house.", "B": "It postpones and intensifies an emotional farewell.", "C": "It proves that the narrator dislikes her grandmother.", "D": "It corrects a misunderstanding held by another character."},
+      "correct_answer": "B",
+      "explanation": "The passage states the description \"delays\" and \"dramatizes\" the narrator's goodbye."
+    },
+    {
+      "id": 7,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "The report begins not with data but with a single anecdote: a shopkeeper who closed his store after a new highway rerouted traffic away from his block. Only afterward does the report present citywide statistics on commercial vacancy rates. This structure allows the abstract numbers that follow to be read against a concrete, human consequence, so that the shopkeeper's experience becomes a lens through which the broader statistical trend is understood.",
+      "question": "Which choice best states the main purpose of opening with the shopkeeper's story before presenting the statistics?",
+      "choices": {"A": "To question the reliability of the statistics that follow", "B": "To give a personal frame that makes the later data more meaningful", "C": "To argue that highways should never be rerouted", "D": "To summarize the report's conclusions in advance"},
+      "correct_answer": "B",
+      "explanation": "The anecdote lets readers view the \"broader statistical trend\" through a \"human consequence.\""
+    },
+    {
+      "id": 8,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "The framers of the document devote its first section entirely to grievances, listing them one after another before ever proposing a remedy. Only in the closing section do they set out what they actually demand. Read in order, the document is structured to build a cumulative case of frustration, so that by the time solutions appear, they arrive as though already justified by the sheer weight of what preceded them.",
+      "question": "Which choice best describes how the document's structure serves its persuasive purpose?",
+      "choices": {"A": "It presents solutions first to reassure skeptical readers.", "B": "It accumulates grievances so that the later demands seem already warranted.", "C": "It alternates between grievances and demands for balance.", "D": "It withholds all grievances until the concluding section."},
+      "correct_answer": "B",
+      "explanation": "Listing grievances first makes the later demands \"arrive as though already justified.\""
+    },
+    {
+      "id": 9,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "The paper opens by cataloguing every prior hypothesis proposed to explain a coral bleaching event, from rising sea temperature to invasive algae, before systematically ruling each one out using the site's own water-quality data. Only in its final paragraph does the paper propose a new explanation: localized pesticide runoff undetected by earlier surveys. The ordering is deliberate, designed to show that alternative explanations were exhausted before a novel one was seriously entertained.",
+      "question": "Which choice best describes the function of ruling out prior hypotheses before the passage's final paragraph?",
+      "choices": {"A": "It shows that no explanation for the bleaching event exists.", "B": "It establishes that alternative causes were considered before a new one is proposed.", "C": "It criticizes earlier researchers for their carelessness.", "D": "It proves that pesticide runoff cannot explain the bleaching."},
+      "correct_answer": "B",
+      "explanation": "The ordering is meant \"to show that alternative explanations were exhausted\" before the new one is proposed."
+    },
+    {
+      "id": 10,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "literature",
+      "passage_1": "Some critics argue that unreliable narrators exist mainly to create suspense, forcing readers to guess what \"really\" happened beneath a distorted account.",
+      "passage_2": "Other critics contend that an unreliable narrator's real function is to reveal, through the narrator's very distortions, the psychological pressures the character cannot admit directly.",
+      "question": "Which choice best describes how the author of Text 2 would most likely respond to the view presented in Text 1?",
+      "choices": {"A": "By agreeing that suspense is the narrator's primary purpose", "B": "By arguing that the narrator's distortions matter mainly for what they reveal about the character's inner life, not for suspense", "C": "By insisting that unreliable narrators should be avoided in fiction", "D": "By claiming that Text 1's critics misunderstand what a narrator is"},
+      "correct_answer": "B",
+      "explanation": "Text 2 locates the narrator's function in revealing psychological pressures, contrasting with Text 1's suspense-focused view."
+    },
+    {
+      "id": 11,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "social_science",
+      "passage_1": "A recent survey concluded that remote work increases employee productivity, citing self-reported output measures from participating firms.",
+      "passage_2": "A separate analysis questions such findings, noting that self-reported productivity measures are prone to overstatement and calling for studies based on objective output data instead.",
+      "question": "Which choice best describes the relationship between the two texts?",
+      "choices": {"A": "Text 2 supports Text 1's conclusion using additional evidence.", "B": "Text 2 raises a methodological concern that complicates Text 1's conclusion.", "C": "Text 1 and Text 2 rely on identical data sources.", "D": "Text 2 argues that remote work reduces productivity."},
+      "correct_answer": "B",
+      "explanation": "Text 2 questions the reliability of the self-reported measures used in Text 1, a methodological concern."
+    },
+    {
+      "id": 12,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "historical",
+      "passage_1": "One historian maintains that the treaty's framers prioritized short-term peace over long-term stability, pointing to provisions left deliberately vague to secure quick agreement.",
+      "passage_2": "Another historian counters that the vague provisions were not a shortcut but a calculated strategy, allowing later negotiators flexibility to adapt the treaty as circumstances changed.",
+      "question": "Which choice best describes how Text 2 relates to the claim in Text 1?",
+      "choices": {"A": "Text 2 offers an alternative explanation for the same feature of the treaty Text 1 criticizes.", "B": "Text 2 confirms that the framers acted carelessly, as Text 1 suggests.", "C": "Text 2 dismisses Text 1's historical claim as factually incorrect.", "D": "Text 2 focuses on a different provision of the treaty than Text 1 discusses."},
+      "correct_answer": "A",
+      "explanation": "Both texts discuss the same vague provisions; Text 2 reinterprets them as intentional flexibility rather than a shortcut."
+    },
+    {
+      "id": 13,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Some researchers argue that migratory birds rely primarily on magnetic-field sensing to navigate across continents, since captive birds oriented correctly even when celestial and landmark cues were blocked.",
+      "passage_2": "Other researchers argue that magnetic sensing alone cannot explain long-distance navigation, pointing to field studies in which birds corrected course after magnetic anomalies, suggesting they cross-reference multiple cues.",
+      "question": "Which choice best describes how Text 2 relates to the claim advanced in Text 1?",
+      "choices": {"A": "Text 2 provides evidence suggesting Text 1's claim is incomplete rather than simply wrong.", "B": "Text 2 proves that magnetic sensing plays no role in bird navigation.", "C": "Text 2 relies on the same captive-bird experiments described in Text 1.", "D": "Text 2 argues that celestial cues are irrelevant to navigation."},
+      "correct_answer": "A",
+      "explanation": "Text 2 suggests birds \"cross-reference multiple cues,\" implying magnetic sensing is real but insufficient alone."
+    },
+    {
+      "id": 14,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "literature",
+      "passage": "Every summer, Talia's aunt repainted the porch a different color, even though the old paint underneath was barely worn. Neighbors joked that she simply liked mess. But Talia noticed her aunt only repainted in the weeks after a visit from relatives who criticized the house, as if a fresh color were the only argument she felt allowed to make.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {"A": "Talia's aunt repaints the porch because she enjoys home improvement.", "B": "Talia's aunt uses repainting as an indirect response to criticism she otherwise doesn't voice.", "C": "The neighbors correctly explain why Talia's aunt repaints so often.", "D": "Talia disapproves of her aunt's frequent repainting."},
+      "correct_answer": "B",
+      "explanation": "Repainting is linked specifically to visits involving criticism, suggesting it functions as an unspoken response."
+    },
+    {
+      "id": 15,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "Desert ants navigate home across featureless sand using a built-in step counter: they tally the number of strides taken outward and use that count to calculate the direct route back. Experiments in which researchers lengthened or shortened the ants' legs before the return trip showed the ants overshot or undershot the nest by a distance proportional to the change in stride length, confirming that steps, not landmarks, drive the calculation.",
+      "question": "Which choice best states the main finding described in the passage?",
+      "choices": {"A": "Desert ants primarily use visual landmarks to find their nest.", "B": "Desert ants calculate distance traveled by counting their steps.", "C": "Ants with altered leg length cannot return to the nest at all.", "D": "Stride length has no effect on an ant's navigation accuracy."},
+      "correct_answer": "B",
+      "explanation": "The proportional overshoot/undershoot after leg-length changes confirms navigation is based on stride count."
+    },
+    {
+      "id": 16,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "social_science",
+      "passage": "A study of three neighborhoods that each received a new public library found that circulation numbers alone did not predict community impact. In the neighborhood with the lowest checkout rates, residents reported the library had become an informal meeting space, hosting job-search help sessions and language classes never tracked by circulation data. The study concluded that measuring a library's value by book checkouts alone risks badly undercounting its actual community role.",
+      "question": "Which choice best states the central idea of the passage?",
+      "choices": {"A": "Circulation numbers are the most reliable measure of a library's community value.", "B": "A library's community impact can exceed what circulation data alone captures.", "C": "The neighborhood with the lowest checkouts should close its library.", "D": "Job-search sessions are more valuable to communities than book lending."},
+      "correct_answer": "B",
+      "explanation": "The study concludes that measuring value by checkouts alone \"risks... undercounting\" the library's real role."
+    },
+    {
+      "id": 17,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "historical",
+      "passage": "Delegates from the smaller states resisted early drafts of the framework, warning that representation based purely on population would leave their concerns permanently outvoted. Only after negotiators proposed a second, separate body in which each state held equal standing did the smaller states agree to proceed. Their support, in other words, was secured not by abandoning the population-based body but by adding a counterweight to it.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {"A": "Smaller states refused to participate in the framework under any circumstances.", "B": "Adding a body with equal state representation resolved smaller states' objections to population-based representation.", "C": "Population-based representation was eliminated to satisfy smaller states.", "D": "Larger states opposed the creation of a second legislative body."},
+      "correct_answer": "B",
+      "explanation": "Smaller states agreed once a \"counterweight\" body with equal representation was added, without removing the original body."
+    },
+    {
+      "id": 18,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Every letter Josef wrote to his brother during the voyage began with a weather report, however irrelevant to anything else in the letter. Only when the ship neared port did he abandon the habit, filling the final letter instead with questions about their mother's health and apologies for not writing sooner. His brother, rereading the letters years later, wondered if the weather reports had been less about the sky than about postponing what Josef found harder to say.",
+      "question": "Which choice best describes what can reasonably be inferred about Josef based on the passage?",
+      "choices": {"A": "He found it easier to discuss trivial matters than emotionally difficult ones.", "B": "He was uninterested in his brother's opinion of the letters.", "C": "He disliked traveling by ship.", "D": "He intended the weather reports as a private joke between brothers."},
+      "correct_answer": "A",
+      "explanation": "The shift from routine weather reports to difficult personal questions only at the voyage's end suggests Josef used trivial topics to avoid harder ones."
+    },
+    {
+      "id": 19,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "natural_science",
+      "passage": "In laboratory tanks kept at a constant temperature, zebrafish schools maintained loose, unsynchronized formations. When researchers introduced a simulated predator shadow overhead, the same fish tightened into a dense, coordinated cluster within seconds, only dispersing again several minutes after the shadow passed. No such tightening occurred when a non-predator-shaped shadow of equal size was introduced.",
+      "question": "Which choice best describes what can reasonably be inferred from the passage?",
+      "choices": {"A": "Zebrafish schools respond to the specific shape of a perceived threat, not merely to shadows in general.", "B": "Zebrafish are incapable of detecting shadows that are not predator-shaped.", "C": "Water temperature determines whether zebrafish form tight schools.", "D": "Zebrafish permanently alter their schooling behavior after encountering a predator shadow."},
+      "correct_answer": "A",
+      "explanation": "Fish reacted only to the predator-shaped shadow, not the equal-size non-predator shadow, so shape specifically triggers the response."
+    },
+    {
+      "id": 20,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "social_science",
+      "passage": "In cities that eliminated parking minimums for new buildings, developers did not uniformly reduce parking; in neighborhoods already well served by transit, they built far less of it, while in areas with poor transit access, they built nearly as much parking as before the rule changed. City planners had expected removing the requirement to reduce parking construction everywhere.",
+      "question": "Which choice best describes what can reasonably be inferred from the passage?",
+      "choices": {"A": "Developers' parking decisions were shaped more by local transit access than by the zoning rule itself.", "B": "Removing parking minimums had no effect on developer behavior in any neighborhood.", "C": "City planners' expectations were confirmed in every neighborhood studied.", "D": "Neighborhoods with poor transit access no longer required any parking."},
+      "correct_answer": "A",
+      "explanation": "Parking levels tracked transit access rather than the rule change uniformly, so transit access appears to be the more decisive factor."
+    },
+    {
+      "id": 21,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "historical",
+      "passage": "In private correspondence, several delegates who publicly praised the final compromise privately described it as the least objectionable of several flawed options, not as a solution they considered ideal. One delegate wrote to a colleague that he intended to support the measure \"not from conviction, but from the conviction that the alternatives were worse.\"",
+      "question": "Which choice best describes what can reasonably be inferred about the delegates' public praise of the compromise?",
+      "choices": {"A": "It accurately reflected their private enthusiasm for the compromise.", "B": "It masked significant private reservations about the compromise's merits.", "C": "It was intended to persuade other delegates to reject the compromise.", "D": "It was contradicted by every delegate who signed the final document."},
+      "correct_answer": "B",
+      "explanation": "The private letters reveal reluctant, comparative support rather than genuine enthusiasm, indicating the public praise concealed real reservations."
+    },
+    {
+      "id": 22,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "literature",
+      "passage": "A literary critic claims that a poem's repeated use of tidal imagery is not decorative but structural, arguing that the poem's emotional arc mirrors the rhythm of a tide receding and returning.",
+      "question": "Which finding, if true, would most directly support the critic's claim?",
+      "choices": {"A": "The poem contains exactly twelve stanzas.", "B": "The poem's moments of despair and hope alternate in a pattern that mirrors ebb and flow, appearing at evenly spaced intervals.", "C": "The poet lived near the coast for most of her life.", "D": "Tidal imagery appears more often in this poem than in the poet's other works."},
+      "correct_answer": "B",
+      "explanation": "Only B directly demonstrates the alternating, tide-like structural pattern the critic's claim is about."
+    },
+    {
+      "id": 23,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "natural_science",
+      "passage": "A team of ecologists hypothesizes that a decline in a wetland's frog population is caused primarily by an invasive fish species that preys on frog eggs, rather than by pesticide runoff, which they consider a secondary factor.",
+      "question": "Which finding, if true, would most directly support the ecologists' hypothesis?",
+      "choices": {"A": "Pesticide concentrations in the wetland have remained unchanged for a decade.", "B": "Frog egg survival rates are far lower in ponds where the invasive fish is present than in similar ponds without it.", "C": "The invasive fish species was first documented in the wetland five years ago.", "D": "Frog populations in nearby wetlands without pesticide runoff are also declining."},
+      "correct_answer": "B",
+      "explanation": "Comparing egg survival with and without the invasive fish isolates its effect, most directly supporting the hypothesis."
+    },
+    {
+      "id": 24,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "An economist argues that a recent rise in a city's small-business closures is driven mainly by increased commercial rent, not by decreased consumer spending, which she considers a minor contributing factor at most.",
+      "question": "Which finding, if true, would most directly support the economist's argument?",
+      "choices": {"A": "Consumer spending citywide has stayed flat over the past two years.", "B": "Businesses that closed had signed new leases at rents at least 40% higher than their previous leases, while their sales revenue held steady or grew.", "C": "The city's population has grown slightly over the past two years.", "D": "Several closed businesses had been open for more than a decade."},
+      "correct_answer": "B",
+      "explanation": "Showing revenue held steady while rent spiked isolates rent as the driver of closures, directly supporting the economist's claim."
+    }
+  ]
+}
