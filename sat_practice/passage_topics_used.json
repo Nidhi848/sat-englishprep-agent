@@ -1,3 +1,29 @@
 {
-  "topics_used": []
+  "topics_used": [
+    {"date": "2026-09-14", "category": "natural_science", "topic": "bioluminescent fungi glowing on decaying logs"},
+    {"date": "2026-09-14", "category": "literature", "topic": "immigrant father learning to read a new language"},
+    {"date": "2026-09-14", "category": "social_science", "topic": "community gardens and nearby property values"},
+    {"date": "2026-09-14", "category": "historical", "topic": "founding-era pamphlet on taxation and consent of the governed"},
+    {"date": "2026-09-14", "category": "natural_science", "topic": "arctic ground squirrel hibernation and ice-suppressing proteins"},
+    {"date": "2026-09-14", "category": "literature", "topic": "short story opening on a decaying fence foreshadowing a lost friendship"},
+    {"date": "2026-09-14", "category": "social_science", "topic": "transportation report statistic on rising commute times"},
+    {"date": "2026-09-14", "category": "historical", "topic": "founding document establishing shared principles before grievances"},
+    {"date": "2026-09-14", "category": "natural_science", "topic": "beetle coloration: mimicry vs. thermoregulation hypothesis"},
+    {"date": "2026-09-14", "category": "literature", "topic": "critical debate over whether poetic difficulty is a virtue"},
+    {"date": "2026-09-14", "category": "social_science", "topic": "standardized test scores: innate ability vs. test-prep coaching"},
+    {"date": "2026-09-14", "category": "historical", "topic": "historians debating the cause of a treaty's collapse"},
+    {"date": "2026-09-14", "category": "natural_science", "topic": "fish migration timing: ocean temperature vs. prey availability"},
+    {"date": "2026-09-14", "category": "literature", "topic": "character who collects friends' abandoned unfinished projects"},
+    {"date": "2026-09-14", "category": "natural_science", "topic": "New Caledonian crows caching tools"},
+    {"date": "2026-09-14", "category": "social_science", "topic": "four-day work week productivity trial"},
+    {"date": "2026-09-14", "category": "historical", "topic": "colonial assembly shift from unanimous consent to majority voting"},
+    {"date": "2026-09-14", "category": "literature", "topic": "character rehearsing but never delivering a difficult conversation"},
+    {"date": "2026-09-14", "category": "natural_science", "topic": "plant stomata response to drought varying by light exposure"},
+    {"date": "2026-09-14", "category": "social_science", "topic": "neighborhood watch programs and reported vs. actual crime"},
+    {"date": "2026-09-14", "category": "historical", "topic": "delegate's private letter fearing a compromise becomes precedent"},
+    {"date": "2026-09-14", "category": "literature", "topic": "critic's claim that a novel's fragmented chapters mirror traumatic memory"},
+    {"date": "2026-09-14", "category": "natural_science", "topic": "underground fungal network sharing nutrients between trees"},
+    {"date": "2026-09-14", "category": "social_science", "topic": "commute subsidies vs. salary increases on job applications"},
+    {"date": "2026-09-14", "category": "historical", "topic": "colony's early self-governance shaping its independence movement"}
+  ]
 }

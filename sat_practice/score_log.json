@@ -4,5 +4,21 @@
     "information_and_ideas": 2,
     "craft_and_structure": 2
   },
-  "history": []
+  "history": [
+    {
+      "date": "2026-09-14",
+      "test_file": "2026-09-14_test.json",
+      "graded": false,
+      "questions_attempted": null,
+      "accuracy": {
+        "information_and_ideas": null,
+        "craft_and_structure": null
+      },
+      "difficulty_tier": {
+        "information_and_ideas": {"before": 2, "after": 2},
+        "craft_and_structure": {"before": 2, "after": 2}
+      },
+      "notes": "First real run of the routine. No prior graded test existed to score (only the SAMPLE_test.json dry run, which is excluded from history). Per Step 3, both domains start at Tier 2. Generated a 25-question test (13 craft_and_structure / 12 information_and_ideas) at Tier 2/2 and emailed it to Nirvaan."
+    }
+  ]
 }
