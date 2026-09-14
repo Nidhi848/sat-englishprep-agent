@@ -96,6 +96,13 @@ Create /sat_practice/tests/[DATE]_test.json containing: all questions,
 answer choices, correct answers, explanations, the difficulty tier used
 per domain, and "graded: false".
 
+Also run:
+  python3 sat_practice/generate_test_html.py sat_practice/tests/[DATE]_test.json
+This writes /sat_practice/tests/[DATE]_test.html — a standalone page with
+no answer key, so Nirvaan can open it directly (after a `git pull`, or
+from a fresh clone) if the Gmail connector isn't delivering the email.
+Commit both the .json and .html files.
+
 STEP 6 — EMAIL NIRVAAN
 Send an email to Nirvaan's address (from /sat_practice/config.json) with:
 - Subject: "SAT Practice — [DATE] — Tier [Info tier]/[Craft tier]"
@@ -134,4 +141,5 @@ guess or assume prior state.
 
 - Routines need a Pro, Max, Team, or Enterprise plan with Claude Code on the web enabled.
 - The grading step depends on Nirvaan actually replying by email — if he texts or tells you verbally instead, the system won't see it and will hold difficulty steady. Worth telling him explicitly to reply to the test email.
+- While the Gmail connector isn't sending: Nirvaan can `git pull` (or `git clone` once) this repo and open `sat_practice/tests/[DATE]_test.html` directly in a browser — no server, no login. It tracks his answer selections locally and has a "Copy my answers" button that formats them exactly like the expected email reply, so he can text/email that list to you manually for grading in the meantime.
 - After a couple weeks of real data, it's worth opening `score_log.json` yourself and sanity-checking the tier progression — if it's climbing too fast or stuck too long, tighten the 85%/60% thresholds in the prompt above (and update this file to match).
