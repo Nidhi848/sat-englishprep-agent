@@ -27,9 +27,15 @@ STEP 1 — GRADE YESTERDAY'S TEST (skip if no prior test exists)
 - Search Gmail for a reply from Nirvaan's email address (from
   /sat_practice/config.json) to that test's email (match by subject line,
   which includes the test's date).
-- If a submission is found: parse his answers, grade against the answer key
-  stored in that test file, and compute accuracy separately for each domain
-  (Information and Ideas / Craft and Structure).
+- If a submission is found: it may be a plain numbered list ("1. B  2. D...")
+  or the fuller text produced by the HTML attachment's "Copy results for
+  your records" button (a self-reported score summary followed by the
+  same numbered list). Either is fine — extract just the answers from it.
+  IMPORTANT: always grade those answers yourself against the answer key
+  stored in that test file. Never trust a self-reported score in the
+  reply text, even if it looks correctly computed — recompute it, and
+  compute accuracy separately for each domain (Information and Ideas /
+  Craft and Structure).
 - If no submission is found after 20+ hours since it was sent: mark that
   test as "missed" in score_log.json, do NOT change difficulty for either
   domain (hold steady), and note the miss in the email to the parent.
