@@ -106,7 +106,14 @@ Commit both the .json and .html files.
 STEP 6 — EMAIL NIRVAAN
 Send an email to Nirvaan's address (from /sat_practice/config.json) with:
 - Subject: "SAT Practice — [DATE] — Tier [Info tier]/[Craft tier]"
-- The test questions and answer choices only (NO answer key)
+- The test questions and answer choices only (NO answer key) in the email body
+- Attach /sat_practice/tests/[DATE]_test.html to this email — it's the same
+  self-grading page (see Step 5), included so he can take and instantly
+  grade the test from the attachment even if something's off with viewing
+  the email body itself. His copy of that file does contain the correct
+  answers and explanations in its underlying data (needed for it to grade
+  itself); they only surface in the page after he answers and taps
+  "Submit Test," never before.
 - A one-line instruction: reply to this email with his answers as a
   numbered list (e.g., "1. B  2. D  3. A...") within 24 hours
 - A short, encouraging note if yesterday's score improved
@@ -116,6 +123,8 @@ Send a separate email to the parent's address (from
 /sat_practice/config.json) with:
 - Yesterday's results (if graded): accuracy per domain, tier changes
 - Today's test difficulty tiers and question count
+- Attach /sat_practice/tests/[DATE]_test.html here too, so the parent has
+  the same interactive copy on hand
 - A flag if a test was missed or if either domain has been stuck at the
   same tier for 5+ consecutive tests (may indicate a plateau worth a
   strategy conversation, not just more volume)
@@ -141,5 +150,6 @@ guess or assume prior state.
 
 - Routines need a Pro, Max, Team, or Enterprise plan with Claude Code on the web enabled.
 - The grading step depends on Nirvaan actually replying by email — if he texts or tells you verbally instead, the system won't see it and will hold difficulty steady. Worth telling him explicitly to reply to the test email.
-- While the Gmail connector isn't sending: Nirvaan can `git pull` (or `git clone` once) this repo and open `sat_practice/tests/[DATE]_test.html` directly in a browser — no server, no login. It grades itself the moment he taps "Submit Test" (correct answers and explanations are embedded in the page's data, revealed only after he answers), shows per-domain accuracy right there, and has a "Copy results for your records" button formatted so it's easy to paste into `score_log.json` by hand. Note: this in-browser grading does NOT write to `score_log.json` automatically — someone still has to copy that summary in, or wait for Gmail to come back so the routine's own Step 1–2 does it.
+- Once Gmail is sending: every test email to Nirvaan and the parent also carries `sat_practice/tests/[DATE]_test.html` as an attachment — the same self-grading page, so either of you can just open the attachment straight from the email instead of pulling the repo.
+- While the Gmail connector isn't sending yet: Nirvaan can `git pull` (or `git clone` once) this repo and open `sat_practice/tests/[DATE]_test.html` directly in a browser — no server, no login. It grades itself the moment he taps "Submit Test" (correct answers and explanations are embedded in the page's data, revealed only after he answers), shows per-domain accuracy right there, and has a "Copy results for your records" button formatted so it's easy to paste into `score_log.json` by hand. Note: this in-browser grading does NOT write to `score_log.json` automatically — someone still has to copy that summary in, or wait for Gmail to come back so the routine's own Step 1–2 does it.
 - After a couple weeks of real data, it's worth opening `score_log.json` yourself and sanity-checking the tier progression — if it's climbing too fast or stuck too long, tighten the 85%/60% thresholds in the prompt above (and update this file to match).
