@@ -1,0 +1,278 @@
+{
+  "date": "2026-09-15",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "When a forager honeybee returns to the hive after finding a rich patch of flowers, she performs a rapid, wiggling dance that traces the same angle relative to the sun as the flight she just completed. Other bees crowd around her, seemingly translating the motion into a route of their own. Researchers describe the dance not as a display of excitement but as a functional signal, encoding distance and direction with a precision few other animal behaviors approach.",
+      "question": "As used in the passage, \"encoding\" most nearly means",
+      "choices": {"A": "hiding", "B": "representing", "C": "exaggerating", "D": "forgetting"},
+      "correct_answer": "B",
+      "explanation": "The dance \"encodes distance and direction,\" meaning it represents that information, matching \"representing.\""
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "Every Thanksgiving, Grandma unfolded the same faded quilt across the back of the couch, though the stitching had grown so thin in places that light showed through the seams. When my cousin offered to buy her a replacement, Grandma waved the suggestion away, insisting the quilt's frailty was itself the point: each thin patch marked a winter it had survived, and she was not about to trade that history for something merely intact.",
+      "question": "As used in the passage, \"frailty\" most nearly means",
+      "choices": {"A": "beauty", "B": "weakness", "C": "warmth", "D": "value"},
+      "correct_answer": "B",
+      "explanation": "The quilt's \"frailty\" refers to its thin, worn stitching, matching \"weakness.\""
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "social_science",
+      "passage": "City officials expected a simple public-awareness campaign to boost recycling rates, but early results suggest the effort has had only a marginal effect. Household surveys show most residents already understood which materials belonged in recycling bins; their inconsistent sorting stemmed less from ignorance than from the inconvenience of separate bins in cramped kitchens. The campaign's assumption that better information alone would change behavior appears to have been mistaken.",
+      "question": "As used in the passage, \"marginal\" most nearly means",
+      "choices": {"A": "illegal", "B": "minor", "C": "unexpected", "D": "permanent"},
+      "correct_answer": "B",
+      "explanation": "The campaign's effect is described as small (\"only a marginal effect\"), matching \"minor.\""
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "historical",
+      "passage": "Colonial merchants who favored issuing paper currency argued that a scarcity of hard coin was strangling ordinary trade, leaving farmers unable to pay debts or purchase goods. Opponents countered that paper money, unless rigorously backed by land or silver, would inevitably depreciate, eroding the very confidence merchants relied upon to extend credit. The assembly's eventual compromise satisfied neither faction fully but averted the immediate crisis both sides feared.",
+      "question": "As used in the passage, \"depreciate\" most nearly means",
+      "choices": {"A": "increase in value", "B": "lose value", "C": "become illegal", "D": "circulate widely"},
+      "correct_answer": "B",
+      "explanation": "Opponents feared paper money would \"depreciate,\" eroding confidence, meaning it would lose value."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Male fireflies of a given species flash in a pattern so distinctive that females can identify a suitable mate purely by rhythm, even in total darkness. Some predatory fireflies of another species have evolved the ability to mimic this exact rhythm, luring in males expecting a mate only to consume them. Biologists describe this mimicry as an evolutionary arms race, in which each improvement in deception is eventually met with sharper discrimination in the deceived species.",
+      "question": "As used in the passage, \"mimicry\" most nearly means",
+      "choices": {"A": "confusion", "B": "imitation", "C": "illumination", "D": "cooperation"},
+      "correct_answer": "B",
+      "explanation": "The predatory fireflies \"mimic\" the flash rhythm, meaning they imitate it."
+    },
+    {
+      "id": 6,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "literature",
+      "passage": "The story opens with two full paragraphs describing an approaching storm: the color of the sky, the smell of rain on dry pavement, the neighbors hurrying to bring in laundry. Only in the third paragraph does the narrator mention, almost in passing, that this is the same kind of storm that was rolling in the night her brother left and never returned. The extended weather description, then, quietly prepares the emotional weight of that single revealing sentence.",
+      "question": "Which choice best describes the function of the opening storm description?",
+      "choices": {"A": "It establishes the story's setting with no bearing on later events.", "B": "It builds atmosphere that heightens the impact of a later, painful memory.", "C": "It foreshadows that a literal storm will destroy the neighborhood.", "D": "It distracts readers from an unimportant detail mentioned later."},
+      "correct_answer": "B",
+      "explanation": "The passage states the description \"prepares the emotional weight\" of the memory revealed afterward."
+    },
+    {
+      "id": 7,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "The transportation report opens with a single commuter's account of a ninety-minute trip that should take twenty, before pivoting to citywide data on delayed bus routes. By the time readers reach the tables of average delay times, they have already pictured a specific person waiting at a specific stop. The report's authors appear to have structured it this way deliberately, so that the abstract figures land with more force than they would on their own.",
+      "question": "Which choice best states the function of opening with a commuter's account before the citywide data?",
+      "choices": {"A": "It replaces the need for statistical evidence entirely.", "B": "It gives the later statistics a concrete human reference point that increases their impact.", "C": "It argues that individual experiences are more reliable than data.", "D": "It summarizes the report's policy recommendations in advance."},
+      "correct_answer": "B",
+      "explanation": "The anecdote makes the later \"abstract figures land with more force,\" giving them a human reference point."
+    },
+    {
+      "id": 8,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "The delegation's report to the assembly first catalogs, at some length, the alliance's military successes over the preceding year, before finally requesting that the assembly ratify a new round of funding. The ordering seems calculated: by the time readers reach the funding request, they have already been reminded of what earlier funding accomplished, making the new request appear less like a fresh burden than a continuation of proven success.",
+      "question": "Which choice best describes how the report's structure serves its purpose?",
+      "choices": {"A": "It hides the funding request until the very end so it goes unnoticed.", "B": "It uses prior successes to frame the new funding request as a continuation of what already works.", "C": "It criticizes the assembly for previously under-funding the alliance.", "D": "It presents the funding request before explaining any past achievements."},
+      "correct_answer": "B",
+      "explanation": "The achievements are listed first so the request \"appear[s]... a continuation of proven success.\""
+    },
+    {
+      "id": 9,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "Before proposing that a decline in crop yield stems from depleted soil microbial diversity, the paper first walks through and dismisses three alternative explanations: inadequate irrigation, nutrient runoff, and pest pressure, using the farm's own soil records. Only after eliminating each of these does the paper introduce its microbiome hypothesis. This sequence is not incidental; it is meant to demonstrate that the new explanation was reached only once simpler ones failed to account for the data.",
+      "question": "Which choice best describes the function of ruling out alternative explanations before introducing the microbiome hypothesis?",
+      "choices": {"A": "It shows no cause for the yield decline can ever be found.", "B": "It demonstrates the new hypothesis was adopted only after simpler explanations were exhausted.", "C": "It proves that irrigation problems are the true cause of the decline.", "D": "It criticizes farmers for mismanaging their soil."},
+      "correct_answer": "B",
+      "explanation": "The passage says the sequence shows the hypothesis \"was reached only once simpler ones failed.\""
+    },
+    {
+      "id": 10,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "literature",
+      "passage_1": "Some critics hold that foreshadowing in fiction mainly rewards attentive readers on a second read, planting details whose significance becomes clear only in hindsight.",
+      "passage_2": "Other critics argue that foreshadowing's real purpose is to build tension on a first read, creating unease even when a reader cannot yet say why a detail feels ominous.",
+      "question": "Which choice best describes how the author of Text 2 would most likely respond to the view in Text 1?",
+      "choices": {"A": "By agreeing foreshadowing matters only for readers who reread a work.", "B": "By arguing that foreshadowing's primary value lies in the suspense it creates during a first reading, not in later recognition.", "C": "By claiming foreshadowing should be eliminated from fiction.", "D": "By insisting that Text 1 misunderstands what foreshadowing is."},
+      "correct_answer": "B",
+      "explanation": "Text 2 locates the purpose in first-read tension, contrasting with Text 1's hindsight-focused view."
+    },
+    {
+      "id": 11,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "social_science",
+      "passage_1": "A district-wide study found that students in remote schooling performed as well as their in-person peers on standardized tests, concluding that the format itself does not affect achievement.",
+      "passage_2": "A separate analysis of the same data finds that the equal average scores concealed a wider spread: some remote students far exceeded in-person peers while others fell well behind, suggesting format interacts with factors like home support.",
+      "question": "Which choice best describes the relationship between the two texts?",
+      "choices": {"A": "Text 2 confirms Text 1's conclusion using the same reasoning.", "B": "Text 2 complicates Text 1's conclusion by revealing variation hidden within the averages.", "C": "Text 2 argues that remote schooling is superior to in-person schooling.", "D": "Text 2 relies on entirely different data than Text 1."},
+      "correct_answer": "B",
+      "explanation": "Text 2 shows the averages hid a \"wider spread,\" complicating Text 1's format-doesn't-matter conclusion."
+    },
+    {
+      "id": 12,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "historical",
+      "passage_1": "One historian argues that the border commission's ambiguous wording reflected haste, as negotiators rushed to conclude talks before a change in government.",
+      "passage_2": "Another historian contends the same ambiguous wording was intentional, designed to let both nations later interpret the border in whichever way suited domestic politics.",
+      "question": "Which choice best describes how Text 2 relates to the claim in Text 1?",
+      "choices": {"A": "Text 2 offers an alternative explanation for the same feature of the treaty that Text 1 attributes to haste.", "B": "Text 2 confirms that negotiators acted hastily, as Text 1 claims.", "C": "Text 2 denies that the treaty's wording was ambiguous at all.", "D": "Text 2 discusses a different part of the treaty than Text 1 does."},
+      "correct_answer": "A",
+      "explanation": "Both texts address the same ambiguous wording; Text 2 reinterprets it as deliberate rather than hasty."
+    },
+    {
+      "id": 13,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Some researchers argue that bats navigate long distances chiefly by echolocation, since blindfolded bats in lab tests still avoided obstacles accurately.",
+      "passage_2": "Other researchers argue that echolocation alone cannot explain long-distance bat migration, pointing to field data showing bats maintain course even when local magnetic fields are artificially disrupted only near the echolocation range, suggesting an additional sense is at work over longer distances.",
+      "question": "Which choice best describes how Text 2 relates to the claim advanced in Text 1?",
+      "choices": {"A": "Text 2 suggests Text 1's claim may be incomplete rather than simply wrong.", "B": "Text 2 proves that echolocation plays no role in bat navigation.", "C": "Text 2 relies on the same blindfold experiments described in Text 1.", "D": "Text 2 argues that bats do not migrate long distances."},
+      "correct_answer": "A",
+      "explanation": "Text 2 suggests an \"additional sense,\" implying echolocation is real but insufficient alone over distance."
+    },
+    {
+      "id": 14,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "literature",
+      "passage": "After his daughter left for college, Mr. Alvarez began mowing the lawn in increasingly elaborate patterns, spirals one week, diagonal stripes the next, despite the yard being barely large enough to need mowing at all. His wife assumed he had simply taken up a new hobby. But their daughter, home for a visit, recognized the patterns as the same shapes she used to draw for him as a child, before she'd stopped drawing altogether.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {"A": "Mr. Alvarez took up lawn mowing as a practical way to maintain his yard.", "B": "Mr. Alvarez's mowing patterns are a quiet, private way of holding onto a connection with his daughter.", "C": "Mr. Alvarez's wife correctly identifies his motive for the new patterns.", "D": "Mr. Alvarez's daughter disapproves of his new hobby."},
+      "correct_answer": "B",
+      "explanation": "The patterns echo drawings his daughter made for him, suggesting the mowing preserves that connection after she left."
+    },
+    {
+      "id": 15,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "Beavers do not simply pile branches wherever a stream happens to be shallow; they orient their dams specifically toward the loudest sound of moving water, a behavior confirmed when researchers played recordings of running water near a still pond and beavers began reinforcing that exact spot with sticks and mud, even though no actual leak existed there.",
+      "question": "Which choice best states the main finding described in the passage?",
+      "choices": {"A": "Beavers build dams randomly without regard to the location of water flow.", "B": "Beavers use the sound of moving water, not just its physical presence, to decide where to build.", "C": "Beavers cannot detect water unless they can see it directly.", "D": "Recorded sounds have no effect on beaver building behavior."},
+      "correct_answer": "B",
+      "explanation": "Beavers reinforced a spot based on a played sound alone, showing sound itself, not visible flow, guides building."
+    },
+    {
+      "id": 16,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "social_science",
+      "passage": "A survey of neighborhood community gardens found that plot productivity, measured in pounds of vegetables harvested, did not predict which gardens residents rated most valuable. The garden with the lowest harvest totals was rated highest in resident surveys, largely because it had become a regular gathering spot where neighbors who rarely interacted otherwise now shared tools, recipes, and childcare. The study concluded that a garden's social function may matter more to residents than its output.",
+      "question": "Which choice best states the central idea of the passage?",
+      "choices": {"A": "Vegetable harvest totals are the best measure of a community garden's value to residents.", "B": "A community garden's value to residents can come more from its social role than its productivity.", "C": "The lowest-producing garden should be shut down due to poor output.", "D": "Sharing tools and recipes is more difficult in high-producing gardens."},
+      "correct_answer": "B",
+      "explanation": "The lowest-harvest garden was rated most valuable due to its social role, supporting that social function may outweigh output."
+    },
+    {
+      "id": 17,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "historical",
+      "passage": "Delegates skeptical of granting courts the power to strike down laws worried this would let unelected judges override the will of elected legislatures. Delegates favoring the power countered that without it, legislatures could pass measures violating the founding charter with no check at all. The eventual compromise limited the power to cases specifically brought before the courts, rather than allowing judges to review laws on their own initiative.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {"A": "Delegates unanimously supported giving courts unlimited power to review laws.", "B": "A compromise restricted judicial review to cases actually brought to court, addressing concerns about unchecked judicial power.", "C": "The founding charter was rewritten to remove all mention of judicial review.", "D": "Legislatures were given the power to overrule court decisions."},
+      "correct_answer": "B",
+      "explanation": "The compromise limited review to cases \"brought before the courts,\" addressing fears of judges acting on their own initiative."
+    },
+    {
+      "id": 18,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Every practice that season, Coach Reyes offered detailed feedback on footwork, timing, even posture, to every player except Danny, whom he only ever told, 'Good hustle.' Danny assumed the coach had simply given up on him. It wasn't until years later, reading an old note the coach had left the school, that Danny learned he'd been the only player Coach Reyes had recommended for a scholarship that season, unwilling to say so aloud for fear of pressuring him.",
+      "question": "Which choice best describes what can reasonably be inferred about Coach Reyes?",
+      "choices": {"A": "He gave Danny less feedback because he didn't believe in his ability.", "B": "He withheld detailed criticism from Danny specifically to avoid adding pressure to a player he believed in.", "C": "He was too busy to give Danny individualized feedback.", "D": "He disliked Danny personally."},
+      "correct_answer": "B",
+      "explanation": "The scholarship recommendation reveals belief in Danny, so the sparse feedback reflects a wish not to pressure him, not indifference."
+    },
+    {
+      "id": 19,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "natural_science",
+      "passage": "In experiments where researchers wiped away an ant trail's pheromone markings but left the visual path unchanged, foraging ants became disoriented and wandered randomly, despite the trail itself remaining fully visible. When pheromones were reapplied without altering the visible path at all, ants immediately resumed efficient foraging along the same route.",
+      "question": "Which choice best describes what can reasonably be inferred from the passage?",
+      "choices": {"A": "Ants rely primarily on pheromone cues rather than visual path recognition to navigate foraging trails.", "B": "Ants cannot detect pheromones under any circumstances.", "C": "Visual cues are more important than pheromones for ant navigation.", "D": "Removing pheromones has no effect on ant foraging behavior."},
+      "correct_answer": "A",
+      "explanation": "Disorientation occurred despite an unchanged visible path, and reapplying pheromones alone restored navigation, showing pheromones drive the behavior."
+    },
+    {
+      "id": 20,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "social_science",
+      "passage": "When a company shifted entirely to remote work, output in its sales and customer-service departments held steady or improved, while output in its product-design department, which relied heavily on spontaneous whiteboard sessions, declined noticeably. Company leadership had expected a uniform effect of remote work across all departments.",
+      "question": "Which choice best describes what can reasonably be inferred from the passage?",
+      "choices": {"A": "The effect of remote work on productivity depended on how much a department relied on spontaneous in-person collaboration.", "B": "Remote work reduced productivity in every department at the company.", "C": "Leadership's expectations were confirmed by the results in every department.", "D": "Sales and customer-service departments required more in-person collaboration than product design."},
+      "correct_answer": "A",
+      "explanation": "The department most reliant on spontaneous in-person collaboration was the one whose output declined, suggesting that reliance shaped the effect."
+    },
+    {
+      "id": 21,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "historical",
+      "passage": "Several founders who publicly supported locating the new capital along the river later wrote privately that they considered the site's swampy terrain a serious liability, one they expected future generations to regret. One founder confided to a friend that he voted for the site 'not because I judge it wise, but because further delay threatened to unravel the whole agreement.'",
+      "question": "Which choice best describes what can reasonably be inferred about the founders' public support for the capital's location?",
+      "choices": {"A": "It accurately reflected their private confidence in the site's suitability.", "B": "It concealed genuine private doubts about the site, motivated instead by a wish to preserve a broader agreement.", "C": "It was intended to convince other founders to reject the site.", "D": "It was contradicted by every founder who voted for the location."},
+      "correct_answer": "B",
+      "explanation": "Private letters reveal doubts about the terrain and a vote cast to preserve agreement, not genuine confidence, showing the public support masked private reservations."
+    },
+    {
+      "id": 22,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "literature",
+      "passage": "A literary critic argues that a novel's recurring image of a closed window is not incidental description but a deliberate symbol of the protagonist's emotional withdrawal, tracking her retreat from other characters across the story.",
+      "question": "Which finding, if true, would most directly support the critic's claim?",
+      "choices": {"A": "The novel contains exactly eight references to windows.", "B": "Each time the window appears closed, the protagonist has just avoided or ended a conversation with another character.", "C": "The author mentioned enjoying descriptions of architecture in an interview.", "D": "Windows appear more often in this novel than in the author's earlier novels."},
+      "correct_answer": "B",
+      "explanation": "Only B ties the closed-window image directly to moments of emotional withdrawal, the specific pattern the critic's claim describes."
+    },
+    {
+      "id": 23,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "natural_science",
+      "passage": "A team of biologists hypothesizes that a decline in a forest's songbird nesting success is caused primarily by an invasive squirrel species that raids nests, rather than by rising temperatures, which they consider a minor factor at most.",
+      "question": "Which finding, if true, would most directly support the biologists' hypothesis?",
+      "choices": {"A": "Average forest temperatures have risen steadily for a decade.", "B": "Nesting success is far lower in areas with high invasive-squirrel density than in similar areas with low density, even after controlling for temperature.", "C": "The invasive squirrel species was first spotted in the forest eight years ago.", "D": "Songbird populations in forests without the invasive squirrel are also declining."},
+      "correct_answer": "B",
+      "explanation": "Comparing nesting success across squirrel density while controlling for temperature isolates the squirrel's effect, directly supporting the hypothesis."
+    },
+    {
+      "id": 24,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "A workplace analyst argues that a rise in employee turnover at a company's suburban office is driven mainly by longer average commute times after a recent office relocation, not by dissatisfaction with pay, which she considers a secondary factor at most.",
+      "question": "Which finding, if true, would most directly support the analyst's argument?",
+      "choices": {"A": "Company-wide pay has remained unchanged since the relocation.", "B": "Employees whose commutes increased by more than 30 minutes left at a much higher rate than those whose commutes stayed the same, despite receiving similar pay.", "C": "The company's total number of employees has grown since the relocation.", "D": "Several employees who left had worked at the company for many years."},
+      "correct_answer": "B",
+      "explanation": "Comparing turnover by commute-time increase while pay stays similar isolates commute length as the driver, directly supporting the argument."
+    }
+  ]
+}

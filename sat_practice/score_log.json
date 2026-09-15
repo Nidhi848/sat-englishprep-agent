@@ -4,5 +4,21 @@
     "information_and_ideas": 2,
     "craft_and_structure": 2
   },
-  "history": []
+  "history": [
+    {
+      "date": "2026-09-15",
+      "graded": false,
+      "questions_attempted": null,
+      "accuracy": null,
+      "tiers_before": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "tiers_after": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "notes": "First run of the routine. No prior real test existed to grade (SAMPLE_test.json is a dry run and is excluded). Both domains start at the default tier 2 per spec. Generated 2026-09-15_test.json: 24 questions (13 craft_and_structure / 11 information_and_ideas) at tier 2/2, sent to Nirvaan for reply within 24 hours."
+    }
+  ]
 }
