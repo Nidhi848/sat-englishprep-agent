@@ -4,5 +4,44 @@
     "information_and_ideas": 2,
     "craft_and_structure": 2
   },
-  "history": []
+  "history": [
+    {
+      "date": "2026-09-14",
+      "test_file": "2026-09-14_test.json",
+      "graded": false,
+      "questions_attempted": null,
+      "accuracy": {
+        "information_and_ideas": null,
+        "craft_and_structure": null
+      },
+      "tiers_before": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "tiers_after": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "notes": "Test emailed to Nirvaan. Never graded: this run executed on a disposable branch that was never merged back, so the next day's run had no record of it. Backfilled here from that branch's history on 2026-09-16 during branch consolidation; no reply was searched for or graded retroactively."
+    },
+    {
+      "date": "2026-09-15",
+      "test_file": "2026-09-15_test.json",
+      "graded": false,
+      "questions_attempted": null,
+      "accuracy": {
+        "information_and_ideas": null,
+        "craft_and_structure": null
+      },
+      "tiers_before": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "tiers_after": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "notes": "Test emailed to Nirvaan. Never graded: this run executed on a disposable branch that was never merged back, so the next day's run had no record of it. Backfilled here from that branch's history on 2026-09-16 during branch consolidation; no reply was searched for or graded retroactively."
+    }
+  ]
 }

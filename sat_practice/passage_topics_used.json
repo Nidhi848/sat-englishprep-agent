@@ -1,3 +1,249 @@
 {
-  "topics_used": []
+  "topics_used": [
+    {
+      "date": "2026-09-14",
+      "topic": "bioluminescent fungi glowing on decaying logs",
+      "topic_category": "natural_science"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "immigrant father learning to read a new language",
+      "topic_category": "literature"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "community gardens and nearby property values",
+      "topic_category": "social_science"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "founding-era pamphlet on taxation and consent of the governed",
+      "topic_category": "historical"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "arctic ground squirrel hibernation and ice-suppressing proteins",
+      "topic_category": "natural_science"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "short story opening on a decaying fence foreshadowing a lost friendship",
+      "topic_category": "literature"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "transportation report statistic on rising commute times",
+      "topic_category": "social_science"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "founding document establishing shared principles before grievances",
+      "topic_category": "historical"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "beetle coloration: mimicry vs. thermoregulation hypothesis",
+      "topic_category": "natural_science"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "critical debate over whether poetic difficulty is a virtue",
+      "topic_category": "literature"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "standardized test scores: innate ability vs. test-prep coaching",
+      "topic_category": "social_science"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "historians debating the cause of a treaty's collapse",
+      "topic_category": "historical"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "fish migration timing: ocean temperature vs. prey availability",
+      "topic_category": "natural_science"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "character who collects friends' abandoned unfinished projects",
+      "topic_category": "literature"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "New Caledonian crows caching tools",
+      "topic_category": "natural_science"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "four-day work week productivity trial",
+      "topic_category": "social_science"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "colonial assembly shift from unanimous consent to majority voting",
+      "topic_category": "historical"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "character rehearsing but never delivering a difficult conversation",
+      "topic_category": "literature"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "plant stomata response to drought varying by light exposure",
+      "topic_category": "natural_science"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "neighborhood watch programs and reported vs. actual crime",
+      "topic_category": "social_science"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "delegate's private letter fearing a compromise becomes precedent",
+      "topic_category": "historical"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "critic's claim that a novel's fragmented chapters mirror traumatic memory",
+      "topic_category": "literature"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "underground fungal network sharing nutrients between trees",
+      "topic_category": "natural_science"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "commute subsidies vs. salary increases on job applications",
+      "topic_category": "social_science"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "colony's early self-governance shaping its independence movement",
+      "topic_category": "historical"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "natural_science",
+      "topic": "honeybee waggle dance communication"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "literature",
+      "topic": "grandmother's worn heirloom quilt"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "social_science",
+      "topic": "recycling public-awareness campaign effectiveness"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "historical",
+      "topic": "colonial paper currency debate"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "natural_science",
+      "topic": "firefly flash-pattern mimicry"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "literature",
+      "topic": "storm imagery foreshadowing a family loss"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "social_science",
+      "topic": "transportation report commuter anecdote structure"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "historical",
+      "topic": "alliance funding report listing prior military successes"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "natural_science",
+      "topic": "soil microbiome crop-yield hypothesis"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "literature",
+      "topic": "critical debate on the purpose of foreshadowing"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "social_science",
+      "topic": "remote schooling standardized test outcomes"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "historical",
+      "topic": "border commission ambiguous treaty wording"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "natural_science",
+      "topic": "bat echolocation vs. magnetic-sense navigation"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "literature",
+      "topic": "father mowing lawn patterns after daughter leaves for college"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "natural_science",
+      "topic": "beaver dam-building guided by sound of water"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "social_science",
+      "topic": "community garden social value vs. harvest productivity"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "historical",
+      "topic": "founding-era judicial review compromise"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "literature",
+      "topic": "coach withholding feedback to avoid pressuring a player"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "natural_science",
+      "topic": "ant foraging pheromone trail experiments"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "social_science",
+      "topic": "remote work productivity varying by department"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "historical",
+      "topic": "founders' private doubts about the capital's swampy site"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "literature",
+      "topic": "closed-window symbolism in a novel"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "natural_science",
+      "topic": "invasive squirrel species and songbird nesting success"
+    },
+    {
+      "date": "2026-09-15",
+      "topic_category": "social_science",
+      "topic": "commute length and employee turnover after office relocation"
+    }
+  ]
 }

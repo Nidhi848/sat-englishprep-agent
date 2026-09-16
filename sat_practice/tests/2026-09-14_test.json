@@ -1,0 +1,289 @@
+{
+  "date": "2026-09-14",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Certain fungi that grow on decaying logs emit a faint greenish glow after dark, a phenomenon early foresters found unsettling enough to blame on spirits. Modern researchers now think the glow may serve a practical purpose: it could attract insects that then disperse the fungus's spores across the forest floor. This explanation remains provisional, since some biologists note that many nocturnal insects are not obviously drawn to the light, leaving the evolutionary advantage of glowing anything but obvious.",
+      "question": "As used in the passage, \"provisional\" most nearly means",
+      "choices": {"A": "permanent", "B": "tentative", "C": "illegal", "D": "irrelevant"},
+      "correct_answer": "B",
+      "explanation": "The passage says the explanation \"remains provisional\" because doubts persist, indicating it is tentative rather than settled."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "Every evening after his shift, Mr. Okafor sat at the kitchen table sounding out unfamiliar words from a library book, his lips moving with visible effort. His daughter offered to help, but he waved her away, insisting he would rather struggle alone than let his children continue to translate the world for him. His stubbornness, she realized, was not pride but a stubborn wish to reclaim ordinary competence.",
+      "question": "As used in the passage, \"reclaim\" most nearly means",
+      "choices": {"A": "hide", "B": "recover", "C": "purchase", "D": "forget"},
+      "correct_answer": "B",
+      "explanation": "He wants to reclaim ordinary competence he feels he has lost, meaning he wants to recover it."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "social_science",
+      "passage": "City economists have long debated whether community gardens meaningfully affect nearby property values or merely reflect neighborhoods that were already improving. A recent study attempted to isolate the garden's effect by comparing blocks that received a garden to nearly identical blocks that did not. The results suggested a modest but genuine increase in value, though the researchers cautioned that their sample size was too small to corroborate the finding with full confidence.",
+      "question": "As used in the passage, \"corroborate\" most nearly means",
+      "choices": {"A": "confirm", "B": "create", "C": "dismiss", "D": "measure"},
+      "correct_answer": "A",
+      "explanation": "The researchers wanted more data to corroborate, or confirm, their finding, given the small sample size."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "historical",
+      "passage": "A widely circulated pamphlet from the period urged colonists to consider that taxation without a voice in the legislature was not a minor grievance but an affront to a principle long held sacrosanct among free peoples: that governance required the consent of the governed. The author insisted this principle could not be casually set aside merely because doing so was administratively convenient for a distant government.",
+      "question": "As used in the passage, \"sacrosanct\" most nearly means",
+      "choices": {"A": "outdated", "B": "regarded as inviolable", "C": "poorly understood", "D": "financially costly"},
+      "correct_answer": "B",
+      "explanation": "The pamphlet calls consent of the governed a principle \"long held sacrosanct,\" meaning treated as inviolable or beyond compromise."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Arctic ground squirrels lower their body temperature below freezing during hibernation without their tissues actually freezing, a feat that has intrigued physiologists for decades. Researchers now suspect specialized proteins in the squirrels' blood suppress ice formation, allowing cells to remain pliable even at extreme cold. Because this mechanism appears so effective, some scientists hope to adapt aspects of it for preserving human organs during transport.",
+      "question": "As used in the passage, \"pliable\" most nearly means",
+      "choices": {"A": "frozen solid", "B": "flexible", "C": "transparent", "D": "shrinking"},
+      "correct_answer": "B",
+      "explanation": "The proteins keep cells \"pliable,\" meaning flexible, rather than allowing them to freeze rigidly."
+    },
+    {
+      "id": 6,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "literature",
+      "passage": "The story opens with three paragraphs describing a fence between two yards, noting each plank's disrepair and the exact place the wood has silvered with age. Only later do we learn that the fence was built by two neighbors together, decades earlier, in a season when they still spoke. The early attention to the fence's decay, then, quietly foreshadows the erosion of a friendship the story has not yet mentioned.",
+      "question": "Which choice best describes the function of the opening description of the fence?",
+      "choices": {"A": "It explains a construction technique used decades earlier.", "B": "It foreshadows the decline of a friendship not yet introduced.", "C": "It criticizes the neighbors for poor home maintenance.", "D": "It establishes that the neighbors currently work together."},
+      "correct_answer": "B",
+      "explanation": "The passage states the fence's decay \"foreshadows the erosion of a friendship,\" matching choice B."
+    },
+    {
+      "id": 7,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "A transportation report opens by citing a striking statistic: average commute times in the region rose eleven percent over five years. Only in the following paragraph does the report clarify that most of this increase is concentrated in a single corridor undergoing construction, while other routes saw commute times hold steady or fall. This structure lets the report highlight a dramatic headline number before immediately qualifying what it actually represents.",
+      "question": "Which choice best describes the function of the paragraph that follows the opening statistic?",
+      "choices": {"A": "It disputes the accuracy of the eleven percent figure.", "B": "It narrows the scope of the statistic to a specific cause.", "C": "It argues that commute times are unimportant.", "D": "It introduces a completely unrelated statistic."},
+      "correct_answer": "B",
+      "explanation": "The follow-up paragraph clarifies the increase is concentrated in one corridor, narrowing the scope of the initial statistic."
+    },
+    {
+      "id": 8,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "Before listing any specific complaint, the document's authors spend its opening paragraphs affirming principles they expect all readers, including their opponents, to accept as self-evident. Only after securing this common ground do they proceed to argue that the government in question has violated those very principles. The strategy positions their later grievances not as one-sided complaints but as violations of standards nobody could reasonably reject.",
+      "question": "Which choice best describes how the opening paragraphs serve the document's argument?",
+      "choices": {"A": "They list grievances before establishing any shared principles.", "B": "They establish shared principles so that later grievances appear as violations of accepted standards.", "C": "They apologize to the opposing government for prior conflict.", "D": "They summarize the document's demands in advance."},
+      "correct_answer": "B",
+      "explanation": "The passage explains that establishing shared principles first makes the later grievances \"appear as violations of standards nobody could reasonably reject.\""
+    },
+    {
+      "id": 9,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "The paper first summarizes the leading hypothesis for a beetle species' bright coloration—that it is a bluff, in which harmless beetles imitate the warning colors of a toxic relative. Only after presenting evidence that predators in the study area rarely encounter the toxic relative does the paper propose an alternative: that the coloration instead helps regulate body temperature in direct sunlight. The ordering allows the paper to show why the conventional explanation is insufficient before offering its own.",
+      "question": "Which choice best describes the function of presenting the leading hypothesis before the paper's own explanation?",
+      "choices": {"A": "It shows the conventional explanation is insufficient before a new one is proposed.", "B": "It proves that beetle coloration has no evolutionary function.", "C": "It confirms that predators only eat toxic beetles.", "D": "It criticizes earlier researchers for fabricating data."},
+      "correct_answer": "A",
+      "explanation": "The passage says the ordering shows why \"the conventional explanation is insufficient before offering its own.\""
+    },
+    {
+      "id": 10,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "literature",
+      "passage_1": "Some critics argue that a poem's difficulty is itself a virtue, forcing readers to slow down and engage more attentively with language they might otherwise skim past.",
+      "passage_2": "Other critics counter that unnecessary difficulty merely excludes readers without specialized training, mistaking obscurity for depth and alienating the very audience poetry should reach.",
+      "question": "Which choice best describes how the author of Text 2 would most likely respond to the claim in Text 1?",
+      "choices": {"A": "By agreeing that difficulty always improves a poem's engagement", "B": "By arguing that difficulty can alienate readers rather than deepen their engagement", "C": "By insisting that all poetry should be difficult", "D": "By claiming Text 1 misunderstands what a poem is"},
+      "correct_answer": "B",
+      "explanation": "Text 2 argues difficulty can \"alienate\" readers, directly countering Text 1's claim that difficulty is a virtue."
+    },
+    {
+      "id": 11,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "social_science",
+      "passage_1": "A study concludes that standardized test scores mainly reflect a student's innate academic ability, since scores correlate strongly with later college performance.",
+      "passage_2": "A separate study challenges this conclusion, showing that students who receive extensive test-preparation coaching improve scores substantially without any corresponding change in coursework performance.",
+      "question": "Which choice best describes the relationship between the two texts?",
+      "choices": {"A": "Text 2 confirms Text 1's conclusion using different evidence.", "B": "Text 2 presents evidence complicating Text 1's claim that scores mainly reflect innate ability.", "C": "Text 1 and Text 2 both rely on identical data.", "D": "Text 2 argues that test preparation is illegal."},
+      "correct_answer": "B",
+      "explanation": "Text 2's finding that coaching alone raises scores complicates Text 1's claim that scores mainly reflect innate ability."
+    },
+    {
+      "id": 12,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "historical",
+      "passage_1": "One historian argues the treaty collapsed primarily because its financial terms were unrealistic, straining every signatory's economy within a decade.",
+      "passage_2": "Another historian argues the financial terms were manageable, and that the treaty collapsed instead because of a lack of any enforcement mechanism when a signatory reneged.",
+      "question": "Which choice best describes how Text 2 relates to the claim in Text 1?",
+      "choices": {"A": "Text 2 attributes the treaty's failure to a different cause than the one Text 1 identifies.", "B": "Text 2 agrees entirely with Text 1's explanation.", "C": "Text 2 argues the treaty did not actually collapse.", "D": "Text 2 focuses on a treaty other than the one discussed in Text 1."},
+      "correct_answer": "A",
+      "explanation": "Text 1 blames unrealistic financial terms; Text 2 attributes the collapse instead to a lack of enforcement, a different cause."
+    },
+    {
+      "id": 13,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Some marine biologists argue that a fish species now migrates earlier each year primarily because of rising ocean temperatures altering its internal timing cues.",
+      "passage_2": "Other researchers argue that changing prey availability, not temperature directly, better explains the earlier migration, since the fish arrive earlier only in regions where their prey has also shifted.",
+      "question": "Which choice best describes how Text 2 relates to the claim advanced in Text 1?",
+      "choices": {"A": "Text 2 proposes an alternative explanation tied to a different underlying factor.", "B": "Text 2 confirms that temperature is the sole cause of migration timing.", "C": "Text 2 argues that the fish species has stopped migrating altogether.", "D": "Text 2 relies on the same regions studied in Text 1."},
+      "correct_answer": "A",
+      "explanation": "Text 2 points to prey availability rather than temperature as the better explanation, proposing an alternative underlying factor."
+    },
+    {
+      "id": 14,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "literature",
+      "passage": "Every time a friend abandoned a half-finished project—a novel, a garden plan, a business idea—Reuben asked to keep their notes, filing them carefully in a drawer he never opened again. He told himself he might someday finish what others couldn't. In truth, the drawer had become a private museum of possibility, more valuable to him closed than it would ever be if he actually attempted to complete any of it.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {"A": "Reuben intends to finish every project he collects.", "B": "Reuben values the idea of unfinished potential more than actually completing anything.", "C": "Reuben's friends resent him for taking their notes.", "D": "Reuben is unaware that he collects other people's plans."},
+      "correct_answer": "B",
+      "explanation": "The drawer is \"more valuable to him closed\" than completed, showing he values potential itself over completion."
+    },
+    {
+      "id": 15,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "Researchers studying New Caledonian crows noticed that individual birds often hide a favored twig tool in a fixed spot between uses rather than discarding it and finding a new one each time. When the researchers removed a cached tool, the crow spent significantly longer searching for a replacement than birds that had never used caching at all. The finding suggests that caching, once established, may leave a bird less equipped to solve the problem from scratch.",
+      "question": "Which choice best states the main finding described in the passage?",
+      "choices": {"A": "Crows that cache tools solve problems faster than crows that do not.", "B": "Relying on a cached tool may leave a crow less prepared to find a replacement quickly.", "C": "Crows never lose their cached tools.", "D": "Tool caching has no effect on problem-solving speed."},
+      "correct_answer": "B",
+      "explanation": "Crows accustomed to caching took longer to find replacements, suggesting reliance on caching leaves them less prepared."
+    },
+    {
+      "id": 16,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "social_science",
+      "passage": "A trial in which several companies shifted employees to a four-day work week found that total output per employee held steady even though hours worked fell by twenty percent. Interviews suggested employees compressed the same tasks into fewer, less-interrupted blocks of time, and reported meetings were shortened because organizers knew less time was available overall. The researchers concluded that reduced hours alone do not necessarily reduce output, at least when working conditions adjust accordingly.",
+      "question": "Which choice best states the central idea of the passage?",
+      "choices": {"A": "Reducing work hours automatically reduces total output.", "B": "Output can remain stable under fewer hours when working conditions adapt.", "C": "Employees preferred longer meetings under the new schedule.", "D": "The four-day week increased total hours worked per employee."},
+      "correct_answer": "B",
+      "explanation": "The study found output \"held steady\" despite fewer hours because conditions adjusted, matching choice B."
+    },
+    {
+      "id": 17,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "historical",
+      "passage": "Early colonial assemblies typically required unanimous consent to pass any measure, a rule intended to protect the interests of smaller factions. In practice, the requirement allowed a single dissenting delegate to block action indefinitely, and several assemblies gradually adopted majority voting instead. Proponents of the change argued that protecting minority interests was less important than ensuring the assembly could function and reach decisions at all.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {"A": "Unanimous consent was replaced by majority voting partly because it prevented assemblies from functioning.", "B": "Majority voting was rejected by every colonial assembly.", "C": "Smaller factions gained more power under majority voting than under unanimous consent.", "D": "Unanimous consent had no effect on an assembly's ability to act."},
+      "correct_answer": "A",
+      "explanation": "The passage states unanimity allowed one delegate to \"block action indefinitely,\" so proponents favored majority voting to keep assemblies functional."
+    },
+    {
+      "id": 18,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Before every visit to his estranged brother, Dov rehearsed exactly what he would say, refining the words on the drive over until they felt precise and fair. Yet each time he arrived, he found himself discussing the weather, their mother's garden, anything but the rehearsed speech, which he would fold up again and carry home unspoken, a little more worn than before.",
+      "question": "Which choice best describes what can reasonably be inferred about Dov?",
+      "choices": {"A": "He forgets what he intended to say each time he visits.", "B": "He avoids the difficult conversation despite preparing for it.", "C": "He no longer wishes to reconcile with his brother.", "D": "He believes his brother is not listening to him."},
+      "correct_answer": "B",
+      "explanation": "Dov prepares a speech each time but never delivers it, suggesting he avoids the difficult conversation despite intending to have it."
+    },
+    {
+      "id": 19,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "natural_science",
+      "passage": "In a greenhouse study, leaves grown in full sun closed their stomata—the small pores that regulate gas exchange—within minutes of a sudden drought, while leaves from the same plant grown in shade took several hours to respond the same way. Both leaf types eventually closed their stomata fully, but the shaded leaves lost significantly more water in the interim.",
+      "question": "Which choice best describes what can reasonably be inferred from the passage?",
+      "choices": {"A": "Shaded leaves are entirely unable to close their stomata.", "B": "A leaf's typical light exposure may influence how quickly it responds to drought.", "C": "Sun-grown leaves never lose water during a drought.", "D": "Stomata function identically regardless of a leaf's light exposure."},
+      "correct_answer": "B",
+      "explanation": "The differing response speeds between sun- and shade-grown leaves suggest light exposure influences drought response time."
+    },
+    {
+      "id": 20,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "social_science",
+      "passage": "After a city introduced neighborhood watch programs in several districts, reported crime in those districts rose in the first year even as police later confirmed that actual criminal incidents had held roughly steady. Officials noted that residents in watch programs were simply more likely to notice and report minor incidents that would previously have gone unmentioned.",
+      "question": "Which choice best describes what can reasonably be inferred from the passage?",
+      "choices": {"A": "Neighborhood watch programs caused an increase in actual crime.", "B": "A rise in reported crime does not necessarily mean actual crime increased.", "C": "Police could not determine whether actual crime had changed.", "D": "Residents in watch programs committed more minor offenses than before."},
+      "correct_answer": "B",
+      "explanation": "Reported crime rose because of increased noticing and reporting, not a genuine change in incidents, supporting choice B."
+    },
+    {
+      "id": 21,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "historical",
+      "passage": "Though he voted for the final compromise, one delegate wrote privately to a friend that he feared future assemblies would treat this compromise not as an exception forced by unusual circumstances but as an easy precedent, invoked whenever difficult questions arose in the future.",
+      "question": "Which choice best describes what can reasonably be inferred about the delegate's private concern?",
+      "choices": {"A": "He believed the compromise would never be referenced again.", "B": "He worried the compromise might be misused as justification for avoiding difficult decisions later.", "C": "He regretted voting for the compromise because it was unpopular.", "D": "He believed future assemblies would reject the compromise outright."},
+      "correct_answer": "B",
+      "explanation": "He feared the compromise would be treated as \"an easy precedent... whenever difficult questions arose,\" meaning misused to avoid tough decisions."
+    },
+    {
+      "id": 22,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "literature",
+      "passage": "A literary critic claims that a novel's unusually short, disjointed chapters are not a stylistic quirk but a deliberate structural choice, intended to mirror the protagonist's fragmented memory of a traumatic event.",
+      "question": "Which finding, if true, would most directly support the critic's claim?",
+      "choices": {"A": "The novel was written over a period of three years.", "B": "The chapters grow noticeably longer and more continuous only in flashbacks depicting the protagonist's memories before the trauma.", "C": "The author has written other novels with short chapters.", "D": "The novel received mixed reviews upon publication."},
+      "correct_answer": "B",
+      "explanation": "A shift to longer, continuous chapters specifically for pre-trauma memories directly ties the fragmented structure to the trauma, supporting the critic's claim."
+    },
+    {
+      "id": 23,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "natural_science",
+      "passage": "A team of botanists hypothesizes that an underground fungal network allows a forest's older trees to transfer surplus nutrients to nearby young saplings, rather than the saplings surviving on soil nutrients alone.",
+      "question": "Which finding, if true, would most directly support the botanists' hypothesis?",
+      "choices": {"A": "Saplings connected to the fungal network of an older tree grow faster than nearby saplings whose connection is experimentally severed.", "B": "The fungal network is found in most forest soil.", "C": "Older trees produce more seeds than younger trees.", "D": "Sapling growth rates vary across different forest types."},
+      "correct_answer": "A",
+      "explanation": "Faster growth specifically when connected—and slower growth when the connection is severed—directly demonstrates the nutrient transfer the hypothesis describes."
+    },
+    {
+      "id": 24,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "An economist argues that subsidizing employees' commuting costs increases job applications to a company more effectively than an equivalent increase in base salary, particularly in areas with poor public transit.",
+      "question": "Which finding, if true, would most directly support the economist's argument?",
+      "choices": {"A": "Companies in areas with poor transit received significantly more applications after introducing commute subsidies than comparable companies that instead raised salaries by an equal dollar amount.", "B": "Base salaries have risen steadily across the industry over the past five years.", "C": "Employees in areas with good public transit rarely drive to work.", "D": "Commute subsidy programs are simple for companies to administer."},
+      "correct_answer": "A",
+      "explanation": "Directly comparing application numbers between commute-subsidy and equal-salary-increase companies isolates the subsidy's effect, supporting the economist's claim."
+    },
+    {
+      "id": 25,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "historical",
+      "passage": "A historian argues that a colony's decades of relatively independent local governance, tolerated informally by a distant crown, made its later push for full independence feel like a natural continuation rather than a radical break.",
+      "question": "Which finding, if true, would most directly support the historian's argument?",
+      "choices": {"A": "Independence leaders frequently cited the colony's long-standing local governance practices as precedent in their public arguments for independence.", "B": "The crown was located across an ocean from the colony.", "C": "The colony's population grew steadily during the period of local governance.", "D": "Other colonies also sought independence around the same time."},
+      "correct_answer": "A",
+      "explanation": "Leaders explicitly citing existing local governance as precedent directly shows the continuity the historian claims, supporting the argument."
+    }
+  ]
+}
