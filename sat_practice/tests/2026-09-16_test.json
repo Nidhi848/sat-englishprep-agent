@@ -1,0 +1,398 @@
+{
+  "date": "2026-09-16",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "An octopus can shift the color and texture of its skin in under a second, using thousands of pigment-filled cells controlled directly by its nervous system. Unlike a chameleon, which changes color gradually as mood or temperature shifts, the octopus's transformation is nearly instantaneous, letting it vanish against a coral outcrop the moment a predator approaches. Biologists describe this speed as the animal's primary defense, more critical to its survival than any shell or venom.",
+      "question": "As used in the passage, \"instantaneous\" most nearly means",
+      "choices": {
+        "A": "immediate",
+        "B": "unpredictable",
+        "C": "temporary",
+        "D": "colorful"
+      },
+      "correct_answer": "A",
+      "explanation": "The passage contrasts the octopus's \"nearly instantaneous\" change with the chameleon's \"gradual\" one, so the word describes how quickly, or immediately, the change happens."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "In the drawer of her desk, Marisol kept a jar of bus tickets, one from every trip she had taken alone since she was twelve. Most people who saw the jar assumed it held sentimental value, a scrapbook in miniature. But Marisol treated it more like a ledger, a private tally of every time she had gone somewhere by herself and come back fine, proof she could produce for no one but herself.",
+      "question": "As used in the passage, \"ledger\" most nearly means",
+      "choices": {
+        "A": "diary of feelings",
+        "B": "decorative box",
+        "C": "record of accounts",
+        "D": "list of complaints"
+      },
+      "correct_answer": "C",
+      "explanation": "The passage explains the jar functions as \"a private tally,\" or running record, which matches a record of accounts rather than a sentimental keepsake."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "social_science",
+      "passage": "When a mid-sized city offered employees a monthly stipend for carpooling instead of driving alone, enrollment in the program stayed flat for the first six months. Only after the city paired the stipend with reserved parking spots near the building entrance did participation climb sharply. Researchers concluded that the convenience of guaranteed parking, not the extra money, was the incentive that ultimately moved commuters to change their habits.",
+      "question": "As used in the passage, \"incentive\" most nearly means",
+      "choices": {
+        "A": "requirement",
+        "B": "obstacle",
+        "C": "coincidence",
+        "D": "inducement"
+      },
+      "correct_answer": "D",
+      "explanation": "The passage identifies the reserved parking as what \"moved commuters to change their habits,\" which is the definition of an inducement, or motivating factor."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "historical",
+      "passage": "Writing to a fellow delegate in 1787, one statesman warned that factions, groups bound by a shared interest opposed to the rights of others, were an unavoidable feature of any free society. Rather than urging that such groups be suppressed, he argued that a well-constructed government should multiply the number of factions so thoroughly that no single one could ever grow powerful enough to dominate the rest.",
+      "question": "As used in the passage, \"multiply\" most nearly means",
+      "choices": {
+        "A": "calculate",
+        "B": "increase",
+        "C": "combine",
+        "D": "eliminate"
+      },
+      "correct_answer": "B",
+      "explanation": "The statesman's strategy is to prevent any one faction from dominating by having many of them, so \"multiply\" here means to increase their number."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "The kangaroo rat, a rodent native to arid regions of the American Southwest, has nasal passages lined with tightly coiled structures that cool exhaled air before it leaves the body. This design recaptures moisture that would otherwise be lost with every breath, allowing the animal to survive for months without drinking water. Physiologists regard the structure as an elegant adaptation to a punishing climate.",
+      "question": "As used in the passage, \"punishing\" most nearly means",
+      "choices": {
+        "A": "briefly uncomfortable",
+        "B": "unusually cold",
+        "C": "harshly demanding",
+        "D": "mildly annoying"
+      },
+      "correct_answer": "C",
+      "explanation": "The passage describes an animal surviving without water in an arid climate, so \"punishing\" describes conditions that are harshly demanding, not merely uncomfortable or cold."
+    },
+    {
+      "id": 6,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "literature",
+      "passage": "The poem never finishes a sentence. Each line breaks off mid-clause, the next line beginning a new thought instead of completing the last: \"I meant to tell you / the porch light, how it—\" and then a stanza break, and then something else entirely. The effect mimics the halting rhythm of a person circling a hard conversation, approaching it several times without ever quite arriving.",
+      "question": "Which choice best describes the function of the passage as a whole?",
+      "choices": {
+        "A": "It summarizes the poem's central argument.",
+        "B": "It criticizes the poem for lacking a clear structure.",
+        "C": "It compares the poem to an earlier work by the same poet.",
+        "D": "It explains how a formal technique mirrors an emotional state."
+      },
+      "correct_answer": "D",
+      "explanation": "The passage describes the poem's broken syntax and then explains that this technique \"mimics\" the halting feeling of avoiding a hard conversation, connecting form to emotion."
+    },
+    {
+      "id": 7,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "A city library eliminated late fees on overdue books, expecting a wave of unreturned materials. Instead, the return rate for overdue items actually rose slightly the following year. Librarians noted that patrons who had avoided the library out of fear of accumulated fines began returning long-overdue books without penalty, and many resumed regular borrowing once the fear of debt was removed.",
+      "question": "Which choice best describes the overall structure of the passage?",
+      "choices": {
+        "A": "It presents a prediction and then reports a surprising outcome along with an explanation.",
+        "B": "It compares two library systems that used different late-fee policies.",
+        "C": "It describes a policy in chronological order from proposal to repeal.",
+        "D": "It lists several unrelated benefits of eliminating late fees."
+      },
+      "correct_answer": "A",
+      "explanation": "The passage states the library's expectation (\"expecting a wave of unreturned materials\"), then reports the opposite result, then explains why it happened."
+    },
+    {
+      "id": 8,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "A committee tasked with selecting a design for the new capitol building corresponded for months before reaching a decision. Early letters focused narrowly on cost, debating which stone would be cheapest to quarry locally. Later letters shifted almost entirely to symbolism, with members arguing over which architectural style would best represent the young nation to visiting foreign dignitaries.",
+      "question": "Which choice best describes the function of the second sentence in relation to the third?",
+      "choices": {
+        "A": "It offers evidence that contradicts the claim made in the third sentence.",
+        "B": "It presents an early stage of debate that the later stage moved beyond.",
+        "C": "It restates the committee's final decision in different terms.",
+        "D": "It introduces a dignitary whose opinion settled the debate."
+      },
+      "correct_answer": "B",
+      "explanation": "The second sentence describes the committee's early, narrow focus on cost, and the third sentence shows the discussion shifting to symbolism, so the second sentence presents an earlier stage the group moved past."
+    },
+    {
+      "id": 9,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "Monarch butterflies migrating south each fall rely on the position of the sun to hold a steady course, adjusting their heading as it moves across the sky. On overcast days, however, they do not simply drift off course. Recent studies suggest an internal magnetic compass activates specifically when clouds obscure the sun, providing a backup system the butterflies otherwise appear not to need.",
+      "question": "Which choice best describes the function of the passage's final sentence?",
+      "choices": {
+        "A": "It undermines the claim made earlier in the passage about sun-based navigation.",
+        "B": "It introduces a contradiction that later research resolved.",
+        "C": "It explains a finding that accounts for the butterflies staying on course without the sun.",
+        "D": "It describes a migration pattern unrelated to navigation."
+      },
+      "correct_answer": "C",
+      "explanation": "The passage sets up a puzzle (staying on course despite clouds) and the final sentence resolves it by describing the magnetic backup system, so it explains a finding that accounts for the earlier observation."
+    },
+    {
+      "id": 10,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "literature",
+      "passage_1": "Text 1: A skeptical narrator forces readers to do the work of interpretation themselves, refusing to hand over a tidy moral. This demand for active participation, one critic argues, builds a deeper bond between reader and character than any trustworthy narrator could, because the reader must extend trust the narrator has not earned.",
+      "passage_2": "Text 2: A second critic counters that this praise overstates the reward and understates the risk. A narrator who withholds or distorts information does not just invite participation, she argues; readers who feel deliberately misled by a narrator often report frustration rather than intimacy, closing off the very trust the technique claims to build.",
+      "question": "Which choice best describes how the author of Text 2 would most likely respond to the critic's claim in Text 1?",
+      "choices": {
+        "A": "By agreeing that unreliable narration always strengthens a reader's investment in a story.",
+        "B": "By dismissing the value of narrator reliability as a meaningful literary concern.",
+        "C": "By claiming that readers never notice when a narrator is unreliable.",
+        "D": "By arguing that unreliable narration instead risks alienating readers who feel deliberately misled."
+      },
+      "correct_answer": "D",
+      "explanation": "Text 2 argues that misdirection breeds resentment rather than closeness, directly opposing Text 1's claim that unreliable narration deepens the reader's bond with the character."
+    },
+    {
+      "id": 11,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "social_science",
+      "passage_1": "Text 1: A district that switched several classrooms to flexible seating, allowing students to choose between desks, floor cushions, and standing tables, reported a measurable rise in daily attendance over the following semester, which researchers attributed to increased student comfort and autonomy.",
+      "passage_2": "Text 2: A separate review of the same district noted that a districtwide student wellness campaign launched the same semester as the seating change, making it difficult to isolate which factor, if either alone, was responsible for the rise in attendance.",
+      "question": "Based on the two texts, how would the author of Text 2 most likely respond to the conclusion drawn in Text 1?",
+      "choices": {
+        "A": "By pointing out that the attendance rise may share a cause other than the seating change.",
+        "B": "By agreeing that flexible seating was clearly the cause of the attendance rise.",
+        "C": "By arguing that flexible seating should be removed from all classrooms.",
+        "D": "By claiming that attendance data is impossible to measure accurately."
+      },
+      "correct_answer": "A",
+      "explanation": "Text 2 notes that a new wellness campaign launched at the same time, suggesting the attendance rise might not be caused by the seating change alone, which questions Text 1's attribution."
+    },
+    {
+      "id": 12,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "historical",
+      "passage_1": "Text 1: An anonymous pamphlet urged colonists to set aside their grievances against distant taxation, arguing that the principles the colonies shared with the mother country, a common legal tradition and mutual economic interest, mattered more than any temporary dispute over specific policies.",
+      "passage_2": "Text 2: A rival pamphlet, published soon after, dismissed the appeal to shared tradition as sentimental rather than principled, insisting that a government which no longer respected the fundamental rights of its subjects forfeited any claim to their continued allegiance, however old the relationship.",
+      "question": "Based on the two texts, how does the argument in Text 2 relate to the argument in Text 1?",
+      "choices": {
+        "A": "It reinforces Text 1's claim by citing additional shared traditions.",
+        "B": "It rejects the premise of Text 1 by arguing shared history no longer justifies continued allegiance.",
+        "C": "It restates Text 1's argument using different historical examples.",
+        "D": "It avoids taking a position on the question raised in Text 1."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 directly challenges Text 1's premise, arguing that shared tradition does not obligate continued loyalty once fundamental rights are violated, so it rejects rather than reinforces or restates Text 1's claim."
+    },
+    {
+      "id": 13,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Text 1: Naked mole rats can survive up to eighteen minutes without oxygen, far longer than any other mammal studied. One team of researchers attributes this tolerance primarily to the animal's ability to slow its metabolism dramatically, entering a state resembling suspended animation until oxygen levels recover.",
+      "passage_2": "Text 2: A second team instead points to a specific biochemical switch: when oxygen is scarce, the mole rat's cells begin metabolizing fructose instead of glucose, a pathway most mammalian tissue cannot use, letting cells keep producing energy well after oxygen has run out.",
+      "question": "Based on the two texts, how does the explanation in Text 2 differ from the explanation in Text 1?",
+      "choices": {
+        "A": "Text 2 denies that naked mole rats can survive without oxygen at all.",
+        "B": "Text 2 argues the tolerance is identical in cause to Text 1's explanation.",
+        "C": "Text 2 attributes the tolerance to a distinct biochemical mechanism rather than a general slowdown.",
+        "D": "Text 2 claims the tolerance has never been reliably measured."
+      },
+      "correct_answer": "C",
+      "explanation": "Text 1 credits a general metabolic slowdown, while Text 2 points to a specific biochemical switch to fructose metabolism, a distinct mechanism rather than a general one."
+    },
+    {
+      "id": 14,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "social_science",
+      "passage": "A neighborhood mentorship program pairing high schoolers with elementary students initially struggled to recruit volunteers, drawing fewer than ten participants in its first year. Organizers redesigned recruitment around specific, short-term commitments, such as a single afternoon reading session, rather than a full-semester pledge. Within a year, participation more than tripled, with many volunteers later choosing to extend their involvement voluntarily.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Elementary students benefit more from mentorship than high schoolers do.",
+        "B": "Mentorship programs are generally difficult to sustain over multiple years.",
+        "C": "Volunteers who join for one session rarely choose to continue.",
+        "D": "Lowering the initial commitment required of volunteers significantly increased program participation."
+      },
+      "correct_answer": "D",
+      "explanation": "The passage's central idea is that reframing the ask as a smaller, specific commitment caused participation to more than triple."
+    },
+    {
+      "id": 15,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "historical",
+      "passage": "In the early years of the national postal service, mail routes were awarded to private contractors who bid for the right to carry letters along a given path. Disputes frequently arose when a contractor's route crossed one already claimed by a rival, leading Congress to establish a formal process for resolving overlapping claims before a single letter could be delivered.",
+      "question": "Which choice best states the main purpose of the passage?",
+      "choices": {
+        "A": "To describe a conflict over postal routes and the process created to resolve it.",
+        "B": "To argue that private contractors should not have been used to deliver mail.",
+        "C": "To explain why the postal service was eventually replaced by a government agency.",
+        "D": "To compare postal delivery speeds before and after the dispute process began."
+      },
+      "correct_answer": "A",
+      "explanation": "The passage describes disputes over overlapping routes and then the resolution process Congress established."
+    },
+    {
+      "id": 16,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "Coral reefs subjected to unusually warm water often expel the colorful algae living in their tissues, a process known as bleaching that leaves the coral skeleton visibly pale. Bleached coral is not immediately dead; if water temperatures drop again within a few weeks, many colonies can recruit new algae and recover most of their original color and function.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Bleached coral always dies within a few weeks of turning pale.",
+        "B": "Bleaching is reversible in many cases if warm conditions do not persist.",
+        "C": "Coral bleaching is caused primarily by pollution rather than temperature.",
+        "D": "Algae are more resilient to temperature change than coral itself."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage explains that bleached coral can recover if temperatures drop again soon, meaning the condition is often reversible rather than immediately fatal."
+    },
+    {
+      "id": 17,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "literature",
+      "passage": "When Teo's sister moved out for college, he was the one who ended up packing her childhood bedroom, not because anyone assigned him the task but because he could not stand to watch the room sit half-emptied for another week. He worked slowly, reading the spines of books before boxing them, in no hurry to finish a job that felt, once done, like it would make her absence official.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Teo resents his sister for leaving without helping to pack her room.",
+        "B": "Teo is primarily concerned with organizing the books in a particular order.",
+        "C": "Teo's slow, careful packing reflects his reluctance to accept his sister's absence.",
+        "D": "Teo was assigned the task of packing the room by his parents."
+      },
+      "correct_answer": "C",
+      "explanation": "The passage states the packing \"felt, once done, like it would make her absence official,\" and that he worked slowly and was \"in no hurry,\" showing his reluctance to accept the change."
+    },
+    {
+      "id": 18,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "natural_science",
+      "passage": "Researchers counting the growth rings of ancient bristlecone pines noticed that certain years produced rings so thin they were barely visible under magnification, while surrounding years showed rings of ordinary width. Cross-referencing these thin-ring years against independent rainfall records compiled from lake sediment cores, the researchers found the two data sets aligned almost perfectly.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "bristlecone pines require more water than most tree species.",
+        "B": "lake sediment cores are a more reliable historical record than tree rings.",
+        "C": "the thickness of tree rings has no relationship to rainfall levels.",
+        "D": "the thin rings most likely correspond to years of severe drought."
+      },
+      "correct_answer": "D",
+      "explanation": "The passage shows thin rings aligning with independent rainfall data, implying the thin rings mark drought years, since low rainfall would slow the tree's growth in a given year."
+    },
+    {
+      "id": 19,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "social_science",
+      "passage": "A survey asked residents to rate their overall happiness, but the research team tested two versions of the same question: one that asked respondents to rate happiness \"compared to last year\" and one that asked for a rating with no comparison point given. The comparative version consistently produced lower average ratings than the version with no reference point, even when administered to the same population in the same week.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "the wording of a survey question can measurably influence the answers it produces.",
+        "B": "residents were generally unhappy regardless of how the question was worded.",
+        "C": "comparative questions are always more accurate than non-comparative ones.",
+        "D": "happiness cannot be reliably measured through any survey method."
+      },
+      "correct_answer": "A",
+      "explanation": "Because the same population answered differently depending only on how the question was phrased, the passage implies that question wording itself can shift the measured result."
+    },
+    {
+      "id": 20,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "historical",
+      "passage": "The night before the skirmish, a young soldier wrote in his diary that he had cleaned his rifle three times, though it had not been fired since the week before. He also noted, almost in passing, that he had written a longer letter to his mother than usual and had asked a friend to keep it safe rather than send it immediately.",
+      "question": "Which choice most logically completes the passage's implied conclusion about the soldier's state of mind?",
+      "choices": {
+        "A": "He was confident the coming skirmish would be minor and unremarkable.",
+        "B": "He was anxious about the coming skirmish and quietly preparing for the possibility he would not survive it.",
+        "C": "He regretted joining the conflict and planned to desert that night.",
+        "D": "He was primarily concerned with the poor condition of his rifle."
+      },
+      "correct_answer": "B",
+      "explanation": "Cleaning an already-clean rifle repeatedly and asking a friend to hold a longer-than-usual letter to his mother, rather than send it, suggest nervous preparation and a quiet fear he might not return."
+    },
+    {
+      "id": 21,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Every night that week, Priya noticed the porch light across the street was still on when she woke at 3 a.m. to check on the baby. She had never spoken to the man who lived there, only waved from a distance a handful of times. Still, she began leaving her own porch light on too, though she could not have said exactly why, or who, if anyone, it was for.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "Priya was trying to save money by leaving her porch light off.",
+        "B": "Priya suspected the neighbor's house was being burglarized.",
+        "C": "Priya's gesture suggests a quiet, unspoken solidarity with a neighbor she barely knew.",
+        "D": "Priya planned to introduce herself to the neighbor the next morning."
+      },
+      "correct_answer": "C",
+      "explanation": "Priya mirrors the neighbor's light without a clear practical reason and \"could not have said exactly why,\" suggesting an instinctive, unspoken gesture of connection or solidarity."
+    },
+    {
+      "id": 22,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "historical",
+      "passage": "Minutes from a colonial town meeting record a lengthy dispute over the maintenance of the village's only well. One faction argued that households nearest the well should bear the largest share of repair costs, since they used it most often. A second faction countered that every household benefited equally from a reliable water supply and should therefore contribute equally, regardless of distance. The meeting adjourned without a vote, the clerk noted, \"with both sides still convinced the other had misjudged what fairness required.\"",
+      "question": "Which choice best supports the claim that the town's disagreement was about how to define fairness, not about whether the well should be repaired?",
+      "choices": {
+        "A": "\"Minutes from a colonial town meeting record a lengthy dispute over the maintenance of the village's only well.\"",
+        "B": "\"households nearest the well should bear the largest share of repair costs, since they used it most often.\"",
+        "C": "\"every household benefited equally from a reliable water supply and should therefore contribute equally.\"",
+        "D": "\"with both sides still convinced the other had misjudged what fairness required.\""
+      },
+      "correct_answer": "D",
+      "explanation": "The clerk's closing note names the dispute explicitly as one over \"what fairness required,\" directly confirming that the disagreement was about the standard of fairness rather than the need for repair itself."
+    },
+    {
+      "id": 23,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "literature",
+      "passage": "Among her grandmother's papers, Ines found a letter addressed to a name she did not recognize, dated some forty years earlier and never mailed, the envelope still sealed. In the margin, in her grandmother's later, shakier handwriting, was a single note: \"Said everything I couldn't say out loud. Glad I never sent it. Gladder I kept it.\"",
+      "question": "Which choice best supports the idea that the grandmother did not fully regret leaving the letter unsent?",
+      "choices": {
+        "A": "\"Glad I never sent it. Gladder I kept it.\"",
+        "B": "\"Ines found a letter addressed to a name she did not recognize.\"",
+        "C": "\"dated some forty years earlier and never mailed, the envelope still sealed.\"",
+        "D": "\"In the margin, in her grandmother's later, shakier handwriting, was a single note.\""
+      },
+      "correct_answer": "A",
+      "explanation": "The grandmother's own annotation, \"Glad I never sent it. Gladder I kept it,\" directly expresses that she was content with, not regretful of, her decision."
+    },
+    {
+      "id": 24,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "A downtown redevelopment agency installed a series of rotating public art murals along a previously plain retail corridor. Foot-traffic counters placed at either end of the corridor recorded a 22 percent increase in pedestrian volume in the six months after installation, compared with the same six-month period the previous year, while counters on a similar corridor without murals two blocks away showed no comparable change.",
+      "question": "Which choice best supports the claim that the murals, rather than a broader citywide trend, were responsible for the increase in foot traffic?",
+      "choices": {
+        "A": "\"A downtown redevelopment agency installed a series of rotating public art murals along a previously plain retail corridor.\"",
+        "B": "\"counters on a similar corridor without murals two blocks away showed no comparable change\"",
+        "C": "\"Foot-traffic counters placed at either end of the corridor recorded a 22 percent increase in pedestrian volume.\"",
+        "D": "\"compared with the same six-month period the previous year\""
+      },
+      "correct_answer": "B",
+      "explanation": "The comparison corridor without murals showing no similar increase rules out a general citywide trend as the cause, making this the strongest evidence that the murals specifically drove the change."
+    }
+  ]
+}
