@@ -28,6 +28,7 @@
       "date": "2026-09-15",
       "test_file": "2026-09-15_test.json",
       "graded": false,
+      "missed": true,
       "questions_attempted": null,
       "accuracy": {
         "information_and_ideas": null,
@@ -41,7 +42,26 @@
         "information_and_ideas": 2,
         "craft_and_structure": 2
       },
-      "notes": "Test emailed to Nirvaan. Never graded: this run executed on a disposable branch that was never merged back, so the next day's run had no record of it. Backfilled here from that branch's history on 2026-09-16 during branch consolidation; no reply was searched for or graded retroactively."
+      "notes": "Test emailed to Nirvaan 2026-09-15 21:16 UTC. Checked Gmail on 2026-09-16 (~24h later, run time 21:10 UTC): no reply found at all from nirvaanaditya11@gmail.com in this account. Marked missed per routine rules (20+ hours, no submission); difficulty held steady for both domains rather than adjusted."
+    },
+    {
+      "date": "2026-09-16",
+      "test_file": "2026-09-16_test.json",
+      "graded": false,
+      "questions_attempted": null,
+      "accuracy": {
+        "information_and_ideas": null,
+        "craft_and_structure": null
+      },
+      "tiers_before": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "tiers_after": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "notes": "Test emailed to Nirvaan. Tiers held steady: no graded tests exist yet in history (2026-09-14 and 2026-09-15 were both missed/ungraded), so both domains remain at the starting tier of 2."
     }
   ]
 }
