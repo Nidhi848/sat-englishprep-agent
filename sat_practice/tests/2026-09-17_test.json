@@ -1,0 +1,398 @@
+{
+  "date": "2026-09-17",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Electric eels do not rely on a single, uniform shock. When hunting in murky water, an eel releases a rapid volley of high-voltage pulses that temporarily paralyzes nearby prey, but when merely investigating an unfamiliar object, it emits a much weaker series of pulses, barely more than a flicker. Researchers now believe the eel calibrates its output with striking precision, matching voltage to purpose rather than discharging indiscriminately.",
+      "question": "As used in the passage, \"calibrates\" most nearly means",
+      "choices": {
+        "A": "exaggerates",
+        "B": "adjusts precisely",
+        "C": "conceals",
+        "D": "repeats"
+      },
+      "correct_answer": "B",
+      "explanation": "The passage says the eel \"match[es] voltage to purpose rather than discharging indiscriminately,\" which is what it means to adjust precisely, or calibrate."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "The pistol shrimp hunts by snapping a specialized claw shut so quickly that it forms a collapsing bubble, producing a shockwave capable of stunning prey several body-lengths away. For decades, biologists assumed the shrimp's sheer claw strength alone accounted for this effect. More recent high-speed footage revealed that the bubble's collapse, not the claw's initial impact, generates nearly all of the stunning force, a discovery that overturned the earlier explanation.",
+      "question": "As used in the passage, \"overturned\" most nearly means",
+      "choices": {
+        "A": "confirmed",
+        "B": "replaced",
+        "C": "postponed",
+        "D": "simplified"
+      },
+      "correct_answer": "B",
+      "explanation": "The new discovery about the bubble's collapse replaced, or overturned, the earlier explanation that credited claw strength alone."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "When Davi found his father kneeling over the old bicycle, oiling a chain that had rusted solid years ago, he didn't ask why. His father had said little since the argument, but here he was, restoring a bike no one had ridden since Davi left for college, working the rust loose link by link, patient in a way he rarely allowed himself to be about anything else.",
+      "question": "As used in the passage, \"restoring\" most nearly means",
+      "choices": {
+        "A": "discarding",
+        "B": "returning to good condition",
+        "C": "selling",
+        "D": "hiding"
+      },
+      "correct_answer": "B",
+      "explanation": "The father is oiling the chain and working the rust loose, bringing the neglected bike back to good condition, which is what restoring means here."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "social_science",
+      "passage": "A nonprofit offering small microloans to first-time entrepreneurs found that recipients who also attended a single mandatory budgeting session were far more likely to keep their businesses running after one year than recipients who received the loan alone. Program directors concluded that the modest training requirement, not the loan amount itself, was the more decisive factor in long-term business survival.",
+      "question": "As used in the passage, \"decisive\" most nearly means",
+      "choices": {
+        "A": "controversial",
+        "B": "determining",
+        "C": "temporary",
+        "D": "generous"
+      },
+      "correct_answer": "B",
+      "explanation": "The passage states the training was \"the more decisive factor in long-term business survival,\" meaning it was the determining factor."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "historical",
+      "passage": "In a letter to a colleague written soon after the convention adjourned, one delegate described the final agreement on representation as fragile, warning that it had been achieved only through mutual exhaustion rather than genuine consensus among the states. He predicted that unless later generations approached the compromise with unusual care and restraint, the smallest dispute over its terms might be enough to unravel it entirely.",
+      "question": "As used in the passage, \"fragile\" most nearly means",
+      "choices": {
+        "A": "permanent",
+        "B": "easily broken",
+        "C": "widely praised",
+        "D": "carefully written"
+      },
+      "correct_answer": "B",
+      "explanation": "The delegate warns the agreement could \"unravel\" from \"the smallest dispute,\" meaning it was easily broken, or fragile."
+    },
+    {
+      "id": 6,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "literature",
+      "passage": "The story opens with Elena making coffee, measuring grounds, waiting for the kettle, wiping a counter that is already clean. Only in the final paragraph does the narrator mention, almost in passing, that this is the first morning in the house without her sister, and that the ordinary routine is the only thing Elena can still perform without her hands shaking.",
+      "question": "Which choice best describes the function of the passage's opening focus on small, ordinary routines?",
+      "choices": {
+        "A": "It shows Elena is indifferent to her sister's absence.",
+        "B": "It delays revealing Elena's grief, making the routine's real purpose clear only in hindsight.",
+        "C": "It argues that housework is undervalued.",
+        "D": "It contrasts Elena's habits with her sister's habits."
+      },
+      "correct_answer": "B",
+      "explanation": "The mundane opening is revealed only afterward to be a coping routine tied to grief, so its true purpose becomes clear only in hindsight."
+    },
+    {
+      "id": 7,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "A workplace study distributed noise-canceling headphones to half the employees in an open-plan office and tracked self-reported focus over two months. Employees with headphones reported modestly higher focus, but the researchers noted a complication: those employees had also volunteered for the study, suggesting they may have already been more motivated to concentrate, regardless of the headphones themselves.",
+      "question": "Which choice best describes the function of the passage's final sentence?",
+      "choices": {
+        "A": "It confirms that headphones caused the increase in focus.",
+        "B": "It raises a limitation that complicates the study's main finding.",
+        "C": "It summarizes the study's methodology from the beginning.",
+        "D": "It introduces a second, unrelated study for comparison."
+      },
+      "correct_answer": "B",
+      "explanation": "The final sentence points out that volunteer motivation might explain the results instead of the headphones, which complicates the main finding."
+    },
+    {
+      "id": 8,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "An early national census report began plainly enough, with straightforward population counts listed region by region and little commentary attached. Midway through, however, the report's tone shifts noticeably: the authors begin arguing at length that the growing population in certain regions justified reallocating congressional seats, transforming what had started as a neutral demographic record into a pointed political argument for redistricting.",
+      "question": "Which choice best describes the structure of the passage?",
+      "choices": {
+        "A": "It moves from neutral data to an explicit argument built on that data.",
+        "B": "It presents two competing sets of population data.",
+        "C": "It refutes an earlier claim about congressional representation.",
+        "D": "It lists reasons the census was inaccurate."
+      },
+      "correct_answer": "A",
+      "explanation": "The passage describes the report moving from \"straightforward population counts\" to \"a political argument,\" that is, from neutral data to an argument built on it."
+    },
+    {
+      "id": 9,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "A desert lizard's skin darkens within minutes of a temperature drop, a change long assumed to help the lizard absorb heat more efficiently. But the same darkening also occurs when a predator is nearby, even in warm conditions, leading some biologists to argue the color shift may serve camouflage against a mottled, shadowed landscape just as much as it serves temperature regulation.",
+      "question": "Which choice best describes the function of the passage as a whole?",
+      "choices": {
+        "A": "It disproves the idea that the lizard's coloring relates to temperature.",
+        "B": "It presents an established explanation and then introduces a competing possibility.",
+        "C": "It describes the lizard's diet in relation to its coloring.",
+        "D": "It argues that predators are the primary cause of the lizard's extinction risk."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage first gives the \"long assumed\" heat-related explanation, then introduces the competing camouflage possibility."
+    },
+    {
+      "id": 10,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "literature",
+      "passage_1": "Text 1: One critic praises minimalist prose for its restraint, arguing that withheld emotional detail forces readers to supply their own feeling, deepening their investment in the story.",
+      "passage_2": "Text 2: A second critic disagrees, contending that withholding emotional detail often reads as coldness rather than restraint, leaving readers unable to connect with characters whose inner lives remain deliberately obscured.",
+      "question": "How would the author of Text 2 most likely respond to the claim in Text 1?",
+      "choices": {
+        "A": "By agreeing that withheld detail always deepens reader investment.",
+        "B": "By arguing that withheld detail instead risks leaving readers emotionally disconnected.",
+        "C": "By claiming minimalist prose is no longer a common technique.",
+        "D": "By praising minimalist prose for its historical importance."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 argues withheld detail reads as \"coldness\" that leaves readers \"unable to connect,\" directly countering Text 1's claim that it deepens investment."
+    },
+    {
+      "id": 11,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "social_science",
+      "passage_1": "Text 1: A district that introduced a standardized dress code reported fewer disciplinary incidents related to clothing distractions, concluding that the policy allowed teachers to focus more class time on instruction.",
+      "passage_2": "Text 2: A separate review of the same district found that disciplinary incidents overall, not just clothing-related ones, had been declining for three years before the dress code began, suggesting a broader trend rather than the policy itself.",
+      "question": "How would the author of Text 2 most likely respond to the conclusion in Text 1?",
+      "choices": {
+        "A": "By agreeing the dress code was clearly responsible for the decline.",
+        "B": "By pointing out that the decline may reflect a trend that predates the policy.",
+        "C": "By arguing dress codes should be mandatory in all districts.",
+        "D": "By denying that disciplinary incidents decreased at all."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 notes the decline began \"three years before the dress code,\" suggesting a pre-existing trend rather than the policy causing the change."
+    },
+    {
+      "id": 12,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "historical",
+      "passage_1": "Text 1: One pamphlet argued that a shared currency among the colonies required a central authority to regulate its value, since without oversight, individual colonies would be tempted to print excess currency and undermine trust in the system.",
+      "passage_2": "Text 2: A rival pamphlet countered that colonies were fully capable of coordinating currency value through mutual agreement alone, and that a central authority would only concentrate power without solving the underlying problem of trust.",
+      "question": "Based on the two texts, how does the argument in Text 2 relate to the argument in Text 1?",
+      "choices": {
+        "A": "It reinforces Text 1's call for a central authority.",
+        "B": "It rejects the necessity of central oversight proposed in Text 1.",
+        "C": "It restates Text 1's concern about excess currency in different words.",
+        "D": "It avoids addressing the question of currency oversight."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 explicitly argues colonies can coordinate \"through mutual agreement alone\" and that central authority is unnecessary, rejecting Text 1's proposed solution."
+    },
+    {
+      "id": 13,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Text 1: A Venus flytrap's trap closes only after two of its trigger hairs are touched within about twenty seconds of each other, a mechanism researchers argue prevents the plant from wasting energy snapping shut on raindrops or windblown debris.",
+      "passage_2": "Text 2: A separate group of researchers found that the plant also tracks touches across multiple trigger hairs cumulatively, and that this counting mechanism additionally allows the trap to begin producing digestive enzymes before it even fully closes, preparing for digestion in advance.",
+      "question": "How does the finding in Text 2 relate to the explanation in Text 1?",
+      "choices": {
+        "A": "It contradicts Text 1 by showing the trap closes randomly.",
+        "B": "It extends Text 1's explanation by describing an additional function of the same counting mechanism.",
+        "C": "It proves that Text 1's explanation was entirely mistaken.",
+        "D": "It shows that trigger hairs play no role in digestion."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 does not contradict Text 1's energy-saving explanation but adds that the same mechanism also prepares digestion in advance, extending rather than refuting it."
+    },
+    {
+      "id": 14,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "social_science",
+      "passage": "A mid-sized city eliminated bus fares for a six-month trial period. Ridership rose across nearly every route, but the increase was sharpest on routes serving lower-income neighborhoods, where residents had previously reported skipping trips due to cost. City planners concluded that fare elimination primarily benefited riders for whom cost, not convenience, had been the main barrier to using the bus.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Bus ridership declined slightly during the trial period.",
+        "B": "Removing fares mainly helped riders who had been discouraged by cost.",
+        "C": "All routes saw an identical increase in ridership.",
+        "D": "Convenience was the main reason people avoided the bus."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage states the increase was sharpest where cost had been \"the main barrier,\" so the central idea is that fare elimination mainly helped cost-burdened riders."
+    },
+    {
+      "id": 15,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "historical",
+      "passage": "A lighthouse keeper's logbook from a particularly harsh winter records dwindling supplies of oil and food, with entries growing shorter and more matter-of-fact as the season wore on. Rather than describing hardship directly, the keeper notes only rationed amounts and dates of the next expected supply ship, a record that reveals discipline more than despair.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "The keeper abandoned the lighthouse before winter ended.",
+        "B": "The logbook's spare, practical entries reflect the keeper's discipline under hardship.",
+        "C": "The supply ship never arrived that winter.",
+        "D": "The keeper complained openly about the harsh conditions."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage explains the terse, practical entries reveal \"discipline more than despair,\" which is the main idea."
+    },
+    {
+      "id": 16,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "When faced with extreme dehydration, a tardigrade expels nearly all the water from its body and produces a glass-like protein matrix that protects its cells from collapsing. In this dried state, the tiny animal can survive for years, resuming normal activity within hours of contact with water, a resilience that has made it a subject of interest for researchers studying cell preservation.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Tardigrades die permanently once dehydrated.",
+        "B": "A protective protein matrix lets tardigrades survive extreme dehydration and later revive.",
+        "C": "Tardigrades require constant water access to survive at all.",
+        "D": "Researchers have not found tardigrades useful for any field of study."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage centers on how the protein matrix allows survival during dehydration and quick revival afterward."
+    },
+    {
+      "id": 17,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "literature",
+      "passage": "On her windowsill, Aunt Ro kept a jar of pressed flowers, one from every apology anyone had ever given her, whether or not she'd accepted it. She never explained the jar to visitors who asked, and family members eventually stopped inquiring, though everyone quietly understood that a new flower appearing meant someone had finally said the words she had been waiting to hear.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Aunt Ro dislikes receiving apologies from her family.",
+        "B": "The jar of flowers privately records the apologies Aunt Ro has received.",
+        "C": "Visitors are required to bring Aunt Ro a flower.",
+        "D": "Aunt Ro forgets who has apologized to her over time."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage explains each flower marks \"every apology anyone had ever given her,\" so the jar functions as a private record of apologies received."
+    },
+    {
+      "id": 18,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "natural_science",
+      "passage": "Before a deep dive, an elephant seal's spleen contracts sharply, releasing a stored reserve of oxygen-rich red blood cells directly into its bloodstream. Researchers measuring the animal's oxygen levels during simulated dives found that this reserve alone could account for several extra minutes of dive time, well beyond what the seal's lungs and muscles could otherwise support on their own.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "the spleen's reserve meaningfully extends how long the seal can remain underwater.",
+        "B": "the seal's lungs are unnecessary for diving.",
+        "C": "the spleen has no measurable effect on oxygen levels.",
+        "D": "elephant seals cannot dive without external assistance."
+      },
+      "correct_answer": "A",
+      "explanation": "Since the spleen's reserve \"could account for several extra minutes of dive time,\" the passage implies it meaningfully extends the seal's underwater endurance."
+    },
+    {
+      "id": 19,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "social_science",
+      "passage": "A neighborhood tool-lending library tracked which tools were borrowed most often over its first year and found that expensive specialty items, such as tile saws and pressure washers, were checked out far more frequently than common hand tools like hammers and screwdrivers, which most households already owned individually and rarely needed to borrow at all.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "Residents mainly used the library to avoid purchasing rarely needed, expensive tools.",
+        "B": "Hammers were the library's most valuable asset.",
+        "C": "The library planned to stop stocking specialty tools.",
+        "D": "Households owned no tools before the library opened."
+      },
+      "correct_answer": "A",
+      "explanation": "Since rarely owned specialty items were borrowed more than commonly owned hand tools, the passage implies residents used the library mainly for tools not worth buying individually."
+    },
+    {
+      "id": 20,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "historical",
+      "passage": "In a letter home, a young soldier apologized more than once for his increasingly cramped handwriting, explaining that ink had grown scarce in camp in recent weeks and that he was trying to fit as many words as possible onto each remaining sheet of paper before his small supply ran out entirely and could not be replaced.",
+      "question": "Which choice most logically completes the passage's implied conclusion about the soldier's situation?",
+      "choices": {
+        "A": "He had unlimited access to writing supplies.",
+        "B": "He was economizing his scarce supplies to keep writing home as long as possible.",
+        "C": "He had decided to stop writing letters altogether.",
+        "D": "He was unconcerned about running out of ink."
+      },
+      "correct_answer": "B",
+      "explanation": "Cramming words onto each sheet to conserve scarce ink implies he was economizing his supplies specifically to keep writing home."
+    },
+    {
+      "id": 21,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Standing at the door with her suitcase already packed, Mei silently ran through the goodbye she had rehearsed all week, the longer one where she finally thanked her grandmother properly for everything. But when her grandmother finally appeared in the hallway, Mei said only, 'I'll call you Sunday,' and stepped out the door before either of them could say anything more.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "Mei had forgotten her rehearsed speech entirely.",
+        "B": "Mei found the emotional goodbye too difficult to deliver in the moment.",
+        "C": "Mei was eager to leave without saying goodbye at all.",
+        "D": "Mei's grandmother refused to say goodbye to her."
+      },
+      "correct_answer": "B",
+      "explanation": "Despite rehearsing a fuller goodbye, Mei retreats to a brief, practical line and leaves quickly, implying the fuller, emotional goodbye was too difficult to say aloud."
+    },
+    {
+      "id": 22,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "historical",
+      "passage": "Town records describe a dispute over relocating the schoolhouse closer to the newly built mill district. One faction argued the move would shorten the mill workers' children's walk to school considerably. A second faction insisted the original site, though farther for some, sat on higher ground safer from spring flooding, a concern the clerk noted 'outweighed convenience in the end.'",
+      "question": "Which choice best supports the claim that safety, not convenience, ultimately decided the dispute?",
+      "choices": {
+        "A": "\"Town records describe a dispute over relocating the schoolhouse closer to the newly built mill district.\"",
+        "B": "\"the move would shorten the mill workers' children's walk to school considerably.\"",
+        "C": "\"sat on higher ground safer from spring flooding, a concern the clerk noted 'outweighed convenience in the end.'\"",
+        "D": "\"One faction argued the move would shorten... walk to school.\""
+      },
+      "correct_answer": "C",
+      "explanation": "The clerk's direct note that flood safety \"outweighed convenience in the end\" is the clearest evidence that safety decided the dispute."
+    },
+    {
+      "id": 23,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "literature",
+      "passage": "In her diary, after receiving a rejection letter from a magazine, Odalys wrote only, 'No matter. There are other magazines.' But the entry continued for two more pages listing, in detail, every other publication she planned to submit to next, far more than the brief dismissal at the top would suggest she cared to write.",
+      "question": "Which choice best supports the claim that Odalys's indifference was not genuine?",
+      "choices": {
+        "A": "\"No matter. There are other magazines.\"",
+        "B": "\"after receiving a rejection letter from a magazine\"",
+        "C": "\"the entry continued for two more pages listing, in detail, every other publication she planned to submit to next\"",
+        "D": "\"In her diary, ... Odalys wrote\""
+      },
+      "correct_answer": "C",
+      "explanation": "Writing two detailed pages about future submissions, far beyond a brief dismissal, is evidence that Odalys cared more than her opening line suggested."
+    },
+    {
+      "id": 24,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "A company piloted two different mentorship pairing methods: one matching new employees by shared job role, the other by a shared outside hobby unrelated to work. Six months later, pairs matched by hobby reported meeting far more consistently and rated their mentor relationships noticeably higher on trust, while pairs matched by role frequently cited scheduling conflicts as the common reason meetings were skipped.",
+      "question": "Which choice best supports the claim that shared hobbies, more than shared job roles, sustained the mentorship relationships?",
+      "choices": {
+        "A": "\"A company piloted two mentorship pairing methods.\"",
+        "B": "\"pairs matched by hobby reported meeting more consistently and rated their mentor relationships higher on trust.\"",
+        "C": "\"one matching employees by shared job role, the other by shared outside hobby.\"",
+        "D": "\"Six months later...\""
+      },
+      "correct_answer": "B",
+      "explanation": "The direct comparison showing hobby-matched pairs met more consistently and rated trust higher is the clearest evidence supporting the claim."
+    }
+  ]
+}
