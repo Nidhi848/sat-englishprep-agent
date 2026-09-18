@@ -82,6 +82,26 @@
         "craft_and_structure": 2
       },
       "notes": "Test emailed to Nirvaan. Tiers held steady: still no graded tests in history (2026-09-14, 2026-09-15, and 2026-09-16 have all gone ungraded/missed), so both domains remain at the starting tier of 2. Three tests in a row now without a graded result."
+    },
+    {
+      "date": "2026-09-17",
+      "test_file": "2026-09-17_test.json",
+      "graded": false,
+      "missed": true,
+      "questions_attempted": null,
+      "accuracy": {
+        "information_and_ideas": null,
+        "craft_and_structure": null
+      },
+      "tiers_before": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "tiers_after": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "notes": "Test emailed to Nirvaan 2026-09-17 21:29 UTC. Checked Gmail on 2026-09-18 (run time ~21:10 UTC, ~23h40m later): no reply found at all from nirvaanaditya11@gmail.com in this account. Marked missed per routine rules (20+ hours, no submission); difficulty held steady for both domains rather than adjusted. This is the fourth test in a row without a graded result (2026-09-14 was never graded due to a branch-consolidation issue; 2026-09-15, 2026-09-16, and now 2026-09-17 were all missed outright)."
     }
   ]
 }
