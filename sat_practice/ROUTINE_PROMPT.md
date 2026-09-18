@@ -72,15 +72,19 @@ Tier definitions to calibrate question difficulty:
   comparison; all distractors are plausible without close reading.
 
 STEP 4 — GENERATE TODAY'S TEST
-- Target length: 30–45 minutes. Use ~90 seconds per question as the pacing
-  assumption (slower than real SAT pace since this is training, not test
-  day) → build 22–28 questions total.
+- Target length: 15–20 minutes. Use ~90–120 seconds per question as the
+  pacing assumption (slower than real SAT pace since this is training, not
+  test day) → build 10 questions total. Keep it short enough to actually
+  finish in one sitting — a shorter completed test beats a longer one that
+  gets abandoned partway through.
 - Split questions between domains proportional to real SAT weighting:
-  roughly 52% Craft and Structure, 48% Information and Ideas.
-- Within Craft and Structure, rotate across its sub-types: Words in
-  Context, Text Structure and Purpose, Cross-Text Connections.
-- Within Information and Ideas, rotate across: Central Ideas and Details,
-  Inferences, Command of Evidence.
+  roughly 5 Craft and Structure, 5 Information and Ideas (52%/48%, rounded).
+- Within Craft and Structure, rotate across its sub-types — Words in
+  Context, Text Structure and Purpose, Cross-Text Connections — across
+  different days rather than all three in one short test; aim for roughly
+  even coverage over a week or two rather than every subtype every day.
+- Within Information and Ideas, do the same across its sub-types — Central
+  Ideas and Details, Inferences, Command of Evidence.
 - Every question uses the current tier for its domain (from Step 3).
 - Passage topics: rotate across the same categories the real digital SAT
   draws from — literature/literary nonfiction, natural science, social
@@ -159,3 +163,4 @@ guess or assume prior state.
 - Once Gmail is sending: every test email to Nirvaan and the parent also carries `sat_practice/tests/[DATE]_test.html` as an attachment — the same self-grading page, so either of you can just open the attachment straight from the email instead of pulling the repo.
 - While the Gmail connector isn't sending yet: Nirvaan can `git pull` (or `git clone` once) this repo and open `sat_practice/tests/[DATE]_test.html` directly in a browser — no server, no login. It grades itself the moment he taps "Submit Test" (correct answers and explanations are embedded in the page's data, revealed only after he answers), shows per-domain accuracy right there, and has a "Copy results for your records" button formatted so it's easy to paste into `score_log.json` by hand. Note: this in-browser grading does NOT write to `score_log.json` automatically — someone still has to copy that summary in, or wait for Gmail to come back so the routine's own Step 1–2 does it.
 - After a couple weeks of real data, it's worth opening `score_log.json` yourself and sanity-checking the tier progression — if it's climbing too fast or stuck too long, tighten the 85%/60% thresholds in the prompt above (and update this file to match).
+- 2026-09-18: shortened tests from 22–28 questions (30–45 min) to 10 questions (15–20 min) — Nirvaan was struggling to finish the longer ones. Subtype coverage within each domain now rotates across days instead of all three subtypes appearing in every test. If 10 questions turns out too short (or still too long), adjust the target length/count in STEP 4 above and re-paste into the routine.
