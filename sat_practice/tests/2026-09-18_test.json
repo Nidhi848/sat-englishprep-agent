@@ -1,0 +1,398 @@
+{
+  "date": "2026-09-18",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "A narwhal's long spiral tusk is not merely ornamental. Recent studies show the tusk is riddled with millions of nerve endings that run to its core, making it remarkably sensitive to shifts in the surrounding water. Researchers have found the tusk can register subtle changes in salinity, a sensitivity that may help narwhals track prey and navigate through icy channels where water conditions shift abruptly.",
+      "question": "As used in the passage, \"riddled with\" most nearly means",
+      "choices": {
+        "A": "damaged by",
+        "B": "densely filled with",
+        "C": "confused by",
+        "D": "hidden by"
+      },
+      "correct_answer": "B",
+      "explanation": "The passage says the tusk is \"riddled with millions of nerve endings,\" meaning it is densely packed with them, which is what gives it sensitivity."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Unlike most vertebrates, an axolotl can regenerate an entire limb after amputation, regrowing bone, muscle, and nerve tissue in near-perfect proportion to the original. Scientists have traced this ability to a cluster of cells called the blastema, which forms at the wound site and essentially reactivates developmental programs the animal last used as an embryo, allowing the limb to rebuild itself from scratch.",
+      "question": "As used in the passage, \"reactivates\" most nearly means",
+      "choices": {
+        "A": "permanently disables",
+        "B": "brings back into use",
+        "C": "accidentally triggers",
+        "D": "slightly weakens"
+      },
+      "correct_answer": "B",
+      "explanation": "The blastema \"reactivates developmental programs,\" meaning it brings those embryonic programs back into use to regrow the limb."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "Every summer since his brother left for the army, Teo repainted the fence the same shade of blue, scraping away the old coat before the new one could go on. Neighbors assumed he simply liked upkeep, but Teo never mentioned that blue had been his brother's favorite color, or that the ritual was the only way he knew to keep something of him nearby.",
+      "question": "As used in the passage, \"ritual\" most nearly means",
+      "choices": {
+        "A": "a repeated, meaningful practice",
+        "B": "a legal requirement",
+        "C": "a onetime accident",
+        "D": "a public celebration"
+      },
+      "correct_answer": "A",
+      "explanation": "The passage describes the yearly repainting as something Teo does deliberately and repeatedly to feel connected to his brother, which is what makes it a ritual, a repeated meaningful practice."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "social_science",
+      "passage": "A city's new bike-share program launched the same month a long-planned network of protected bike lanes was completed across downtown. Ridership on the bike-share bikes rose sharply within weeks, and officials were quick to credit the new program. Transportation analysts cautioned, however, that the timing made it difficult to disentangle the bike-share launch's effect from the lanes' own contribution to the surge.",
+      "question": "As used in the passage, \"disentangle\" most nearly means",
+      "choices": {
+        "A": "combine",
+        "B": "separate out",
+        "C": "exaggerate",
+        "D": "ignore"
+      },
+      "correct_answer": "B",
+      "explanation": "Analysts note it is hard to \"disentangle\" one effect from another, meaning to separate out or distinguish between the two causes."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "historical",
+      "passage": "In the years before independence, a colonial newspaper editor faced repeated pressure to print anonymous political letters attacking the crown. He worried that granting anonymity might invite reckless accusations, yet refusing outright risked silencing legitimate grievances that writers feared to sign for fear of reprisal. His solution was to print such letters only after privately verifying the author's identity himself.",
+      "question": "As used in the passage, \"reprisal\" most nearly means",
+      "choices": {
+        "A": "reward",
+        "B": "retaliation",
+        "C": "apology",
+        "D": "confusion"
+      },
+      "correct_answer": "B",
+      "explanation": "Writers feared reprisal, or retaliatory punishment, for signing their names to political attacks on the crown, which is why they sought anonymity."
+    },
+    {
+      "id": 6,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "Orb-weaver spiders were long thought to respond to any vibration on their web, retreating whenever a leaf or raindrop struck the silk. High-speed recordings later revealed something more precise: the spiders can distinguish the frequency pattern of a struggling insect from the flatter, less rhythmic vibrations caused by wind or debris, reacting only when the pattern matches prey.",
+      "question": "Which choice best describes the function of the passage's second sentence?",
+      "choices": {
+        "A": "It disproves the idea that spiders respond to vibrations at all.",
+        "B": "It refines an earlier assumption by revealing a more precise ability.",
+        "C": "It introduces an unrelated finding about spider diet.",
+        "D": "It argues that spiders cannot sense vibrations from wind."
+      },
+      "correct_answer": "B",
+      "explanation": "The second sentence shows spiders don't just react to any vibration but can distinguish prey from debris, refining the earlier, cruder assumption."
+    },
+    {
+      "id": 7,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "literature",
+      "passage": "Throughout the poem, an unlocked door reappears: first swinging open in the wind of the opening stanza, later left ajar as the speaker packs to leave, and finally standing open again as she imagines returning. The door is never locked, bolted, or barred in any stanza, though the speaker repeatedly considers whether she should close it for good.",
+      "question": "Which choice best describes the function of the recurring unlocked door in the poem?",
+      "choices": {
+        "A": "It shows the speaker's fear of intruders.",
+        "B": "It signals the speaker's persistent openness to reconciliation.",
+        "C": "It proves the speaker has already moved away permanently.",
+        "D": "It criticizes the speaker for careless home security."
+      },
+      "correct_answer": "B",
+      "explanation": "The door's consistently unlocked state, despite the speaker's temptation to close it, signals she remains open to returning or reconciling."
+    },
+    {
+      "id": 8,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "A school district delayed its start time by an hour and surveyed students on sleep habits afterward. Self-reported sleep hours rose modestly across most grades. The survey's authors noted, however, that the same year also saw a district-wide campaign encouraging earlier bedtimes, making it difficult to say how much of the increase the later start time alone produced.",
+      "question": "Which choice best describes the function of the passage's final sentence?",
+      "choices": {
+        "A": "It confirms the later start time caused the entire increase in sleep.",
+        "B": "It raises a factor that complicates attributing the increase to one cause.",
+        "C": "It summarizes the survey's methodology from the start.",
+        "D": "It introduces a second, unrelated survey for comparison."
+      },
+      "correct_answer": "B",
+      "explanation": "The final sentence notes the bedtime campaign as a confound, complicating the claim that the later start time alone caused the increase."
+    },
+    {
+      "id": 9,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "A delegate's diary from a state ratifying convention begins with routine notes on procedure: who was recognized to speak, how votes were to be tallied. Midway through, the entries shift tone, as the delegate begins recording private doubts about a new voting procedure adopted that week, worrying in one entry that it favored certain districts unfairly.",
+      "question": "Which choice best describes the structure of the passage?",
+      "choices": {
+        "A": "It moves from procedural notes to a personal expression of doubt.",
+        "B": "It presents two competing procedures without preference.",
+        "C": "It refutes an earlier claim about district representation.",
+        "D": "It lists reasons the convention was poorly attended."
+      },
+      "correct_answer": "A",
+      "explanation": "The passage explicitly shifts from \"routine notes on procedure\" to the delegate's \"private doubts,\" moving from procedural description to personal doubt."
+    },
+    {
+      "id": 10,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Text 1: Researchers have proposed that migratory robins detect Earth's magnetic field using a light-sensitive protein in their eyes called cryptochrome, which may allow them to literally see magnetic lines as visual patterns overlaid on their surroundings.",
+      "passage_2": "Text 2: A separate team found that robins with one eye covered still navigated accurately, suggesting the magnetic sense may not depend on vision alone and could involve additional structures, such as iron-containing cells in the beak, working alongside the eye protein.",
+      "question": "How does the finding in Text 2 relate to the explanation in Text 1?",
+      "choices": {
+        "A": "It contradicts Text 1 by showing robins cannot sense magnetic fields.",
+        "B": "It extends Text 1's explanation by suggesting an additional mechanism may also be involved.",
+        "C": "It proves that Text 1's cryptochrome explanation was entirely mistaken.",
+        "D": "It shows that vision plays no role in robin navigation."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 doesn't disprove Text 1's protein-based explanation but adds the possibility of another mechanism, extending rather than contradicting it."
+    },
+    {
+      "id": 11,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "literature",
+      "passage_1": "Text 1: One critic argues that a charming unreliable narrator earns readers' forgiveness for lying, since charm makes their distortions feel like playful invitations rather than betrayals.",
+      "passage_2": "Text 2: Another critic counters that charm makes an unreliable narrator's dishonesty more dangerous, not less, because readers are lulled into trusting a voice that is deliberately misleading them.",
+      "question": "How would the author of Text 2 most likely respond to the claim in Text 1?",
+      "choices": {
+        "A": "By agreeing that charm always earns forgiveness for a narrator's lies.",
+        "B": "By arguing that a charming narrator's dishonesty is more concerning, not more forgivable.",
+        "C": "By claiming unreliable narrators are no longer used in fiction.",
+        "D": "By praising unreliable narrators for their historical importance."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 explicitly states charm makes the dishonesty \"more dangerous, not less,\" directly opposing Text 1's claim that charm earns forgiveness."
+    },
+    {
+      "id": 12,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "social_science",
+      "passage_1": "Text 1: A farmers' market introduced a program matching each dollar of federal food assistance spent with an extra dollar of produce credit. Officials reported a sharp rise in produce purchases among assistance recipients and credited the matching program.",
+      "passage_2": "Text 2: A follow-up review noted that the market also added several new vendors selling lower-priced produce that same season, making it unclear whether the matching incentive or the added vendors drove the increase in purchases.",
+      "question": "How does the finding in Text 2 relate to the claim in Text 1?",
+      "choices": {
+        "A": "It confirms that the matching program alone caused the rise in purchases.",
+        "B": "It introduces a competing factor that complicates crediting the program alone.",
+        "C": "It shows that produce purchases actually declined that season.",
+        "D": "It argues the market should remove the matching program."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 points out the new vendors as another possible cause, complicating Text 1's claim that the matching program alone drove the increase."
+    },
+    {
+      "id": 13,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "historical",
+      "passage_1": "Text 1: In a letter to the town council, one settler argued that a shared grain mill should be built nearest the river crossing, since most families traveled that route weekly and would save significant time.",
+      "passage_2": "Text 2: A rival settler wrote that placing the mill near the crossing would flood seasonally, and the location, though less convenient, was worth building on higher ground even if some families walked farther.",
+      "question": "Based on the two texts, how does the argument in Text 2 relate to the argument in Text 1?",
+      "choices": {
+        "A": "It reinforces Text 1's preference for the river crossing site.",
+        "B": "It prioritizes a different concern than the convenience raised in Text 1.",
+        "C": "It restates Text 1's argument in different words.",
+        "D": "It avoids addressing the question of the mill's location."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 shifts the priority from convenience, Text 1's concern, to flood safety, showing the two settlers value different factors."
+    },
+    {
+      "id": 14,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "A saguaro cactus's ribbed, spine-covered surface has long been explained as a defense against thirsty animals seeking its stored water during dry summers. But some botanists now argue the spines' dense, overlapping arrangement also casts fine shade across the cactus's skin, reducing water loss on the hottest afternoons regardless of whether any animal is nearby. Infrared images comparing shaded and exposed sections showed measurably cooler surface temperatures on the spine-covered side of the plant.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Saguaro spines serve only to deter animals from the cactus.",
+        "B": "Saguaro spines may serve a shading function in addition to deterring animals.",
+        "C": "Saguaro cacti no longer need to store water.",
+        "D": "Botanists have disproven the animal-deterrence explanation entirely."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage presents the established deterrence idea and adds that spines \"also\" may reduce water loss through shade, meaning both functions may be at work."
+    },
+    {
+      "id": 15,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "literature",
+      "passage": "Every evening after dinner, Grandpa Iggy would whistle the same three notes on the porch, a signal that meant it was time to bring out the checkerboard. After he passed, his grandson Milo kept whistling those same three notes each evening, alone on the porch, though no one ever answered and no checkerboard ever appeared.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Milo has forgotten why the whistling ritual began.",
+        "B": "Milo continues the whistling as a private way of honoring his grandfather.",
+        "C": "Milo dislikes playing checkers now that his grandfather is gone.",
+        "D": "Neighbors have complained about the nightly whistling."
+      },
+      "correct_answer": "B",
+      "explanation": "Milo keeps performing the ritual alone, with no practical purpose, which shows he does it to honor his grandfather's memory."
+    },
+    {
+      "id": 16,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "social_science",
+      "passage": "A company redesigned its offices into an open floor plan, hoping to boost spontaneous collaboration between departments. Employee surveys taken afterward showed self-reported collaboration had indeed increased, but the redesign coincided with a major product deadline that required departments to coordinate closely regardless of office layout, making the true effect of the floor plan itself uncertain.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "The open floor plan clearly caused all of the reported increase in collaboration.",
+        "B": "A separate factor makes it hard to credit the floor plan alone for the reported increase.",
+        "C": "Employees strongly disliked the open floor plan redesign.",
+        "D": "The company abandoned the open floor plan shortly after installing it."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage notes the deadline as a confound, meaning it's unclear whether the floor plan itself, rather than the deadline, caused the reported increase."
+    },
+    {
+      "id": 17,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "historical",
+      "passage": "In a letter to a colleague, a treaty negotiator described a compromise on fishing rights as a temporary truce rather than a lasting settlement. He noted that both sides had agreed to the terms only to end an immediate dispute over overlapping waters, and predicted that unresolved disagreements over enforcement and patrol boundaries would likely force a renegotiation within a few years, once the pressure that had produced the hasty agreement inevitably faded.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "The negotiator believed the fishing rights compromise would last indefinitely.",
+        "B": "The negotiator viewed the compromise as a short-term fix likely to require renegotiation.",
+        "C": "Both sides fully resolved their disagreement over enforcement.",
+        "D": "The treaty eliminated fishing disputes between the two sides permanently."
+      },
+      "correct_answer": "B",
+      "explanation": "The negotiator calls the deal a \"temporary truce\" and predicts a \"renegotiation,\" showing he sees it as short-term rather than lasting."
+    },
+    {
+      "id": 18,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "natural_science",
+      "passage": "A platypus hunts underwater with its eyes, ears, and nostrils sealed shut, relying instead on electroreceptors in its bill that detect the faint electrical signals produced by the muscle contractions of nearby prey. In controlled trials, platypuses located hidden prey items with their sensory openings blocked just as quickly as when their eyes were open.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "the platypus's electroreceptors alone are sufficient to locate prey underwater.",
+        "B": "the platypus's eyesight is its primary tool for hunting.",
+        "C": "the platypus cannot hunt effectively without functioning eyesight.",
+        "D": "electroreceptors play no measurable role in the platypus's hunting."
+      },
+      "correct_answer": "A",
+      "explanation": "Since platypuses located prey just as quickly with sensory openings blocked, the electroreceptors alone must be sufficient for underwater hunting."
+    },
+    {
+      "id": 19,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "After her best friend moved across the country, Priya bought a small fern and placed it on the windowsill her friend used to sit by during their long phone calls. She watered it every day at the same hour they used to talk, even on days she had nothing to say to it, and never let it die.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "Priya has forgotten about her friend entirely.",
+        "B": "Priya's care for the fern serves as a substitute for her friend's presence.",
+        "C": "Priya regrets buying the fern in the first place.",
+        "D": "Priya no longer speaks with her friend at all by phone."
+      },
+      "correct_answer": "B",
+      "explanation": "Priya's ritual of tending the fern at the exact hour of their old calls shows the plant stands in for her friend's presence."
+    },
+    {
+      "id": 20,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "social_science",
+      "passage": "A public library launched a free after-school homework-help program staffed entirely by volunteer tutors from a nearby university. In the months following the launch, overall after-school attendance at the library rose sharply across every age group, but the largest gains by far came from students who had rarely, if ever, visited the library before the program began, according to the library's own sign-in records.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "The homework-help program primarily attracted students who were already frequent library visitors.",
+        "B": "The program drew in students who had not previously used the library regularly.",
+        "C": "After-school attendance declined following the program's launch.",
+        "D": "The program had no effect on which students visited the library."
+      },
+      "correct_answer": "B",
+      "explanation": "The largest gains came from students who \"had rarely visited before,\" implying the program specifically drew in new, previously infrequent visitors."
+    },
+    {
+      "id": 21,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "historical",
+      "passage": "During debates over an early state constitution, one delegate argued that only property owners should be permitted to vote, reasoning that only they had a lasting stake in the colony's laws. A rival delegate countered that many capable, invested citizens owned no land at all, and that tying voting rights to property would exclude exactly the people most affected by unjust taxation.",
+      "question": "Which choice most logically completes the passage's implied conclusion about the rival delegate's view?",
+      "choices": {
+        "A": "He believed property ownership should be the sole basis for voting rights.",
+        "B": "He believed voting rights should not be restricted to property owners alone.",
+        "C": "He believed taxation should be eliminated entirely.",
+        "D": "He agreed entirely with the first delegate's reasoning."
+      },
+      "correct_answer": "B",
+      "explanation": "The rival delegate objects that property-based voting would \"exclude exactly the people most affected,\" implying he opposes restricting voting to property owners."
+    },
+    {
+      "id": 22,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "literature",
+      "passage": "In her diary, Farah wrote only briefly, \"Still deciding about the internship. No rush.\" But the same entry went on for three pages listing flight times, packing lists, and neighborhood maps for a city she hadn't yet decided to move to, far more planning than someone genuinely undecided would typically need. She even penciled in a moving date near the bottom of the page, though she crossed it out and rewrote it twice before finally closing the notebook.",
+      "question": "Which choice best supports the claim that Farah's claimed indecision was not genuine?",
+      "choices": {
+        "A": "\"Still deciding about the internship. No rush.\"",
+        "B": "\"In her diary, Farah wrote only briefly\"",
+        "C": "\"the same entry went on for three pages listing flight times, packing lists, and neighborhood maps\"",
+        "D": "\"for a city she hadn't yet decided to move to\""
+      },
+      "correct_answer": "C",
+      "explanation": "The extensive, detailed planning described in this line contradicts her claim of genuine indecision, revealing she had effectively already decided."
+    },
+    {
+      "id": 23,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "A city piloted participatory budgeting, letting residents vote directly on how a portion of the municipal budget was spent. In the district's next election, voter turnout rose eleven percentage points compared to the previous cycle, a jump city officials linked to residents' new firsthand experience shaping budget decisions. Neighboring districts that had not adopted the program saw no comparable rise in turnout that same election cycle.",
+      "question": "Which choice best supports the claim that the participatory budgeting pilot increased civic engagement?",
+      "choices": {
+        "A": "\"A city piloted participatory budgeting, letting residents vote directly on how a portion of the municipal budget was spent.\"",
+        "B": "\"voter turnout rose eleven percentage points compared to the previous cycle\"",
+        "C": "\"In the district's next election\"",
+        "D": "\"a jump city officials linked to residents' new firsthand experience\""
+      },
+      "correct_answer": "B",
+      "explanation": "The specific, measurable rise in voter turnout is the direct evidence supporting the claim that the pilot increased civic engagement."
+    },
+    {
+      "id": 24,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "historical",
+      "passage": "A militia captain's letter to a regional commander explained a delay in reporting for duty: a poor harvest that season had left his company without enough grain to provision the march, and he was awaiting a delivery of supplies from a neighboring county before he could move his men out. He assured the commander that his men remained ready and would march the moment the promised grain finally arrived.",
+      "question": "Which choice best supports the claim that supply shortages, not reluctance, caused the captain's delay?",
+      "choices": {
+        "A": "\"A militia captain's letter to a regional commander explained a delay in reporting for duty\"",
+        "B": "\"a poor harvest that season had left his company without enough grain to provision the march, and he was awaiting a delivery of supplies from a neighboring county\"",
+        "C": "\"before he could move his men out\"",
+        "D": "\"explained a delay in reporting for duty\""
+      },
+      "correct_answer": "B",
+      "explanation": "This portion directly cites the grain shortage and awaited supply delivery as the concrete cause of the delay, distinguishing supply shortage from reluctance."
+    }
+  ]
+}
