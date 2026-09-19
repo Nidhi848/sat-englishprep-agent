@@ -101,7 +101,29 @@
         "information_and_ideas": 2,
         "craft_and_structure": 2
       },
-      "notes": "Test emailed to Nirvaan. Tiers held steady: still no graded tests in history. This is the fourth consecutive miss (2026-09-15, 09-16, 09-17 all confirmed missed; 09-14 never graded due to the earlier branch-consolidation gap)."
+      "notes": "Test emailed to Nirvaan. Tiers held steady: still no graded tests in history. This is the fourth consecutive miss (2026-09-15, 09-16, 09-17 all confirmed missed; 09-14 never graded due to the earlier branch-consolidation gap).",
+      "missed": true,
+      "missed_confirmed_on": "2026-09-19",
+      "missed_confirmation_notes": "Test emailed to Nirvaan 2026-09-18 21:17:45 UTC. Checked Gmail on 2026-09-19 (run time ~21:07 UTC, ~23h50m later): searched for any message at all from nirvaanaditya11@gmail.com in this account and found zero results (not just no reply to this thread -- no email from that address exists here). Marked missed per routine rules (20+ hours, no submission); difficulty held steady for both domains rather than adjusted."
+    },
+    {
+      "date": "2026-09-19",
+      "test_file": "2026-09-19_test.json",
+      "graded": false,
+      "questions_attempted": null,
+      "accuracy": {
+        "information_and_ideas": null,
+        "craft_and_structure": null
+      },
+      "tiers_before": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "tiers_after": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "notes": "Test emailed to Nirvaan. Tiers held steady: zero graded tests exist in history to compute an average from, so both domains stay at the tier-2 default. This is the fifth consecutive test without a graded result (2026-09-15 through 2026-09-18 all confirmed missed; 2026-09-14 was never graded due to the earlier branch-consolidation gap). Flagging for the parent: this is now a 5-test unbroken streak of zero data on Nirvaan's actual performance, not just a tier plateau -- worth a conversation about whether the reply-by-email flow is actually reaching/working for him, separate from any difficulty-calibration question."
     }
   ]
 }
