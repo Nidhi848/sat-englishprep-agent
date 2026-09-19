@@ -1,0 +1,398 @@
+{
+  "date": "2026-09-19",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "During cold desert nights, hummingbirds can lower their body temperature and metabolic rate dramatically, entering a dormant state called torpor. This lull conserves the fat reserves they would otherwise burn simply to stay warm, letting the birds wake at dawn with enough energy left to resume the relentless feeding their tiny bodies demand each day.",
+      "question": "As used in the passage, \"lull\" most nearly means",
+      "choices": {
+        "A": "noisy disturbance",
+        "B": "temporary quiet period",
+        "C": "sudden burst of activity",
+        "D": "permanent condition"
+      },
+      "correct_answer": "B",
+      "explanation": "\"Lull\" describes the dormant, quiet state of torpor that conserves energy, meaning a temporary calm period."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "The mimic octopus can contort its soft body and change color to imitate the shapes of other sea creatures, such as flatfish or sea snakes, when threatened. Researchers believe this impersonation confuses predators long enough for the octopus to slip away, a strategy that relies on convincing appearance rather than speed or size.",
+      "question": "As used in the passage, \"impersonation\" most nearly means",
+      "choices": {
+        "A": "genuine transformation",
+        "B": "imitation of another creature's form",
+        "C": "accidental resemblance",
+        "D": "aggressive display"
+      },
+      "correct_answer": "B",
+      "explanation": "The passage describes the octopus imitating other creatures' shapes, which is what \"impersonation\" refers to here."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "The brass compass had passed from Elena's grandfather to her father, its glass scratched and its needle sluggish from decades at sea. When her father finally handed it to her before her first solo voyage, he said nothing about navigation, only that the compass had always found its way home, whatever storm insisted otherwise.",
+      "question": "As used in the passage, \"insisted\" most nearly means",
+      "choices": {
+        "A": "politely suggested",
+        "B": "forcefully demanded",
+        "C": "quietly agreed",
+        "D": "accidentally revealed"
+      },
+      "correct_answer": "B",
+      "explanation": "\"Insisted\" conveys the storm's forceful, persistent threat, against which the compass still found its way home."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "social_science",
+      "passage": "A city program offering discounted co-working memberships to new small business owners aimed to curb the early closures that often plague first-year ventures. Officials reported that participating businesses survived their first year at notably higher rates than nonparticipants, though they cautioned that only especially motivated owners tended to apply for the subsidy in the first place.",
+      "question": "As used in the passage, \"curb\" most nearly means",
+      "choices": {
+        "A": "encourage",
+        "B": "reduce",
+        "C": "ignore",
+        "D": "measure"
+      },
+      "correct_answer": "B",
+      "explanation": "The program aimed to reduce early business closures, which is the meaning of \"curb\" in context."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "historical",
+      "passage": "In an essay urging caution, one founding-era writer warned that a permanent standing army, however well intentioned at its creation, could gradually become an instrument of oppression in the hands of an ambitious government. He argued that a militia of ordinary citizens, called up only when needed, posed far less danger to the liberties it was meant to protect.",
+      "question": "As used in the passage, \"instrument\" most nearly means",
+      "choices": {
+        "A": "musical device",
+        "B": "tool used to bring about an effect",
+        "C": "legal document",
+        "D": "financial reward"
+      },
+      "correct_answer": "B",
+      "explanation": "Here \"instrument\" means a tool or means by which oppression could be carried out, not a literal device."
+    },
+    {
+      "id": 6,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "A peregrine falcon folds its wings and drops into a steep dive, reaching speeds that can exceed 200 miles per hour as it hunts. Scientists once assumed the bird's narrow body shape alone explained this speed. High-speed footage later revealed that small adjustments to feather angle during the dive reduce drag far more than body shape does on its own.",
+      "question": "Which choice best describes the function of the passage's final sentence?",
+      "choices": {
+        "A": "It confirms that body shape is the sole explanation for the falcon's speed.",
+        "B": "It introduces a more precise explanation that refines the earlier assumption.",
+        "C": "It contradicts the claim that falcons can dive at high speed.",
+        "D": "It shifts the passage's focus to the falcon's hunting diet."
+      },
+      "correct_answer": "B",
+      "explanation": "The final sentence refines the earlier assumption by adding a more precise factor (feather angle) rather than fully rejecting it."
+    },
+    {
+      "id": 7,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "literature",
+      "passage": "Every afternoon, Mrs. Aldana returned the worn poetry anthology to its exact spot on the third shelf without glancing at the spine, her fingers finding the groove worn into the wood by years of repetition. Newer librarians assumed she simply had the shelf memorized, but she alone knew the book had belonged to a coworker who never returned to reclaim it.",
+      "question": "Which choice best describes the function of the passage's final sentence?",
+      "choices": {
+        "A": "It reveals a private reason behind a habit that others misunderstand.",
+        "B": "It proves the newer librarians are mistaken about the shelf's organization.",
+        "C": "It shifts the passage to a discussion of library funding.",
+        "D": "It contradicts the claim that Mrs. Aldana returns the book daily."
+      },
+      "correct_answer": "A",
+      "explanation": "The final sentence reveals the personal, private reason for her ritual, which the newer librarians don't know."
+    },
+    {
+      "id": 8,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "A regional transit agency introduced fare-capping, ensuring riders would never pay more than a set weekly maximum no matter how many trips they took. Ridership among low-income residents rose noticeably in the months after the policy began. Agency officials noted, however, that a separate program distributing free transit passes to job-seekers launched the same month, complicating claims about which change drove the increase.",
+      "question": "Which choice best describes the function of the passage's final sentence?",
+      "choices": {
+        "A": "It confirms fare-capping alone caused the ridership increase.",
+        "B": "It raises a competing factor that complicates crediting one cause.",
+        "C": "It introduces a completely unrelated finding about bus routes.",
+        "D": "It argues the fare-capping program should be discontinued."
+      },
+      "correct_answer": "B",
+      "explanation": "The final sentence introduces a second program launched simultaneously, complicating attribution of the ridership rise to fare-capping alone."
+    },
+    {
+      "id": 9,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "A colonial surveyor's field notes begin with routine measurements: distances paced off between a creek and a stone marker, angles recorded in a steady hand. Midway through the notebook, the entries grow terse and irritated, as the surveyor records a neighboring landowner's repeated attempts to move the marker overnight, disputing the boundary the survey was meant to settle.",
+      "question": "Which choice best describes the structure of the passage?",
+      "choices": {
+        "A": "It moves from routine measurement notes to an account of a growing dispute.",
+        "B": "It presents two competing survey methods without preference.",
+        "C": "It refutes an earlier claim about the creek's location.",
+        "D": "It lists reasons the survey was never completed."
+      },
+      "correct_answer": "A",
+      "explanation": "The passage shifts from calm, routine notes to an account of the marker dispute, matching choice A."
+    },
+    {
+      "id": 10,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Text 1: Researchers placed a slime mold, a single-celled organism with no brain or nervous system, in a maze with oat flakes at two exits. Within hours, the slime mold's tendrils withdrew from dead ends and settled into the single most efficient path connecting the flakes, a route later confirmed to be the shortest possible.",
+      "passage_2": "Text 2: A follow-up study found that when researchers rearranged obstacles mid-experiment, the slime mold reliably adjusted its network within a day, suggesting the organism was not simply following a fixed chemical trail but responding dynamically to new information about its environment.",
+      "question": "How does the finding in Text 2 relate to the description in Text 1?",
+      "choices": {
+        "A": "It contradicts Text 1 by showing the slime mold cannot solve mazes.",
+        "B": "It extends Text 1's description by showing the behavior is adaptable, not fixed.",
+        "C": "It proves that Text 1's maze results were flawed.",
+        "D": "It shows the slime mold requires a nervous system after all."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 builds on Text 1 by showing that the maze-solving ability adapts to change, extending rather than contradicting the original description."
+    },
+    {
+      "id": 11,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "literature",
+      "passage_1": "Text 1: One critic argues that when fiction depicts twins inventing a private language, the device sentimentalizes childhood closeness, offering readers a tidy symbol of intimacy rather than an honest depiction of how siblings actually communicate.",
+      "passage_2": "Text 2: Another critic responds that such private languages, however stylized, capture something real: the improvised, ever-changing shorthand that close siblings do develop, and that dismissing the device as mere sentiment overlooks its basis in lived experience.",
+      "question": "How would the author of Text 2 most likely respond to the claim in Text 1?",
+      "choices": {
+        "A": "By agreeing that the private-language device is purely sentimental.",
+        "B": "By arguing the device reflects a real pattern in sibling communication, not just sentiment.",
+        "C": "By claiming siblings never develop private forms of communication.",
+        "D": "By praising Text 1 for identifying an accurate flaw."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 defends the device as grounded in real sibling behavior, directly countering Text 1's claim that it is merely sentimental."
+    },
+    {
+      "id": 12,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "social_science",
+      "passage_1": "Text 1: A middle school launched a uniform swap program, letting students exchange outgrown uniforms for free rather than buying new ones. Administrators reported a decline in bullying incidents related to clothing in the months that followed and credited the program with easing visible economic differences among students.",
+      "passage_2": "Text 2: A review of the school's disciplinary records noted that the same semester also saw a new anti-bullying curriculum introduced campus-wide, making it difficult to say how much of the decline the swap program alone produced.",
+      "question": "How does the finding in Text 2 relate to the claim in Text 1?",
+      "choices": {
+        "A": "It confirms that the uniform swap program alone caused the decline.",
+        "B": "It introduces a competing factor that complicates crediting the program alone.",
+        "C": "It shows that bullying incidents actually increased that semester.",
+        "D": "It argues the swap program should be discontinued."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 introduces the simultaneous anti-bullying curriculum as a competing explanation, complicating the claim in Text 1."
+    },
+    {
+      "id": 13,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "historical",
+      "passage_1": "Text 1: In a letter to the town committee, one resident argued that a public well should be built before any schoolhouse, since clean water affected every family immediately while education could reasonably wait another season.",
+      "passage_2": "Text 2: A rival committee member wrote that delaying the schoolhouse risked losing a promised grant tied to a construction deadline, and that the town could manage another year hauling water from the river if it meant securing the funding.",
+      "question": "Based on the two texts, how does the argument in Text 2 relate to the argument in Text 1?",
+      "choices": {
+        "A": "It reinforces Text 1's preference for building the well first.",
+        "B": "It prioritizes a different concern than the immediate need raised in Text 1.",
+        "C": "It restates Text 1's argument in different words.",
+        "D": "It avoids addressing the question of which building to construct first."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 prioritizes securing grant funding over the immediate water concern raised in Text 1, reflecting a different priority."
+    },
+    {
+      "id": 14,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "Certain cicada species emerge from underground only once every 13 or 17 years, numbers that happen to be prime. Because predator populations rarely sync their own cycles to a prime number, the cicadas avoid being reliably present whenever a predator's boom-and-bust cycle peaks, a timing strategy that may explain why the prime-numbered cycles persisted.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Cicadas choose their emergence year based on weather conditions.",
+        "B": "The cicadas' prime-numbered life cycles may help them avoid predators.",
+        "C": "Predators have adapted to match the cicadas' 13- and 17-year cycles.",
+        "D": "All cicada species share the same emergence cycle."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage's main idea is that the prime-numbered cycles may be a strategy to avoid predator synchronization."
+    },
+    {
+      "id": 15,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "literature",
+      "passage": "A translator once described her work as building a second poem that could never be identical to the first, only faithful to its spirit. Word-for-word accuracy, she argued, often produced clumsy lines that betrayed the original's rhythm, while a looser translation, if guided by care, could carry across what mattered most: the poem's feeling.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Translated poetry is always inferior to the original.",
+        "B": "A faithful translation may prioritize a poem's feeling over exact wording.",
+        "C": "Word-for-word translation is the only respectful approach.",
+        "D": "Translators should avoid working with poetry altogether."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage's main idea is that translation can remain faithful by prioritizing feeling and spirit over literal wording."
+    },
+    {
+      "id": 16,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "social_science",
+      "passage": "A neighborhood composting program provided free bins to residents willing to sort food scraps from household trash. Participation rose steadily after launch, and officials pointed to the program as reducing landfill waste. The same month, however, the city introduced a new per-bag trash fee, giving residents a separate financial reason to sort out compostable material regardless of the bin program.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "The composting program clearly caused the entire reduction in landfill waste.",
+        "B": "A separate factor makes it hard to credit the composting program alone.",
+        "C": "Residents strongly opposed the new composting bins.",
+        "D": "The city ended the composting program shortly after launch."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage highlights the simultaneous trash fee as a confound, making it hard to credit the composting program alone."
+    },
+    {
+      "id": 17,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "historical",
+      "passage": "A merchant's ledger from a wartime port town records more than sales. Scrawled in the margins are informal agreements with neighboring shopkeepers to divide scarce goods evenly rather than let prices spike, a system the merchant never mentioned to the town council but maintained faithfully, page after page, for the duration of the shortage.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "The merchant secretly raised prices during the shortage.",
+        "B": "The merchant took part in an informal, unofficial rationing arrangement.",
+        "C": "The town council organized the rationing system directly.",
+        "D": "The ledger contains no information beyond ordinary sales records."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage's main idea is the merchant's informal, self-maintained rationing arrangement with other shopkeepers."
+    },
+    {
+      "id": 18,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "natural_science",
+      "passage": "Contrary to popular belief, a camel's hump does not store water but rather fat, which the animal can metabolize during long stretches without food. This stored fat, when broken down, does produce some water as a byproduct, but far less efficiently than simply drinking, which explains why camels still seek out water sources whenever they are available.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "camels never need to drink water at all.",
+        "B": "the hump's fat storage cannot substitute for regular access to water.",
+        "C": "camels store water directly in their humps.",
+        "D": "fat metabolism produces more water than drinking does."
+      },
+      "correct_answer": "B",
+      "explanation": "Since fat metabolism is described as far less efficient than drinking, the passage implies the hump cannot substitute for actual water access."
+    },
+    {
+      "id": 19,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Long after the play's final performance, Devlin returned to the empty theater some evenings, walking the same blocking and speaking the same lines to rows of seats no one occupied. He told no one about these visits, and when asked why he still had the script memorized months later, he only shrugged and changed the subject.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "Devlin has completely moved on from the production.",
+        "B": "Devlin's private rehearsals suggest he is not ready to let go of the role.",
+        "C": "Devlin plans to revive the play with a new cast.",
+        "D": "Devlin forgot most of his lines after the run ended."
+      },
+      "correct_answer": "B",
+      "explanation": "His secret, repeated visits and reluctance to discuss them imply he hasn't emotionally let go of the role."
+    },
+    {
+      "id": 20,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "social_science",
+      "passage": "A neighborhood tool library, which lends power tools and equipment for a small annual fee, saw membership climb steadily after it began hosting free monthly repair workshops. Sign-up records showed that most new members joined within a week of attending a workshop, and few joined during months when no workshop was held.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "The workshops appear to have driven much of the membership growth.",
+        "B": "Membership grew at a constant rate regardless of the workshops.",
+        "C": "The tool library's fee was the main driver of new membership.",
+        "D": "Workshops had no measurable effect on sign-ups."
+      },
+      "correct_answer": "A",
+      "explanation": "Since new members mostly joined right after workshops and rarely otherwise, the workshops appear to have driven the growth."
+    },
+    {
+      "id": 21,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "historical",
+      "passage": "A postmaster's monthly report to the regional office cited repeated delays on the river route, attributing them to a bridge washed out by spring flooding. He noted that riders were forced to detour nearly twenty miles upstream to find a crossing, and he requested authorization to fund repairs before the autumn mail season increased volume further.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "The postmaster believed the delays would resolve on their own without funding.",
+        "B": "The postmaster viewed the bridge repair as necessary to prevent worse delays later.",
+        "C": "The postmaster blamed the riders for the delays.",
+        "D": "The postmaster requested the river route be permanently closed."
+      },
+      "correct_answer": "B",
+      "explanation": "Requesting funding before the busier autumn season implies he saw the repair as necessary to avoid worse delays."
+    },
+    {
+      "id": 22,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "literature",
+      "passage": "Every winter break, Sam took his grandfather's pocket watch apart on the kitchen table, cleaning gears that didn't need cleaning and tightening screws that were already tight. His mother once suggested he simply have a jeweler service it once and be done, but Sam only shook his head and kept disassembling the watch by hand, piece by careful piece.",
+      "question": "Which choice best supports the claim that Sam's ritual was about more than watch maintenance?",
+      "choices": {
+        "A": "\"Every winter break, Sam took his grandfather's pocket watch apart on the kitchen table\"",
+        "B": "\"cleaning gears that didn't need cleaning and tightening screws that were already tight\"",
+        "C": "\"His mother once suggested he simply have a jeweler service it once and be done\"",
+        "D": "\"kept disassembling the watch by hand, piece by careful piece\""
+      },
+      "correct_answer": "B",
+      "explanation": "Cleaning parts that don't need cleaning shows the ritual isn't about practical maintenance, supporting that it means something more to Sam."
+    },
+    {
+      "id": 23,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "Several states recently passed laws requiring employers to list salary ranges in job postings. A labor-market study comparing states before and after the laws took effect found that average job-search duration for applicants dropped measurably in states with the new requirement, while states without similar laws saw no comparable change over the same period.",
+      "question": "Which choice best supports the claim that salary transparency laws shortened job searches?",
+      "choices": {
+        "A": "\"Several states recently passed laws requiring employers to list salary ranges in job postings.\"",
+        "B": "\"average job-search duration for applicants dropped measurably in states with the new requirement\"",
+        "C": "\"A labor-market study comparing states before and after the laws took effect\"",
+        "D": "\"while states without similar laws saw no comparable change over the same period\""
+      },
+      "correct_answer": "B",
+      "explanation": "The direct measurement of a drop in job-search duration in states with the law is the evidence supporting the claim."
+    },
+    {
+      "id": 24,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "historical",
+      "passage": "In notes for a speech at a constitutional convention, a delegate from a smaller state wrote that representation based purely on population would leave smaller states with negligible influence over decisions that affected them just as directly as their larger neighbors. He proposed instead a system granting each state, regardless of size, an equal voice in one legislative chamber.",
+      "question": "Which choice best supports the claim that the delegate feared population-based representation would disadvantage smaller states?",
+      "choices": {
+        "A": "\"In notes for a speech at a constitutional convention, a delegate from a smaller state wrote\"",
+        "B": "\"representation based purely on population would leave smaller states with negligible influence over decisions\"",
+        "C": "\"he proposed instead a system granting each state, regardless of size, an equal voice\"",
+        "D": "\"in one legislative chamber\""
+      },
+      "correct_answer": "B",
+      "explanation": "This is the direct statement expressing his fear that population-based representation would leave smaller states with little influence."
+    }
+  ]
+}
