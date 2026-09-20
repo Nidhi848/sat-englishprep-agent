@@ -1,0 +1,430 @@
+{
+  "date": "2026-09-20",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "In the crushing dark of the deep sea, female anglerfish dangle a glowing lure just above their jaws, tempting curious prey close enough to strike. The light comes not from the fish itself but from colonies of bioluminescent bacteria housed in the lure, an arrangement so consistent across the deep sea that scientists suspect the partnership evolved independently in several separate fish lineages.",
+      "question": "As used in the passage, \"arrangement\" most nearly means",
+      "choices": {
+        "A": "chaotic scramble",
+        "B": "mutually beneficial partnership",
+        "C": "temporary truce",
+        "D": "failed experiment"
+      },
+      "correct_answer": "B",
+      "explanation": "The passage describes bacteria and fish benefiting together, which is what \"arrangement\" refers to as a partnership."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "The photo album Marisol inherited had no captions beneath its curling black-and-white prints, only faint pencil notes crowding the margins: dates, half sentences, a name crossed out and rewritten twice. She spent an entire rainy afternoon piecing together the fragments, treating the margins as though they held more truth than the photographs themselves.",
+      "question": "As used in the passage, \"fragments\" most nearly means",
+      "choices": {
+        "A": "shards of broken glass",
+        "B": "scattered, incomplete bits of information",
+        "C": "entire finished chapters",
+        "D": "the photographs themselves"
+      },
+      "correct_answer": "B",
+      "explanation": "\"Fragments\" refers to the partial, scattered pencil notes Marisol pieces together, not complete or physical objects."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "social_science",
+      "passage": "When the city's central library extended its evening hours to 9 p.m. on weeknights, staff initially worried the change would draw few visitors beyond the usual after-work crowd. Instead, teen attendance climbed sharply, with many students citing the later hours as the only time they could realistically get there after sports practice and family obligations.",
+      "question": "As used in the passage, \"realistically\" most nearly means",
+      "choices": {
+        "A": "impossibly",
+        "B": "in a genuinely practical, achievable way",
+        "C": "rarely",
+        "D": "accidentally"
+      },
+      "correct_answer": "B",
+      "explanation": "Students mean the later hours were the only time actually workable for them given other obligations."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "historical",
+      "passage": "A militia recruiter's printed broadside promised volunteers a fixed term of service, insisting that open-ended enlistment would only breed resentment among men needed just as urgently on their own farms. He argued that a defined term, however short, would draw more willing recruits than any appeal to duty alone.",
+      "question": "As used in the passage, \"breed\" most nearly means",
+      "choices": {
+        "A": "raise animals",
+        "B": "generate or bring about",
+        "C": "eliminate entirely",
+        "D": "postpone indefinitely"
+      },
+      "correct_answer": "B",
+      "explanation": "\"Breed\" here means to cause or generate resentment, not the literal raising of animals."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Migratory geese flying in a V formation aren't merely traveling in a pleasing shape. Each bird positions itself to catch the upwash of air spilling off the wingtip of the bird ahead, a subtle boost that measurably reduces the effort of sustained flight. Birds at the point of the V, lacking this advantage, rotate back periodically to conserve energy.",
+      "question": "As used in the passage, \"subtle\" most nearly means",
+      "choices": {
+        "A": "obvious and dramatic",
+        "B": "slight and not easily noticed",
+        "C": "harmful to the bird",
+        "D": "randomly occurring"
+      },
+      "correct_answer": "B",
+      "explanation": "The boost from upwash is small and easy to miss, yet still measurable, matching \"subtle.\""
+    },
+    {
+      "id": 6,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "literature",
+      "passage": "After his son moved out, Grandpa Elias took to repairing the hallway clock every few weeks, though it kept accurate time without his tinkering. He'd remove the back panel, dust gears that didn't need dusting, and set it running again with visible satisfaction. No one in the family ever mentioned how often an already-working clock seemed to need his attention.",
+      "question": "Which choice best describes the function of the passage's final sentence?",
+      "choices": {
+        "A": "It proves that the clock was actually broken all along.",
+        "B": "It suggests the family quietly understood the ritual's real purpose without confronting it.",
+        "C": "It shifts the passage's focus to the son's new apartment.",
+        "D": "It contradicts the claim that the clock worked without repair."
+      },
+      "correct_answer": "B",
+      "explanation": "The family's silence implies tacit understanding of the ritual's emotional purpose, not confusion or contradiction."
+    },
+    {
+      "id": 7,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "A city's tree-planting initiative added several hundred young trees along residential streets over two summers. Afterward, nearby residents reported that their blocks felt noticeably cooler in the afternoons. Climate researchers cautioned, however, that the same two summers happened to be milder than average regionwide, making it hard to isolate the trees' actual cooling effect from the milder weather.",
+      "question": "Which choice best describes the function of the passage's final sentence?",
+      "choices": {
+        "A": "It confirms the trees alone caused the cooler afternoons.",
+        "B": "It raises a competing factor that complicates crediting the trees alone.",
+        "C": "It introduces an unrelated finding about tree species.",
+        "D": "It argues the tree-planting initiative should end."
+      },
+      "correct_answer": "B",
+      "explanation": "The milder regional weather is a confound that makes it hard to attribute the cooling to the trees alone."
+    },
+    {
+      "id": 8,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "A lighthouse inspector's annual report opens with routine notes on lamp oil consumption and paint condition. Further down, the tone sharpens: the inspector describes three ships nearly running aground in fog that autumn and urges the district office, in increasingly blunt language, to fund a foghorn before winter storms make the strait even more treacherous.",
+      "question": "Which choice best describes the structure of the passage?",
+      "choices": {
+        "A": "It moves from routine administrative notes to an urgent request.",
+        "B": "It presents two competing repair budgets without preference.",
+        "C": "It refutes an earlier claim about the strait's depth.",
+        "D": "It lists reasons the lighthouse was decommissioned."
+      },
+      "correct_answer": "A",
+      "explanation": "The passage shifts from mundane upkeep notes to an urgent plea for foghorn funding, matching choice A."
+    },
+    {
+      "id": 9,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "Antarctic icefish swim in water cold enough to freeze ordinary blood solid, yet their veins stay clear. Biologists once assumed the fish simply tolerated the cold through a slowed metabolism alone. Closer study revealed specialized glycoproteins binding to tiny ice crystals in the fish's blood, physically halting their growth before they can spread.",
+      "question": "Which choice best describes the function of the passage's final sentence?",
+      "choices": {
+        "A": "It confirms that slowed metabolism fully explains the fish's survival.",
+        "B": "It introduces a more precise mechanism that refines the earlier assumption.",
+        "C": "It contradicts the claim that icefish can survive freezing water.",
+        "D": "It shifts the passage's focus to the fish's diet."
+      },
+      "correct_answer": "B",
+      "explanation": "The final sentence refines the earlier assumption by identifying the specific glycoprotein mechanism."
+    },
+    {
+      "id": 10,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "A city's shared electric scooter program logged tens of thousands of rides in its first month, and officials pointed to falling short-distance car trips downtown as evidence of its success. A separate survey found, however, that most scooter riders had previously walked those same short distances rather than driven, raising doubts about how much car traffic the program actually displaced.",
+      "question": "Which choice best describes the function of the passage's final sentence?",
+      "choices": {
+        "A": "It confirms the scooter program reduced car traffic as intended.",
+        "B": "It raises evidence that complicates the claim about reduced car trips.",
+        "C": "It introduces an unrelated finding about scooter safety.",
+        "D": "It argues the scooter program should be expanded citywide."
+      },
+      "correct_answer": "B",
+      "explanation": "The survey finding undercuts the assumption that the drop in car trips came from drivers switching to scooters."
+    },
+    {
+      "id": 11,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "literature",
+      "passage_1": "Text 1: One critic argues that a poet's heavy use of blank space and short, fragmented lines signals evasion, a refusal to commit to full sentences that leaves meaning frustratingly vague for readers.",
+      "passage_2": "Text 2: A second critic contends that the same blank space functions as deliberate pacing, forcing readers to sit inside pauses the poem's subject, grief, genuinely requires, rather than rushing past it in tidy sentences.",
+      "question": "How would the author of Text 2 most likely respond to the claim in Text 1?",
+      "choices": {
+        "A": "By agreeing that the blank space is simply evasive.",
+        "B": "By arguing the blank space serves a deliberate, meaningful purpose rather than evasion.",
+        "C": "By claiming the poem contains no blank space at all.",
+        "D": "By praising Text 1 for identifying an accurate flaw."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 defends the blank space as purposeful pacing tied to the poem's subject, directly countering Text 1's claim of evasion."
+    },
+    {
+      "id": 12,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "social_science",
+      "passage_1": "Text 1: A neighborhood community fridge program let residents leave and take free food, and organizers reported a marked drop in nearby food waste within its first three months.",
+      "passage_2": "Text 2: A separate review noted that a grocery chain rolled out steep discounts on nearing-expiration items across the same neighborhood that same season, complicating claims about how much of the reduction the fridge alone produced.",
+      "question": "How does the finding in Text 2 relate to the claim in Text 1?",
+      "choices": {
+        "A": "It confirms that the community fridge alone caused the drop in waste.",
+        "B": "It introduces a competing factor that complicates crediting the fridge alone.",
+        "C": "It shows that food waste actually increased that season.",
+        "D": "It argues the fridge program should be shut down."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 introduces the simultaneous grocery discounts as a competing explanation, complicating the claim in Text 1."
+    },
+    {
+      "id": 13,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "historical",
+      "passage_1": "Text 1: An envoy's dispatch described the ceasefire talks as nearly settled, noting that both delegations had privately agreed to nearly all disputed terms.",
+      "passage_2": "Text 2: A rival diplomat's private letter, written the same week, characterized the talks as fragile at best, warning that either side could still walk away over a single unresolved border clause.",
+      "question": "How does the account in Text 2 relate to the account in Text 1?",
+      "choices": {
+        "A": "It confirms Text 1's confidence that the talks were nearly settled.",
+        "B": "It offers a more cautious assessment that complicates Text 1's optimism.",
+        "C": "It proves Text 1's account was entirely fabricated.",
+        "D": "It avoids discussing the ceasefire negotiations."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2's warning about a still-unresolved clause tempers Text 1's more confident, near-settled portrayal."
+    },
+    {
+      "id": 14,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Text 1: Researchers recording elephant calls below the range of human hearing proposed that these infrasound rumbles primarily let elephants coordinate movement across miles of open savanna.",
+      "passage_2": "Text 2: A separate research team argued that the same low-frequency calls may travel partly through the ground itself, meaning elephants could be sensing them through their sensitive feet as much as their ears.",
+      "question": "How does the finding in Text 2 relate to the proposal in Text 1?",
+      "choices": {
+        "A": "It contradicts Text 1 by showing elephants cannot hear infrasound.",
+        "B": "It adds a possible additional sensing pathway rather than rejecting Text 1's proposal.",
+        "C": "It proves Text 1's recordings were inaccurate.",
+        "D": "It shows elephants do not coordinate movement at all."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 proposes an additional way the calls might be sensed, extending rather than contradicting Text 1's account."
+    },
+    {
+      "id": 15,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "Spadefoot toads spend most of the year buried underground in arid regions, emerging only after heavy rain fills temporary desert pools. Within this narrow window, tadpoles must hatch, develop, and leave the water as young toads before the pool evaporates entirely, a pressure that has pushed the species toward one of the fastest metamorphosis timelines of any amphibian.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Spadefoot toads avoid water entirely throughout their life cycle.",
+        "B": "Desert pool conditions have driven spadefoot toads to evolve unusually rapid metamorphosis.",
+        "C": "Spadefoot toads only emerge during droughts.",
+        "D": "All desert amphibians share the same metamorphosis timeline."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage's main idea is that the short-lived desert pools pressured spadefoot toads toward rapid metamorphosis."
+    },
+    {
+      "id": 16,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "literature",
+      "passage": "After her sister moved across the country, Priya kept a small jar on her windowsill filled with movie ticket stubs, one for every film she watched alone that she knew her sister would have wanted to see. She never mailed the stubs or mentioned the jar in their calls, only added to it quietly, month after month.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Priya has stopped thinking about her sister since she moved away.",
+        "B": "Priya privately marks her sister's absence through a quiet, ongoing ritual.",
+        "C": "Priya plans to mail the jar to her sister as a surprise gift.",
+        "D": "Priya and her sister argue frequently during their calls."
+      },
+      "correct_answer": "B",
+      "explanation": "The jar is a private, unspoken ritual through which Priya marks her sister's absence, matching choice B."
+    },
+    {
+      "id": 17,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "social_science",
+      "passage": "A company that began offering paid stipends for its previously unpaid summer internships saw its applicant pool grow substantially more diverse the following year. Program administrators noted that exit surveys from prior years had repeatedly cited the unpaid structure as the main reason many qualified students never applied in the first place.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Paid stipends had no measurable effect on who applied.",
+        "B": "Removing the financial barrier of unpaid work broadened who applied for the internship.",
+        "C": "The company eliminated its internship program entirely.",
+        "D": "Only unqualified students applied before the stipend was introduced."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage's main idea is that paying interns removed a financial barrier that had been limiting who applied."
+    },
+    {
+      "id": 18,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "historical",
+      "passage": "In an essay defending a limited executive veto, one framer argued that a leader with no check at all might grow careless, while one bound by no power to resist the legislature might be reduced to a mere figurehead. A veto restrained by the possibility of legislative override, he claimed, balanced both dangers without granting either branch unchecked authority.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "The framer believed the executive should have no veto power whatsoever.",
+        "B": "A limited, overridable veto balances the risks of unchecked power and powerlessness.",
+        "C": "The framer argued the legislature should never be able to override a veto.",
+        "D": "The essay concludes that checks and balances are unnecessary."
+      },
+      "correct_answer": "B",
+      "explanation": "The framer's central claim is that an overridable veto balances the dangers of too much and too little executive power."
+    },
+    {
+      "id": 19,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "natural_science",
+      "passage": "A chameleon's tongue can strike prey in under a twentieth of a second, propelled by elastic tissue that stores energy like a stretched rubber band rather than relying on muscle contraction alone at the moment of the strike. This stored-energy mechanism allows the tongue to reach speeds far exceeding what the chameleon's muscles could generate through contraction in real time.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "the tongue's speed depends mainly on muscle strength at the instant of the strike.",
+        "B": "the tongue's speed depends on energy stored beforehand rather than real-time muscle contraction.",
+        "C": "chameleons cannot strike prey faster than their muscles allow.",
+        "D": "the elastic tissue slows the tongue down during a strike."
+      },
+      "correct_answer": "B",
+      "explanation": "Since the stored elastic energy exceeds what real-time muscle contraction could produce, the speed comes from that stored energy."
+    },
+    {
+      "id": 20,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Throughout the funeral, the narrator describes at length the exact shade of gray in the clouds, the direction of the wind, the temperature of the rain against the church steps. Not once does she mention her own tears, her mother's expression, or a single word spoken at the service.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "The narrator is indifferent to her mother's death.",
+        "B": "The narrator channels her grief into describing the weather rather than confronting it directly.",
+        "C": "The narrator forgot most of the funeral's details.",
+        "D": "The narrator believes the weather caused the death."
+      },
+      "correct_answer": "B",
+      "explanation": "The narrator's fixation on weather while avoiding emotional details implies grief displaced onto description."
+    },
+    {
+      "id": 21,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "social_science",
+      "passage": "A school's after-school tutoring program initially let any student sign up first-come, first-served, and most spots filled within the first hour of registration opening. The following year, the school switched to a random lottery instead, after noticing that the students filling those early slots were disproportionately those whose parents had flexible daytime schedules to complete the online form quickly.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "The school switched to a lottery because first-come, first-served access was unevenly distributed.",
+        "B": "The school eliminated the tutoring program after the first year.",
+        "C": "The lottery system was less fair than the original sign-up method.",
+        "D": "Parental schedules had no bearing on who enrolled."
+      },
+      "correct_answer": "A",
+      "explanation": "The switch responds to the observation that quick sign-up favored students with flexible-schedule parents, an uneven advantage."
+    },
+    {
+      "id": 22,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "historical",
+      "passage": "The town clerk's minutes from a spring meeting record an unusually long debate over shared grazing land, with several farmers accusing a neighbor of letting his herd graze past the agreed boundary markers. The minutes note that the dispute was tabled without resolution, to be revisited \"once the surveyor could be spared from more urgent boundary work elsewhere.\"",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "The town considered the grazing dispute more urgent than any other boundary matter.",
+        "B": "The grazing dispute remained unresolved because the surveyor's time was needed elsewhere first.",
+        "C": "The neighbor accused of overgrazing was found innocent at the meeting.",
+        "D": "The town abolished shared grazing land entirely after the meeting."
+      },
+      "correct_answer": "B",
+      "explanation": "Tabling the dispute until the surveyor was free implies other boundary work took priority, leaving this one unresolved."
+    },
+    {
+      "id": 23,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "literature",
+      "passage": "Every Sunday, Talia's grandmother cooked without a single measuring cup, adding pinches and handfuls until the dish \"looked right.\" When Talia once tried to write down exact measurements by watching closely, her grandmother laughed and said some things couldn't be counted, only felt.",
+      "question": "Which choice best supports the claim that Talia's grandmother resists reducing her cooking to exact measurement?",
+      "choices": {
+        "A": "\"Every Sunday, Talia's grandmother cooked without a single measuring cup\"",
+        "B": "\"adding pinches and handfuls until the dish 'looked right'\"",
+        "C": "\"Talia once tried to write down exact measurements by watching closely\"",
+        "D": "\"her grandmother laughed and said some things couldn't be counted, only felt\""
+      },
+      "correct_answer": "D",
+      "explanation": "The grandmother's direct statement that some things \"couldn't be counted, only felt\" most explicitly supports her resistance to exact measurement."
+    },
+    {
+      "id": 24,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "A public library added a \"seed library\" shelf, letting patrons take free vegetable and flower seed packets in spring and return saved seeds from their own gardens in fall. Librarians reported that first-time garden participation among patrons rose noticeably that year, with several visitors mentioning in surveys that free seeds had removed their only hesitation about starting a garden.",
+      "question": "Which choice best supports the claim that cost had been the main barrier keeping patrons from gardening?",
+      "choices": {
+        "A": "\"A public library added a 'seed library' shelf\"",
+        "B": "\"letting patrons take free vegetable and flower seed packets in spring\"",
+        "C": "\"free seeds had removed their only hesitation about starting a garden\"",
+        "D": "\"return saved seeds from their own gardens in fall\""
+      },
+      "correct_answer": "C",
+      "explanation": "Visitors directly stating that free seeds removed their \"only hesitation\" is the clearest evidence that cost was the main barrier."
+    },
+    {
+      "id": 25,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "historical",
+      "passage": "A colonial printer's notebook explains his decision to publish a controversial pamphlet without the author's name attached: threats had already been made against writers who criticized the colony's magistrate, and the printer feared naming the author would expose him to the same retaliation before the pamphlet's arguments could even be read.",
+      "question": "Which choice best supports the claim that fear of retaliation motivated the pamphlet's anonymous publication?",
+      "choices": {
+        "A": "\"A colonial printer's notebook explains his decision to publish a controversial pamphlet\"",
+        "B": "\"threats had already been made against writers who criticized the colony's magistrate\"",
+        "C": "\"without the author's name attached\"",
+        "D": "\"before the pamphlet's arguments could even be read\""
+      },
+      "correct_answer": "B",
+      "explanation": "The existing threats against critical writers directly explain the printer's fear-driven decision to withhold the author's name."
+    },
+    {
+      "id": 26,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "natural_science",
+      "passage": "Ounce for ounce, golden orb spider silk is stronger than steel wire of the same weight, able to absorb far more energy before snapping. Engineers studying the silk's molecular structure found that its strength comes from a combination of tightly coiled protein chains and looser, more flexible regions that allow the fiber to stretch under strain without breaking.",
+      "question": "Which choice best supports the claim that flexibility, not just raw strength, helps the silk resist breaking?",
+      "choices": {
+        "A": "\"golden orb spider silk is stronger than steel wire of the same weight\"",
+        "B": "\"able to absorb far more energy before snapping\"",
+        "C": "\"tightly coiled protein chains\"",
+        "D": "\"looser, more flexible regions that allow the fiber to stretch under strain without breaking\""
+      },
+      "correct_answer": "D",
+      "explanation": "The flexible regions that let the fiber stretch without breaking directly support the claim that flexibility aids resistance to breaking."
+    }
+  ]
+}
