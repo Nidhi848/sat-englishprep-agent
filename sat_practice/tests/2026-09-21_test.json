@@ -1,0 +1,430 @@
+{
+  "date": "2026-09-21",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Harbor seals hunting in murky water can track a fish's wake using their whiskers alone, even with their eyes covered entirely. Researchers found the whiskers' distinctive wavy shape reduces the turbulence the seal's own swimming motion would otherwise create, letting faint disturbances from distant prey register clearly rather than getting lost in noise.",
+      "question": "As used in the passage, \"distinctive\" most nearly means",
+      "choices": {
+        "A": "ordinary and unremarkable",
+        "B": "clearly different from what is typical",
+        "C": "temporary and changing",
+        "D": "invisible to researchers"
+      },
+      "correct_answer": "B",
+      "explanation": "\"Distinctive\" describes the whisker shape as notably different from a typical smooth shape, which is what gives it its noise-reducing function."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "Among his father's belongings, Denny found a sheet of stamps from a design discontinued decades earlier, still sealed in its original wrapper. He never spent them, though postage alone would have made the sheet worthless within a year. Instead he kept the stamps in a drawer, taking them out occasionally just to hold something his father had once held.",
+      "question": "As used in the passage, \"worthless\" most nearly means",
+      "choices": {
+        "A": "priceless",
+        "B": "without practical monetary value",
+        "C": "illegal to own",
+        "D": "newly discovered"
+      },
+      "correct_answer": "B",
+      "explanation": "The stamps would lose their practical mailing value once postage rates rose, which is what \"worthless\" refers to here -- not their sentimental value."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "social_science",
+      "passage": "When a manufacturing company piloted on-site childcare for hourly employees, returning-parent retention twelve months after parental leave rose sharply compared to prior years. Human resources staff noted that exit interviews from before the pilot had repeatedly named childcare logistics, not pay or scheduling, as the reason many parents left instead of returning.",
+      "question": "As used in the passage, \"logistics\" most nearly means",
+      "choices": {
+        "A": "financial compensation",
+        "B": "the practical arrangements needed to manage something",
+        "C": "a legal requirement",
+        "D": "an emotional reaction"
+      },
+      "correct_answer": "B",
+      "explanation": "\"Logistics\" here refers to the practical arrangements of managing childcare, which parents cited as their reason for leaving."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "historical",
+      "passage": "A shipwright's letter to the harbor commission defended a costly last-minute change to a vessel's hull design, arguing that the added expense was trivial compared to the catastrophe a structural failure at sea would represent. He urged the commission not to let short-term budget concerns override a change he considered essential to the ship's survival in open water.",
+      "question": "As used in the passage, \"trivial\" most nearly means",
+      "choices": {
+        "A": "enormous and unaffordable",
+        "B": "minor and unimportant by comparison",
+        "C": "illegal under maritime law",
+        "D": "impossible to calculate"
+      },
+      "correct_answer": "B",
+      "explanation": "The shipwright argues the added cost is minor when weighed against the risk of structural failure, matching \"trivial.\""
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Wood frogs surviving northern winters do something few vertebrates can: their hearts stop beating and much of their body water turns to ice, yet they thaw again come spring, unharmed. A concentrated sugar solution the frogs produce in autumn protects their cells from the damage ice crystals would otherwise inflict, allowing this seemingly fatal state to be temporary rather than permanent.",
+      "question": "As used in the passage, \"fatal\" most nearly means",
+      "choices": {
+        "A": "beneficial",
+        "B": "deadly",
+        "C": "reversible",
+        "D": "gradual"
+      },
+      "correct_answer": "B",
+      "explanation": "The passage notes the frozen state would typically be lethal, calling it \"seemingly fatal\" though the frogs survive it -- \"fatal\" means deadly."
+    },
+    {
+      "id": 6,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "literature",
+      "passage": "At the corner cafe, Renata never inputs regulars' orders into the register system installed the previous year. Instead she keeps a stack of handwritten index cards behind the counter, one per customer, updated each visit in pencil. New hires assumed she simply hadn't learned the system yet, until they noticed she used it flawlessly for every unfamiliar face.",
+      "question": "Which choice best describes the function of the passage's final sentence?",
+      "choices": {
+        "A": "It proves Renata is incapable of using the register system.",
+        "B": "It reveals the index cards are a deliberate choice, not a failure to adapt.",
+        "C": "It shifts the passage's focus to the cafe's business hours.",
+        "D": "It contradicts the claim that new hires work at the cafe."
+      },
+      "correct_answer": "B",
+      "explanation": "Renata using the register flawlessly for strangers shows the index cards for regulars are a deliberate personal choice, not an inability to adapt."
+    },
+    {
+      "id": 7,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "A company's four-day workweek trial produced mixed results across departments: the sales team reported higher client satisfaction scores, while the operations team saw a backlog of unresolved tickets grow steadily. Company leadership noted that the trial's uneven outcomes made a single company-wide policy decision harder to justify than early enthusiasm had suggested.",
+      "question": "Which choice best describes the function of the passage's final sentence?",
+      "choices": {
+        "A": "It confirms the four-day workweek should be adopted company-wide.",
+        "B": "It highlights how the mixed results complicate a single, uniform decision.",
+        "C": "It introduces an unrelated finding about employee vacation time.",
+        "D": "It argues the trial should be extended to a fifth department."
+      },
+      "correct_answer": "B",
+      "explanation": "The final sentence explains that the departments' differing outcomes make one company-wide decision harder to justify."
+    },
+    {
+      "id": 8,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "A canal-building committee's minutes record months of routine votes on labor contracts and material costs. Midway through the year, the tone shifts abruptly: two committee members resign in protest over a proposed route change, and subsequent entries describe heated debate over whether the canal should bypass a rival town's mill entirely.",
+      "question": "Which choice best describes the structure of the passage?",
+      "choices": {
+        "A": "It moves from routine procedural record-keeping to an account of sudden conflict.",
+        "B": "It presents a neutral comparison of two canal routes without any dispute.",
+        "C": "It refutes an earlier claim about the committee's budget.",
+        "D": "It lists reasons the canal project was ultimately canceled."
+      },
+      "correct_answer": "A",
+      "explanation": "The passage shifts from mundane procedural notes to describing resignations and heated debate, matching choice A."
+    },
+    {
+      "id": 9,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "Darkling beetles in coastal deserts tilt their bodies into oncoming fog, letting droplets condense on ridges along their shells and trickle down into their mouths. Early observers assumed the ridges were purely decorative. Closer study revealed the ridges' specific spacing and texture were finely tuned to maximize droplet capture, a function no one had previously suspected.",
+      "question": "Which choice best describes the function of the passage's final sentence?",
+      "choices": {
+        "A": "It confirms that the ridges serve no functional purpose.",
+        "B": "It introduces a previously unrecognized function that revises the earlier assumption.",
+        "C": "It contradicts the claim that the beetles live in coastal deserts.",
+        "D": "It shifts the passage's focus to the beetles' diet."
+      },
+      "correct_answer": "B",
+      "explanation": "The final sentence reveals the ridges have a water-capturing function no one had suspected, revising the earlier \"decorative\" assumption."
+    },
+    {
+      "id": 10,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "A public library's one-week fine-forgiveness event let patrons return long-overdue books without penalty. Return rates spiked immediately, and library staff initially credited the amnesty entirely for the surge. A follow-up review noted, however, that the library had also mailed reminder postcards to affected patrons that same week, muddying which factor drove the increase.",
+      "question": "Which choice best describes the function of the passage's final sentence?",
+      "choices": {
+        "A": "It confirms the fine-forgiveness event alone caused the spike in returns.",
+        "B": "It raises a competing factor that complicates crediting the amnesty alone.",
+        "C": "It introduces an unrelated finding about the library's book budget.",
+        "D": "It argues the fine-forgiveness event should be discontinued."
+      },
+      "correct_answer": "B",
+      "explanation": "The reminder postcards are a confound that muddies whether the amnesty alone caused the increase."
+    },
+    {
+      "id": 11,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "literature",
+      "passage_1": "Text 1: One critic argues that an ambiguous ending leaves a short story unfinished, denying readers the closure a well-constructed narrative owes them.",
+      "passage_2": "Text 2: A second critic counters that ambiguity is itself the point, forcing readers to sit with the same uncertainty the story's characters face rather than resolving it artificially.",
+      "question": "How would the author of Text 2 most likely respond to the claim in Text 1?",
+      "choices": {
+        "A": "By agreeing that ambiguous endings are simply unfinished.",
+        "B": "By arguing the ambiguity serves a deliberate purpose rather than a failure of craft.",
+        "C": "By claiming the story in question has no ambiguous elements.",
+        "D": "By praising Text 1 for identifying a genuine flaw."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 defends ambiguity as intentional and meaningful, directly countering Text 1's claim that it denies readers closure."
+    },
+    {
+      "id": 12,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "historical",
+      "passage_1": "Text 1: A delegate's public speech praised a proposed tariff compromise as fair to manufacturing and farming regions alike.",
+      "passage_2": "Text 2: The same delegate's private notebook, however, called the compromise a temporary truce likely to unravel once either region's economic fortunes shifted.",
+      "question": "How does the account in Text 2 relate to the account in Text 1?",
+      "choices": {
+        "A": "It confirms Text 1's public praise was entirely sincere.",
+        "B": "It reveals a more skeptical private view that complicates the public praise.",
+        "C": "It proves Text 1's speech was never actually delivered.",
+        "D": "It avoids discussing the tariff compromise altogether."
+      },
+      "correct_answer": "B",
+      "explanation": "The private notebook's doubts about the compromise's durability complicate the confident public praise described in Text 1."
+    },
+    {
+      "id": 13,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Text 1: Researchers studying homing pigeons proposed that the birds navigate primarily by sensing Earth's magnetic field.",
+      "passage_2": "Text 2: A separate study found that pigeons with a clear view of the sun's position corrected their course more accurately than pigeons flying under overcast skies, suggesting visual landmarks may also play a role.",
+      "question": "How does the finding in Text 2 relate to the proposal in Text 1?",
+      "choices": {
+        "A": "It contradicts Text 1 by showing pigeons cannot sense magnetic fields.",
+        "B": "It suggests an additional navigational cue rather than rejecting Text 1's proposal.",
+        "C": "It proves Text 1's magnetic-field theory was entirely mistaken.",
+        "D": "It shows pigeons cannot navigate accurately under any conditions."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 points to visual landmarks as an additional cue, extending rather than contradicting Text 1's magnetic-sense proposal."
+    },
+    {
+      "id": 14,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "social_science",
+      "passage_1": "Text 1: A neighborhood mentorship program's organizers reported that switching from phone calls to text-message check-ins increased mentor participation significantly.",
+      "passage_2": "Text 2: A separate review noted the same period saw the program add several new mentors recruited through a workplace partnership, complicating claims about what drove the participation increase.",
+      "question": "How does the finding in Text 2 relate to the claim in Text 1?",
+      "choices": {
+        "A": "It confirms that switching to text messages alone caused the increase.",
+        "B": "It introduces a competing factor that complicates crediting the format change alone.",
+        "C": "It shows that mentor participation actually declined that period.",
+        "D": "It argues the mentorship program should be discontinued."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 introduces the new-mentor recruitment drive as a competing explanation, complicating the claim in Text 1."
+    },
+    {
+      "id": 15,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "Sea otters floating on their backs off the Pacific coast often carry a favorite rock tucked under one arm, using it to crack open the shells of clams and mussels balanced on their chests. Individual otters tend to keep the same rock for years, suggesting the behavior is a learned, deliberate tool use rather than an incidental habit.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Sea otters occasionally use rocks by accident to open shells.",
+        "B": "Sea otters engage in deliberate, learned tool use with favored rocks.",
+        "C": "Sea otters never eat clams or mussels.",
+        "D": "All marine mammals use rocks as tools."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage's main idea is that otters' rock use is deliberate, learned tool use, not incidental."
+    },
+    {
+      "id": 16,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "literature",
+      "passage": "After thirty years of teaching, Ms. Alvarez kept a drawer of letters she had written but never sent to former students, each one offering advice she wished she'd given them sooner. She reread them occasionally but never mailed a single one, telling herself each time that too much time had passed.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Ms. Alvarez regularly mails advice to her former students.",
+        "B": "Ms. Alvarez privately holds onto unspoken advice she feels is now too late to share.",
+        "C": "Ms. Alvarez has forgotten most of her former students.",
+        "D": "Ms. Alvarez plans to publish the letters as a book."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage centers on Ms. Alvarez privately keeping advice she feels she can no longer share, matching choice B."
+    },
+    {
+      "id": 17,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "social_science",
+      "passage": "A city pool's free-admission Saturdays drew a noticeably different crowd than its regular paid hours, with attendance from lower-income neighborhoods rising sharply. City officials noted that exit interviews consistently cited the admission fee, however modest, as the main reason many families had rarely visited before the free days began.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "The admission fee had little effect on who visited the pool.",
+        "B": "Removing the admission fee broadened pool access for lower-income families.",
+        "C": "The city eliminated the pool's regular paid hours entirely.",
+        "D": "Only wealthy families used the pool during free-admission Saturdays."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage's main idea is that removing the fee opened access to families it had been excluding."
+    },
+    {
+      "id": 18,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "historical",
+      "passage": "A colonial assembly debated for two sessions whether to fund a common school open to all township children regardless of family income. Opponents warned the cost would burden landholders unfairly; supporters countered that an educated township would repay the investment many times over within a generation.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "The assembly unanimously rejected funding for the school.",
+        "B": "The assembly weighed the cost of a common school against its long-term benefits.",
+        "C": "Only wealthy families were permitted to attend the school.",
+        "D": "The debate concluded before any arguments were made."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage centers on the assembly weighing the school's upfront cost against its projected long-term value."
+    },
+    {
+      "id": 19,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "natural_science",
+      "passage": "Cuttlefish can shift the polarization pattern of light reflecting off their skin, a signal invisible to most fish but clearly visible to other cuttlefish. Researchers suggest this channel may let cuttlefish communicate directly in front of predators without those predators ever detecting that a signal was sent at all.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "predators can easily detect and interpret the polarized signals.",
+        "B": "the polarized signals may function as a private channel invisible to predators.",
+        "C": "cuttlefish cannot communicate visually in any way.",
+        "D": "the signals are identical to ordinary color changes predators already notice."
+      },
+      "correct_answer": "B",
+      "explanation": "Since most predators can't detect the polarization pattern, it functions as a communication channel hidden from them."
+    },
+    {
+      "id": 20,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Whenever a difficult phone call loomed, Reiko would sit at her kitchen table folding paper cranes, one after another, letting the crease and fold of each fill the space where a rehearsed opening line should have been. By the time a small flock covered the table, she still hadn't dialed.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "Reiko folds cranes because she genuinely enjoys origami above all else.",
+        "B": "Reiko uses the folding as a way to delay a conversation she's avoiding.",
+        "C": "Reiko has already made the difficult phone call by the end of the passage.",
+        "D": "Reiko folds cranes only after successfully completing hard conversations."
+      },
+      "correct_answer": "B",
+      "explanation": "The folding fills the time meant for the call, and she still hasn't dialed by the end, implying avoidance rather than simple enjoyment."
+    },
+    {
+      "id": 21,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "social_science",
+      "passage": "A city widened several downtown bike lanes and, within the same month, opened a new subway line serving the same corridor. Officials pointed to a sharp rise in cyclists as evidence the wider lanes were working, though transportation researchers noted the timing made it difficult to separate the lanes' effect from commuters simply shifting off the newly relieved subway platforms.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "The wider bike lanes alone clearly caused the rise in cycling.",
+        "B": "The overlapping timing makes it hard to attribute the rise in cycling to the bike lanes alone.",
+        "C": "The subway line had no effect on downtown commuting patterns.",
+        "D": "Cycling rates actually declined after the lanes were widened."
+      },
+      "correct_answer": "B",
+      "explanation": "The simultaneous subway opening is a confound that makes it hard to credit the bike lanes alone for the rise in cycling."
+    },
+    {
+      "id": 22,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "historical",
+      "passage": "A militia quartermaster's ledger from a long campaign shows gunpowder allocations shrinking company by company as the season wore on, with the final entries noting powder issued only to units on active patrol. No entry explains the shortage directly, but the pattern of increasingly selective distribution runs through the ledger's final months.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "Gunpowder supplies were abundant throughout the campaign's final months.",
+        "B": "The ledger's pattern suggests a worsening gunpowder shortage forced increasingly selective distribution.",
+        "C": "Only units on patrol required any gunpowder at all.",
+        "D": "The quartermaster recorded no changes in allocation over the campaign."
+      },
+      "correct_answer": "B",
+      "explanation": "The shrinking, increasingly selective allocations imply a worsening shortage, even without an entry stating so directly."
+    },
+    {
+      "id": 23,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "literature",
+      "passage": "Old Mr. Kessler still keeps a labeled bin of half-finished shoe repairs for a customer who moved out of state nearly a decade ago. Neighbors have long since stopped asking why; he still fixes a pair every so often, though he has no address to send them to and no way of knowing if she'd even want them back.",
+      "question": "Which choice best supports the claim that Mr. Kessler continues the repairs despite no practical way to complete them?",
+      "choices": {
+        "A": "\"still keeps a labeled bin of half-finished shoe repairs\"",
+        "B": "\"Neighbors have long since stopped asking why\"",
+        "C": "\"he still fixes a pair every so often\"",
+        "D": "\"he has no address to send them to and no way of knowing if she'd even want them back\""
+      },
+      "correct_answer": "D",
+      "explanation": "The direct statement that he has no address and no way to know if she'd want them back most explicitly supports that the repairs continue despite no practical way to complete them."
+    },
+    {
+      "id": 24,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "After a company began fully subsidizing employee transit passes, on-site parking requests dropped by nearly a third within two months. Employees surveyed afterward frequently mentioned that the pass, not any change in commute distance, was what finally made transit cheaper than driving for them.",
+      "question": "Which choice best supports the claim that cost, not convenience, drove the shift away from driving?",
+      "choices": {
+        "A": "\"on-site parking requests dropped by nearly a third within two months\"",
+        "B": "\"Employees surveyed afterward frequently mentioned\"",
+        "C": "\"the pass, not any change in commute distance, was what finally made transit cheaper than driving\"",
+        "D": "\"began fully subsidizing employee transit passes\""
+      },
+      "correct_answer": "C",
+      "explanation": "Employees explicitly crediting the cost difference, not commute distance, most directly supports the claim that cost drove the shift."
+    },
+    {
+      "id": 25,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "historical",
+      "passage": "A colonial newspaper editor published two rival letters on the same page debating a proposed town charter: one warning the charter would concentrate too much power in a single council, the other insisting no township could function without such centralized authority. The editor added no commentary of his own, letting readers weigh the arguments directly.",
+      "question": "Which choice best supports the claim that the editor deliberately avoided taking a side in the charter debate?",
+      "choices": {
+        "A": "\"published two rival letters on the same page\"",
+        "B": "\"one warning the charter would concentrate too much power in a single council\"",
+        "C": "\"the other insisting no township could function without such centralized authority\"",
+        "D": "\"added no commentary of his own, letting readers weigh the arguments directly\""
+      },
+      "correct_answer": "D",
+      "explanation": "The editor withholding commentary and letting readers judge directly is the clearest evidence he avoided taking a side."
+    },
+    {
+      "id": 26,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "natural_science",
+      "passage": "Barn owls hunt in near-total darkness by sound alone, relying on ears positioned at slightly different heights on either side of the skull. This asymmetry causes sound from below to reach one ear a fraction of a second before the other, letting the owl's brain calculate a prey's vertical position with striking precision.",
+      "question": "Which choice best supports the claim that ear asymmetry specifically enables precise vertical prey location?",
+      "choices": {
+        "A": "\"hunt in near-total darkness by sound alone\"",
+        "B": "\"ears positioned at slightly different heights on either side of the skull\"",
+        "C": "\"sound from below to reach one ear a fraction of a second before the other\"",
+        "D": "\"the owl's brain calculate a prey's vertical position with striking precision\""
+      },
+      "correct_answer": "C",
+      "explanation": "The timing difference caused by the asymmetric ear placement is the direct mechanism enabling vertical position calculation."
+    }
+  ]
+}
