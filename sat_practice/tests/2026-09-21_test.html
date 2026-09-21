@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAT Practice — 2026-09-21 — Tier 2/2</title>
+<style>
+  :root{
+    --paper:#EDEFEC; --surface:#FFFFFF; --surface-2:#F6F7F4;
+    --ink:#1C2321; --muted:#5B6660; --hairline:#D8DBD5;
+    --info:#2F6F4F; --info-bg:#E7F1EA;
+    --craft:#6B4A9E; --craft-bg:#EFE9F6;
+    --accent:#2F6F4F;
+    --good:#2F6F4F; --good-bg:#E7F1EA;
+    --bad:#B23A2E; --bad-bg:#FBEAE7;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --paper:#171A17; --surface:#20241F; --surface-2:#262B24;
+      --ink:#EAEDE8; --muted:#9AA69E; --hairline:#343A32;
+      --info:#6FBE94; --info-bg:#1E332A;
+      --craft:#B79BE0; --craft-bg:#2E2739;
+      --accent:#6FBE94;
+      --good:#6FBE94; --good-bg:#1E332A;
+      --bad:#E8897C; --bad-bg:#3A2422;
+    }
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:system-ui,-apple-system,Segoe UI,sans-serif;
+    padding:28px 16px 100px;
+  }
+  .wrap{max-width:700px;margin:0 auto;}
+  h1{font-family:Georgia,"Times New Roman",serif; font-size:21px; font-weight:700; margin:0 0 4px; text-wrap:balance;}
+  .sub{font-size:13px; color:var(--muted); margin:0 0 18px;}
+
+  .fallback-note{
+    font-size:12.5px; color:var(--muted); background:var(--surface-2);
+    border:1px solid var(--hairline); border-radius:8px;
+    padding:10px 14px; margin-bottom:20px; line-height:1.5;
+  }
+
+  .progress{
+    position:sticky; top:0; z-index:5; background:var(--paper);
+    padding:10px 0 14px; margin-bottom:6px;
+    font-size:12.5px; color:var(--muted); display:flex; align-items:center; gap:10px;
+  }
+  .progress .bar{flex:1; height:6px; background:var(--surface-2); border-radius:99px; overflow:hidden; border:1px solid var(--hairline);}
+  .progress .fill{height:100%; background:var(--accent); width:0%; transition:width .2s ease;}
+
+  .results{
+    background:var(--surface); border:1px solid var(--hairline); border-radius:12px;
+    padding:20px 22px; margin-bottom:20px;
+  }
+  .results[hidden]{display:none;}
+  .results .headline{font-family:Georgia,"Times New Roman",serif; font-size:19px; font-weight:700; margin:0 0 12px;}
+  .results .breakdown{display:flex; gap:10px; flex-wrap:wrap;}
+  .scorechip{
+    flex:1; min-width:150px; border-radius:9px; padding:10px 14px;
+  }
+  .scorechip .lbl{font-size:11px; letter-spacing:.03em; text-transform:uppercase; opacity:.8;}
+  .scorechip .val{font-size:20px; font-weight:700; font-variant-numeric:tabular-nums;}
+  .scorechip.info{background:var(--info-bg); color:var(--info);}
+  .scorechip.craft{background:var(--craft-bg); color:var(--craft);}
+  .scorechip.overall{background:var(--surface-2); color:var(--ink); border:1px solid var(--hairline);}
+  .results .msg{font-size:13.5px; color:var(--muted); margin-top:12px; line-height:1.5;}
+
+  .qcard{
+    background:var(--surface); border:1px solid var(--hairline); border-left:3px solid var(--hairline);
+    border-radius:10px; padding:18px 20px 20px; margin-bottom:14px;
+  }
+  .qcard.answered{border-left-color:var(--accent);}
+  .qcard.graded-correct{border-left-color:var(--good);}
+  .qcard.graded-incorrect{border-left-color:var(--bad);}
+  .qmeta{display:flex; align-items:center; gap:8px; margin-bottom:12px; flex-wrap:wrap;}
+  .qnum{font-family:"Courier New",monospace; font-weight:700; font-size:13px; color:var(--muted); width:24px; flex:none;}
+  .tag{font-size:10.5px; letter-spacing:.03em; text-transform:uppercase; padding:3px 8px; border-radius:5px;}
+  .tag.domain-info{background:var(--info-bg); color:var(--info);}
+  .tag.domain-craft{background:var(--craft-bg); color:var(--craft);}
+  .tag.topic{background:var(--surface-2); color:var(--muted); border:1px solid var(--hairline);}
+  .result-badge{margin-left:auto; font-size:11px; font-weight:700; letter-spacing:.02em;}
+  .result-badge.correct{color:var(--good);}
+  .result-badge.incorrect{color:var(--bad);}
+
+  .passage{
+    font-family:Georgia,"Times New Roman",serif; font-size:15.5px; line-height:1.6;
+    background:var(--surface-2); border-left:3px solid var(--hairline);
+    padding:12px 15px; border-radius:0 6px 6px 0; margin-bottom:12px;
+  }
+  .plabel{display:block; font-size:10.5px; letter-spacing:.05em; text-transform:uppercase; color:var(--muted); margin-bottom:5px;}
+  .qtext{font-size:14.5px; font-weight:600; margin:0 0 12px; line-height:1.5;}
+
+  .choices{display:grid; gap:8px;}
+  .choice{
+    display:flex; gap:10px; align-items:flex-start; cursor:pointer;
+    padding:9px 12px; border-radius:7px; border:1px solid var(--hairline); font-size:14px; line-height:1.45;
+  }
+  .choice:hover{background:var(--surface-2);}
+  .choice input{margin:3px 0 0; accent-color:var(--accent); flex:none;}
+  .choice .letter{font-family:"Courier New",monospace; font-weight:700; color:var(--muted); flex:none;}
+  .choice.correct-answer{border-color:var(--good); background:var(--good-bg);}
+  .choice.wrong-pick{border-color:var(--bad); background:var(--bad-bg);}
+
+  .explain{
+    display:none; margin-top:12px; padding-top:12px; border-top:1px dashed var(--hairline);
+    font-size:13.5px; color:var(--ink); line-height:1.55;
+  }
+  .explain b{font-family:"Courier New",monospace; font-size:10.5px; letter-spacing:.05em; text-transform:uppercase; display:block; margin-bottom:4px; color:var(--muted);}
+  .qcard.graded .explain{display:block;}
+
+  .submitbar{
+    position:fixed; bottom:0; left:0; right:0; background:var(--surface);
+    border-top:1px solid var(--hairline); padding:14px 16px;
+    display:flex; gap:10px; justify-content:center; flex-wrap:wrap;
+  }
+  .submitbar button{
+    font-size:13.5px; border-radius:999px; padding:10px 18px; cursor:pointer;
+    border:1px solid var(--accent); background:var(--accent); color:var(--surface);
+  }
+  .submitbar button.secondary{background:var(--surface); color:var(--accent);}
+  .submitbar button:disabled{opacity:.45; cursor:not-allowed;}
+  .submitbar .hint{font-size:12px; color:var(--muted); align-self:center;}
+
+  #copyOut{max-width:700px; margin:14px auto 0; display:none;}
+  #copyOut.show{display:block;}
+  #copyOut textarea{
+    width:100%; min-height:100px; font-family:"Courier New",monospace; font-size:12.5px;
+    padding:10px; border-radius:8px; border:1px solid var(--hairline); background:var(--surface-2); color:var(--ink);
+  }
+  #copyOut .label{font-size:12px; color:var(--muted); margin-bottom:6px;}
+
+  @media (max-width:480px){
+    .qcard{padding:15px 14px 16px;}
+    .results{padding:16px 16px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>SAT Practice — 2026-09-21 — Tier 2/2</h1>
+  <p class="sub">26 questions &middot; ~39 min at practice pace &middot; Info &amp; Ideas Tier 2 / Craft &amp; Structure Tier 2</p>
+
+  <div class="fallback-note">Opened locally because email isn't set up yet. Answer everything below, then tap <b>Submit Test</b> to see your score and explanations right away — no need to wait on anyone.</div>
+
+  <div id="resultsPanel" class="results" hidden>
+    <div class="headline" id="resultsHeadline"></div>
+    <div class="breakdown">
+      <div class="scorechip info">
+        <div class="lbl">Info &amp; Ideas</div>
+        <div class="val" id="scoreInfo">—</div>
+      </div>
+      <div class="scorechip craft">
+        <div class="lbl">Craft &amp; Structure</div>
+        <div class="val" id="scoreCraft">—</div>
+      </div>
+      <div class="scorechip overall">
+        <div class="lbl">Overall</div>
+        <div class="val" id="scoreOverall">—</div>
+      </div>
+    </div>
+    <div class="msg" id="resultsMsg"></div>
+  </div>
+
+  <div class="progress" id="progressBar">
+    <span id="progressLabel">0 of 26 answered</span>
+    <span class="bar"><span class="fill" id="progressFill"></span></span>
+  </div>
+
+  <div id="questions">
+    <div class="qcard" data-qid="1">
+      <div class="qmeta">
+        <span class="qnum">01</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Words in Context</span>
+        <span class="tag topic">Natural science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">Harbor seals hunting in murky water can track a fish&#x27;s wake using their whiskers alone, even with their eyes covered entirely. Researchers found the whiskers&#x27; distinctive wavy shape reduces the turbulence the seal&#x27;s own swimming motion would otherwise create, letting faint disturbances from distant prey register clearly rather than getting lost in noise.</div>
+      <p class="qtext">As used in the passage, &quot;distinctive&quot; most nearly means</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q1" value="A">
+          <span class="letter">A</span>
+          <span>ordinary and unremarkable</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q1" value="B">
+          <span class="letter">B</span>
+          <span>clearly different from what is typical</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q1" value="C">
+          <span class="letter">C</span>
+          <span>temporary and changing</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q1" value="D">
+          <span class="letter">D</span>
+          <span>invisible to researchers</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="2">
+      <div class="qmeta">
+        <span class="qnum">02</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Words in Context</span>
+        <span class="tag topic">Literature</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">Among his father&#x27;s belongings, Denny found a sheet of stamps from a design discontinued decades earlier, still sealed in its original wrapper. He never spent them, though postage alone would have made the sheet worthless within a year. Instead he kept the stamps in a drawer, taking them out occasionally just to hold something his father had once held.</div>
+      <p class="qtext">As used in the passage, &quot;worthless&quot; most nearly means</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q2" value="A">
+          <span class="letter">A</span>
+          <span>priceless</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q2" value="B">
+          <span class="letter">B</span>
+          <span>without practical monetary value</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q2" value="C">
+          <span class="letter">C</span>
+          <span>illegal to own</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q2" value="D">
+          <span class="letter">D</span>
+          <span>newly discovered</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="3">
+      <div class="qmeta">
+        <span class="qnum">03</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Words in Context</span>
+        <span class="tag topic">Social science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">When a manufacturing company piloted on-site childcare for hourly employees, returning-parent retention twelve months after parental leave rose sharply compared to prior years. Human resources staff noted that exit interviews from before the pilot had repeatedly named childcare logistics, not pay or scheduling, as the reason many parents left instead of returning.</div>
+      <p class="qtext">As used in the passage, &quot;logistics&quot; most nearly means</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q3" value="A">
+          <span class="letter">A</span>
+          <span>financial compensation</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q3" value="B">
+          <span class="letter">B</span>
+          <span>the practical arrangements needed to manage something</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q3" value="C">
+          <span class="letter">C</span>
+          <span>a legal requirement</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q3" value="D">
+          <span class="letter">D</span>
+          <span>an emotional reaction</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="4">
+      <div class="qmeta">
+        <span class="qnum">04</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Words in Context</span>
+        <span class="tag topic">Historical / founding docs</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">A shipwright&#x27;s letter to the harbor commission defended a costly last-minute change to a vessel&#x27;s hull design, arguing that the added expense was trivial compared to the catastrophe a structural failure at sea would represent. He urged the commission not to let short-term budget concerns override a change he considered essential to the ship&#x27;s survival in open water.</div>
+      <p class="qtext">As used in the passage, &quot;trivial&quot; most nearly means</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q4" value="A">
+          <span class="letter">A</span>
+          <span>enormous and unaffordable</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q4" value="B">
+          <span class="letter">B</span>
+          <span>minor and unimportant by comparison</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q4" value="C">
+          <span class="letter">C</span>
+          <span>illegal under maritime law</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q4" value="D">
+          <span class="letter">D</span>
+          <span>impossible to calculate</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="5">
+      <div class="qmeta">
+        <span class="qnum">05</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Words in Context</span>
+        <span class="tag topic">Natural science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">Wood frogs surviving northern winters do something few vertebrates can: their hearts stop beating and much of their body water turns to ice, yet they thaw again come spring, unharmed. A concentrated sugar solution the frogs produce in autumn protects their cells from the damage ice crystals would otherwise inflict, allowing this seemingly fatal state to be temporary rather than permanent.</div>
+      <p class="qtext">As used in the passage, &quot;fatal&quot; most nearly means</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q5" value="A">
+          <span class="letter">A</span>
+          <span>beneficial</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q5" value="B">
+          <span class="letter">B</span>
+          <span>deadly</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q5" value="C">
+          <span class="letter">C</span>
+          <span>reversible</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q5" value="D">
+          <span class="letter">D</span>
+          <span>gradual</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="6">
+      <div class="qmeta">
+        <span class="qnum">06</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Text Structure &amp; Purpose</span>
+        <span class="tag topic">Literature</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">At the corner cafe, Renata never inputs regulars&#x27; orders into the register system installed the previous year. Instead she keeps a stack of handwritten index cards behind the counter, one per customer, updated each visit in pencil. New hires assumed she simply hadn&#x27;t learned the system yet, until they noticed she used it flawlessly for every unfamiliar face.</div>
+      <p class="qtext">Which choice best describes the function of the passage&#x27;s final sentence?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q6" value="A">
+          <span class="letter">A</span>
+          <span>It proves Renata is incapable of using the register system.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q6" value="B">
+          <span class="letter">B</span>
+          <span>It reveals the index cards are a deliberate choice, not a failure to adapt.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q6" value="C">
+          <span class="letter">C</span>
+          <span>It shifts the passage&#x27;s focus to the cafe&#x27;s business hours.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q6" value="D">
+          <span class="letter">D</span>
+          <span>It contradicts the claim that new hires work at the cafe.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="7">
+      <div class="qmeta">
+        <span class="qnum">07</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Text Structure &amp; Purpose</span>
+        <span class="tag topic">Social science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">A company&#x27;s four-day workweek trial produced mixed results across departments: the sales team reported higher client satisfaction scores, while the operations team saw a backlog of unresolved tickets grow steadily. Company leadership noted that the trial&#x27;s uneven outcomes made a single company-wide policy decision harder to justify than early enthusiasm had suggested.</div>
+      <p class="qtext">Which choice best describes the function of the passage&#x27;s final sentence?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q7" value="A">
+          <span class="letter">A</span>
+          <span>It confirms the four-day workweek should be adopted company-wide.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q7" value="B">
+          <span class="letter">B</span>
+          <span>It highlights how the mixed results complicate a single, uniform decision.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q7" value="C">
+          <span class="letter">C</span>
+          <span>It introduces an unrelated finding about employee vacation time.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q7" value="D">
+          <span class="letter">D</span>
+          <span>It argues the trial should be extended to a fifth department.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="8">
+      <div class="qmeta">
+        <span class="qnum">08</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Text Structure &amp; Purpose</span>
+        <span class="tag topic">Historical / founding docs</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">A canal-building committee&#x27;s minutes record months of routine votes on labor contracts and material costs. Midway through the year, the tone shifts abruptly: two committee members resign in protest over a proposed route change, and subsequent entries describe heated debate over whether the canal should bypass a rival town&#x27;s mill entirely.</div>
+      <p class="qtext">Which choice best describes the structure of the passage?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q8" value="A">
+          <span class="letter">A</span>
+          <span>It moves from routine procedural record-keeping to an account of sudden conflict.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q8" value="B">
+          <span class="letter">B</span>
+          <span>It presents a neutral comparison of two canal routes without any dispute.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q8" value="C">
+          <span class="letter">C</span>
+          <span>It refutes an earlier claim about the committee&#x27;s budget.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q8" value="D">
+          <span class="letter">D</span>
+          <span>It lists reasons the canal project was ultimately canceled.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="9">
+      <div class="qmeta">
+        <span class="qnum">09</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Text Structure &amp; Purpose</span>
+        <span class="tag topic">Natural science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">Darkling beetles in coastal deserts tilt their bodies into oncoming fog, letting droplets condense on ridges along their shells and trickle down into their mouths. Early observers assumed the ridges were purely decorative. Closer study revealed the ridges&#x27; specific spacing and texture were finely tuned to maximize droplet capture, a function no one had previously suspected.</div>
+      <p class="qtext">Which choice best describes the function of the passage&#x27;s final sentence?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q9" value="A">
+          <span class="letter">A</span>
+          <span>It confirms that the ridges serve no functional purpose.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q9" value="B">
+          <span class="letter">B</span>
+          <span>It introduces a previously unrecognized function that revises the earlier assumption.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q9" value="C">
+          <span class="letter">C</span>
+          <span>It contradicts the claim that the beetles live in coastal deserts.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q9" value="D">
+          <span class="letter">D</span>
+          <span>It shifts the passage&#x27;s focus to the beetles&#x27; diet.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="10">
+      <div class="qmeta">
+        <span class="qnum">10</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Text Structure &amp; Purpose</span>
+        <span class="tag topic">Social science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">A public library&#x27;s one-week fine-forgiveness event let patrons return long-overdue books without penalty. Return rates spiked immediately, and library staff initially credited the amnesty entirely for the surge. A follow-up review noted, however, that the library had also mailed reminder postcards to affected patrons that same week, muddying which factor drove the increase.</div>
+      <p class="qtext">Which choice best describes the function of the passage&#x27;s final sentence?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q10" value="A">
+          <span class="letter">A</span>
+          <span>It confirms the fine-forgiveness event alone caused the spike in returns.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q10" value="B">
+          <span class="letter">B</span>
+          <span>It raises a competing factor that complicates crediting the amnesty alone.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q10" value="C">
+          <span class="letter">C</span>
+          <span>It introduces an unrelated finding about the library&#x27;s book budget.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q10" value="D">
+          <span class="letter">D</span>
+          <span>It argues the fine-forgiveness event should be discontinued.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="11">
+      <div class="qmeta">
+        <span class="qnum">11</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Cross-Text Connections</span>
+        <span class="tag topic">Literature</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage"><span class="plabel">Text 1</span>Text 1: One critic argues that an ambiguous ending leaves a short story unfinished, denying readers the closure a well-constructed narrative owes them.</div><div class="passage"><span class="plabel">Text 2</span>Text 2: A second critic counters that ambiguity is itself the point, forcing readers to sit with the same uncertainty the story&#x27;s characters face rather than resolving it artificially.</div>
+      <p class="qtext">How would the author of Text 2 most likely respond to the claim in Text 1?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q11" value="A">
+          <span class="letter">A</span>
+          <span>By agreeing that ambiguous endings are simply unfinished.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q11" value="B">
+          <span class="letter">B</span>
+          <span>By arguing the ambiguity serves a deliberate purpose rather than a failure of craft.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q11" value="C">
+          <span class="letter">C</span>
+          <span>By claiming the story in question has no ambiguous elements.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q11" value="D">
+          <span class="letter">D</span>
+          <span>By praising Text 1 for identifying a genuine flaw.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="12">
+      <div class="qmeta">
+        <span class="qnum">12</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Cross-Text Connections</span>
+        <span class="tag topic">Historical / founding docs</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage"><span class="plabel">Text 1</span>Text 1: A delegate&#x27;s public speech praised a proposed tariff compromise as fair to manufacturing and farming regions alike.</div><div class="passage"><span class="plabel">Text 2</span>Text 2: The same delegate&#x27;s private notebook, however, called the compromise a temporary truce likely to unravel once either region&#x27;s economic fortunes shifted.</div>
+      <p class="qtext">How does the account in Text 2 relate to the account in Text 1?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q12" value="A">
+          <span class="letter">A</span>
+          <span>It confirms Text 1&#x27;s public praise was entirely sincere.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q12" value="B">
+          <span class="letter">B</span>
+          <span>It reveals a more skeptical private view that complicates the public praise.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q12" value="C">
+          <span class="letter">C</span>
+          <span>It proves Text 1&#x27;s speech was never actually delivered.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q12" value="D">
+          <span class="letter">D</span>
+          <span>It avoids discussing the tariff compromise altogether.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="13">
+      <div class="qmeta">
+        <span class="qnum">13</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Cross-Text Connections</span>
+        <span class="tag topic">Natural science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage"><span class="plabel">Text 1</span>Text 1: Researchers studying homing pigeons proposed that the birds navigate primarily by sensing Earth&#x27;s magnetic field.</div><div class="passage"><span class="plabel">Text 2</span>Text 2: A separate study found that pigeons with a clear view of the sun&#x27;s position corrected their course more accurately than pigeons flying under overcast skies, suggesting visual landmarks may also play a role.</div>
+      <p class="qtext">How does the finding in Text 2 relate to the proposal in Text 1?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q13" value="A">
+          <span class="letter">A</span>
+          <span>It contradicts Text 1 by showing pigeons cannot sense magnetic fields.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q13" value="B">
+          <span class="letter">B</span>
+          <span>It suggests an additional navigational cue rather than rejecting Text 1&#x27;s proposal.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q13" value="C">
+          <span class="letter">C</span>
+          <span>It proves Text 1&#x27;s magnetic-field theory was entirely mistaken.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q13" value="D">
+          <span class="letter">D</span>
+          <span>It shows pigeons cannot navigate accurately under any conditions.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="14">
+      <div class="qmeta">
+        <span class="qnum">14</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Cross-Text Connections</span>
+        <span class="tag topic">Social science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage"><span class="plabel">Text 1</span>Text 1: A neighborhood mentorship program&#x27;s organizers reported that switching from phone calls to text-message check-ins increased mentor participation significantly.</div><div class="passage"><span class="plabel">Text 2</span>Text 2: A separate review noted the same period saw the program add several new mentors recruited through a workplace partnership, complicating claims about what drove the participation increase.</div>
+      <p class="qtext">How does the finding in Text 2 relate to the claim in Text 1?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q14" value="A">
+          <span class="letter">A</span>
+          <span>It confirms that switching to text messages alone caused the increase.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q14" value="B">
+          <span class="letter">B</span>
+          <span>It introduces a competing factor that complicates crediting the format change alone.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q14" value="C">
+          <span class="letter">C</span>
+          <span>It shows that mentor participation actually declined that period.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q14" value="D">
+          <span class="letter">D</span>
+          <span>It argues the mentorship program should be discontinued.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="15">
+      <div class="qmeta">
+        <span class="qnum">15</span>
+        <span class="tag domain-info">Info &amp; Ideas</span>
+        <span class="tag topic">Central Ideas &amp; Details</span>
+        <span class="tag topic">Natural science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">Sea otters floating on their backs off the Pacific coast often carry a favorite rock tucked under one arm, using it to crack open the shells of clams and mussels balanced on their chests. Individual otters tend to keep the same rock for years, suggesting the behavior is a learned, deliberate tool use rather than an incidental habit.</div>
+      <p class="qtext">Which choice best states the main idea of the passage?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q15" value="A">
+          <span class="letter">A</span>
+          <span>Sea otters occasionally use rocks by accident to open shells.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q15" value="B">
+          <span class="letter">B</span>
+          <span>Sea otters engage in deliberate, learned tool use with favored rocks.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q15" value="C">
+          <span class="letter">C</span>
+          <span>Sea otters never eat clams or mussels.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q15" value="D">
+          <span class="letter">D</span>
+          <span>All marine mammals use rocks as tools.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="16">
+      <div class="qmeta">
+        <span class="qnum">16</span>
+        <span class="tag domain-info">Info &amp; Ideas</span>
+        <span class="tag topic">Central Ideas &amp; Details</span>
+        <span class="tag topic">Literature</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">After thirty years of teaching, Ms. Alvarez kept a drawer of letters she had written but never sent to former students, each one offering advice she wished she&#x27;d given them sooner. She reread them occasionally but never mailed a single one, telling herself each time that too much time had passed.</div>
+      <p class="qtext">Which choice best states the main idea of the passage?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q16" value="A">
+          <span class="letter">A</span>
+          <span>Ms. Alvarez regularly mails advice to her former students.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q16" value="B">
+          <span class="letter">B</span>
+          <span>Ms. Alvarez privately holds onto unspoken advice she feels is now too late to share.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q16" value="C">
+          <span class="letter">C</span>
+          <span>Ms. Alvarez has forgotten most of her former students.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q16" value="D">
+          <span class="letter">D</span>
+          <span>Ms. Alvarez plans to publish the letters as a book.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="17">
+      <div class="qmeta">
+        <span class="qnum">17</span>
+        <span class="tag domain-info">Info &amp; Ideas</span>
+        <span class="tag topic">Central Ideas &amp; Details</span>
+        <span class="tag topic">Social science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">A city pool&#x27;s free-admission Saturdays drew a noticeably different crowd than its regular paid hours, with attendance from lower-income neighborhoods rising sharply. City officials noted that exit interviews consistently cited the admission fee, however modest, as the main reason many families had rarely visited before the free days began.</div>
+      <p class="qtext">Which choice best states the main idea of the passage?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q17" value="A">
+          <span class="letter">A</span>
+          <span>The admission fee had little effect on who visited the pool.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q17" value="B">
+          <span class="letter">B</span>
+          <span>Removing the admission fee broadened pool access for lower-income families.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q17" value="C">
+          <span class="letter">C</span>
+          <span>The city eliminated the pool&#x27;s regular paid hours entirely.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q17" value="D">
+          <span class="letter">D</span>
+          <span>Only wealthy families used the pool during free-admission Saturdays.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="18">
+      <div class="qmeta">
+        <span class="qnum">18</span>
+        <span class="tag domain-info">Info &amp; Ideas</span>
+        <span class="tag topic">Central Ideas &amp; Details</span>
+        <span class="tag topic">Historical / founding docs</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">A colonial assembly debated for two sessions whether to fund a common school open to all township children regardless of family income. Opponents warned the cost would burden landholders unfairly; supporters countered that an educated township would repay the investment many times over within a generation.</div>
+      <p class="qtext">Which choice best states the main idea of the passage?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q18" value="A">
+          <span class="letter">A</span>
+          <span>The assembly unanimously rejected funding for the school.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q18" value="B">
+          <span class="letter">B</span>
+          <span>The assembly weighed the cost of a common school against its long-term benefits.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q18" value="C">
+          <span class="letter">C</span>
+          <span>Only wealthy families were permitted to attend the school.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q18" value="D">
+          <span class="letter">D</span>
+          <span>The debate concluded before any arguments were made.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="19">
+      <div class="qmeta">
+        <span class="qnum">19</span>
+        <span class="tag domain-info">Info &amp; Ideas</span>
+        <span class="tag topic">Inferences</span>
+        <span class="tag topic">Natural science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">Cuttlefish can shift the polarization pattern of light reflecting off their skin, a signal invisible to most fish but clearly visible to other cuttlefish. Researchers suggest this channel may let cuttlefish communicate directly in front of predators without those predators ever detecting that a signal was sent at all.</div>
+      <p class="qtext">Which choice most logically completes the passage&#x27;s implied conclusion?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q19" value="A">
+          <span class="letter">A</span>
+          <span>predators can easily detect and interpret the polarized signals.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q19" value="B">
+          <span class="letter">B</span>
+          <span>the polarized signals may function as a private channel invisible to predators.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q19" value="C">
+          <span class="letter">C</span>
+          <span>cuttlefish cannot communicate visually in any way.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q19" value="D">
+          <span class="letter">D</span>
+          <span>the signals are identical to ordinary color changes predators already notice.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="20">
+      <div class="qmeta">
+        <span class="qnum">20</span>
+        <span class="tag domain-info">Info &amp; Ideas</span>
+        <span class="tag topic">Inferences</span>
+        <span class="tag topic">Literature</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">Whenever a difficult phone call loomed, Reiko would sit at her kitchen table folding paper cranes, one after another, letting the crease and fold of each fill the space where a rehearsed opening line should have been. By the time a small flock covered the table, she still hadn&#x27;t dialed.</div>
+      <p class="qtext">Which choice most logically completes the passage&#x27;s implied conclusion?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q20" value="A">
+          <span class="letter">A</span>
+          <span>Reiko folds cranes because she genuinely enjoys origami above all else.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q20" value="B">
+          <span class="letter">B</span>
+          <span>Reiko uses the folding as a way to delay a conversation she&#x27;s avoiding.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q20" value="C">
+          <span class="letter">C</span>
+          <span>Reiko has already made the difficult phone call by the end of the passage.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q20" value="D">
+          <span class="letter">D</span>
+          <span>Reiko folds cranes only after successfully completing hard conversations.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="21">
+      <div class="qmeta">
+        <span class="qnum">21</span>
+        <span class="tag domain-info">Info &amp; Ideas</span>
+        <span class="tag topic">Inferences</span>
+        <span class="tag topic">Social science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">A city widened several downtown bike lanes and, within the same month, opened a new subway line serving the same corridor. Officials pointed to a sharp rise in cyclists as evidence the wider lanes were working, though transportation researchers noted the timing made it difficult to separate the lanes&#x27; effect from commuters simply shifting off the newly relieved subway platforms.</div>
+      <p class="qtext">Which choice most logically completes the passage&#x27;s implied conclusion?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q21" value="A">
+          <span class="letter">A</span>
+          <span>The wider bike lanes alone clearly caused the rise in cycling.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q21" value="B">
+          <span class="letter">B</span>
+          <span>The overlapping timing makes it hard to attribute the rise in cycling to the bike lanes alone.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q21" value="C">
+          <span class="letter">C</span>
+          <span>The subway line had no effect on downtown commuting patterns.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q21" value="D">
+          <span class="letter">D</span>
+          <span>Cycling rates actually declined after the lanes were widened.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="22">
+      <div class="qmeta">
+        <span class="qnum">22</span>
+        <span class="tag domain-info">Info &amp; Ideas</span>
+        <span class="tag topic">Inferences</span>
+        <span class="tag topic">Historical / founding docs</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">A militia quartermaster&#x27;s ledger from a long campaign shows gunpowder allocations shrinking company by company as the season wore on, with the final entries noting powder issued only to units on active patrol. No entry explains the shortage directly, but the pattern of increasingly selective distribution runs through the ledger&#x27;s final months.</div>
+      <p class="qtext">Which choice most logically completes the passage&#x27;s implied conclusion?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q22" value="A">
+          <span class="letter">A</span>
+          <span>Gunpowder supplies were abundant throughout the campaign&#x27;s final months.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q22" value="B">
+          <span class="letter">B</span>
+          <span>The ledger&#x27;s pattern suggests a worsening gunpowder shortage forced increasingly selective distribution.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q22" value="C">
+          <span class="letter">C</span>
+          <span>Only units on patrol required any gunpowder at all.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q22" value="D">
+          <span class="letter">D</span>
+          <span>The quartermaster recorded no changes in allocation over the campaign.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="23">
+      <div class="qmeta">
+        <span class="qnum">23</span>
+        <span class="tag domain-info">Info &amp; Ideas</span>
+        <span class="tag topic">Command of Evidence</span>
+        <span class="tag topic">Literature</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">Old Mr. Kessler still keeps a labeled bin of half-finished shoe repairs for a customer who moved out of state nearly a decade ago. Neighbors have long since stopped asking why; he still fixes a pair every so often, though he has no address to send them to and no way of knowing if she&#x27;d even want them back.</div>
+      <p class="qtext">Which choice best supports the claim that Mr. Kessler continues the repairs despite no practical way to complete them?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q23" value="A">
+          <span class="letter">A</span>
+          <span>&quot;still keeps a labeled bin of half-finished shoe repairs&quot;</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q23" value="B">
+          <span class="letter">B</span>
+          <span>&quot;Neighbors have long since stopped asking why&quot;</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q23" value="C">
+          <span class="letter">C</span>
+          <span>&quot;he still fixes a pair every so often&quot;</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q23" value="D">
+          <span class="letter">D</span>
+          <span>&quot;he has no address to send them to and no way of knowing if she&#x27;d even want them back&quot;</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="24">
+      <div class="qmeta">
+        <span class="qnum">24</span>
+        <span class="tag domain-info">Info &amp; Ideas</span>
+        <span class="tag topic">Command of Evidence</span>
+        <span class="tag topic">Social science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">After a company began fully subsidizing employee transit passes, on-site parking requests dropped by nearly a third within two months. Employees surveyed afterward frequently mentioned that the pass, not any change in commute distance, was what finally made transit cheaper than driving for them.</div>
+      <p class="qtext">Which choice best supports the claim that cost, not convenience, drove the shift away from driving?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q24" value="A">
+          <span class="letter">A</span>
+          <span>&quot;on-site parking requests dropped by nearly a third within two months&quot;</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q24" value="B">
+          <span class="letter">B</span>
+          <span>&quot;Employees surveyed afterward frequently mentioned&quot;</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q24" value="C">
+          <span class="letter">C</span>
+          <span>&quot;the pass, not any change in commute distance, was what finally made transit cheaper than driving&quot;</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q24" value="D">
+          <span class="letter">D</span>
+          <span>&quot;began fully subsidizing employee transit passes&quot;</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="25">
+      <div class="qmeta">
+        <span class="qnum">25</span>
+        <span class="tag domain-info">Info &amp; Ideas</span>
+        <span class="tag topic">Command of Evidence</span>
+        <span class="tag topic">Historical / founding docs</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">A colonial newspaper editor published two rival letters on the same page debating a proposed town charter: one warning the charter would concentrate too much power in a single council, the other insisting no township could function without such centralized authority. The editor added no commentary of his own, letting readers weigh the arguments directly.</div>
+      <p class="qtext">Which choice best supports the claim that the editor deliberately avoided taking a side in the charter debate?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q25" value="A">
+          <span class="letter">A</span>
+          <span>&quot;published two rival letters on the same page&quot;</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q25" value="B">
+          <span class="letter">B</span>
+          <span>&quot;one warning the charter would concentrate too much power in a single council&quot;</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q25" value="C">
+          <span class="letter">C</span>
+          <span>&quot;the other insisting no township could function without such centralized authority&quot;</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q25" value="D">
+          <span class="letter">D</span>
+          <span>&quot;added no commentary of his own, letting readers weigh the arguments directly&quot;</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="26">
+      <div class="qmeta">
+        <span class="qnum">26</span>
+        <span class="tag domain-info">Info &amp; Ideas</span>
+        <span class="tag topic">Command of Evidence</span>
+        <span class="tag topic">Natural science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">Barn owls hunt in near-total darkness by sound alone, relying on ears positioned at slightly different heights on either side of the skull. This asymmetry causes sound from below to reach one ear a fraction of a second before the other, letting the owl&#x27;s brain calculate a prey&#x27;s vertical position with striking precision.</div>
+      <p class="qtext">Which choice best supports the claim that ear asymmetry specifically enables precise vertical prey location?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q26" value="A">
+          <span class="letter">A</span>
+          <span>&quot;hunt in near-total darkness by sound alone&quot;</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q26" value="B">
+          <span class="letter">B</span>
+          <span>&quot;ears positioned at slightly different heights on either side of the skull&quot;</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q26" value="C">
+          <span class="letter">C</span>
+          <span>&quot;sound from below to reach one ear a fraction of a second before the other&quot;</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q26" value="D">
+          <span class="letter">D</span>
+          <span>&quot;the owl&#x27;s brain calculate a prey&#x27;s vertical position with striking precision&quot;</span>
+        </label></div>
+      <div class="explain"></div>
+    </div></div>
+</div>
+
+<div class="submitbar">
+  <button id="submitBtn" type="button">Submit Test</button>
+  <button id="copyBtn" type="button" class="secondary" disabled>Copy results for your records</button>
+  <span class="hint" id="submitHint">Answers save in this browser as you go.</span>
+</div>
+<div id="copyOut" class="wrap">
+  <div class="label">Results summary (paste into score_log.json, or text/email it to whoever's tracking):</div>
+  <textarea id="copyText" readonly></textarea>
+</div>
+
+<script>
+const STORAGE_KEY = "sat_practice_2026-09-21";
+const total = 26;
+const QMETA = {"1": {"domain": "craft_and_structure", "correct": "B", "explanation": "\"Distinctive\" describes the whisker shape as notably different from a typical smooth shape, which is what gives it its noise-reducing function."}, "2": {"domain": "craft_and_structure", "correct": "B", "explanation": "The stamps would lose their practical mailing value once postage rates rose, which is what \"worthless\" refers to here -- not their sentimental value."}, "3": {"domain": "craft_and_structure", "correct": "B", "explanation": "\"Logistics\" here refers to the practical arrangements of managing childcare, which parents cited as their reason for leaving."}, "4": {"domain": "craft_and_structure", "correct": "B", "explanation": "The shipwright argues the added cost is minor when weighed against the risk of structural failure, matching \"trivial.\""}, "5": {"domain": "craft_and_structure", "correct": "B", "explanation": "The passage notes the frozen state would typically be lethal, calling it \"seemingly fatal\" though the frogs survive it -- \"fatal\" means deadly."}, "6": {"domain": "craft_and_structure", "correct": "B", "explanation": "Renata using the register flawlessly for strangers shows the index cards for regulars are a deliberate personal choice, not an inability to adapt."}, "7": {"domain": "craft_and_structure", "correct": "B", "explanation": "The final sentence explains that the departments' differing outcomes make one company-wide decision harder to justify."}, "8": {"domain": "craft_and_structure", "correct": "A", "explanation": "The passage shifts from mundane procedural notes to describing resignations and heated debate, matching choice A."}, "9": {"domain": "craft_and_structure", "correct": "B", "explanation": "The final sentence reveals the ridges have a water-capturing function no one had suspected, revising the earlier \"decorative\" assumption."}, "10": {"domain": "craft_and_structure", "correct": "B", "explanation": "The reminder postcards are a confound that muddies whether the amnesty alone caused the increase."}, "11": {"domain": "craft_and_structure", "correct": "B", "explanation": "Text 2 defends ambiguity as intentional and meaningful, directly countering Text 1's claim that it denies readers closure."}, "12": {"domain": "craft_and_structure", "correct": "B", "explanation": "The private notebook's doubts about the compromise's durability complicate the confident public praise described in Text 1."}, "13": {"domain": "craft_and_structure", "correct": "B", "explanation": "Text 2 points to visual landmarks as an additional cue, extending rather than contradicting Text 1's magnetic-sense proposal."}, "14": {"domain": "craft_and_structure", "correct": "B", "explanation": "Text 2 introduces the new-mentor recruitment drive as a competing explanation, complicating the claim in Text 1."}, "15": {"domain": "information_and_ideas", "correct": "B", "explanation": "The passage's main idea is that otters' rock use is deliberate, learned tool use, not incidental."}, "16": {"domain": "information_and_ideas", "correct": "B", "explanation": "The passage centers on Ms. Alvarez privately keeping advice she feels she can no longer share, matching choice B."}, "17": {"domain": "information_and_ideas", "correct": "B", "explanation": "The passage's main idea is that removing the fee opened access to families it had been excluding."}, "18": {"domain": "information_and_ideas", "correct": "B", "explanation": "The passage centers on the assembly weighing the school's upfront cost against its projected long-term value."}, "19": {"domain": "information_and_ideas", "correct": "B", "explanation": "Since most predators can't detect the polarization pattern, it functions as a communication channel hidden from them."}, "20": {"domain": "information_and_ideas", "correct": "B", "explanation": "The folding fills the time meant for the call, and she still hasn't dialed by the end, implying avoidance rather than simple enjoyment."}, "21": {"domain": "information_and_ideas", "correct": "B", "explanation": "The simultaneous subway opening is a confound that makes it hard to credit the bike lanes alone for the rise in cycling."}, "22": {"domain": "information_and_ideas", "correct": "B", "explanation": "The shrinking, increasingly selective allocations imply a worsening shortage, even without an entry stating so directly."}, "23": {"domain": "information_and_ideas", "correct": "D", "explanation": "The direct statement that he has no address and no way to know if she'd want them back most explicitly supports that the repairs continue despite no practical way to complete them."}, "24": {"domain": "information_and_ideas", "correct": "C", "explanation": "Employees explicitly crediting the cost difference, not commute distance, most directly supports the claim that cost drove the shift."}, "25": {"domain": "information_and_ideas", "correct": "D", "explanation": "The editor withholding commentary and letting readers judge directly is the clearest evidence he avoided taking a side."}, "26": {"domain": "information_and_ideas", "correct": "C", "explanation": "The timing difference caused by the asymmetric ear placement is the direct mechanism enabling vertical position calculation."}};
+
+function loadState() {
+  try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}"); }
+  catch (e) { return {}; }
+}
+function saveState(state) {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
+}
+
+function updateProgress() {
+  const answered = document.querySelectorAll('#questions input[type="radio"]:checked').length;
+  document.getElementById("progressLabel").textContent = answered + " of " + total + " answered";
+  document.getElementById("progressFill").style.width = (answered / total * 100) + "%";
+}
+
+function gradeCard(card, answers) {
+  const qid = card.dataset.qid;
+  const meta = QMETA[qid];
+  const picked = answers[qid];
+  const isCorrect = picked === meta.correct;
+
+  card.classList.add("graded", isCorrect ? "graded-correct" : "graded-incorrect");
+  card.querySelectorAll('input[type="radio"]').forEach(input => input.disabled = true);
+
+  const badge = card.querySelector(".result-badge");
+  badge.textContent = isCorrect ? "✓ Correct" : "✗ Incorrect";
+  badge.classList.add(isCorrect ? "correct" : "incorrect");
+
+  card.querySelectorAll(".choice").forEach(label => {
+    const letter = label.dataset.letter;
+    if (letter === meta.correct) label.classList.add("correct-answer");
+    else if (letter === picked) label.classList.add("wrong-pick");
+  });
+
+  const explain = card.querySelector(".explain");
+  explain.innerHTML = "<b>Why " + meta.correct + " is correct</b>" + meta.explanation;
+
+  return isCorrect;
+}
+
+function scoreLabel(pct) {
+  if (pct >= 85) return "Great work — that's tier-up territory.";
+  if (pct <= 60) return "Rough one — this domain may need a tier down or a strategy chat.";
+  return "Solid — right in the zone for this tier.";
+}
+
+function gradeAll() {
+  const state = loadState();
+  const answers = state.answers || {};
+  const cards = Array.from(document.querySelectorAll(".qcard"));
+
+  const totals = { information_and_ideas: {c:0,n:0}, craft_and_structure: {c:0,n:0} };
+  cards.forEach(card => {
+    const qid = card.dataset.qid;
+    const meta = QMETA[qid];
+    const correct = gradeCard(card, answers);
+    totals[meta.domain].n++;
+    if (correct) totals[meta.domain].c++;
+  });
+
+  const infoP = Math.round(100 * totals.information_and_ideas.c / totals.information_and_ideas.n);
+  const craftP = Math.round(100 * totals.craft_and_structure.c / totals.craft_and_structure.n);
+  const overallN = totals.information_and_ideas.n + totals.craft_and_structure.n;
+  const overallC = totals.information_and_ideas.c + totals.craft_and_structure.c;
+  const overallP = Math.round(100 * overallC / overallN);
+
+  document.getElementById("scoreInfo").textContent = totals.information_and_ideas.c + "/" + totals.information_and_ideas.n + " (" + infoP + "%)";
+  document.getElementById("scoreCraft").textContent = totals.craft_and_structure.c + "/" + totals.craft_and_structure.n + " (" + craftP + "%)";
+  document.getElementById("scoreOverall").textContent = overallC + "/" + overallN + " (" + overallP + "%)";
+  document.getElementById("resultsHeadline").textContent = "Test graded — " + overallP + "% overall";
+  document.getElementById("resultsMsg").textContent =
+    "Info & Ideas: " + scoreLabel(infoP) + " Craft & Structure: " + scoreLabel(craftP);
+  document.getElementById("resultsPanel").hidden = false;
+  document.getElementById("resultsPanel").scrollIntoView({ behavior: "smooth", block: "start" });
+
+  document.getElementById("submitBtn").disabled = true;
+  document.getElementById("submitBtn").textContent = "Submitted";
+  document.getElementById("copyBtn").disabled = false;
+  document.getElementById("submitHint").textContent = "Graded locally — nothing sent anywhere automatically.";
+
+  state.submitted = true;
+  state.scores = { information_and_ideas: { c: totals.information_and_ideas.c, n: totals.information_and_ideas.n },
+                    craft_and_structure: { c: totals.craft_and_structure.c, n: totals.craft_and_structure.n } };
+  saveState(state);
+}
+
+(function init() {
+  const state = loadState();
+  const answers = state.answers || {};
+
+  document.querySelectorAll('.qcard').forEach(card => {
+    const qid = card.dataset.qid;
+    const val = answers[qid];
+    if (val) {
+      const input = card.querySelector('input[value="' + val + '"]');
+      if (input) input.checked = true;
+      card.classList.add("answered");
+    }
+  });
+  updateProgress();
+
+  if (state.submitted) {
+    gradeAll();
+  }
+
+  document.getElementById("questions").addEventListener("change", (e) => {
+    if (e.target.type !== "radio") return;
+    const card = e.target.closest(".qcard");
+    card.classList.add("answered");
+    const s = loadState();
+    s.answers = s.answers || {};
+    s.answers[card.dataset.qid] = e.target.value;
+    saveState(s);
+    updateProgress();
+  });
+
+  document.getElementById("submitBtn").addEventListener("click", () => {
+    const answered = document.querySelectorAll('#questions input[type="radio"]:checked').length;
+    if (answered < total && !confirm(answered + " of " + total + " answered. Submit anyway?")) return;
+    gradeAll();
+  });
+
+  document.getElementById("copyBtn").addEventListener("click", () => {
+    const s = loadState();
+    if (!s.scores) return;
+    const i = s.scores.information_and_ideas, c = s.scores.craft_and_structure;
+    const cards = Array.from(document.querySelectorAll(".qcard"))
+      .sort((a, b) => Number(a.dataset.qid) - Number(b.dataset.qid));
+    const answerLines = cards.map(card => card.dataset.qid + ". " + (s.answers[card.dataset.qid] || "—"));
+    const text = "SAT Practice — 2026-09-21 — Tier 2/2\n" +
+      "Info & Ideas: " + i.c + "/" + i.n + " (" + Math.round(100*i.c/i.n) + "%)\n" +
+      "Craft & Structure: " + c.c + "/" + c.n + " (" + Math.round(100*c.c/c.n) + "%)\n\n" +
+      "Answers:\n" + answerLines.join("\n");
+    const box = document.getElementById("copyText");
+    box.value = text;
+    document.getElementById("copyOut").classList.add("show");
+    box.focus();
+    box.select();
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).catch(() => {});
+    }
+  });
+})();
+</script>
+</body>
+</html>
