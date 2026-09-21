@@ -72,15 +72,24 @@ Tier definitions to calibrate question difficulty:
   comparison; all distractors are plausible without close reading.
 
 STEP 4 — GENERATE TODAY'S TEST
-- Target length: 30–45 minutes. Use ~90 seconds per question as the pacing
+- Target length: ~15 minutes. Use ~90 seconds per question as the pacing
   assumption (slower than real SAT pace since this is training, not test
-  day) → build 22–28 questions total.
+  day) → build 9–11 questions total (10 is the target; shortened from the
+  original 22–28 on 2026-09-21 because Nirvaan found the longer tests too
+  long to complete — length matters more than domain coverage here).
 - Split questions between domains proportional to real SAT weighting:
-  roughly 52% Craft and Structure, 48% Information and Ideas.
+  roughly 52% Craft and Structure, 48% Information and Ideas (with only
+  ~10 questions this rounds to about 5 and 5 — don't force an exact
+  proportion at this size).
 - Within Craft and Structure, rotate across its sub-types: Words in
-  Context, Text Structure and Purpose, Cross-Text Connections.
+  Context, Text Structure and Purpose, Cross-Text Connections. With only
+  ~5 Craft and Structure questions a day, don't force all 3 sub-types into
+  every single test — rotate which ones appear day to day instead (check
+  recent test files if useful context), so coverage evens out over a week
+  rather than within one sitting.
 - Within Information and Ideas, rotate across: Central Ideas and Details,
-  Inferences, Command of Evidence.
+  Inferences, Command of Evidence. Same rotate-across-days approach as
+  above applies here too.
 - Every question uses the current tier for its domain (from Step 3).
 - Passage topics: rotate across the same categories the real digital SAT
   draws from — literature/literary nonfiction, natural science, social
