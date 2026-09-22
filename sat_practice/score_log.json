@@ -164,6 +164,26 @@
         "craft_and_structure": 2
       },
       "notes": "This entry grades the 2026-09-20 test (per Step 1, the routine grades yesterday's test before generating today's) and records today's 2026-09-21 test generation. Test emailed to Nirvaan 2026-09-20 21:15:11 UTC (subject 'SAT Practice — 2026-09-20 — Tier 2/2'). Checked Gmail on 2026-09-21 (run time ~21:07 UTC, ~23h52m later): searched from:nirvaanaditya11@gmail.com across the entire mailbox and found zero results -- no message from that address exists here at all, same as every prior check since 2026-09-15. Marked 2026-09-20 missed per routine rules (20+ hours, no submission); difficulty held steady for both domains since zero graded tests exist in history to compute an average from. This is the seventh consecutive test (2026-09-14 through 2026-09-20) with no graded result, and both domain tiers have now been unchanged at 2/2 for seven straight tests -- an unbroken week-plus of zero data on Nirvaan's actual performance. The underlying cause continues to be that this mailbox has never received a single message from nirvaanaditya11@gmail.com since the routine started on 2026-09-14, not a performance plateau. Strongly recommend confirming directly with Nirvaan (in person or by text, not email) whether the test emails are reaching him and whether he understands he needs to reply to that email address, since the reply-by-email loop shows no sign of self-resolving after a full week of daily attempts."
+    },
+    {
+      "date": "2026-09-22",
+      "test_file": "2026-09-22_test.json",
+      "graded": false,
+      "missed": true,
+      "questions_attempted": null,
+      "accuracy": {
+        "information_and_ideas": null,
+        "craft_and_structure": null
+      },
+      "tiers_before": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "tiers_after": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "notes": "This entry grades the 2026-09-21 test (26 questions, the last test at the old longer length before the same-day length-reduction commit) and records today's 2026-09-22 test generation, the first at the new ~10-question length. Test emailed to Nirvaan 2026-09-21 21:19:39 UTC (subject 'SAT Practice — 2026-09-21 — Tier 2/2'); confirmed via Gmail sent-mail search it reached nirvaanaditya11@gmail.com as a single-message thread. Checked Gmail on 2026-09-22 (~24h later): searched from:nirvaanaditya11@gmail.com across the entire mailbox and found zero results -- no message from that address exists here at all, same as every check since 2026-09-15. Marked 2026-09-21 missed per routine rules (20+ hours, no submission); difficulty held steady for both domains since zero graded tests still exist in history. This is the eighth consecutive test (2026-09-14 through 2026-09-21) with no graded result, and both domain tiers have now been unchanged at 2/2 for eight straight tests. This is no longer explainable as a fluke: every single test email sent since 2026-09-14 (eight in a row) is confirmed delivered from this account's Sent folder to nirvaanaditya11@gmail.com, yet that address has never once appeared as a sender anywhere in this mailbox. Reiterating and escalating the prior recommendation: this needs a direct, non-email check with Nirvaan (in person or by text) on whether he is receiving these emails at all and whether he knows to reply with his answers, since eight days of identical results strongly suggest a broken channel rather than repeated forgetfulness."
     }
   ]
 }

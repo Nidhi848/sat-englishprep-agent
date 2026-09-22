@@ -1,0 +1,170 @@
+{
+  "date": "2026-09-22",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "When threatened, a pufferfish rapidly gulps water into an elastic stomach chamber, swelling to several times its normal size within seconds. The sudden transformation makes the fish an unwieldy meal for most predators, who typically abandon the attempt once swallowing becomes impractical. Deflation afterward is gradual, taking hours rather than seconds.",
+      "question": "As used in the passage, \"unwieldy\" most nearly means",
+      "choices": {
+        "A": "easy to swallow",
+        "B": "difficult to handle or manage",
+        "C": "brightly colored",
+        "D": "completely invisible"
+      },
+      "correct_answer": "B",
+      "explanation": "The pufferfish's swollen size makes it hard for predators to handle or swallow, which is what \"unwieldy\" conveys."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "As children, the twins practiced forging each other's handwriting until neither teacher could reliably tell them apart on a quiz. It became a private trick between them, deployed sparingly -- usually only when one had genuinely forgotten to finish an assignment the night before.",
+      "question": "As used in the passage, \"deployed\" most nearly means",
+      "choices": {
+        "A": "discarded",
+        "B": "put into use",
+        "C": "forgotten",
+        "D": "criticized"
+      },
+      "correct_answer": "B",
+      "explanation": "\"Deployed\" here means the trick was put into use, specifically when needed."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "A downtown district raised its parking meter rates and, in the same month, installed dozens of new bike racks along the same streets. Merchants initially blamed the rate hike for a dip in foot traffic. A closer look at foot-traffic data, however, showed the dip beginning two weeks before either change took effect.",
+      "question": "Which choice best describes the function of the passage's final sentence?",
+      "choices": {
+        "A": "It confirms the rate hike caused the drop in foot traffic.",
+        "B": "It introduces evidence that complicates the merchants' explanation.",
+        "C": "It shifts focus to the number of bike racks installed.",
+        "D": "It argues the bike racks should be removed."
+      },
+      "correct_answer": "B",
+      "explanation": "The foot-traffic data predating either change complicates the merchants' claim that the rate hike caused the dip."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "An apprentice printer's diary describes a routine week of setting type for a newspaper's shipping notices. One entry breaks from this pattern: he confesses to a costly error, having set an entire page of advertisements with the wrong date, and describes reprinting the page overnight at his own expense to avoid telling his master.",
+      "question": "Which choice best describes the structure of the passage?",
+      "choices": {
+        "A": "It moves from routine description to an account of a specific mistake and its consequences.",
+        "B": "It compares two different apprentices' printing techniques.",
+        "C": "It argues that shipping notices were unimportant to the newspaper.",
+        "D": "It lists reasons the newspaper eventually closed."
+      },
+      "correct_answer": "A",
+      "explanation": "The passage shifts from describing a routine week to detailing one specific costly error and how the apprentice handled it."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "Hermit crabs without a shell to spare will sometimes line up by size next to an empty one, largest to smallest. When the largest crab claims the shell, it abandons its old, smaller shell -- which the next crab in line immediately takes, setting off a chain down the entire row.",
+      "question": "Which choice best describes the function of the passage's final sentence?",
+      "choices": {
+        "A": "It confirms crabs never abandon their shells voluntarily.",
+        "B": "It explains how one shell exchange triggers a cascade among the group.",
+        "C": "It shifts the passage's focus to crab diet.",
+        "D": "It contradicts the claim that crabs line up by size."
+      },
+      "correct_answer": "B",
+      "explanation": "The final sentence describes how the largest crab's shell exchange sets off a chain reaction down the line."
+    },
+    {
+      "id": 6,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "literature",
+      "passage": "Aunt Priya kept a jar of buttons clipped from coats too worn to mend, each one saved rather than thrown away with the rest of the garment. She could name which coat any given button came from and the year it had been retired, though she rarely mentioned the jar unless someone asked directly.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Aunt Priya throws away old coats without saving anything from them.",
+        "B": "Aunt Priya privately preserves small mementos of worn-out coats.",
+        "C": "Aunt Priya sells the buttons she collects.",
+        "D": "Aunt Priya forgets which coats her buttons came from."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage centers on Aunt Priya quietly keeping buttons as mementos of coats no longer around."
+    },
+    {
+      "id": 7,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "social_science",
+      "passage": "A public library added a monthly tool-repair cafe alongside its usual book clubs, inviting patrons to bring in broken household items for volunteers to fix on-site. Librarians reported that many attendees who came only for the repair sessions later signed up for library cards, something the book clubs alone had rarely produced.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "The tool-repair cafe replaced the library's book clubs entirely.",
+        "B": "The repair cafe drew in new patrons who then engaged further with the library.",
+        "C": "Library card sign-ups declined after the repair cafe launched.",
+        "D": "Volunteers refused to repair certain household items."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage's main idea is that the repair cafe attracted new patrons who then became more engaged with the library, such as signing up for cards."
+    },
+    {
+      "id": 8,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "historical",
+      "passage": "A surveyor's notebook from a disputed property line records two separate measurements taken a year apart, each using a different starting landmark. The later entry notes only that the original landmark, a lone oak tree, could no longer be found.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "the discrepancy between the two measurements may stem from the loss of the original reference point.",
+        "B": "both measurements were taken using identical methods and landmarks.",
+        "C": "the property line dispute was resolved before either measurement was taken.",
+        "D": "the oak tree was deliberately removed by the surveyor."
+      },
+      "correct_answer": "A",
+      "explanation": "The missing original landmark plausibly explains why the two measurements, taken from different starting points, might differ."
+    },
+    {
+      "id": 9,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "natural_science",
+      "passage": "Click beetles trapped on their backs snap a spring-loaded hinge between their head and thorax, launching themselves several inches into the air with an audible click. Landing right-side up is not guaranteed on the first attempt, and beetles often repeat the maneuver several times before succeeding.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "the jumping maneuver reliably works on the first try every time.",
+        "B": "the click beetle's escape method is more of a repeated gamble than a guaranteed fix.",
+        "C": "click beetles never end up on their backs in the wild.",
+        "D": "the clicking sound has no connection to the jumping motion."
+      },
+      "correct_answer": "B",
+      "explanation": "Since beetles often need multiple attempts to land right-side up, the maneuver functions more as a repeated gamble than a sure fix."
+    },
+    {
+      "id": 10,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Every spring, retired sailor Mr. Okafor repaints his rowboat the same shade of faded blue, though the boat has not touched water in over a decade and shows no sign it ever will again. Neighbors who ask why he bothers get only a shrug and a change of subject.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "Mr. Okafor plans to sail the rowboat again very soon.",
+        "B": "the repainting ritual likely holds a personal meaning he is unwilling to explain.",
+        "C": "Mr. Okafor has forgotten he owns the rowboat.",
+        "D": "the neighbors fully understand and share his reasons for repainting."
+      },
+      "correct_answer": "B",
+      "explanation": "His unexplained, unwavering yearly ritual for a boat that will never sail again implies a private significance he doesn't want to discuss."
+    }
+  ]
+}
