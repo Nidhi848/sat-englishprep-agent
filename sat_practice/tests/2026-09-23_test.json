@@ -1,0 +1,172 @@
+{
+  "date": "2026-09-23",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Text 1: A team studying prairie dogs recorded distinct alarm calls for different predators, proposing that the animals encode specific threat types, not just danger in general, within each call's acoustic pattern.",
+      "passage_2": "Text 2: A later study found that prairie dogs also varied their calls based on how quickly a predator approached, regardless of species, suggesting urgency, not just identity, is encoded as well.",
+      "question": "How does the finding in Text 2 relate to the proposal in Text 1?",
+      "choices": {
+        "A": "It disproves Text 1's claim that calls encode predator identity.",
+        "B": "It adds urgency as another dimension encoded alongside predator type, rather than replacing Text 1's claim.",
+        "C": "It shows prairie dogs cannot distinguish between predator species.",
+        "D": "It argues that alarm calls are entirely random."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 adds urgency as an additional encoded dimension without contradicting Text 1's claim that calls also encode predator identity."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "historical",
+      "passage_1": "Text 1: A trading company's official report described the founding of a frontier post as achieved through peaceful negotiation with the region's inhabitants.",
+      "passage_2": "Text 2: A trader's private diary from the same expedition recorded a tense standoff before any agreement was reached, a detail the company's report omitted entirely.",
+      "question": "How does the account in Text 2 relate to the account in Text 1?",
+      "choices": {
+        "A": "It confirms that the founding was entirely peaceful as described.",
+        "B": "It complicates the official account by revealing tension the report left out.",
+        "C": "It proves the trading post was never actually founded.",
+        "D": "It shows the diary's author was not present at the founding."
+      },
+      "correct_answer": "B",
+      "explanation": "The diary's account of a tense standoff complicates the official report's peaceful narrative by revealing an omitted detail."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "Every winter, the boy watched his uncle work a blade across a block of pine with unhurried, exacting strokes, never rushing even when a single wrong cut meant starting over. Only after several seasons of watching was the boy allowed to hold the knife himself.",
+      "question": "As used in the passage, \"exacting\" most nearly means",
+      "choices": {
+        "A": "careless",
+        "B": "painstakingly precise",
+        "C": "rapid",
+        "D": "reluctant"
+      },
+      "correct_answer": "B",
+      "explanation": "The uncle's unhurried, careful strokes, where a wrong cut ruins the work, show \"exacting\" means painstakingly precise."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "social_science",
+      "passage": "To boost membership, a neighborhood co-op grocery began offering a discount to shoppers who logged volunteer hours restocking shelves or greeting customers. Store organizers hoped the program would incentivize participation beyond what discounts on groceries alone had achieved.",
+      "question": "As used in the passage, \"incentivize\" most nearly means",
+      "choices": {
+        "A": "discourage",
+        "B": "measure",
+        "C": "encourage",
+        "D": "forbid"
+      },
+      "correct_answer": "C",
+      "explanation": "The program was meant to encourage participation, which is what \"incentivize\" conveys here."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "A bombardier beetle under attack mixes two stored chemicals in an internal chamber, triggering a boiling, noxious spray aimed precisely at the attacker. The mechanism itself is fast, completing in a fraction of a second, but its real significance lies in how reliably it deters even determined predators from a second attempt.",
+      "question": "Which choice best describes the function of the passage's final clause (\"its real significance... second attempt\")?",
+      "choices": {
+        "A": "It shifts focus from how the spray works to why it matters.",
+        "B": "It contradicts the claim that the spray is fast.",
+        "C": "It argues the beetle rarely uses this defense.",
+        "D": "It lists additional chemicals involved in the spray."
+      },
+      "correct_answer": "A",
+      "explanation": "The final clause moves from describing the mechanism to explaining its broader significance in deterring predators."
+    },
+    {
+      "id": 6,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "literature",
+      "passage": "A pastry chef keeps a battered recipe notebook where, next to each recipe, she has quietly penciled in the birthdays of regular customers who requested it. She has never told anyone about the notes, and the notebook rarely leaves the shop.",
+      "question": "Which choice best supports the claim that the chef's notes are a private gesture rather than a business record?",
+      "choices": {
+        "A": "\"keeps a battered recipe notebook\"",
+        "B": "\"penciled in the birthdays of regular customers who requested it\"",
+        "C": "\"she has never told anyone about the notes\"",
+        "D": "\"the notebook rarely leaves the shop\""
+      },
+      "correct_answer": "C",
+      "explanation": "Never telling anyone about the notes most directly supports that the gesture is private rather than a business record."
+    },
+    {
+      "id": 7,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "A co-working space began offering free notarization services one afternoon a week. Membership renewals rose noticeably in the months that followed, and exit surveys of members who chose to renew frequently cited the notarization hours as a deciding factor, even among members who used the service only once.",
+      "question": "Which choice best supports the claim that the notarization service specifically drove renewal decisions?",
+      "choices": {
+        "A": "\"began offering free notarization services one afternoon a week\"",
+        "B": "\"Membership renewals rose noticeably in the months that followed\"",
+        "C": "\"exit surveys of members who chose to renew frequently cited the notarization hours as a deciding factor\"",
+        "D": "\"even among members who used the service only once\""
+      },
+      "correct_answer": "C",
+      "explanation": "Members directly citing the notarization hours as a deciding factor most explicitly supports that the service drove renewals."
+    },
+    {
+      "id": 8,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "natural_science",
+      "passage": "Pikas spend late summer piling hay into small stacks near their burrows, and researchers have noticed the piles grow noticeably larger in years preceding an unusually snowy winter, long before any snow has fallen.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "pikas may be responding to some early cue that anticipates the coming winter's severity.",
+        "B": "pikas build identical hay piles every year regardless of conditions.",
+        "C": "the size of hay piles has no relationship to winter weather.",
+        "D": "pikas stop gathering hay once snow begins to fall."
+      },
+      "correct_answer": "A",
+      "explanation": "Since pile size varies with winter severity before any snow falls, pikas may be responding to an early cue anticipating the coming winter."
+    },
+    {
+      "id": 9,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "historical",
+      "passage": "A shipbuilder's invoice from a wartime naval contract shows the final payment recorded nearly eight months after the vessel's delivery, with a margin note listing two prior, unanswered requests for payment.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "the shipbuilder was paid promptly upon delivery of the vessel.",
+        "B": "the delayed payment likely reflects difficulty the contracting authority had meeting its wartime obligations.",
+        "C": "the shipbuilder refused to deliver the vessel until paid in advance.",
+        "D": "no payment was ever made for the vessel."
+      },
+      "correct_answer": "B",
+      "explanation": "The long delay and repeated unanswered requests suggest the contracting authority struggled to meet its wartime payment obligations."
+    },
+    {
+      "id": 10,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "literature",
+      "passage": "A violin maker labels each instrument not with a serial number but with the name of the specific tree its wood came from, along with the year that tree was felled. Customers rarely ask about the labels, but he keeps a ledger cross-referencing every violin to its tree regardless.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "The violin maker prioritizes serial numbers over any other identifying information.",
+        "B": "The violin maker maintains a private, detailed record tracing each instrument to its source tree.",
+        "C": "Customers frequently request detailed histories of their violins.",
+        "D": "The violin maker no longer tracks which tree each instrument came from."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage centers on the maker's careful, largely private practice of tracing each violin back to its source tree."
+    }
+  ]
+}
