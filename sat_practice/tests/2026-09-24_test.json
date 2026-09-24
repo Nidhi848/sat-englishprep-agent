@@ -1,0 +1,172 @@
+{
+  "date": "2026-09-24",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Text 1: A study of sea sponges found that when fully disaggregated into individual cells, the cells could reorganize themselves back into a functioning sponge, leading researchers to describe the sponge's structure as encoded entirely at the cellular level.",
+      "passage_2": "Text 2: A follow-up study found that sponges reaggregated from mixed cells of two different species sorted themselves by species before rebuilding, suggesting the cells also recognize and respond to signals beyond their own individual programming.",
+      "question": "How does the finding in Text 2 relate to the claim in Text 1?",
+      "choices": {
+        "A": "It disproves Text 1's claim that structure is encoded at the cellular level.",
+        "B": "It adds evidence that cells also respond to signals beyond their own individual programming, without contradicting Text 1's claim.",
+        "C": "It shows that sponge cells cannot reorganize at all.",
+        "D": "It argues that species identity has no effect on reaggregation."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 adds a new dimension (species recognition) without disproving Text 1's core claim about cellular-level encoding."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "historical",
+      "passage_1": "Text 1: A colonial governor's official dispatch described a treaty negotiation with a neighboring settlement as concluded swiftly and amicably.",
+      "passage_2": "Text 2: A junior clerk's private notes from the same negotiation recorded three days of stalled talks and a near-collapse before terms were finally accepted.",
+      "question": "How does the account in Text 2 relate to the account in Text 1?",
+      "choices": {
+        "A": "It confirms that the negotiation was swift and amicable.",
+        "B": "It complicates the official dispatch by revealing difficulty the dispatch omitted.",
+        "C": "It proves no treaty was ever signed.",
+        "D": "It shows the clerk was not present at the negotiation."
+      },
+      "correct_answer": "B",
+      "explanation": "The clerk's account of stalled talks complicates the dispatch's swift-and-amicable narrative by revealing an omitted difficulty."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "literature",
+      "passage": "A retired bridge operator's post had been decommissioned years earlier once the crossing was automated, yet he still walked to the old tender's house each evening to log which boats passed beneath. Neighbors sometimes asked why he bothered. He rarely answered directly, though he never missed an entry, as if someone might still need the record.",
+      "question": "Which choice best describes the function of the passage's final clause (\"as if...record\")?",
+      "choices": {
+        "A": "It suggests a possible motive behind an otherwise puzzling habit.",
+        "B": "It proves that boats still require the bridge tender's log.",
+        "C": "It contradicts the claim that the post was decommissioned.",
+        "D": "It lists the tools the operator used to keep his log."
+      },
+      "correct_answer": "A",
+      "explanation": "The final clause offers a possible reason for the operator's habit rather than proving a fact or contradicting prior information."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "A city library piloted a program allowing patrons to check out museum passes for free. Attendance data showed a modest increase in museum visits citywide during the pilot. The report's authors noted, however, that a separate citywide tourism campaign launched the same month, making it difficult to attribute the increase to the library program alone.",
+      "question": "What is the main purpose of the passage's final sentence?",
+      "choices": {
+        "A": "To reveal a competing explanation that complicates the report's finding.",
+        "B": "To confirm that the library program alone caused the increase.",
+        "C": "To argue that the tourism campaign had no effect on visits.",
+        "D": "To describe how museum passes were distributed."
+      },
+      "correct_answer": "A",
+      "explanation": "The final sentence introduces the tourism campaign as a confound, complicating the report's attribution of the increase to the library program."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Researchers observed that certain deep-sea fish species maintain buoyancy not through a swim bladder but through fat deposits, an adaptation that proves advantageous at depths where gas-filled organs would be crushed by pressure.",
+      "question": "As used in the passage, \"advantageous\" most nearly means",
+      "choices": {
+        "A": "beneficial",
+        "B": "costly",
+        "C": "irrelevant",
+        "D": "temporary"
+      },
+      "correct_answer": "A",
+      "explanation": "The passage describes fat deposits as helpful for surviving high pressure, which matches \"beneficial.\""
+    },
+    {
+      "id": 6,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "literature",
+      "passage": "A retired tailor kept a small notebook listing not measurements but the occasions for which each garment had been made: a daughter's graduation, a friend's retirement dinner, a nephew's first job interview. He never showed the notebook to customers, tucking it away again each evening in the same drawer.",
+      "question": "Which choice best supports the claim that the tailor's notebook records personal meaning rather than professional detail?",
+      "choices": {
+        "A": "\"kept a small notebook listing not measurements but the occasions\"",
+        "B": "\"a daughter's graduation, a friend's retirement dinner\"",
+        "C": "\"he never showed the notebook to customers\"",
+        "D": "\"tucking it away again each evening in the same drawer\""
+      },
+      "correct_answer": "A",
+      "explanation": "This choice directly states the notebook records occasions instead of measurements, distinguishing personal meaning from professional detail."
+    },
+    {
+      "id": 7,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "A city's public pool began offering free swim-lesson vouchers to families receiving meal assistance. In exit interviews conducted the following summer, most families who returned for a second season cited the free lessons as the reason they kept coming back, even families who had used only one voucher.",
+      "question": "Which choice best supports the claim that the voucher program specifically kept families returning to the pool?",
+      "choices": {
+        "A": "\"began offering free swim-lesson vouchers to families receiving meal assistance\"",
+        "B": "\"exit interviews conducted the following summer\"",
+        "C": "\"most families who returned for a second season cited the free lessons as the reason they kept coming back\"",
+        "D": "\"even families who had used only one voucher\""
+      },
+      "correct_answer": "C",
+      "explanation": "Families directly citing the free lessons as their reason for returning most explicitly supports that the voucher program drove retention."
+    },
+    {
+      "id": 8,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "Certain termite colonies, when a tunnel is blocked, do not simply search at random for a new route. Instead, workers briefly retrace mapped tunnels before extending new ones, a pattern researchers believe conserves pheromone-marked pathways while still allowing exploration.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Termites abandon pheromone trails entirely once a tunnel is blocked.",
+        "B": "Blocked termites extend only new tunnels, ignoring mapped ones.",
+        "C": "Blocked termites balance reusing mapped tunnels with limited new exploration.",
+        "D": "Termites cannot detect when a tunnel has been blocked."
+      },
+      "correct_answer": "C",
+      "explanation": "The passage describes termites retracing mapped tunnels while still extending new ones, matching a balance of reuse and exploration."
+    },
+    {
+      "id": 9,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "historical",
+      "passage": "A township's meeting minutes from a single winter record three separate votes on whether to fund repairs to the town's toll bridge: the first rejected for cost, the second tabled for lack of quorum, and the third finally approved after a wealthier resident offered to cover part of the expense.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "The township never managed to fund the bridge repairs.",
+        "B": "The bridge repairs were approved on the very first vote.",
+        "C": "Funding for the repairs was approved only after repeated setbacks and outside help.",
+        "D": "The repairs were rejected because of a lack of quorum."
+      },
+      "correct_answer": "C",
+      "explanation": "The passage traces three votes ending in approval only after cost objections, a quorum failure, and a resident's contribution."
+    },
+    {
+      "id": 10,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Every evening after closing, the baker set aside the day's unsold bread not for herself, but in a basket by the back door, unlabeled. By morning the basket was always empty, though she never once asked who came for it.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "the baker likely knows or suspects who takes the bread but chooses not to pry.",
+        "B": "the bread is always thrown away before anyone can take it.",
+        "C": "the baker has never noticed the basket being emptied.",
+        "D": "no one in the neighborhood needs the bread."
+      },
+      "correct_answer": "A",
+      "explanation": "The baker's deliberate routine and choice not to ask who takes the bread suggest she is aware of, but chooses not to pry into, the practice."
+    }
+  ]
+}
