@@ -1,0 +1,172 @@
+{
+  "date": "2026-09-25",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Text 1: A marine biology report on seahorses noted that males, not females, carry each developing brood, an arrangement the researchers described as rare among vertebrates and costly in terms of the male's own foraging time.",
+      "passage_2": "Text 2: A follow-up study found that seahorse pairs who reunite after a season apart complete their courtship ritual faster than newly paired individuals, suggesting the male's investment may also depend on partner familiarity.",
+      "question": "How does the finding in Text 2 relate to the claim in Text 1?",
+      "choices": {
+        "A": "It disproves Text 1's claim that male seahorses bear reproductive costs.",
+        "B": "It adds a further factor -- partner familiarity -- that may shape the male's investment, without contradicting Text 1's claim.",
+        "C": "It shows that female seahorses also carry broods.",
+        "D": "It argues that courtship rituals have no effect on pairing."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 introduces partner familiarity as an added factor affecting courtship speed without disputing Text 1's core claim about costly male brooding."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "historical",
+      "passage_1": "Text 1: A town council's official minutes recorded that a new irrigation ditch was approved \"by common agreement\" after a single evening's discussion.",
+      "passage_2": "Text 2: A farmer's private ledger from the same week noted that the vote nearly failed twice over disputes about which fields would draw water first, and passed only after a compromise on scheduling.",
+      "question": "How does the account in Text 2 relate to the account in Text 1?",
+      "choices": {
+        "A": "It confirms that the ditch was approved by common agreement with no dispute.",
+        "B": "It complicates the official minutes by revealing disagreement the minutes omitted.",
+        "C": "It proves the ditch was never built.",
+        "D": "It shows the farmer did not attend the meeting."
+      },
+      "correct_answer": "B",
+      "explanation": "The ledger's account of near-failed votes complicates the minutes' \"common agreement\" framing by revealing disagreement the minutes left out."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "social_science",
+      "passage": "A transit agency's report found that riders who used a new real-time tracking app reported feeling more confident about wait times, even when actual bus delays did not change, leading researchers to describe the app's effect as largely psychological.",
+      "question": "As used in the passage, \"psychological\" most nearly means",
+      "choices": {
+        "A": "related to perception rather than physical outcomes",
+        "B": "related to bus mechanical repairs",
+        "C": "related to funding decisions",
+        "D": "related to route mapping"
+      },
+      "correct_answer": "A",
+      "explanation": "The passage contrasts riders' feelings with unchanged actual delays, so \"psychological\" refers to a perception-based effect rather than a physical one."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "The clockmaker's apprentice found a repair log her mentor had left unfinished, its final entries growing sparse, as though he had grown reluctant to record work he knew he would not live to complete.",
+      "question": "As used in the passage, \"sparse\" most nearly means",
+      "choices": {
+        "A": "minimal",
+        "B": "abundant",
+        "C": "illegible",
+        "D": "decorative"
+      },
+      "correct_answer": "A",
+      "explanation": "\"Sparse\" describes entries that had grown fewer and less detailed, matching \"minimal.\""
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "Researchers studying woodpecker skulls found a layer of spongy bone that absorbs repeated impact, distributing force away from the brain. The finding is notable chiefly because engineers had long assumed the birds relied primarily on neck-muscle timing, not skull structure, to prevent injury.",
+      "question": "What is the main purpose of the passage's final sentence?",
+      "choices": {
+        "A": "To highlight how the finding challenges a prior assumption.",
+        "B": "To argue that neck muscles play no role in impact absorption.",
+        "C": "To describe how the spongy bone layer is formed.",
+        "D": "To list the engineers who studied woodpecker skulls."
+      },
+      "correct_answer": "A",
+      "explanation": "The final sentence contrasts the finding with the earlier engineering assumption, highlighting how it challenges that prior belief."
+    },
+    {
+      "id": 6,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "literature",
+      "passage": "The night-shift nurse kept a habit of writing brief notes to patients who drifted in and out of consciousness, aware most would never remember receiving them. She tucked the notes into their charts anyway, unsigned, and moved on to the next room without waiting for any reply.",
+      "question": "Which choice best supports the claim that the nurse's notes were motivated by care rather than a need for acknowledgment?",
+      "choices": {
+        "A": "\"kept a habit of writing brief notes to patients who drifted in and out of consciousness\"",
+        "B": "\"aware most would never remember receiving them\"",
+        "C": "\"tucked the notes into their charts anyway, unsigned\"",
+        "D": "\"moved on to the next room without waiting for any reply\""
+      },
+      "correct_answer": "C",
+      "explanation": "Leaving the notes unsigned most directly shows she was not seeking credit or acknowledgment, supporting that her motive was care itself."
+    },
+    {
+      "id": 7,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "A city launched a program pairing new residents with a \"welcome neighbor\" volunteer for their first month. In a survey conducted six months later, new residents who had been paired with a volunteer were more likely to say they had joined a local group or made a lasting local friendship than those who had not participated.",
+      "question": "Which choice best supports the claim that the program specifically helped new residents build lasting local connections?",
+      "choices": {
+        "A": "\"launched a program pairing new residents with a 'welcome neighbor' volunteer for their first month\"",
+        "B": "\"a survey conducted six months later\"",
+        "C": "\"new residents who had been paired with a volunteer were more likely to say they had joined a local group or made a lasting local friendship\"",
+        "D": "\"than those who had not participated\""
+      },
+      "correct_answer": "C",
+      "explanation": "This choice directly reports paired residents' greater likelihood of forming lasting connections, most directly supporting the claim."
+    },
+    {
+      "id": 8,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "Antarctic krill form massive swarms that shift shape and density depending on light levels, thinning out in bright surface water and compacting tightly in darker depths, a pattern researchers link to predator avoidance rather than to feeding location alone.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Krill swarms are shaped mainly by where food is located.",
+        "B": "Krill swarm density changes with light in a way linked to avoiding predators.",
+        "C": "Krill never change their swarm shape regardless of depth.",
+        "D": "Krill are unaffected by surface light levels."
+      },
+      "correct_answer": "B",
+      "explanation": "The passage states swarm density shifts with light and links this pattern to predator avoidance, matching choice B."
+    },
+    {
+      "id": 9,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "historical",
+      "passage": "A diplomat's private journal from a border survey expedition expressed doubt that the newly drawn line accurately reflected the river's actual course, noting that the surveying team had worked hastily during a single dry season when the water ran unusually low.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "The diplomat was confident the border survey was accurate.",
+        "B": "The diplomat privately doubted the survey's accuracy due to hasty, low-water conditions.",
+        "C": "The river's course never changes with the seasons.",
+        "D": "The surveying team worked over several years to ensure accuracy."
+      },
+      "correct_answer": "B",
+      "explanation": "The journal records the diplomat's doubt about accuracy, attributing it to hasty work during unusually low water, matching choice B."
+    },
+    {
+      "id": 10,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Every year on her birthday, she set the card aside unopened, telling herself she would read it later, until a small stack accumulated in the same drawer, each one still sealed.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "she deliberately avoids reading the cards for reasons the passage leaves unstated.",
+        "B": "she has never received a birthday card before.",
+        "C": "she plans to open all the cards together next year.",
+        "D": "the cards were sent to the wrong address."
+      },
+      "correct_answer": "A",
+      "explanation": "The repeated, deliberate act of leaving each card unopened across years suggests an unstated but intentional avoidance, best matching choice A."
+    }
+  ]
+}
