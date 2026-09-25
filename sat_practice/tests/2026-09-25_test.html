@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAT Practice — 2026-09-25 — Tier 2/2</title>
+<style>
+  :root{
+    --paper:#EDEFEC; --surface:#FFFFFF; --surface-2:#F6F7F4;
+    --ink:#1C2321; --muted:#5B6660; --hairline:#D8DBD5;
+    --info:#2F6F4F; --info-bg:#E7F1EA;
+    --craft:#6B4A9E; --craft-bg:#EFE9F6;
+    --accent:#2F6F4F;
+    --good:#2F6F4F; --good-bg:#E7F1EA;
+    --bad:#B23A2E; --bad-bg:#FBEAE7;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --paper:#171A17; --surface:#20241F; --surface-2:#262B24;
+      --ink:#EAEDE8; --muted:#9AA69E; --hairline:#343A32;
+      --info:#6FBE94; --info-bg:#1E332A;
+      --craft:#B79BE0; --craft-bg:#2E2739;
+      --accent:#6FBE94;
+      --good:#6FBE94; --good-bg:#1E332A;
+      --bad:#E8897C; --bad-bg:#3A2422;
+    }
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:system-ui,-apple-system,Segoe UI,sans-serif;
+    padding:28px 16px 100px;
+  }
+  .wrap{max-width:700px;margin:0 auto;}
+  h1{font-family:Georgia,"Times New Roman",serif; font-size:21px; font-weight:700; margin:0 0 4px; text-wrap:balance;}
+  .sub{font-size:13px; color:var(--muted); margin:0 0 18px;}
+
+  .fallback-note{
+    font-size:12.5px; color:var(--muted); background:var(--surface-2);
+    border:1px solid var(--hairline); border-radius:8px;
+    padding:10px 14px; margin-bottom:20px; line-height:1.5;
+  }
+
+  .progress{
+    position:sticky; top:0; z-index:5; background:var(--paper);
+    padding:10px 0 14px; margin-bottom:6px;
+    font-size:12.5px; color:var(--muted); display:flex; align-items:center; gap:10px;
+  }
+  .progress .bar{flex:1; height:6px; background:var(--surface-2); border-radius:99px; overflow:hidden; border:1px solid var(--hairline);}
+  .progress .fill{height:100%; background:var(--accent); width:0%; transition:width .2s ease;}
+
+  .results{
+    background:var(--surface); border:1px solid var(--hairline); border-radius:12px;
+    padding:20px 22px; margin-bottom:20px;
+  }
+  .results[hidden]{display:none;}
+  .results .headline{font-family:Georgia,"Times New Roman",serif; font-size:19px; font-weight:700; margin:0 0 12px;}
+  .results .breakdown{display:flex; gap:10px; flex-wrap:wrap;}
+  .scorechip{
+    flex:1; min-width:150px; border-radius:9px; padding:10px 14px;
+  }
+  .scorechip .lbl{font-size:11px; letter-spacing:.03em; text-transform:uppercase; opacity:.8;}
+  .scorechip .val{font-size:20px; font-weight:700; font-variant-numeric:tabular-nums;}
+  .scorechip.info{background:var(--info-bg); color:var(--info);}
+  .scorechip.craft{background:var(--craft-bg); color:var(--craft);}
+  .scorechip.overall{background:var(--surface-2); color:var(--ink); border:1px solid var(--hairline);}
+  .results .msg{font-size:13.5px; color:var(--muted); margin-top:12px; line-height:1.5;}
+
+  .qcard{
+    background:var(--surface); border:1px solid var(--hairline); border-left:3px solid var(--hairline);
+    border-radius:10px; padding:18px 20px 20px; margin-bottom:14px;
+  }
+  .qcard.answered{border-left-color:var(--accent);}
+  .qcard.graded-correct{border-left-color:var(--good);}
+  .qcard.graded-incorrect{border-left-color:var(--bad);}
+  .qmeta{display:flex; align-items:center; gap:8px; margin-bottom:12px; flex-wrap:wrap;}
+  .qnum{font-family:"Courier New",monospace; font-weight:700; font-size:13px; color:var(--muted); width:24px; flex:none;}
+  .tag{font-size:10.5px; letter-spacing:.03em; text-transform:uppercase; padding:3px 8px; border-radius:5px;}
+  .tag.domain-info{background:var(--info-bg); color:var(--info);}
+  .tag.domain-craft{background:var(--craft-bg); color:var(--craft);}
+  .tag.topic{background:var(--surface-2); color:var(--muted); border:1px solid var(--hairline);}
+  .result-badge{margin-left:auto; font-size:11px; font-weight:700; letter-spacing:.02em;}
+  .result-badge.correct{color:var(--good);}
+  .result-badge.incorrect{color:var(--bad);}
+
+  .passage{
+    font-family:Georgia,"Times New Roman",serif; font-size:15.5px; line-height:1.6;
+    background:var(--surface-2); border-left:3px solid var(--hairline);
+    padding:12px 15px; border-radius:0 6px 6px 0; margin-bottom:12px;
+  }
+  .plabel{display:block; font-size:10.5px; letter-spacing:.05em; text-transform:uppercase; color:var(--muted); margin-bottom:5px;}
+  .qtext{font-size:14.5px; font-weight:600; margin:0 0 12px; line-height:1.5;}
+
+  .choices{display:grid; gap:8px;}
+  .choice{
+    display:flex; gap:10px; align-items:flex-start; cursor:pointer;
+    padding:9px 12px; border-radius:7px; border:1px solid var(--hairline); font-size:14px; line-height:1.45;
+  }
+  .choice:hover{background:var(--surface-2);}
+  .choice input{margin:3px 0 0; accent-color:var(--accent); flex:none;}
+  .choice .letter{font-family:"Courier New",monospace; font-weight:700; color:var(--muted); flex:none;}
+  .choice.correct-answer{border-color:var(--good); background:var(--good-bg);}
+  .choice.wrong-pick{border-color:var(--bad); background:var(--bad-bg);}
+
+  .explain{
+    display:none; margin-top:12px; padding-top:12px; border-top:1px dashed var(--hairline);
+    font-size:13.5px; color:var(--ink); line-height:1.55;
+  }
+  .explain b{font-family:"Courier New",monospace; font-size:10.5px; letter-spacing:.05em; text-transform:uppercase; display:block; margin-bottom:4px; color:var(--muted);}
+  .qcard.graded .explain{display:block;}
+
+  .submitbar{
+    position:fixed; bottom:0; left:0; right:0; background:var(--surface);
+    border-top:1px solid var(--hairline); padding:14px 16px;
+    display:flex; gap:10px; justify-content:center; flex-wrap:wrap;
+  }
+  .submitbar button{
+    font-size:13.5px; border-radius:999px; padding:10px 18px; cursor:pointer;
+    border:1px solid var(--accent); background:var(--accent); color:var(--surface);
+  }
+  .submitbar button.secondary{background:var(--surface); color:var(--accent);}
+  .submitbar button:disabled{opacity:.45; cursor:not-allowed;}
+  .submitbar .hint{font-size:12px; color:var(--muted); align-self:center;}
+
+  #copyOut{max-width:700px; margin:14px auto 0; display:none;}
+  #copyOut.show{display:block;}
+  #copyOut textarea{
+    width:100%; min-height:100px; font-family:"Courier New",monospace; font-size:12.5px;
+    padding:10px; border-radius:8px; border:1px solid var(--hairline); background:var(--surface-2); color:var(--ink);
+  }
+  #copyOut .label{font-size:12px; color:var(--muted); margin-bottom:6px;}
+
+  @media (max-width:480px){
+    .qcard{padding:15px 14px 16px;}
+    .results{padding:16px 16px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>SAT Practice — 2026-09-25 — Tier 2/2</h1>
+  <p class="sub">10 questions &middot; ~15 min at practice pace &middot; Info &amp; Ideas Tier 2 / Craft &amp; Structure Tier 2</p>
+
+  <div class="fallback-note">Opened locally because email isn't set up yet. Answer everything below, then tap <b>Submit Test</b> to see your score and explanations right away — no need to wait on anyone.</div>
+
+  <div id="resultsPanel" class="results" hidden>
+    <div class="headline" id="resultsHeadline"></div>
+    <div class="breakdown">
+      <div class="scorechip info">
+        <div class="lbl">Info &amp; Ideas</div>
+        <div class="val" id="scoreInfo">—</div>
+      </div>
+      <div class="scorechip craft">
+        <div class="lbl">Craft &amp; Structure</div>
+        <div class="val" id="scoreCraft">—</div>
+      </div>
+      <div class="scorechip overall">
+        <div class="lbl">Overall</div>
+        <div class="val" id="scoreOverall">—</div>
+      </div>
+    </div>
+    <div class="msg" id="resultsMsg"></div>
+  </div>
+
+  <div class="progress" id="progressBar">
+    <span id="progressLabel">0 of 10 answered</span>
+    <span class="bar"><span class="fill" id="progressFill"></span></span>
+  </div>
+
+  <div id="questions">
+    <div class="qcard" data-qid="1">
+      <div class="qmeta">
+        <span class="qnum">01</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Cross-Text Connections</span>
+        <span class="tag topic">Natural science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage"><span class="plabel">Text 1</span>Text 1: A marine biology report on seahorses noted that males, not females, carry each developing brood, an arrangement the researchers described as rare among vertebrates and costly in terms of the male&#x27;s own foraging time.</div><div class="passage"><span class="plabel">Text 2</span>Text 2: A follow-up study found that seahorse pairs who reunite after a season apart complete their courtship ritual faster than newly paired individuals, suggesting the male&#x27;s investment may also depend on partner familiarity.</div>
+      <p class="qtext">How does the finding in Text 2 relate to the claim in Text 1?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q1" value="A">
+          <span class="letter">A</span>
+          <span>It disproves Text 1&#x27;s claim that male seahorses bear reproductive costs.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q1" value="B">
+          <span class="letter">B</span>
+          <span>It adds a further factor -- partner familiarity -- that may shape the male&#x27;s investment, without contradicting Text 1&#x27;s claim.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q1" value="C">
+          <span class="letter">C</span>
+          <span>It shows that female seahorses also carry broods.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q1" value="D">
+          <span class="letter">D</span>
+          <span>It argues that courtship rituals have no effect on pairing.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="2">
+      <div class="qmeta">
+        <span class="qnum">02</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Cross-Text Connections</span>
+        <span class="tag topic">Historical / founding docs</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage"><span class="plabel">Text 1</span>Text 1: A town council&#x27;s official minutes recorded that a new irrigation ditch was approved &quot;by common agreement&quot; after a single evening&#x27;s discussion.</div><div class="passage"><span class="plabel">Text 2</span>Text 2: A farmer&#x27;s private ledger from the same week noted that the vote nearly failed twice over disputes about which fields would draw water first, and passed only after a compromise on scheduling.</div>
+      <p class="qtext">How does the account in Text 2 relate to the account in Text 1?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q2" value="A">
+          <span class="letter">A</span>
+          <span>It confirms that the ditch was approved by common agreement with no dispute.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q2" value="B">
+          <span class="letter">B</span>
+          <span>It complicates the official minutes by revealing disagreement the minutes omitted.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q2" value="C">
+          <span class="letter">C</span>
+          <span>It proves the ditch was never built.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q2" value="D">
+          <span class="letter">D</span>
+          <span>It shows the farmer did not attend the meeting.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="3">
+      <div class="qmeta">
+        <span class="qnum">03</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Words in Context</span>
+        <span class="tag topic">Social science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">A transit agency&#x27;s report found that riders who used a new real-time tracking app reported feeling more confident about wait times, even when actual bus delays did not change, leading researchers to describe the app&#x27;s effect as largely psychological.</div>
+      <p class="qtext">As used in the passage, &quot;psychological&quot; most nearly means</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q3" value="A">
+          <span class="letter">A</span>
+          <span>related to perception rather than physical outcomes</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q3" value="B">
+          <span class="letter">B</span>
+          <span>related to bus mechanical repairs</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q3" value="C">
+          <span class="letter">C</span>
+          <span>related to funding decisions</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q3" value="D">
+          <span class="letter">D</span>
+          <span>related to route mapping</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="4">
+      <div class="qmeta">
+        <span class="qnum">04</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Words in Context</span>
+        <span class="tag topic">Literature</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">The clockmaker&#x27;s apprentice found a repair log her mentor had left unfinished, its final entries growing sparse, as though he had grown reluctant to record work he knew he would not live to complete.</div>
+      <p class="qtext">As used in the passage, &quot;sparse&quot; most nearly means</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q4" value="A">
+          <span class="letter">A</span>
+          <span>minimal</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q4" value="B">
+          <span class="letter">B</span>
+          <span>abundant</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q4" value="C">
+          <span class="letter">C</span>
+          <span>illegible</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q4" value="D">
+          <span class="letter">D</span>
+          <span>decorative</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="5">
+      <div class="qmeta">
+        <span class="qnum">05</span>
+        <span class="tag domain-craft">Craft &amp; Structure</span>
+        <span class="tag topic">Text Structure &amp; Purpose</span>
+        <span class="tag topic">Natural science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">Researchers studying woodpecker skulls found a layer of spongy bone that absorbs repeated impact, distributing force away from the brain. The finding is notable chiefly because engineers had long assumed the birds relied primarily on neck-muscle timing, not skull structure, to prevent injury.</div>
+      <p class="qtext">What is the main purpose of the passage&#x27;s final sentence?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q5" value="A">
+          <span class="letter">A</span>
+          <span>To highlight how the finding challenges a prior assumption.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q5" value="B">
+          <span class="letter">B</span>
+          <span>To argue that neck muscles play no role in impact absorption.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q5" value="C">
+          <span class="letter">C</span>
+          <span>To describe how the spongy bone layer is formed.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q5" value="D">
+          <span class="letter">D</span>
+          <span>To list the engineers who studied woodpecker skulls.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="6">
+      <div class="qmeta">
+        <span class="qnum">06</span>
+        <span class="tag domain-info">Info &amp; Ideas</span>
+        <span class="tag topic">Command of Evidence</span>
+        <span class="tag topic">Literature</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">The night-shift nurse kept a habit of writing brief notes to patients who drifted in and out of consciousness, aware most would never remember receiving them. She tucked the notes into their charts anyway, unsigned, and moved on to the next room without waiting for any reply.</div>
+      <p class="qtext">Which choice best supports the claim that the nurse&#x27;s notes were motivated by care rather than a need for acknowledgment?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q6" value="A">
+          <span class="letter">A</span>
+          <span>&quot;kept a habit of writing brief notes to patients who drifted in and out of consciousness&quot;</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q6" value="B">
+          <span class="letter">B</span>
+          <span>&quot;aware most would never remember receiving them&quot;</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q6" value="C">
+          <span class="letter">C</span>
+          <span>&quot;tucked the notes into their charts anyway, unsigned&quot;</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q6" value="D">
+          <span class="letter">D</span>
+          <span>&quot;moved on to the next room without waiting for any reply&quot;</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="7">
+      <div class="qmeta">
+        <span class="qnum">07</span>
+        <span class="tag domain-info">Info &amp; Ideas</span>
+        <span class="tag topic">Command of Evidence</span>
+        <span class="tag topic">Social science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">A city launched a program pairing new residents with a &quot;welcome neighbor&quot; volunteer for their first month. In a survey conducted six months later, new residents who had been paired with a volunteer were more likely to say they had joined a local group or made a lasting local friendship than those who had not participated.</div>
+      <p class="qtext">Which choice best supports the claim that the program specifically helped new residents build lasting local connections?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q7" value="A">
+          <span class="letter">A</span>
+          <span>&quot;launched a program pairing new residents with a &#x27;welcome neighbor&#x27; volunteer for their first month&quot;</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q7" value="B">
+          <span class="letter">B</span>
+          <span>&quot;a survey conducted six months later&quot;</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q7" value="C">
+          <span class="letter">C</span>
+          <span>&quot;new residents who had been paired with a volunteer were more likely to say they had joined a local group or made a lasting local friendship&quot;</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q7" value="D">
+          <span class="letter">D</span>
+          <span>&quot;than those who had not participated&quot;</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="8">
+      <div class="qmeta">
+        <span class="qnum">08</span>
+        <span class="tag domain-info">Info &amp; Ideas</span>
+        <span class="tag topic">Central Ideas &amp; Details</span>
+        <span class="tag topic">Natural science</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">Antarctic krill form massive swarms that shift shape and density depending on light levels, thinning out in bright surface water and compacting tightly in darker depths, a pattern researchers link to predator avoidance rather than to feeding location alone.</div>
+      <p class="qtext">Which choice best states the main idea of the passage?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q8" value="A">
+          <span class="letter">A</span>
+          <span>Krill swarms are shaped mainly by where food is located.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q8" value="B">
+          <span class="letter">B</span>
+          <span>Krill swarm density changes with light in a way linked to avoiding predators.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q8" value="C">
+          <span class="letter">C</span>
+          <span>Krill never change their swarm shape regardless of depth.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q8" value="D">
+          <span class="letter">D</span>
+          <span>Krill are unaffected by surface light levels.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="9">
+      <div class="qmeta">
+        <span class="qnum">09</span>
+        <span class="tag domain-info">Info &amp; Ideas</span>
+        <span class="tag topic">Central Ideas &amp; Details</span>
+        <span class="tag topic">Historical / founding docs</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">A diplomat&#x27;s private journal from a border survey expedition expressed doubt that the newly drawn line accurately reflected the river&#x27;s actual course, noting that the surveying team had worked hastily during a single dry season when the water ran unusually low.</div>
+      <p class="qtext">Which choice best states the main idea of the passage?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q9" value="A">
+          <span class="letter">A</span>
+          <span>The diplomat was confident the border survey was accurate.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q9" value="B">
+          <span class="letter">B</span>
+          <span>The diplomat privately doubted the survey&#x27;s accuracy due to hasty, low-water conditions.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q9" value="C">
+          <span class="letter">C</span>
+          <span>The river&#x27;s course never changes with the seasons.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q9" value="D">
+          <span class="letter">D</span>
+          <span>The surveying team worked over several years to ensure accuracy.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div>
+    <div class="qcard" data-qid="10">
+      <div class="qmeta">
+        <span class="qnum">10</span>
+        <span class="tag domain-info">Info &amp; Ideas</span>
+        <span class="tag topic">Inferences</span>
+        <span class="tag topic">Literature</span>
+        <span class="result-badge"></span>
+      </div>
+      <div class="passage">Every year on her birthday, she set the card aside unopened, telling herself she would read it later, until a small stack accumulated in the same drawer, each one still sealed.</div>
+      <p class="qtext">Which choice most logically completes the passage&#x27;s implied conclusion?</p>
+      <div class="choices">
+        <label class="choice" data-letter="A">
+          <input type="radio" name="q10" value="A">
+          <span class="letter">A</span>
+          <span>she deliberately avoids reading the cards for reasons the passage leaves unstated.</span>
+        </label>
+        <label class="choice" data-letter="B">
+          <input type="radio" name="q10" value="B">
+          <span class="letter">B</span>
+          <span>she has never received a birthday card before.</span>
+        </label>
+        <label class="choice" data-letter="C">
+          <input type="radio" name="q10" value="C">
+          <span class="letter">C</span>
+          <span>she plans to open all the cards together next year.</span>
+        </label>
+        <label class="choice" data-letter="D">
+          <input type="radio" name="q10" value="D">
+          <span class="letter">D</span>
+          <span>the cards were sent to the wrong address.</span>
+        </label></div>
+      <div class="explain"></div>
+    </div></div>
+</div>
+
+<div class="submitbar">
+  <button id="submitBtn" type="button">Submit Test</button>
+  <button id="copyBtn" type="button" class="secondary" disabled>Copy results for your records</button>
+  <span class="hint" id="submitHint">Answers save in this browser as you go.</span>
+</div>
+<div id="copyOut" class="wrap">
+  <div class="label">Results summary (paste into score_log.json, or text/email it to whoever's tracking):</div>
+  <textarea id="copyText" readonly></textarea>
+</div>
+
+<script>
+const STORAGE_KEY = "sat_practice_2026-09-25";
+const total = 10;
+const QMETA = {"1": {"domain": "craft_and_structure", "correct": "B", "explanation": "Text 2 introduces partner familiarity as an added factor affecting courtship speed without disputing Text 1's core claim about costly male brooding."}, "2": {"domain": "craft_and_structure", "correct": "B", "explanation": "The ledger's account of near-failed votes complicates the minutes' \"common agreement\" framing by revealing disagreement the minutes left out."}, "3": {"domain": "craft_and_structure", "correct": "A", "explanation": "The passage contrasts riders' feelings with unchanged actual delays, so \"psychological\" refers to a perception-based effect rather than a physical one."}, "4": {"domain": "craft_and_structure", "correct": "A", "explanation": "\"Sparse\" describes entries that had grown fewer and less detailed, matching \"minimal.\""}, "5": {"domain": "craft_and_structure", "correct": "A", "explanation": "The final sentence contrasts the finding with the earlier engineering assumption, highlighting how it challenges that prior belief."}, "6": {"domain": "information_and_ideas", "correct": "C", "explanation": "Leaving the notes unsigned most directly shows she was not seeking credit or acknowledgment, supporting that her motive was care itself."}, "7": {"domain": "information_and_ideas", "correct": "C", "explanation": "This choice directly reports paired residents' greater likelihood of forming lasting connections, most directly supporting the claim."}, "8": {"domain": "information_and_ideas", "correct": "B", "explanation": "The passage states swarm density shifts with light and links this pattern to predator avoidance, matching choice B."}, "9": {"domain": "information_and_ideas", "correct": "B", "explanation": "The journal records the diplomat's doubt about accuracy, attributing it to hasty work during unusually low water, matching choice B."}, "10": {"domain": "information_and_ideas", "correct": "A", "explanation": "The repeated, deliberate act of leaving each card unopened across years suggests an unstated but intentional avoidance, best matching choice A."}};
+
+function loadState() {
+  try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}"); }
+  catch (e) { return {}; }
+}
+function saveState(state) {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
+}
+
+function updateProgress() {
+  const answered = document.querySelectorAll('#questions input[type="radio"]:checked').length;
+  document.getElementById("progressLabel").textContent = answered + " of " + total + " answered";
+  document.getElementById("progressFill").style.width = (answered / total * 100) + "%";
+}
+
+function gradeCard(card, answers) {
+  const qid = card.dataset.qid;
+  const meta = QMETA[qid];
+  const picked = answers[qid];
+  const isCorrect = picked === meta.correct;
+
+  card.classList.add("graded", isCorrect ? "graded-correct" : "graded-incorrect");
+  card.querySelectorAll('input[type="radio"]').forEach(input => input.disabled = true);
+
+  const badge = card.querySelector(".result-badge");
+  badge.textContent = isCorrect ? "✓ Correct" : "✗ Incorrect";
+  badge.classList.add(isCorrect ? "correct" : "incorrect");
+
+  card.querySelectorAll(".choice").forEach(label => {
+    const letter = label.dataset.letter;
+    if (letter === meta.correct) label.classList.add("correct-answer");
+    else if (letter === picked) label.classList.add("wrong-pick");
+  });
+
+  const explain = card.querySelector(".explain");
+  explain.innerHTML = "<b>Why " + meta.correct + " is correct</b>" + meta.explanation;
+
+  return isCorrect;
+}
+
+function scoreLabel(pct) {
+  if (pct >= 85) return "Great work — that's tier-up territory.";
+  if (pct <= 60) return "Rough one — this domain may need a tier down or a strategy chat.";
+  return "Solid — right in the zone for this tier.";
+}
+
+function gradeAll() {
+  const state = loadState();
+  const answers = state.answers || {};
+  const cards = Array.from(document.querySelectorAll(".qcard"));
+
+  const totals = { information_and_ideas: {c:0,n:0}, craft_and_structure: {c:0,n:0} };
+  cards.forEach(card => {
+    const qid = card.dataset.qid;
+    const meta = QMETA[qid];
+    const correct = gradeCard(card, answers);
+    totals[meta.domain].n++;
+    if (correct) totals[meta.domain].c++;
+  });
+
+  const infoP = Math.round(100 * totals.information_and_ideas.c / totals.information_and_ideas.n);
+  const craftP = Math.round(100 * totals.craft_and_structure.c / totals.craft_and_structure.n);
+  const overallN = totals.information_and_ideas.n + totals.craft_and_structure.n;
+  const overallC = totals.information_and_ideas.c + totals.craft_and_structure.c;
+  const overallP = Math.round(100 * overallC / overallN);
+
+  document.getElementById("scoreInfo").textContent = totals.information_and_ideas.c + "/" + totals.information_and_ideas.n + " (" + infoP + "%)";
+  document.getElementById("scoreCraft").textContent = totals.craft_and_structure.c + "/" + totals.craft_and_structure.n + " (" + craftP + "%)";
+  document.getElementById("scoreOverall").textContent = overallC + "/" + overallN + " (" + overallP + "%)";
+  document.getElementById("resultsHeadline").textContent = "Test graded — " + overallP + "% overall";
+  document.getElementById("resultsMsg").textContent =
+    "Info & Ideas: " + scoreLabel(infoP) + " Craft & Structure: " + scoreLabel(craftP);
+  document.getElementById("resultsPanel").hidden = false;
+  document.getElementById("resultsPanel").scrollIntoView({ behavior: "smooth", block: "start" });
+
+  document.getElementById("submitBtn").disabled = true;
+  document.getElementById("submitBtn").textContent = "Submitted";
+  document.getElementById("copyBtn").disabled = false;
+  document.getElementById("submitHint").textContent = "Graded locally — nothing sent anywhere automatically.";
+
+  state.submitted = true;
+  state.scores = { information_and_ideas: { c: totals.information_and_ideas.c, n: totals.information_and_ideas.n },
+                    craft_and_structure: { c: totals.craft_and_structure.c, n: totals.craft_and_structure.n } };
+  saveState(state);
+}
+
+(function init() {
+  const state = loadState();
+  const answers = state.answers || {};
+
+  document.querySelectorAll('.qcard').forEach(card => {
+    const qid = card.dataset.qid;
+    const val = answers[qid];
+    if (val) {
+      const input = card.querySelector('input[value="' + val + '"]');
+      if (input) input.checked = true;
+      card.classList.add("answered");
+    }
+  });
+  updateProgress();
+
+  if (state.submitted) {
+    gradeAll();
+  }
+
+  document.getElementById("questions").addEventListener("change", (e) => {
+    if (e.target.type !== "radio") return;
+    const card = e.target.closest(".qcard");
+    card.classList.add("answered");
+    const s = loadState();
+    s.answers = s.answers || {};
+    s.answers[card.dataset.qid] = e.target.value;
+    saveState(s);
+    updateProgress();
+  });
+
+  document.getElementById("submitBtn").addEventListener("click", () => {
+    const answered = document.querySelectorAll('#questions input[type="radio"]:checked').length;
+    if (answered < total && !confirm(answered + " of " + total + " answered. Submit anyway?")) return;
+    gradeAll();
+  });
+
+  document.getElementById("copyBtn").addEventListener("click", () => {
+    const s = loadState();
+    if (!s.scores) return;
+    const i = s.scores.information_and_ideas, c = s.scores.craft_and_structure;
+    const cards = Array.from(document.querySelectorAll(".qcard"))
+      .sort((a, b) => Number(a.dataset.qid) - Number(b.dataset.qid));
+    const answerLines = cards.map(card => card.dataset.qid + ". " + (s.answers[card.dataset.qid] || "—"));
+    const text = "SAT Practice — 2026-09-25 — Tier 2/2\n" +
+      "Info & Ideas: " + i.c + "/" + i.n + " (" + Math.round(100*i.c/i.n) + "%)\n" +
+      "Craft & Structure: " + c.c + "/" + c.n + " (" + Math.round(100*c.c/c.n) + "%)\n\n" +
+      "Answers:\n" + answerLines.join("\n");
+    const box = document.getElementById("copyText");
+    box.value = text;
+    document.getElementById("copyOut").classList.add("show");
+    box.focus();
+    box.select();
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).catch(() => {});
+    }
+  });
+})();
+</script>
+</body>
+</html>
