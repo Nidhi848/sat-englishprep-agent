@@ -1,0 +1,171 @@
+{
+  "date": "2026-09-26",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Marine biologists studying coral reefs noted that certain small fish position themselves near larger, more aggressive fish during feeding. The researchers described this behavior as opportunistic: the smaller fish gain protection from predators without providing any direct benefit in return.",
+      "question": "As used in the passage, \"opportunistic\" most nearly means",
+      "choices": {
+        "A": "taking advantage of a situation for one's own benefit",
+        "B": "following a strict feeding schedule",
+        "C": "avoiding all contact with larger fish",
+        "D": "sharing resources equally with other fish"
+      },
+      "correct_answer": "A",
+      "explanation": "The passage describes the small fish gaining protection without giving anything back, matching \"taking advantage of a situation for one's own benefit.\""
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "historical",
+      "passage": "A newly appointed postmaster in a frontier town found the existing mail routes chaotic, with letters often delayed for weeks by riders who took circuitous paths to visit friends along the way. Within a year, he had imposed a rigid schedule that riders were required to follow exactly.",
+      "question": "As used in the passage, \"circuitous\" most nearly means",
+      "choices": {
+        "A": "indirect",
+        "B": "dangerous",
+        "C": "efficient",
+        "D": "profitable"
+      },
+      "correct_answer": "A",
+      "explanation": "Riders detouring to visit friends describes indirect, roundabout paths, matching \"circuitous.\""
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "A hospital piloted a lower nurse-to-patient ratio on one wing and found emergency room wait times dropped sharply during the trial. The hospital's report noted, however, that the trial period coincided with an unusually mild flu season, which independently reduces patient volume.",
+      "question": "What is the main purpose of the passage's final sentence?",
+      "choices": {
+        "A": "To highlight a competing factor that complicates the report's conclusion",
+        "B": "To confirm that the staffing change caused the wait-time drop",
+        "C": "To argue that flu season has no effect on hospitals",
+        "D": "To describe how nurses were assigned to the wing"
+      },
+      "correct_answer": "A",
+      "explanation": "The final sentence introduces the mild flu season as a confound, complicating the report's attribution of the improvement to the staffing change."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "literature",
+      "passage": "The old lighthouse keeper had long since stopped expecting ships to signal back when he flashed his lantern in reply to passing vessels. Still, each night he raised it anyway, watching the dark water a moment longer than the gesture required.",
+      "question": "Which choice best describes the function of the passage's final clause (\"watching...required\")?",
+      "choices": {
+        "A": "It suggests the keeper feels a lingering attachment to the ritual beyond its practical purpose.",
+        "B": "It proves that ships still rely on his signal to navigate safely.",
+        "C": "It contradicts the claim that he no longer expects a response.",
+        "D": "It lists the tools the keeper used to operate the lantern."
+      },
+      "correct_answer": "A",
+      "explanation": "Lingering at the water past what the gesture requires suggests an attachment to the ritual itself, not a practical need."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Text 1: A study of octopus camouflage found that individuals raised in visually barren tanks were slower to match new backgrounds than those raised in visually complex environments, suggesting camouflage skill develops partly through experience.",
+      "passage_2": "Text 2: A separate study found that octopuses could perform basic color-matching within hours of hatching, before any exposure to varied environments, indicating some camouflage ability is present from birth.",
+      "question": "How does the finding in Text 2 relate to the claim in Text 1?",
+      "choices": {
+        "A": "It disproves Text 1's claim that experience plays any role in camouflage skill.",
+        "B": "It adds evidence that some camouflage ability is innate, without contradicting Text 1's claim that experience also matters.",
+        "C": "It shows that octopuses cannot camouflage at all before hatching.",
+        "D": "It argues that visual environment has no effect on camouflage."
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 introduces an innate component without disputing Text 1's claim that experience also shapes camouflage skill."
+    },
+    {
+      "id": 6,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "social_science",
+      "passage": "A neighborhood association sent surveys to residents about a proposed community garden. Only residents who had previously attended association meetings returned the survey, and nearly all of them supported the garden. The association reported this as evidence of overwhelming neighborhood support.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "the survey results may not represent the views of residents who do not attend meetings.",
+        "B": "every resident in the neighborhood supports the garden.",
+        "C": "the association plans to cancel the garden project.",
+        "D": "meeting attendance is required to live in the neighborhood."
+      },
+      "correct_answer": "A",
+      "explanation": "Since only meeting-attending residents responded, the results may not reflect the broader neighborhood's views."
+    },
+    {
+      "id": 7,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Each time the traveling musician passed through the village, the innkeeper set aside the same corner table, though the musician never asked for it and sometimes did not come at all that season.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "the innkeeper reserves the table out of habit or hope, independent of any request.",
+        "B": "the musician always requests that specific table in advance.",
+        "C": "the innkeeper no longer remembers the musician.",
+        "D": "the table is reserved for a different guest entirely."
+      },
+      "correct_answer": "A",
+      "explanation": "Setting the table aside unprompted, even in seasons the musician never arrives, suggests habit or hope rather than a response to any request."
+    },
+    {
+      "id": 8,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "Certain desert ants navigate home not by retracing their outbound scent trail but by counting their own steps, a method researchers confirmed by artificially lengthening the ants' legs with stilts, which caused the ants to overshoot the nest by a distance proportional to the added step length.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Desert ants rely on scent trails to find their way home.",
+        "B": "Desert ants use step-counting to navigate, as shown by the stilt experiment.",
+        "C": "Ants with longer legs cannot navigate at all.",
+        "D": "The stilt experiment disproved that ants can count steps."
+      },
+      "correct_answer": "B",
+      "explanation": "The stilted ants overshot the nest proportionally to their added step length, confirming step-counting rather than scent-trail navigation."
+    },
+    {
+      "id": 9,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "historical",
+      "passage": "A shipping company's ledger from a single trading season recorded four separate insurance claims for cargo lost to storms, far above the company's typical annual average, prompting the firm's partners to debate whether to abandon the northern route entirely the following year.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "The company never filed insurance claims before that season.",
+        "B": "An unusually high number of storm losses led the partners to reconsider the northern route.",
+        "C": "The partners decided immediately to keep using the northern route.",
+        "D": "Cargo losses had no effect on the company's plans."
+      },
+      "correct_answer": "B",
+      "explanation": "The spike in storm-related claims is what prompted the partners to debate abandoning the northern route."
+    },
+    {
+      "id": 10,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "literature",
+      "passage": "The apartment building's elderly superintendent shoveled every tenant's stretch of sidewalk before dawn each snowfall, though the building's lease required him to clear only the entrance, and he never accepted the coffee neighbors left out for him, letting it go cold on the step.",
+      "question": "Which choice best supports the claim that the superintendent's shoveling was not done for a reward?",
+      "choices": {
+        "A": "\"shoveled every tenant's stretch of sidewalk before dawn each snowfall\"",
+        "B": "\"though the building's lease required him to clear only the entrance\"",
+        "C": "\"never accepted the coffee neighbors left out for him\"",
+        "D": "\"letting it go cold on the step\""
+      },
+      "correct_answer": "C",
+      "explanation": "Refusing the coffee left out for him most directly shows he wasn't motivated by a reward for his effort."
+    }
+  ]
+}
