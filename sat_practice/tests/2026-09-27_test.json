@@ -1,0 +1,171 @@
+{
+  "date": "2026-09-27",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "Capybaras, the world's largest rodents, spend much of the day submerged in shallow water with only their eyes, ears, and nostrils above the surface. Researchers initially assumed this behavior was mainly a defense against predators, but thermal imaging later revealed that capybaras seek water most often during the hottest hours of the day, and rest on land once temperatures cool in the evening.",
+      "question": "What is the main purpose of the passage's final clause (\"and rest on land once temperatures cool in the evening\")?",
+      "choices": {
+        "A": "It reinforces the connection between water use and temperature regulation",
+        "B": "It proves that capybaras never rest on land",
+        "C": "It contradicts the researchers' original assumption about predators",
+        "D": "It shows that capybaras are most vulnerable to predators in the evening"
+      },
+      "correct_answer": "A",
+      "explanation": "Returning to land once it cools reinforces that their water use tracks temperature, adding support to the thermal-imaging finding rather than restating the earlier contradiction of the predator theory."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "In an essay urging colonists to fund a small standing navy, one founder acknowledged the expense but argued that a handful of armed vessels patrolling the coast would deter raids more cheaply than maintaining scattered militia companies in every port town. He closed by noting that no colony had yet been asked to pay for both defenses at once, and hoped none ever would.",
+      "question": "What is the main purpose of the passage's final sentence?",
+      "choices": {
+        "A": "To acknowledge that funding both defenses simultaneously would be an unwelcome burden",
+        "B": "To argue that militia companies are more effective than a navy",
+        "C": "To prove that no colony has ever funded any coastal defense",
+        "D": "To describe how militia companies were organized in port towns"
+      },
+      "correct_answer": "A",
+      "explanation": "The final sentence expresses hope that colonies won't have to pay for both defenses at once, acknowledging that doing so would be burdensome."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "Long after the orchestra had disbanded and the hall stood empty most nights, the retired conductor still climbed to the podium each evening to start his metronome ticking. No audience remained to hear it, and no rehearsal followed, but he continued the practice anyway, content to indulge a habit that no longer served any purpose beyond itself.",
+      "question": "As used in the passage, \"indulge\" most nearly means",
+      "choices": {
+        "A": "allow oneself to continue",
+        "B": "publicly criticize",
+        "C": "permanently abandon",
+        "D": "financially support"
+      },
+      "correct_answer": "A",
+      "explanation": "The conductor keeps up the habit for its own sake with no practical purpose, matching \"allow oneself to continue\" rather than criticizing, abandoning, or funding it."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "social_science",
+      "passage": "When a city council piloted a program offering free bus passes to residents over 65, transit officials worried that any ridership gains might prove temporary, fading once the novelty wore off. But six months of steady boarding data corroborated the program's early success, showing consistent increases across every route rather than a brief spike followed by a decline back to prior levels.",
+      "question": "As used in the passage, \"corroborated\" most nearly means",
+      "choices": {
+        "A": "confirmed",
+        "B": "questioned",
+        "C": "delayed",
+        "D": "exaggerated"
+      },
+      "correct_answer": "A",
+      "explanation": "The data showing consistent increases \"confirmed\" the program's early success, matching \"corroborated.\""
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Text 1: Leafcutter ants cultivate a specific fungus in underground chambers, feeding it chewed leaves and removing contaminants, a relationship so precise that biologists have described it as a form of agriculture practiced long before humans developed farming.",
+      "passage_2": "Text 2: A separate study found that some leafcutter ant colonies abandon their fungus garden and adopt a foreign strain from a neighboring colony when their own crop is damaged by mold, suggesting the ants treat the relationship as adaptable rather than fixed to one partner.",
+      "question": "How does the finding in Text 2 relate to the claim in Text 1?",
+      "choices": {
+        "A": "It disproves Text 1's claim that ants tend their fungus with agricultural precision",
+        "B": "It adds evidence that the ant-fungus relationship is more flexible than a fixed partnership, without contradicting Text 1's description of careful cultivation",
+        "C": "It shows that ants never rely on fungus for food",
+        "D": "It argues that fungus contamination never occurs in ant colonies"
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2's finding that ants can switch fungus strains adds flexibility to the relationship without disputing Text 1's claim that ants cultivate their fungus carefully."
+    },
+    {
+      "id": 6,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "literature",
+      "passage": "Every spring, my aunt repotted the same fern that had stopped thriving years earlier, trimming its browned edges and setting it in fresh soil by the window, though it never grew fuller or greener than it had the year before. She never mentioned replacing it, and no one asked why she kept trying.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "The aunt is unaware that the fern is dying",
+        "B": "The aunt continues a caretaking ritual despite the plant's lack of improvement",
+        "C": "The narrator believes the fern should be replaced immediately",
+        "D": "The fern thrives more each year because of the aunt's care"
+      },
+      "correct_answer": "B",
+      "explanation": "The passage describes the aunt repeating the repotting ritual every year despite no improvement, matching a caretaking ritual continued despite lack of results."
+    },
+    {
+      "id": 7,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "social_science",
+      "passage": "A company offering employees a monthly wellness stipend saw sick-day usage drop by nearly a third over the following year, prompting managers to credit the stipend for the improvement. Around the same time, however, the company also opened an on-site flu vaccination clinic, which health officials note can independently reduce sick-day rates regardless of any other wellness initiatives underway.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "The wellness stipend is definitely the cause of the drop in sick days",
+        "B": "A confounding factor complicates the claim that the stipend caused the drop in sick days",
+        "C": "The flu vaccination clinic had no effect on sick-day rates",
+        "D": "Sick-day usage increased despite the new wellness stipend"
+      },
+      "correct_answer": "B",
+      "explanation": "The passage introduces the flu clinic as a factor that could independently explain the drop, complicating the claim that the stipend alone caused it."
+    },
+    {
+      "id": 8,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "historical",
+      "passage": "The minutes of a New England town meeting record a lengthy dispute over funding a volunteer fire watch, with one faction arguing that the town's densely packed wooden buildings made the expense urgent and impossible to postpone. In the margin beside their remarks, the town clerk noted privately that the same faction happened to own the largest warehouse near the docks.",
+      "question": "Which choice best supports the idea that the faction's stated reason for urgency may not be their only motive?",
+      "choices": {
+        "A": "\"a lengthy dispute over funding a volunteer fire watch\"",
+        "B": "\"the town's densely packed wooden buildings made the expense urgent\"",
+        "C": "\"the town clerk noted privately that the same faction happened to own the largest warehouse near the docks\"",
+        "D": "\"impossible to postpone\""
+      },
+      "correct_answer": "C",
+      "explanation": "The clerk's private note connecting the faction to nearby property ownership suggests a self-interested motive beyond the stated public-safety concern."
+    },
+    {
+      "id": 9,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "natural_science",
+      "passage": "Biologists long assumed flying squirrels glide passively once airborne, relying only on their outstretched patagium to catch air and carry them wherever momentum happened to take them. High-speed footage later showed the squirrels making small, deliberate adjustments to the tension of their patagium mid-glide, altering their trajectory enough to land precisely on a chosen target branch.",
+      "question": "Which choice best supports the claim that flying squirrels actively control their glide rather than gliding passively?",
+      "choices": {
+        "A": "\"Biologists long assumed flying squirrels glide passively once airborne\"",
+        "B": "\"relying only on their outstretched patagium to catch air\"",
+        "C": "\"making small, deliberate adjustments to the tension of their patagium mid-glide\"",
+        "D": "\"wherever momentum happened to take them\""
+      },
+      "correct_answer": "C",
+      "explanation": "The deliberate mid-glide adjustments to patagium tension directly support active control rather than passive gliding."
+    },
+    {
+      "id": 10,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "social_science",
+      "passage": "A public library introduced a free résumé-writing workshop specifically to help unemployed job seekers find work, but the sign-in sheets from every session showed that most attendees were already employed and simply looking to switch careers, rather than currently out of work. Librarians noted the same pattern each month the workshop ran, regardless of how it was advertised.",
+      "question": "Which choice most logically completes the passage's implied conclusion?",
+      "choices": {
+        "A": "the workshop may not be reaching the unemployed job seekers it was originally intended for",
+        "B": "every attendee eventually found a new job through the workshop",
+        "C": "the library plans to cancel the workshop immediately",
+        "D": "unemployed residents are not interested in improving their résumés"
+      },
+      "correct_answer": "A",
+      "explanation": "Since most attendees are already employed rather than unemployed, the workshop appears not to be reaching its originally intended audience."
+    }
+  ]
+}
