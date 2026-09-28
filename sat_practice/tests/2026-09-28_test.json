@@ -1,0 +1,172 @@
+{
+  "date": "2026-09-28",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "social_science",
+      "passage_1": "Text 1: After the city painted protected bike lanes downtown, reported cyclist accidents there fell by a third, which officials credited to the new lanes making streets safer.",
+      "passage_2": "Text 2: Counts from the same downtown corridor show that the number of people cycling there dropped sharply during the same months, largely because of a long stretch of road construction.",
+      "question": "How would the author of Text 2 most likely respond to the claim in Text 1?",
+      "choices": {
+        "A": "By agreeing that the bike lanes have made downtown safer",
+        "B": "By noting that the drop in accidents may reflect fewer riders rather than safer streets",
+        "C": "By arguing that accidents downtown have actually increased",
+        "D": "By suggesting that the city should remove the bike lanes"
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 reports that ridership fell sharply, so a lower accident count could result from fewer riders, which qualifies Text 1's causal claim."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "literature",
+      "passage_1": "Text 1: Poets of the region often wrote about shared rituals, such as harvest songs or bells rung at dawn, as ways a small community reminded itself that it belonged together.",
+      "passage_2": "Text 2: In one poem, every household in a mountain village sends someone to the square each dawn to ring the old iron bell, though the fields no longer need to be woken.",
+      "question": "Which choice best describes the relationship between the two texts?",
+      "choices": {
+        "A": "Text 2 rejects the tradition that Text 1 describes",
+        "B": "Text 1 and Text 2 describe two unrelated customs",
+        "C": "Text 2 explains why Text 1's tradition was never practiced",
+        "D": "Text 2 gives an example of the tradition that Text 1 describes"
+      },
+      "correct_answer": "D",
+      "explanation": "Text 2's villagers ringing the bell at dawn is a specific instance of the shared, repeated ritual Text 1 says poets often depict."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "Deep-sea anglerfish attract prey with a glowing lure that dangles from the top of the head. The glow is not produced by the fish itself. Instead, it comes from colonies of bioluminescent bacteria living inside the lure, which receive nutrients from the fish in return. Without this partnership, the anglerfish's most important hunting tool would be dark.",
+      "question": "Which choice best describes the function of the sentence \"The glow is not produced by the fish itself\"?",
+      "choices": {
+        "A": "It introduces a clarification that leads into an explanation of where the glow comes from",
+        "B": "It presents an objection that the passage never answers",
+        "C": "It summarizes the passage's main conclusion",
+        "D": "It provides an unrelated detail about anglerfish anatomy"
+      },
+      "correct_answer": "A",
+      "explanation": "The sentence corrects an assumption and the following sentence explains the true source of the glow, bacteria in the lure."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "In a letter to his fellow townsmen, a colonial printer defended the high price of paper. He acknowledged that many readers grumbled about the cost of newspapers, yet he observed that the paper was carried over rough roads and stormy seas before it reached his shop. \"A sheet that has crossed an ocean,\" he wrote, \"cannot in fairness be sold as cheaply as one that has crossed a field.\"",
+      "question": "What is the main purpose of the quotation in the final sentence?",
+      "choices": {
+        "A": "To admit that the printer's prices are unfair",
+        "B": "To criticize readers who complain about the newspaper's content",
+        "C": "To illustrate through comparison why the paper costs what it does",
+        "D": "To describe how the printer's shop was built"
+      },
+      "correct_answer": "C",
+      "explanation": "The printer contrasts a sheet that crossed an ocean with one that crossed a field to justify the higher price."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "The old baker was known for his measured habits: he rose at the same hour, kneaded for the same number of minutes, and closed the shop precisely at dusk. His neighbors found comfort in such regularity, and some said they could set their clocks by the smell of his morning loaves.",
+      "question": "As used in the text, what does the word \"measured\" most nearly mean?",
+      "choices": {
+        "A": "Physically weighed",
+        "B": "Carefully regular",
+        "C": "Slightly rude",
+        "D": "Unusually large"
+      },
+      "correct_answer": "B",
+      "explanation": "Rising, kneading, and closing at the same times shows habits that are steady and regular, so \"measured\" means carefully regular."
+    },
+    {
+      "id": 6,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "natural_science",
+      "passage": "Researchers placed identical seedlings in two greenhouses. Both received the same water and the same amount of light, but only one greenhouse was regularly shaken by a gentle mechanical arm. After six weeks, the shaken seedlings were noticeably shorter and had much thicker stems than the unshaken ones.",
+      "question": "Which choice most logically completes the inference about the shaken seedlings?",
+      "choices": {
+        "A": "Water and light have no effect on plant growth",
+        "B": "Plants grow tallest when they are moved often",
+        "C": "The mechanical arm damaged the seedlings' roots",
+        "D": "Regular movement may cause plants to invest more in sturdy stems than in height"
+      },
+      "correct_answer": "D",
+      "explanation": "Since water and light were equal, the difference in short, thick stems points to the shaking as the cause of a trade-off of height for sturdiness."
+    },
+    {
+      "id": 7,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "social_science",
+      "passage": "A town library began letting visitors borrow board games as well as books. In the following year, the number of visitors under age fifteen doubled, and staff noticed that many of those visitors also checked out at least one book during the same trip.",
+      "question": "Which conclusion is best supported by the passage?",
+      "choices": {
+        "A": "Board games are more popular than books among all age groups",
+        "B": "Children under fifteen no longer wish to read",
+        "C": "Lending board games may have helped bring more young visitors into contact with books",
+        "D": "Most visitors borrowed games but avoided books"
+      },
+      "correct_answer": "C",
+      "explanation": "Visitor numbers doubled after games were added and many of them also borrowed a book, suggesting games drew them in and books followed."
+    },
+    {
+      "id": 8,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "historical",
+      "passage": "A historian claims that the harbor town's growth in the 1700s depended on its shipbuilders. Customs records from the period list forty-one vessels launched from the town's yards in a single decade, while the population roughly tripled, and church registers show that most new residents gave \"shipwright\" or \"sailmaker\" as their trade.",
+      "question": "Which finding from the records would most directly support the historian's claim?",
+      "choices": {
+        "A": "Most new residents were shipwrights or sailmakers",
+        "B": "Customs officers kept careful notes",
+        "C": "The town had a church",
+        "D": "Forty-one vessels were sold at auction abroad"
+      },
+      "correct_answer": "A",
+      "explanation": "New residents mostly working in shipbuilding trades while the population tripled directly links growth to the shipbuilders."
+    },
+    {
+      "id": 9,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "literature",
+      "passage": "A student argues that the narrator of a short story feels homesick despite claiming otherwise. In the story, the narrator insists, \"This city suits me perfectly,\" but later admits to setting a second clock to her hometown's time and glancing at it whenever she pauses.",
+      "question": "Which quotation or detail from the story best supports the student's claim?",
+      "choices": {
+        "A": "She insists that the city suits her perfectly",
+        "B": "She sets a second clock to her hometown's time and glances at it",
+        "C": "She pauses during her day",
+        "D": "She lives in a city"
+      },
+      "correct_answer": "B",
+      "explanation": "Keeping and watching hometown time contradicts her stated contentment, showing homesickness."
+    },
+    {
+      "id": 10,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "Beavers are often called ecosystem engineers. By damming streams, they create ponds that slow the flow of water, trap sediment, and provide habitat for fish, insects, and birds. Even after a dam is abandoned, the wet meadow that forms behind it can support diverse plants for decades.",
+      "question": "Which choice best states the main idea of the passage?",
+      "choices": {
+        "A": "Beavers abandon dams too quickly",
+        "B": "Fish are the only animals that use beaver ponds",
+        "C": "Streams flow faster after beavers build dams",
+        "D": "Beaver dams reshape their surroundings in ways that benefit many other species"
+      },
+      "correct_answer": "D",
+      "explanation": "The passage lists ways dams create habitat and lasting meadows, showing beavers shape environments that support many species."
+    }
+  ]
+}
