@@ -1,0 +1,171 @@
+{
+  "date": "2026-09-29",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Researchers studying urban pigeons noticed that the birds quickly learned which cafés left crumbs near outdoor tables. Within weeks, flocks gathered at those spots at lunchtime, showing a remarkably keen sense of the daily rhythm of human activity.",
+      "question": "As used in the text, what does the word \"keen\" most nearly mean?",
+      "choices": {
+        "A": "Narrow",
+        "B": "Eager",
+        "C": "Angry",
+        "D": "Sharp"
+      },
+      "correct_answer": "D",
+      "explanation": "Learning the lunchtime pattern within weeks shows a sharp, well-tuned sense of human routines, so \"keen\" means sharp."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "When Marisol returned to her grandmother's kitchen after ten years, the room seemed to greet her with a faint scent of cinnamon. Though the cabinets had been repainted, the familiar smell was an unmistakable reminder of the afternoons she had spent there as a child.",
+      "question": "As used in the text, what does the word \"faint\" most nearly mean?",
+      "choices": {
+        "A": "Unclear",
+        "B": "Dizzy",
+        "C": "Weak",
+        "D": "Slight"
+      },
+      "correct_answer": "D",
+      "explanation": "The smell is described as still recognizable but not strong, so \"faint\" means slight."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "Let it not be said that a republic may neglect its schools and yet remain free. A people who cannot read the laws they are asked to obey must trust wholly to those who read for them; and trust so bestowed has ever been the first step toward servitude. Public instruction is therefore no ornament of liberty but its foundation.",
+      "question": "Which choice best describes the overall structure of the text?",
+      "choices": {
+        "A": "It states a warning, explains the reasoning behind it, and concludes with a claim about the importance of schools",
+        "B": "It offers a personal story and draws a general lesson from it",
+        "C": "It describes a historical event and then evaluates its lasting effects",
+        "D": "It presents two opposing views of education and declines to choose between them"
+      },
+      "correct_answer": "A",
+      "explanation": "The passage opens with a warning, explains that unreadable laws lead to dependence, and ends by calling instruction liberty's foundation."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "Economists once assumed that people always choose the option that gives them the most money. Yet in a well-known experiment, participants who were offered a small sum to split with a stranger frequently rejected unfairly low offers, giving up free money to punish the stingy proposer. Such results suggest that fairness matters to people alongside profit.",
+      "question": "Which choice best describes the function of the second sentence in the text?",
+      "choices": {
+        "A": "It explains why economists prefer laboratory studies",
+        "B": "It restates the assumption from the first sentence in different words",
+        "C": "It introduces a new topic unrelated to the first sentence",
+        "D": "It provides experimental evidence that challenges the assumption described in the first sentence"
+      },
+      "correct_answer": "D",
+      "explanation": "The experiment, where people refused free money, contradicts the earlier assumption that people always maximize money."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Text 1: Many biologists have argued that bats' ability to navigate in total darkness depends entirely on echolocation, the process of sending out high-pitched calls and interpreting the returning echoes.",
+      "passage_2": "Text 2: Recent field work found that some bats flying through familiar caves often stopped calling for long stretches, yet still avoided the walls, suggesting they also rely on memorized maps of the space.",
+      "question": "Based on the texts, how would the author of Text 2 most likely respond to the claim in Text 1?",
+      "choices": {
+        "A": "By suggesting that echolocation is not the only thing bats use to navigate",
+        "B": "By agreeing that echolocation alone fully explains bat navigation",
+        "C": "By claiming that bats never use high-pitched calls",
+        "D": "By arguing that bats cannot navigate in darkness at all"
+      },
+      "correct_answer": "A",
+      "explanation": "Text 2 says bats avoided walls without calling, indicating memory also plays a role, so echolocation is not the only factor."
+    },
+    {
+      "id": 6,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "literature",
+      "passage": "Every evening, Tomas walked the length of the pier and tied a small red ribbon to the last post. His daughter, who sailed cargo ships, had once told him that a bit of red on the shore was easy to spot from far out at sea. She had retired years ago, but Tomas kept up the habit, and the ribbons faded and frayed in the wind, one layered over the next.",
+      "question": "Which choice best states the main idea of the text?",
+      "choices": {
+        "A": "Red ribbons are the best way to signal ships from the shore",
+        "B": "Tomas continues a habit connected to his daughter long after its practical purpose has passed",
+        "C": "Tomas is frustrated that his daughter never visits the pier",
+        "D": "The pier needs repairs because the wind damages the posts"
+      },
+      "correct_answer": "B",
+      "explanation": "The passage says the daughter retired years ago yet Tomas keeps tying ribbons, so he continues the habit past its purpose."
+    },
+    {
+      "id": 7,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "social_science",
+      "passage": "A school district moved its start time from 7:30 to 8:30 a.m. and then tracked results for two years. Average nightly sleep among students rose by about forty minutes, and the number of students arriving late dropped by nearly a quarter. Attendance, however, changed very little.",
+      "question": "Which choice best states the main idea of the text?",
+      "choices": {
+        "A": "Later start times had no effect on students",
+        "B": "Students preferred the earlier start time",
+        "C": "Later start times improved sleep and punctuality but did not noticeably change attendance",
+        "D": "Attendance rose sharply after the change in start time"
+      },
+      "correct_answer": "C",
+      "explanation": "The text reports more sleep and fewer late arrivals, with attendance changing very little."
+    },
+    {
+      "id": 8,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "natural_science",
+      "passage": "Botanists observed two groups of tomato plants grown under identical conditions, except that one group was regularly visited by bumblebees and the other was kept in a screened enclosure. The visited plants produced fruit that was on average larger and contained more seeds. The botanists concluded that the bumblebees' visits were likely responsible for the difference.",
+      "question": "Which choice most logically completes the botanists' reasoning?",
+      "choices": {
+        "A": "Fruit size is unrelated to how many seeds a fruit contains",
+        "B": "Bumblebees eat the seeds of tomato plants",
+        "C": "Bumblebees carry pollen between flowers, which likely improves fruit and seed production",
+        "D": "Tomato plants grow best in screened enclosures"
+      },
+      "correct_answer": "C",
+      "explanation": "Since conditions were otherwise identical, pollen transfer by visiting bumblebees is the likely explanation for larger, seedier fruit."
+    },
+    {
+      "id": 9,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "historical",
+      "passage": "In 1792, a village council recorded that the mill's wheel had been rebuilt \"for the third time since the great flood of '87.\" The council also voted to move the next rebuilding from the riverbank to a spot two hundred yards upstream, noting that the old site \"lies too low for safety.\"",
+      "question": "Based on the text, what can most reasonably be inferred about the mill's original location?",
+      "choices": {
+        "A": "It was too far from the village to be useful",
+        "B": "It was upstream of the new site",
+        "C": "It was chosen because it was safe from water",
+        "D": "It was probably vulnerable to flooding"
+      },
+      "correct_answer": "D",
+      "explanation": "Repeated rebuilding since a flood and the note that the old site is too low suggest flooding damaged the original location."
+    },
+    {
+      "id": 10,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "A researcher claims that neighborhoods with more street trees tend to have lower summer temperatures. To test this, she measured afternoon air temperatures along twenty blocks in July.",
+      "question": "Which finding from the measurements would most directly support the researcher's claim?",
+      "choices": {
+        "A": "Some blocks had no sidewalks",
+        "B": "Temperatures were measured in the afternoon on every block",
+        "C": "Blocks with the most trees were closer to the city center",
+        "D": "Blocks with the most trees averaged several degrees cooler than blocks with the fewest trees"
+      },
+      "correct_answer": "D",
+      "explanation": "Only the finding that tree-rich blocks were cooler directly links street trees to lower temperatures."
+    }
+  ]
+}
