@@ -1283,7 +1283,7 @@
     {
       "date": "2026-09-27",
       "topic_category": "social_science",
-      "topic": "library résumé workshop drawing already-employed attendees"
+      "topic": "library r\u00e9sum\u00e9 workshop drawing already-employed attendees"
     },
     {
       "date": "2026-09-28",
@@ -1338,7 +1338,7 @@
     {
       "date": "2026-09-29",
       "topic_category": "natural_science",
-      "topic": "urban pigeons learning café crumb timing"
+      "topic": "urban pigeons learning caf\u00e9 crumb timing"
     },
     {
       "date": "2026-09-29",
@@ -1384,6 +1384,56 @@
       "date": "2026-09-29",
       "topic_category": "social_science",
       "topic": "street trees and cooler summer block temperatures"
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "grandfather's stiff composure at ferry reunion",
+      "topic_category": "literature"
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "coral reefs as early warning of ocean health",
+      "topic_category": "natural_science"
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "framers leaving charter open to amendment",
+      "topic_category": "historical"
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "minimum wage and county employment comparison",
+      "topic_category": "social_science"
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "midday watering and leaf scorch myth",
+      "topic_category": "natural_science"
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "honeybee waggle dance",
+      "topic_category": "natural_science"
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "man setting two cups after wife moved away",
+      "topic_category": "literature"
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "farmers market shuttle and attendance",
+      "topic_category": "social_science"
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "canal shipments and village prosperity",
+      "topic_category": "historical"
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "basil growth near sunny window",
+      "topic_category": "natural_science"
     }
   ]
 }
