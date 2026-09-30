@@ -1,0 +1,172 @@
+{
+  "date": "2026-09-30",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "When the ferry finally docked, Mara's grandfather stood on the pier with a stiff, formal posture, as though the long-awaited reunion required him to be dignified rather than joyful. Only when she ran toward him did his composure break.",
+      "question": "As used in the text, what does the word \"composure\" most nearly mean?",
+      "choices": {
+        "A": "Careful planning",
+        "B": "Physical strength",
+        "C": "Loud laughter",
+        "D": "Calm self-control"
+      },
+      "correct_answer": "D",
+      "explanation": "His stiff, dignified posture and the fact that it \"broke\" show composure means calm self-control."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "Coral reefs cover less than one percent of the ocean floor, yet they shelter roughly a quarter of all marine species. Scientists therefore treat reef health as an early warning sign for the wider ocean: when a reef bleaches, many other creatures lose their homes as well.",
+      "question": "Which choice best describes the function of the second sentence in the text?",
+      "choices": {
+        "A": "It explains why the fact in the first sentence makes reefs important to monitor",
+        "B": "It disputes the claim made in the first sentence",
+        "C": "It lists several different types of reefs",
+        "D": "It introduces an unrelated example"
+      },
+      "correct_answer": "A",
+      "explanation": "\"Therefore\" signals that the second sentence draws a conclusion from the contrast of small area and large number of species."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "The framers of our charter wisely declined to fix every regulation in stone. They supposed that a people's needs must change with the seasons of their history, and they left to later citizens the lawful means of amendment, lest a rule useful to one generation become a chain upon the next.",
+      "question": "Which choice best states the main purpose of the text?",
+      "choices": {
+        "A": "To explain why the framers allowed the charter to be amended",
+        "B": "To argue that no rules are necessary",
+        "C": "To describe how amendments were voted on",
+        "D": "To criticize the framers for being indecisive"
+      },
+      "correct_answer": "A",
+      "explanation": "The passage says the framers left lawful means of amendment so that rules would not become a chain on later generations."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "social_science",
+      "question": "Based on the texts, how would the author of Text 2 most likely respond to the claim in Text 1?",
+      "choices": {
+        "A": "By agreeing that all wage increases cut jobs",
+        "B": "By arguing that restaurants never hire workers",
+        "C": "By noting that evidence from nearby counties does not show the job losses Text 1 predicts",
+        "D": "By claiming that wages have no effect on anything"
+      },
+      "correct_answer": "C",
+      "explanation": "Text 2's county comparison showed no drop in employment, which challenges Text 1's claim that job cuts always follow.",
+      "passage_1": "Text 1: Some economists argue that raising the minimum wage always causes employers to cut jobs, because labor simply becomes too costly.",
+      "passage_2": "Text 2: A study of neighboring counties found that when one county raised its minimum wage, restaurant employment there did not fall compared with the neighboring county, suggesting the effect on jobs may be small."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "question": "Based on the texts, which statement best describes a relationship between them?",
+      "choices": {
+        "A": "Text 2 provides experimental results that cast doubt on the explanation offered in Text 1",
+        "B": "Text 2 repeats the explanation given in Text 1",
+        "C": "Text 2 proves that watering is always harmful",
+        "D": "Text 2 is about a different kind of plant altogether"
+      },
+      "correct_answer": "A",
+      "explanation": "Text 2 found droplets mostly did not burn leaves, challenging the magnifying-lens explanation in Text 1.",
+      "passage_1": "Text 1: Many gardeners believe that watering plants at midday scorches their leaves because water droplets act like tiny magnifying lenses.",
+      "passage_2": "Text 2: Experiments with sunlit leaves found that droplets on most leaf surfaces did not cause burns, though the leaves did lose more water to evaporation when watered in strong heat."
+    },
+    {
+      "id": 6,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "Honeybees communicate the location of food through a \"waggle dance.\" The angle of the bee's waggling run relative to vertical shows the direction of the food relative to the sun, and the length of the run signals how far away it is.",
+      "question": "Which choice best states the main idea of the text?",
+      "choices": {
+        "A": "Honeybees dance mainly to keep warm",
+        "B": "Honeybees use the angle and length of a dance to tell others where food is",
+        "C": "Honeybees dance only at night",
+        "D": "Honeybees cannot find food without the sun"
+      },
+      "correct_answer": "B",
+      "explanation": "The passage says angle shows direction and length shows distance of the food."
+    },
+    {
+      "id": 7,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Every morning, Tomas set two cups on the table, though his wife had moved to the coast for work in the spring. He told himself it was just habit, yet each evening he washed both cups, dried them carefully, and set them back on the shelf.",
+      "question": "Which choice most logically completes the inference about Tomas?",
+      "choices": {
+        "A": "He has forgotten that his wife moved",
+        "B": "He plans to sell the cups",
+        "C": "He dislikes drinking coffee",
+        "D": "He misses his wife more than he admits"
+      },
+      "correct_answer": "D",
+      "explanation": "His careful care of both cups, despite calling it habit, suggests he misses her."
+    },
+    {
+      "id": 8,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "social_science",
+      "passage": "A town introduced a free shuttle to its farmers market. Attendance rose from about 200 to 450 shoppers a week, and surveys showed that most new visitors lived more than two miles from the market and did not own a car.",
+      "question": "Which choice most logically follows from the information in the text?",
+      "choices": {
+        "A": "Car owners stopped visiting the market",
+        "B": "The market sold cheaper goods than before",
+        "C": "The shuttle made the market shorter",
+        "D": "The shuttle likely helped people without easy transportation reach the market"
+      },
+      "correct_answer": "D",
+      "explanation": "New visitors mostly lived far away without cars, so the shuttle probably gave them access."
+    },
+    {
+      "id": 9,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "historical",
+      "passage": "A historian claims that the village's prosperity in the 1850s depended on its canal. She points to the town's records.",
+      "question": "Which finding from the records would most directly support the historian's claim?",
+      "choices": {
+        "A": "Grain shipments through the canal rose sharply just as the town's income grew",
+        "B": "Winters in the 1850s were cold",
+        "C": "The canal was dug by hand",
+        "D": "The town had a church"
+      },
+      "correct_answer": "A",
+      "explanation": "Only rising canal shipments alongside rising income directly link the canal to prosperity."
+    },
+    {
+      "id": 10,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "natural_science",
+      "passage": "A student hypothesizes that basil plants grow taller when placed near a sunny window than when kept in a dim corner. She grows ten plants in each location for a month.",
+      "question": "Which result would most directly support the student's hypothesis?",
+      "choices": {
+        "A": "Plants at the window averaged 24 cm; plants in the corner averaged 11 cm",
+        "B": "Ten plants were used in each location",
+        "C": "Plants in the corner had greener leaves",
+        "D": "All plants were watered once a week"
+      },
+      "correct_answer": "A",
+      "explanation": "A large height difference favoring the window plants directly supports the hypothesis."
+    }
+  ]
+}
