@@ -344,6 +344,26 @@
         "craft_and_structure": 2
       },
       "notes": "Grades the 2026-09-29 test (sent 2026-09-29 21:09 UTC) and records today's 2026-09-30 test generation. Gmail search from:nirvaanaditya11@gmail.com (all time) returned zero results. Marked missed; tiers held at 2/2. SIXTEENTH consecutive test with no graded result; tiers unchanged for 16 tests. Cause is the reply channel, not performance."
+    },
+    {
+      "date": "2026-10-01",
+      "test_file": "2026-10-01_test.json",
+      "graded": false,
+      "missed": true,
+      "questions_attempted": null,
+      "accuracy": {
+        "information_and_ideas": null,
+        "craft_and_structure": null
+      },
+      "tiers_before": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "tiers_after": {
+        "information_and_ideas": 2,
+        "craft_and_structure": 2
+      },
+      "notes": "Grades the 2026-09-30 test (sent 2026-09-30 ~21 UTC) and records today's 2026-10-01 test generation. Gmail search from:nirvaanaditya11@gmail.com (all time) returned zero results. Marked missed; tiers held at 2/2. SEVENTEENTH consecutive test with no graded result; tiers unchanged for 17 tests. Cause is the reply channel, not performance."
     }
   ]
 }

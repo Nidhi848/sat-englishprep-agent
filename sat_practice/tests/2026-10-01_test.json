@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-01",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "Though Priya had rehearsed her toast for days, she felt reluctant to stand when her name was called, gripping the edge of the table as the room fell silent.",
+      "question": "As used in the text, what does the word \"reluctant\" most nearly mean?",
+      "choices": {
+        "A": "Eager",
+        "B": "Unwilling",
+        "C": "Furious",
+        "D": "Confused"
+      },
+      "correct_answer": "B",
+      "explanation": "Her gripping the table and hesitating after rehearsing shows she was unwilling to stand."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Botanists spent years making a meticulous record of every plant in the meadow, noting even the smallest patch of moss and the date it first appeared.",
+      "question": "As used in the text, what does the word \"meticulous\" most nearly mean?",
+      "choices": {
+        "A": "Hurried",
+        "B": "Colorful",
+        "C": "Extremely careful",
+        "D": "Temporary"
+      },
+      "correct_answer": "C",
+      "explanation": "Noting even the smallest moss patch and its date shows the record was extremely careful."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "To the Honorable Council: The bridge at Miller's Ford, long neglected, now threatens the lives of those who cross it. We therefore humbly petition that the sum of forty dollars be set aside for its repair before the spring floods.",
+      "question": "Which choice best states the main purpose of the text?",
+      "choices": {
+        "A": "To ask the council to fund repairs to a dangerous bridge",
+        "B": "To announce that the bridge has been completed",
+        "C": "To argue that the council should abolish all bridges",
+        "D": "To describe the history of Miller's Ford"
+      },
+      "correct_answer": "A",
+      "explanation": "The writers say the bridge is dangerous and \"petition\" for forty dollars to repair it."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "Many people assume that rereading their notes is the best way to prepare for a test. Yet in one study, students who spent the same time quizzing themselves on the material scored higher on a later exam than students who simply reread.",
+      "question": "Which choice best describes the overall structure of the text?",
+      "choices": {
+        "A": "It defines a term and then lists examples of it",
+        "B": "It tells a story about one student's experience",
+        "C": "It compares two schools and recommends one",
+        "D": "It states a common belief and then presents evidence against it"
+      },
+      "correct_answer": "D",
+      "explanation": "The first sentence gives a common assumption and \"Yet\" introduces a study showing quizzing worked better."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "social_science",
+      "passage_1": "Text 1: Some historians claim that public libraries in the 1800s mainly served wealthy readers who already owned many books.",
+      "passage_2": "Text 2: Borrowing records from one town's library in 1870 show that most cardholders were factory workers and store clerks.",
+      "question": "Based on the texts, how would the author of Text 2 most likely respond to the claim in Text 1?",
+      "choices": {
+        "A": "By agreeing that libraries were built only for the rich",
+        "B": "By arguing that no one used libraries in the 1800s",
+        "C": "By offering records suggesting that most users were not wealthy",
+        "D": "By claiming that libraries should be closed"
+      },
+      "correct_answer": "C",
+      "explanation": "Text 2's borrowing records show most cardholders were workers and clerks, which challenges Text 1's claim."
+    },
+    {
+      "id": 6,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "An octopus has no bones, and its only hard part is a small beak. Because of this, an octopus can squeeze through any opening at least as large as that beak, which lets it escape from tanks and slip into narrow rock crevices.",
+      "question": "Which choice best states the main idea of the text?",
+      "choices": {
+        "A": "An octopus's lack of bones lets it fit through very small openings",
+        "B": "An octopus is the largest animal in the ocean",
+        "C": "An octopus eats only animals that live in rock crevices",
+        "D": "An octopus has a beak that is too large to use"
+      },
+      "correct_answer": "A",
+      "explanation": "The passage explains that having no bones except a small beak lets an octopus squeeze through tiny openings."
+    },
+    {
+      "id": 7,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Every evening, Mr. Okafor wiped his shop counter twice, though no customers had come in since noon. When the bell above the door finally rang, he straightened his apron before turning to greet whoever had entered.",
+      "question": "Which choice most logically completes the text? Mr. Okafor's actions suggest that he",
+      "choices": {
+        "A": "dislikes the work he does",
+        "B": "is planning to close the shop",
+        "C": "is angry at his customers",
+        "D": "takes pride in his shop and hopes to welcome customers"
+      },
+      "correct_answer": "D",
+      "explanation": "Cleaning an empty shop and straightening his apron for a visitor show pride and a wish to welcome customers."
+    },
+    {
+      "id": 8,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "social_science",
+      "passage": "A city added protected bike lanes to Elm Street. Over the next year, the number of cyclists on Elm Street rose by 40 percent, while the number on nearby streets without bike lanes stayed about the same.",
+      "question": "Which choice most logically completes the text? The data suggest that",
+      "choices": {
+        "A": "fewer people ride bikes in the city than before",
+        "B": "the new bike lanes may have encouraged more people to cycle on Elm Street",
+        "C": "cyclists now avoid streets with bike lanes",
+        "D": "nearby streets became less safe for cyclists"
+      },
+      "correct_answer": "B",
+      "explanation": "Only the street with new lanes saw a rise while similar streets stayed flat, pointing to the lanes as the cause."
+    },
+    {
+      "id": 9,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "natural_science",
+      "passage": "A student claims that mulch helps garden soil stay moist. To test this, she measured soil moisture in two identical garden beds, one covered with mulch and one left bare, after a week without rain.",
+      "question": "Which finding, if true, would most directly support the student's claim?",
+      "choices": {
+        "A": "The bare bed had more weeds than the mulched bed",
+        "B": "Both beds contained the same kinds of plants",
+        "C": "The mulched bed's soil was noticeably moister than the bare bed's soil",
+        "D": "The bare bed was warmer in the afternoon"
+      },
+      "correct_answer": "C",
+      "explanation": "Only moister soil in the mulched bed directly shows mulch helps soil stay moist."
+    },
+    {
+      "id": 10,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "historical",
+      "passage": "A historian claims that the market town of Harrow lost much of its trade after a railroad bypassed it in 1860. The historian points to the town's ledger of stall rentals.",
+      "question": "Which quotation from the ledger would best support the historian's claim?",
+      "choices": {
+        "A": "\"In 1859, the market's busiest day drew a crowd of 400 visitors.\"",
+        "B": "\"In 1865, the market rented 150 stalls, down from 400 in 1859.\"",
+        "C": "\"The railroad company completed its new line in the autumn of 1860.\"",
+        "D": "\"The market was first held in Harrow in the year 1790.\""
+      },
+      "correct_answer": "B",
+      "explanation": "A drop in stall rentals from 400 to 150 after 1860 directly shows lost trade."
+    }
+  ]
+}
