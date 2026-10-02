@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-02",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "Leo had watched the other children skate across the frozen pond all morning. When his father finally nodded, Leo took a tentative step onto the ice, testing it with one boot before trusting it with the other, his arms stretched wide for balance.",
+      "question": "As used in the text, what does the word \"tentative\" most nearly mean?",
+      "choices": {
+        "A": "Angry",
+        "B": "Cautious",
+        "C": "Careless",
+        "D": "Joyful"
+      },
+      "correct_answer": "B",
+      "explanation": "Testing the ice with one boot before trusting the other shows Leo's step was cautious."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "A gecko can walk straight up a glass window, yet its toes have no glue. Instead, each toe pad is covered with millions of microscopic hairs, and each hair is split into even tinier tips. These tips get so close to the surface that weak attractive forces between molecules add up to a strong grip. When the gecko peels its toe away at an angle, the grip releases easily.",
+      "question": "Which choice best describes the overall structure of the text?",
+      "choices": {
+        "A": "It presents a surprising ability, then explains how the animal's body makes it possible.",
+        "B": "It tells a story about a gecko's daily routine in a house.",
+        "C": "It describes a problem geckos face, then lists several failed solutions.",
+        "D": "It compares geckos with other climbing animals to show which is best."
+      },
+      "correct_answer": "A",
+      "explanation": "The text opens with a gecko climbing glass, then explains the hairs and tips that create the grip."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "To the Inhabitants of this Town: The Selectmen give notice that, beginning at the first of November, every householder whose dwelling fronts upon the main street shall hang a lantern by his door at dusk and keep it burning until ten o'clock. Several citizens have been injured in the dark, and the Selectmen judge that a small expense borne by each will spare the whole town a greater harm.",
+      "question": "Which choice best states the main purpose of the text?",
+      "choices": {
+        "A": "To criticize the Selectmen for failing to prevent injuries",
+        "B": "To ask citizens to vote on whether lanterns are a good idea",
+        "C": "To describe how lanterns were made in the town",
+        "D": "To announce a new requirement and justify it by pointing to the danger it addresses"
+      },
+      "correct_answer": "D",
+      "explanation": "The Selectmen state the lantern rule and give injuries in the dark as the reason for it."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "social_science",
+      "passage_1": "Text 1: Some educators argue that school gardens raise science scores, since students who tend plants see biology lessons come alive.",
+      "passage_2": "Text 2: At one school, science scores did rise after a garden opened. However, the school also adopted a new science curriculum that same year.",
+      "question": "Based on the texts, how would the author of Text 2 most likely respond to the claim in Text 1?",
+      "choices": {
+        "A": "By noting that the score gains may have another explanation besides the gardens",
+        "B": "By proposing that schools remove their gardens immediately",
+        "C": "By agreeing that gardens are the only cause of higher scores",
+        "D": "By arguing that science scores cannot be measured"
+      },
+      "correct_answer": "A",
+      "explanation": "Text 2 points out that a new curriculum began the same year, which suggests the gardens may not be the cause."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Text 1: Some people believe that moths circle lamps because they are attracted to the light as if it were a source of food.",
+      "passage_2": "Text 2: High-speed video of moths near lamps shows them keeping the bright light at a fixed angle to one side of their bodies, much as they would when steering by the moon.",
+      "question": "Based on the texts, how would the author of Text 2 most likely respond to the claim in Text 1?",
+      "choices": {
+        "A": "By arguing that lamps should be turned off in all cities",
+        "B": "By agreeing that moths mistake lamps for food",
+        "C": "By suggesting that moths treat bright lights as a guide for steering, not as a meal",
+        "D": "By claiming that moths cannot see light at all"
+      },
+      "correct_answer": "C",
+      "explanation": "Text 2 reports moths keeping the light to one side as if steering by it, which challenges the idea that they seek food."
+    },
+    {
+      "id": 6,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "Tide pools are small basins of seawater left among the rocks when the tide goes out. Over a few hours, the water in a pool can grow much warmer and saltier as the sun heats it and some of the water evaporates. Animals living there, such as sea stars and snails, must survive these swings, and many do so by clamping tightly to rocks or sealing their shells until the tide returns.",
+      "question": "Which choice best states the main idea of the text?",
+      "choices": {
+        "A": "Tide pool animals have ways of surviving the changing conditions in their pools.",
+        "B": "Tide pools form only on warm, sunny coastlines.",
+        "C": "Evaporation is the main cause of ocean tides.",
+        "D": "Sea stars are the most important animals in tide pools."
+      },
+      "correct_answer": "A",
+      "explanation": "The passage describes harsh swings in tide pools and how animals cope by clamping down or sealing shells."
+    },
+    {
+      "id": 7,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "social_science",
+      "passage": "When the city opened an evening market in an empty parking lot, officials expected it to be mostly a place to buy cheap vegetables. Surveys later showed that many visitors came without planning to buy much at all. They said they came to meet neighbors, listen to the musicians, and watch their children play. Sales remained modest, but visitors reported feeling more connected to their neighborhood.",
+      "question": "According to the text, what was a surprising result of the evening market?",
+      "choices": {
+        "A": "Vegetable prices fell across the entire city.",
+        "B": "Most visitors complained about the musicians.",
+        "C": "Officials decided to close the market after a month.",
+        "D": "Many visitors valued it mainly as a gathering place rather than as a store."
+      },
+      "correct_answer": "D",
+      "explanation": "Surveys showed visitors came to meet neighbors and enjoy music, even though sales stayed modest."
+    },
+    {
+      "id": 8,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Before the debate began, Mei lowered the microphone stand, then raised it, then lowered it again. She straightened her note cards twice and took a long sip of water. When the moderator finally said her name, she stood up slowly and smoothed the front of her jacket before walking to the podium.",
+      "question": "Which choice most logically completes the inference about Mei?",
+      "choices": {
+        "A": "Mei is bored by the debate topic.",
+        "B": "Mei has not prepared any notes.",
+        "C": "Mei dislikes the moderator.",
+        "D": "Mei is feeling nervous about speaking."
+      },
+      "correct_answer": "D",
+      "explanation": "Repeatedly adjusting the stand and cards and delaying her walk to the podium suggests nervousness."
+    },
+    {
+      "id": 9,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "historical",
+      "passage": "In a letter to his brother, a farmer wrote that the new mill on Cutler's Creek had changed the valley. He claimed that before the mill, farmers hauled their grain two days to the next town, but that now many could grind it within an afternoon.",
+      "question": "Which finding, if true, would most directly support the farmer's claim?",
+      "choices": {
+        "A": "The creek is longer than other streams in the region.",
+        "B": "Records show that farmers in the valley sold far more flour after the mill opened.",
+        "C": "The farmer's brother lived two days away.",
+        "D": "The mill was built from local oak and stone."
+      },
+      "correct_answer": "B",
+      "explanation": "Increased flour sales would directly show that farmers could grind grain locally instead of hauling it far away."
+    },
+    {
+      "id": 10,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "A researcher claims that singing in a community choir lowers stress. She surveyed adults before they joined a choir and again after twelve weeks of weekly rehearsals.",
+      "question": "Which finding, if true, would most directly support the researcher's claim?",
+      "choices": {
+        "A": "The choir rehearsed in a building that was close to public transit.",
+        "B": "Most choir members enjoyed the songs the director chose.",
+        "C": "Several participants had sung in school choirs as children.",
+        "D": "Participants rated their stress as noticeably lower after twelve weeks than before they joined."
+      },
+      "correct_answer": "D",
+      "explanation": "Lower stress ratings after twelve weeks directly support the claim that choir singing lowers stress."
+    }
+  ]
+}
