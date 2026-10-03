@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-03",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "The crowd at the regional spelling contest expected Marcus to celebrate loudly after the final round. Instead, his reaction was subdued. He gave a small smile, shook each judge's hand, and quietly thanked the classmates who had spent weeks quizzing him in the school library.",
+      "question": "As used in the text, what does the word \"subdued\" most nearly mean?",
+      "choices": {
+        "A": "Boastful",
+        "B": "Confused",
+        "C": "Restrained",
+        "D": "Furious"
+      },
+      "correct_answer": "C",
+      "explanation": "Marcus gave only a small smile and quiet thanks instead of the loud celebration expected, so his reaction was restrained."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Desert plants such as cacti are remarkably hardy. Their thick stems store water, so after months without rain a cactus can survive until the next storm arrives. Many other plants wilt and die within weeks under the same conditions.",
+      "question": "As used in the text, what does the word \"hardy\" most nearly mean?",
+      "choices": {
+        "A": "Fragile",
+        "B": "Unusual",
+        "C": "Abundant",
+        "D": "Tough"
+      },
+      "correct_answer": "D",
+      "explanation": "The text says cacti survive months without rain while other plants die, which shows they are tough."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "To the Residents of Haverton: The Postmaster informs the public that, from the first of March, the mail will be carried to this village twice each week, on Tuesdays and Fridays, rather than once. This change has been made possible by the engagement of a second rider. Letters for outgoing delivery must be left at the post office before noon on the day of departure.",
+      "question": "Which choice best describes the function of the last sentence of the text?",
+      "choices": {
+        "A": "It questions whether a second rider is truly needed.",
+        "B": "It gives residents a practical instruction for using the new service.",
+        "C": "It criticizes residents for mailing letters late.",
+        "D": "It explains the early history of the post office."
+      },
+      "correct_answer": "B",
+      "explanation": "The last sentence tells residents when to leave their letters so they can use the new twice-weekly mail."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "Researchers studying commuters found that people who walked part of their route to work reported better moods than people who drove the whole way. The researchers cautioned, however, that the walkers also tended to live closer to their jobs, which could explain some of the difference. They now plan a follow-up study in which commuting routes are assigned at random.",
+      "question": "Which choice best describes the overall structure of the text?",
+      "choices": {
+        "A": "It reports a finding, notes a limitation, and describes a plan to address it.",
+        "B": "It states a rule, gives two examples, and asks a question.",
+        "C": "It tells a story about one commuter's difficult morning.",
+        "D": "It compares two research teams and declares one of them correct."
+      },
+      "correct_answer": "A",
+      "explanation": "The text reports the mood finding, cautions that living closer may explain it, and then describes a random-assignment follow-up."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Text 1: Many biologists have long held that the bright coloring of poison dart frogs serves as a warning, telling predators that the frogs are dangerous to eat.",
+      "passage_2": "Text 2: In a forest experiment, researchers set out clay models painted in either bright frog colors or dull brown. Predators attacked the dull models far more often than the bright ones, a result that fits the idea of a warning signal.",
+      "question": "Based on the texts, how would the author of Text 2 most likely respond to the claim in Text 1?",
+      "choices": {
+        "A": "By arguing that bright colors make frogs easier for predators to catch",
+        "B": "By offering experimental results that support the claim",
+        "C": "By stating that poison dart frogs are not actually poisonous",
+        "D": "By suggesting that predators cannot see color"
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 reports that predators attacked dull models more often than bright ones, which supports the warning-color claim in Text 1."
+    },
+    {
+      "id": 6,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "historical",
+      "passage": "The diary of a farm wife in the 1840s describes how neighbors gathered at one farm after another each autumn to husk corn, with the host family providing supper. She notes that a task that would have kept one family busy for weeks was finished in a single evening, and that the fiddler \"made the husks fly.\"",
+      "question": "Based on the text, which inference about the husking gatherings is best supported?",
+      "choices": {
+        "A": "They were held only when a farm had too little corn to harvest.",
+        "B": "They were disliked by the farm wife and her neighbors.",
+        "C": "They let the community finish a large job quickly while also being a social event.",
+        "D": "They replaced the need for farmers to grow corn."
+      },
+      "correct_answer": "C",
+      "explanation": "The task was finished in one evening instead of weeks, and the supper and fiddler show the work doubled as a social occasion."
+    },
+    {
+      "id": 7,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "natural_science",
+      "passage": "Researchers filled red and yellow hummingbird feeders with identical sugar water. Hummingbirds visited the red feeders about three times as often as the yellow ones. Because the sugar water in both kinds of feeder was exactly the same, the researchers concluded that the birds' choice was not based on the food itself.",
+      "question": "Based on the text, which inference is best supported?",
+      "choices": {
+        "A": "Hummingbirds can taste the color of a feeder.",
+        "B": "The birds' preference for red likely involved the feeder's color rather than the quality of the food.",
+        "C": "The yellow feeders contained less sugar than the red ones.",
+        "D": "Hummingbirds will only eat from feeders and never from flowers."
+      },
+      "correct_answer": "B",
+      "explanation": "The food was identical in both feeders, so the difference in visits points to color rather than food quality."
+    },
+    {
+      "id": 8,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "A teacher claims that a short daily breathing exercise reduces test anxiety. To check, she asked 40 students to rate their anxiety about tests on a scale from 1 to 10, then had them practice the exercise every morning for four weeks and asked them to rate their anxiety again.",
+      "question": "Which finding, if true, would most directly support the teacher's claim?",
+      "choices": {
+        "A": "Most of the students said they liked their teacher.",
+        "B": "Students at a different school scored higher on a math test.",
+        "C": "The exercise takes only five minutes to complete each day.",
+        "D": "The students' average anxiety rating fell from 7.1 before the exercise to 4.8 after four weeks."
+      },
+      "correct_answer": "D",
+      "explanation": "A drop in the same students' average anxiety rating after practicing the exercise directly supports the claim that it reduces anxiety."
+    },
+    {
+      "id": 9,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "literature",
+      "passage": "Tomas packed the same canvas bag for every trip. \"You never know,\" he would say, tucking in a flashlight, a roll of tape, and an extra pair of socks, though in twenty years he had never needed the tape. His sister teased him for it. But when the car broke down on the mountain road after dark, it was Tomas's flashlight that guided them to the cabin.",
+      "question": "A student claims that Tomas's habit of over-preparing eventually proves useful. Which quotation from the text best supports the student's claim?",
+      "choices": {
+        "A": "\"it was Tomas's flashlight that guided them to the cabin\"",
+        "B": "\"You never know,\" he would say",
+        "C": "\"His sister teased him for it\"",
+        "D": "\"he had never needed the tape\""
+      },
+      "correct_answer": "A",
+      "explanation": "The flashlight Tomas always packs is what helps the group reach the cabin, showing his preparation paid off."
+    },
+    {
+      "id": 10,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "historical",
+      "passage": "In a letter to his brother in 1790, a clockmaker reports that business has been slow since the harvest because farmers have little coin to spare. He expects trade to revive after the autumn fair, when the crops have been sold. In the meantime, he writes, the quiet weeks have given him time to repair his own tools.",
+      "question": "Which choice best states the main idea of the text?",
+      "choices": {
+        "A": "The clockmaker plans to close his shop and become a farmer.",
+        "B": "The clockmaker is angry at his brother for not visiting.",
+        "C": "The autumn fair has been canceled for the year.",
+        "D": "The clockmaker reports slow business, expects it to improve, and is using the pause productively."
+      },
+      "correct_answer": "D",
+      "explanation": "The letter explains the slow trade, predicts a revival after the fair, and mentions repairing tools in the quiet weeks."
+    }
+  ]
+}
