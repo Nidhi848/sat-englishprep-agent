@@ -98,6 +98,18 @@ STEP 4 — GENERATE TODAY'S TEST
   a specific topic within the last 10 school days; log new topics used.
 - Format each question exactly like the digital SAT: one short passage,
   one question, four answer choices (A–D), only one correct answer.
+- CRITICAL — RANDOMIZE which letter is correct. Audit of real data found
+  that early tests (2026-09-14 through 09-21) put the correct answer on
+  B 68-87% of the time, with C and D barely used — Nirvaan noticed and
+  exploited this pattern (he reported being able to pick answers without
+  reading, "because it has a pattern"), which is as serious a problem as
+  any difficulty-calibration issue. Before finalizing each test, count the
+  correct-answer letters you've assigned across its questions — the split
+  should look roughly even (for ~10 questions, expect something like
+  2-3-3-2, never one letter dominating). If one letter is overrepresented,
+  reshuffle answer choices (not question content) until it isn't. Decide
+  each question's correct letter independently of its position in the
+  test or its domain/subtype — do not fall into any default placement.
 - CRITICAL — DO NOT copy or closely paraphrase actual College Board or
   Bluebook passages or questions. Write fully original passages and
   questions that match the official style, structure, difficulty
