@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-10",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "Lena was wary of the narrow rope bridge. She tested each plank with her foot before trusting it with her weight, and she gripped the rail the whole way across.",
+      "question": "As used in the text, what does the word \"wary\" most nearly mean?",
+      "choices": {
+        "A": "Eager",
+        "B": "Bored",
+        "C": "Amused",
+        "D": "Cautious"
+      },
+      "correct_answer": "D",
+      "explanation": "Lena tests every plank and grips the rail, behavior that shows she is cautious about the bridge."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Desert tortoises are remarkably resilient animals. Even after months without rain, when most plants have withered, they survive by storing water in their bodies and eating dry grasses.",
+      "question": "As used in the text, what does the word \"resilient\" most nearly mean?",
+      "choices": {
+        "A": "Able to withstand hardship",
+        "B": "Easily frightened",
+        "C": "Unusually large",
+        "D": "Slow to grow"
+      },
+      "correct_answer": "A",
+      "explanation": "The tortoises survive months without rain by storing water, which shows they can withstand hardship."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "Notice to the residents of Ashford: The public well on Mill Street will be closed for repairs from Monday until Friday of this week. During that time, all families are asked to draw their water from the river pump behind the mill and to keep children away from the work site.",
+      "question": "Which choice best states the main purpose of the text?",
+      "choices": {
+        "A": "To argue that the town should dig a second well",
+        "B": "To describe how the river pump was built",
+        "C": "To tell residents about a temporary well closure and where to get water instead",
+        "D": "To ask residents to pay for the repairs"
+      },
+      "correct_answer": "C",
+      "explanation": "The notice announces that the well is closed for a week and directs families to the river pump."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "social_science",
+      "passage": "Many people assume that loud sounds are what make a city stressful. Yet in a recent survey, residents said that unpredictable noises, such as a sudden car alarm, bothered them more than the steady hum of traffic. This suggests that how predictable a sound is may matter as much as how loud it is.",
+      "question": "Which choice best describes the function of the first sentence in the text?",
+      "choices": {
+        "A": "It presents the results of a survey",
+        "B": "It states a common assumption that the rest of the text then qualifies",
+        "C": "It defines a technical term used later",
+        "D": "It gives an example of an unpredictable noise"
+      },
+      "correct_answer": "B",
+      "explanation": "The first sentence gives a common belief, and the following sentences, beginning with \"Yet,\" complicate it."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Text 1: Some astronomers think the glow of city lights is the main reason fewer stars are visible to the naked eye than a century ago.",
+      "passage_2": "Text 2: A researcher compared a hundred years of star counts from observatories in remote areas, far from any city. She found that the number of visible stars fell there too, and she attributes the decline partly to rising haze in the atmosphere.",
+      "question": "Based on the texts, how would the author of Text 2 most likely respond to the claim in Text 1?",
+      "choices": {
+        "A": "By suggesting that city lights are not the only cause of the decline",
+        "B": "By agreeing that city lights alone explain the decline",
+        "C": "By claiming that fewer stars exist than a century ago",
+        "D": "By arguing that remote observatories are unreliable"
+      },
+      "correct_answer": "A",
+      "explanation": "Text 2 finds the decline even far from cities and points to haze, so city lights are not the only cause."
+    },
+    {
+      "id": 6,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "Lichens grow very slowly, often less than a millimeter a year, and some rock-dwelling lichens are thousands of years old. Because many lichens absorb substances directly from the air, scientists can study them to judge how polluted the air in a region has been.",
+      "question": "Which choice best states the main idea of the text?",
+      "choices": {
+        "A": "Lichens grow faster in polluted air than in clean air",
+        "B": "Most lichens are found only on very old rocks",
+        "C": "Lichens grow slowly and live long, and scientists can use them to measure air pollution",
+        "D": "Scientists have not yet learned how old lichens can become"
+      },
+      "correct_answer": "C",
+      "explanation": "The text describes slow growth and long life, then explains that lichens absorb air substances and so reveal pollution."
+    },
+    {
+      "id": 7,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "historical",
+      "passage": "In a 1780 letter to the town council, a frontier schoolteacher explains that many of his pupils walk four miles each way and often arrive too tired to learn. Although attendance has stayed steady, he writes, the children would benefit greatly from a second schoolhouse on the eastern road.",
+      "question": "Which choice best states the main idea of the text?",
+      "choices": {
+        "A": "The teacher plans to leave the frontier village",
+        "B": "Attendance at the school has fallen sharply",
+        "C": "The children dislike learning to read and write",
+        "D": "The teacher asks for a second schoolhouse because long walks tire his pupils"
+      },
+      "correct_answer": "D",
+      "explanation": "The teacher describes tired pupils who walk four miles and requests a second schoolhouse."
+    },
+    {
+      "id": 8,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "social_science",
+      "passage": "When a city opened its first community garden, twelve families signed up for the available plots. Over the next three years, the city added no new plots, but the waiting list grew to forty-five families.",
+      "question": "Based on the text, which inference is best supported?",
+      "choices": {
+        "A": "The city plans to close the community garden",
+        "B": "Interest in garden plots grew faster than the supply of plots",
+        "C": "Most families lost interest in gardening",
+        "D": "Gardeners in the city grew more vegetables each year"
+      },
+      "correct_answer": "B",
+      "explanation": "The waiting list rose from twelve to forty-five families while the number of plots stayed the same, so demand outpaced supply."
+    },
+    {
+      "id": 9,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Every evening, Mr. Okafor polished the brass nameplate on his shop door, even though the shop had been closed for years. He would step back, tilt his head, and nod at his reflection in the shining letters before locking up and walking home.",
+      "question": "Based on the text, which inference about Mr. Okafor is best supported?",
+      "choices": {
+        "A": "He still feels a deep attachment to the shop he used to run",
+        "B": "He plans to reopen the shop next week",
+        "C": "He is unhappy about the cost of brass polish",
+        "D": "He has forgotten that the shop is closed"
+      },
+      "correct_answer": "A",
+      "explanation": "He keeps polishing the nameplate nightly years after closing, which suggests he still cares deeply about the shop."
+    },
+    {
+      "id": 10,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "natural_science",
+      "passage": "A student claims that earthworms help plants grow by improving the soil. To test the claim, she planted tomato seedlings in pots of identical soil. She added earthworms to half of the pots and left the others without worms, then watered all the pots equally for eight weeks.",
+      "question": "Which finding, if true, would most directly support the student's claim?",
+      "choices": {
+        "A": "The pots with earthworms were placed on a sunnier shelf than the other pots",
+        "B": "Earthworms are commonly found in gardens throughout the world",
+        "C": "Several students in her class have never seen an earthworm",
+        "D": "The tomato plants in pots with earthworms grew taller on average than those in pots without them"
+      },
+      "correct_answer": "D",
+      "explanation": "Taller plants in the worm pots, with all other conditions kept equal, directly support the claim that earthworms help growth."
+    }
+  ]
+}
