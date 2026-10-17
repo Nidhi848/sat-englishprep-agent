@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-17",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "Every morning, Tom\u00e1s arranged the chairs in the small caf\u00e9 with meticulous care. He measured the gap between tables and straightened each napkin until the rows looked as if they had been drawn with a ruler. Regulars joked that he would notice a single crumb from across the room.",
+      "question": "As used in the text, what does the word \"meticulous\" most nearly mean?",
+      "choices": {
+        "A": "Hurried",
+        "B": "Precise",
+        "C": "Casual",
+        "D": "Generous"
+      },
+      "correct_answer": "B",
+      "explanation": "Measuring gaps and straightening every napkin shows extremely careful, exact attention to detail."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "The snow leopard is so elusive that researchers who study it may spend months in the mountains without ever seeing one. Instead, they rely on tracks, droppings, and camera traps hidden along rocky ridgelines.",
+      "question": "As used in the text, what does the word \"elusive\" most nearly mean?",
+      "choices": {
+        "A": "Aggressive",
+        "B": "Endangered",
+        "C": "Familiar",
+        "D": "Hard to find"
+      },
+      "correct_answer": "D",
+      "explanation": "Researchers go months without seeing one and must use indirect evidence, so the animal is hard to find."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "To the Editor: I am told the town council intends to pave Market Street with brick at public expense. While I admire a handsome street as much as any citizen, I ask whether the money might first repair the mill bridge, upon which every farmer in this parish depends to reach market. Let us mend what is necessary before we adorn what is merely pleasing.",
+      "question": "Which choice best describes the function of the text as a whole?",
+      "choices": {
+        "A": "It urges officials to put a needed repair ahead of a decorative project.",
+        "B": "It praises the council for its plan to improve Market Street.",
+        "C": "It explains how the mill bridge was originally built.",
+        "D": "It announces that Market Street has been paved."
+      },
+      "correct_answer": "A",
+      "explanation": "The writer asks that the bridge be repaired first and closes by saying necessary work should come before ornament."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "social_science",
+      "passage": "Text 1: Economist Rina Patel argues that remote work raises productivity because employees avoid long commutes and constant office interruptions.\nText 2: Researcher Dev Okoye surveyed company teams and found that productivity gains from remote work were largest for tasks done alone and much smaller for projects requiring frequent group collaboration.",
+      "question": "Based on the texts, how would Okoye most likely respond to Patel's argument?",
+      "choices": {
+        "A": "By denying that employees avoid long commutes",
+        "B": "By claiming remote work lowers productivity in every case",
+        "C": "By suggesting the gains Patel describes may not apply equally to collaborative work",
+        "D": "By arguing that surveys of company teams are unreliable"
+      },
+      "correct_answer": "C",
+      "explanation": "Okoye found gains shrink for collaborative projects, which qualifies Patel's general claim."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "Bees and other insects are often credited with helping flowering plants reproduce. But some plants rely on wind instead. Pine trees, for example, release clouds of light pollen that can drift for miles. This approach wastes enormous amounts of pollen, yet it works because so much is released that some grains inevitably land on a receptive cone.",
+      "question": "Which choice best describes the overall structure of the text?",
+      "choices": {
+        "A": "It introduces a common explanation, then presents a contrasting example and explains why it succeeds.",
+        "B": "It states a hypothesis and rejects it using experimental data.",
+        "C": "It narrates the life of a single pine tree over several years.",
+        "D": "It lists several insect pollinators and ranks them by effectiveness."
+      },
+      "correct_answer": "A",
+      "explanation": "The text begins with insect pollination, shifts to wind-pollinated pines, and explains why that wasteful method still works."
+    },
+    {
+      "id": 6,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "social_science",
+      "passage": "In the 1990s, many people predicted that public libraries would become obsolete as home internet access spread. Instead, many libraries expanded their programs, adding job-search workshops, free internet access for residents without it, and children's reading hours. Visits to some library systems have grown as a result.",
+      "question": "Which choice best states the main idea of the text?",
+      "choices": {
+        "A": "Libraries became obsolete once home internet access spread.",
+        "B": "Library visits fell sharply during the 1990s.",
+        "C": "Libraries have stayed useful by adapting their services to community needs.",
+        "D": "Children's reading hours are the most popular library program."
+      },
+      "correct_answer": "C",
+      "explanation": "The text says predictions of obsolescence proved wrong because libraries added new services and visits grew."
+    },
+    {
+      "id": 7,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "When Wen's grandmother handed her the old recipe card, the ink had faded so badly that only a few words were still legible. Wen did not complain. Instead, she spent the afternoon calling relatives, asking each what they remembered about the dish, and writing down every detail.",
+      "question": "Which choice most logically completes the text? Wen's actions suggest that she ______",
+      "choices": {
+        "A": "is uninterested in the recipe",
+        "B": "is determined to reconstruct the recipe despite the card's condition",
+        "C": "believes her relatives will disagree with one another",
+        "D": "plans to throw the card away"
+      },
+      "correct_answer": "B",
+      "explanation": "Rather than giving up on the faded card, she gathers details from relatives, showing she intends to recreate the dish."
+    },
+    {
+      "id": 8,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "historical",
+      "passage": "In her 1851 diary, a schoolteacher in Ohio recorded that attendance at her school dropped every autumn from late September until the first week of November, and then recovered. She noted that the absent pupils were chiefly the sons of farmers.",
+      "question": "Which choice most logically completes the text? The pattern in the diary suggests that the boys' absences were most likely due to ______",
+      "choices": {
+        "A": "dislike of the teacher's lessons",
+        "B": "a yearly illness that affected only boys",
+        "C": "school closures during the winter",
+        "D": "work their families needed done at harvest time"
+      },
+      "correct_answer": "D",
+      "explanation": "The absences cluster in autumn among farmers' sons, which fits seasonal harvest work at home."
+    },
+    {
+      "id": 9,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "natural_science",
+      "passage": "Biologists wondered whether urban crows can recognize individual humans. Researchers wearing a particular rubber mask briefly captured and banded crows near a campus. Months later, other researchers wearing either that mask or a different, neutral mask walked through the same area.",
+      "question": "Which finding, if true, would most strongly support the idea that the crows recognized the mask worn during capture?",
+      "choices": {
+        "A": "Crows scolded and swooped at people wearing the capture mask far more often than at people wearing the neutral mask.",
+        "B": "Crows were more active in the morning than in the afternoon.",
+        "C": "Crows scolded people wearing either mask about equally.",
+        "D": "Fewer crows were seen near the campus during winter."
+      },
+      "correct_answer": "A",
+      "explanation": "Reacting much more to the capture mask than to the neutral one shows the crows distinguished the two."
+    },
+    {
+      "id": 10,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "A city planner claims that adding benches to a public plaza makes people stay longer and interact more with one another.",
+      "question": "Which finding, if true, would most directly support the planner's claim?",
+      "choices": {
+        "A": "The plaza is located near a busy bus stop.",
+        "B": "Residents say they enjoy the plaza's fountain.",
+        "C": "After benches were installed, visitors' average stay rose from 6 to 19 minutes, and observers counted more conversations between strangers.",
+        "D": "The new benches were built from recycled wood."
+      },
+      "correct_answer": "C",
+      "explanation": "Longer stays and more conversations after the benches were added directly support both parts of the claim."
+    }
+  ]
+}
