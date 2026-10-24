@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-24",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "The new violin teacher, Mr. Abara, was known for being austere. His studio held a single chair, a music stand, and a metronome, with nothing at all on the walls. He spoke only when necessary, and his lessons began and ended at the exact minute. Students found the room almost silent, yet many said they learned more there than anywhere else.",
+      "question": "As used in the text, what does the word \"austere\" most nearly mean?",
+      "choices": {
+        "A": "Plain and strict",
+        "B": "Cheerful and chatty",
+        "C": "Cluttered and noisy",
+        "D": "Forgetful and careless"
+      },
+      "correct_answer": "A",
+      "explanation": "The bare studio, minimal speech, and exact timing all describe a plain, strict style."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "natural_science",
+      "passage": "Scientists studying coral reefs have found that some corals are remarkably resilient. After a heat wave bleached large sections of a reef near Palau, certain colonies recovered within two years by regrowing the colorful algae that live inside them. Researchers now study these hardy colonies to learn which traits help corals withstand warming seas.",
+      "question": "As used in the text, what does the word \"resilient\" most nearly mean?",
+      "choices": {
+        "A": "Fragile",
+        "B": "Brightly colored",
+        "C": "Able to recover from hardship",
+        "D": "Rarely found"
+      },
+      "correct_answer": "C",
+      "explanation": "The corals bounced back within two years after bleaching, which shows they recover from hardship."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "In 1790, a Philadelphia printer named Hannah Voss wrote to her local newspaper to defend the new public lamps on Market Street. Some neighbors complained of the cost. Voss replied that a lamp lit each evening would cost far less than the doctor's bills from a single fall in the dark, and that safe streets served shopkeeper and laborer alike.",
+      "question": "Which choice best states the main purpose of the text?",
+      "choices": {
+        "A": "To argue that public lamps are too expensive for a city",
+        "B": "To describe how a printer answered a cost objection to street lamps",
+        "C": "To explain how street lamps were manufactured in the 1790s",
+        "D": "To compare Philadelphia's streets with those of other cities"
+      },
+      "correct_answer": "B",
+      "explanation": "The text reports that Voss answered neighbors' complaints about cost by comparing it to the cost of injuries."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "social_science",
+      "passage_1": "Researcher Alma Reyes argues that high schools should start later in the morning. Because teenagers' body clocks naturally shift toward later hours, she says, students who start later arrive more often and more alert.",
+      "passage_2": "Economist Tom Hale notes that later start times can force schools to cut after-school sports and push back students' evening jobs. He cautions that better attendance alone does not prove the change is worth these costs.",
+      "question": "Based on the texts, how would Hale most likely respond to Reyes's claim?",
+      "choices": {
+        "A": "By denying that teenagers' sleep patterns shift later",
+        "B": "By arguing that later start times have no effect on attendance",
+        "C": "By agreeing that later start times have no downsides",
+        "D": "By granting the attendance benefit but insisting that the costs must also be weighed"
+      },
+      "correct_answer": "D",
+      "explanation": "Hale notes attendance gains alone do not show the change is worthwhile, so he would weigh them against the costs he lists."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Biologist Ines Moreau proposes that honeybees find flowers mainly by scent. In her trials, bees trained to a flower's smell still located it even when the flower's color was hidden from view.",
+      "passage_2": "Ecologist Paul Dunn observed that bees ignored scented flowers whose color differed from the flowers where they had earlier been rewarded. He concludes that color plays a strong part in how bees choose flowers.",
+      "question": "Which choice best describes the relationship between the two texts?",
+      "choices": {
+        "A": "Text 2 presents findings that complicate the claim made in Text 1.",
+        "B": "Text 2 repeats Text 1's experiment and gets the same results.",
+        "C": "Text 2 gives background that Text 1 depends on.",
+        "D": "Text 2 criticizes a study that Text 1 never mentions."
+      },
+      "correct_answer": "A",
+      "explanation": "Text 2 shows bees relying on color, which complicates Text 1's claim that scent is the main guide."
+    },
+    {
+      "id": 6,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "social_science",
+      "passage": "Researchers surveyed 400 households about food waste. Households that planned their meals for the week threw away about a third less food than those that did not, mainly because they bought only what their recipes required. The planners also reported spending less on groceries each month, though they said planning took about twenty minutes every Sunday.",
+      "question": "Which choice best states the main idea of the text?",
+      "choices": {
+        "A": "Most households dislike planning meals ahead of time.",
+        "B": "Surveys about food waste are usually unreliable.",
+        "C": "Planning weekly meals is linked to less food waste and lower grocery spending.",
+        "D": "Recipes have become cheaper over the last decade."
+      },
+      "correct_answer": "C",
+      "explanation": "The survey found planners wasted a third less food and spent less on groceries."
+    },
+    {
+      "id": 7,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "literature",
+      "passage": "On the morning of the science fair, Kofi's volcano model cracked down the middle. He stared at it for a moment, then fetched a roll of tape and a jar of orange paint. By the time the judges arrived, the crack had become a glowing lava flow running down the side of the cone, and Kofi was ready to explain exactly how it worked.",
+      "question": "Which choice best states the main idea of the text?",
+      "choices": {
+        "A": "Kofi decides to abandon his project.",
+        "B": "Kofi turns an unexpected setback into part of his project.",
+        "C": "The judges are unimpressed by volcano models.",
+        "D": "Volcano models are too fragile for science fairs."
+      },
+      "correct_answer": "B",
+      "explanation": "Kofi uses paint and tape to make the crack look like lava, turning the setback into a feature."
+    },
+    {
+      "id": 8,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "historical",
+      "passage": "Letters from a nineteenth-century sailor's wife, Ada Whitlock, record that every winter she sewed extra wool into her husband's coats and mailed them to ports along his route weeks before his ship arrived. She never mentioned the cost in her letters, though her household ledger shows she sold her mother's silver spoons to pay for the wool.",
+      "question": "Which choice most logically completes the text? The ledger suggests that Ada ______",
+      "choices": {
+        "A": "valued her husband's comfort enough to make a personal sacrifice",
+        "B": "disliked sewing and wanted to stop",
+        "C": "hoped to earn a profit from selling the spoons",
+        "D": "believed her husband never wore the coats"
+      },
+      "correct_answer": "A",
+      "explanation": "Selling her mother's spoons to buy wool shows she sacrificed something personal for his comfort."
+    },
+    {
+      "id": 9,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "natural_science",
+      "passage": "A botanist claims that desert plants with silvery leaves lose less water than their green-leafed relatives, because the pale surface reflects more sunlight and keeps the leaf cooler.",
+      "question": "Which finding, if true, would most directly support the botanist's claim?",
+      "choices": {
+        "A": "Silvery-leafed plants grow taller than green-leafed plants.",
+        "B": "Green-leafed plants bloom earlier in the spring.",
+        "C": "Silvery-leafed plants are more common in rocky soil.",
+        "D": "Under identical heat, silvery-leafed plants lost 20 percent less water over a week than green-leafed plants."
+      },
+      "correct_answer": "D",
+      "explanation": "Only the last choice directly compares water loss between the two kinds of plants under the same conditions."
+    },
+    {
+      "id": 10,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "A city planner argues that painting crosswalks in bright colors makes drivers slow down as they approach, since the vivid paint draws attention to where pedestrians may cross.",
+      "question": "Which finding, if true, would most directly support the planner's argument?",
+      "choices": {
+        "A": "Residents say they enjoy the look of the painted crosswalks.",
+        "B": "Painting a crosswalk costs more than painting a plain one.",
+        "C": "Average driver speed near painted crosswalks dropped from 28 to 23 miles per hour.",
+        "D": "Painted crosswalks are located mostly near schools."
+      },
+      "correct_answer": "C",
+      "explanation": "A measured drop in driver speed near the painted crosswalks directly supports the claim that drivers slow down."
+    }
+  ]
+}
