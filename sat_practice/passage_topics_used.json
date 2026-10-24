@@ -1283,7 +1283,7 @@
     {
       "date": "2026-09-27",
       "topic_category": "social_science",
-      "topic": "library r\u00e9sum\u00e9 workshop drawing already-employed attendees"
+      "topic": "library résumé workshop drawing already-employed attendees"
     },
     {
       "date": "2026-09-28",
@@ -1338,7 +1338,7 @@
     {
       "date": "2026-09-29",
       "topic_category": "natural_science",
-      "topic": "urban pigeons learning caf\u00e9 crumb timing"
+      "topic": "urban pigeons learning café crumb timing"
     },
     {
       "date": "2026-09-29",
@@ -1637,7 +1637,7 @@
     },
     {
       "date": "2026-10-17",
-      "topic": "caf\u00e9 owner's meticulous chair arrangement",
+      "topic": "café owner's meticulous chair arrangement",
       "topic_category": "literature"
     },
     {
@@ -1683,6 +1683,56 @@
     {
       "date": "2026-10-17",
       "topic": "plaza benches and visitor dwell time",
+      "topic_category": "social_science"
+    },
+    {
+      "date": "2026-10-24",
+      "topic": "coral recovery after Palau heat wave",
+      "topic_category": "natural_science"
+    },
+    {
+      "date": "2026-10-24",
+      "topic": "austere violin teacher's bare studio",
+      "topic_category": "literature"
+    },
+    {
+      "date": "2026-10-24",
+      "topic": "1790 Philadelphia printer defends street lamps",
+      "topic_category": "historical"
+    },
+    {
+      "date": "2026-10-24",
+      "topic": "later school start times (Reyes vs Hale)",
+      "topic_category": "social_science"
+    },
+    {
+      "date": "2026-10-24",
+      "topic": "honeybees: scent vs color (Moreau vs Dunn)",
+      "topic_category": "natural_science"
+    },
+    {
+      "date": "2026-10-24",
+      "topic": "meal planning and household food waste",
+      "topic_category": "social_science"
+    },
+    {
+      "date": "2026-10-24",
+      "topic": "Kofi's cracked science-fair volcano",
+      "topic_category": "literature"
+    },
+    {
+      "date": "2026-10-24",
+      "topic": "sailor's wife Ada Whitlock's wool coats",
+      "topic_category": "historical"
+    },
+    {
+      "date": "2026-10-24",
+      "topic": "silvery desert leaves and water loss",
+      "topic_category": "natural_science"
+    },
+    {
+      "date": "2026-10-24",
+      "topic": "painted crosswalks and driver speed",
       "topic_category": "social_science"
     }
   ]
