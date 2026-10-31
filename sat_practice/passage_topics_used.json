@@ -1283,7 +1283,7 @@
     {
       "date": "2026-09-27",
       "topic_category": "social_science",
-      "topic": "library résumé workshop drawing already-employed attendees"
+      "topic": "library r\u00e9sum\u00e9 workshop drawing already-employed attendees"
     },
     {
       "date": "2026-09-28",
@@ -1338,7 +1338,7 @@
     {
       "date": "2026-09-29",
       "topic_category": "natural_science",
-      "topic": "urban pigeons learning café crumb timing"
+      "topic": "urban pigeons learning caf\u00e9 crumb timing"
     },
     {
       "date": "2026-09-29",
@@ -1637,7 +1637,7 @@
     },
     {
       "date": "2026-10-17",
-      "topic": "café owner's meticulous chair arrangement",
+      "topic": "caf\u00e9 owner's meticulous chair arrangement",
       "topic_category": "literature"
     },
     {
@@ -1734,6 +1734,56 @@
       "date": "2026-10-24",
       "topic": "painted crosswalks and driver speed",
       "topic_category": "social_science"
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "Marisol hesitating over the concert solo",
+      "topic_category": "literature"
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "tide pool survival adaptations",
+      "topic_category": "natural_science"
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "1845 Maine lighthouse keeper requests lamp oil",
+      "topic_category": "historical"
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "Millbrook valley water shortage",
+      "topic_category": "social_science"
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "novel's winter garden ending (Ruiz vs Ito)",
+      "topic_category": "literature"
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "moths evading bats with hearing",
+      "topic_category": "natural_science"
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "Mei's grandmother mending the paper lantern",
+      "topic_category": "literature"
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "1802 ferry fares after bridge washout",
+      "topic_category": "historical"
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "pleasure reading and vocabulary",
+      "topic_category": "social_science"
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "street trees and summer temperature",
+      "topic_category": "natural_science"
     }
   ]
 }
