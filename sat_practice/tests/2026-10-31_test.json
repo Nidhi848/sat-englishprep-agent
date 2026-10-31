@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-31",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "When her coach asked whether she would sing the solo at the winter concert, Marisol hesitated. She had practiced the song for weeks in her bedroom, yet the thought of an auditorium full of listeners made her hands tremble. \"I'll think about it,\" she said, staring at the floor. Her coach nodded, and it was clear that Marisol was reluctant to say yes, though she did not say no.",
+      "question": "As used in the text, what does the word \"reluctant\" most nearly mean?",
+      "choices": {
+        "A": "Certain",
+        "B": "Unable",
+        "C": "Eager",
+        "D": "Hesitant"
+      },
+      "correct_answer": "D",
+      "explanation": "She hesitated, stared at the floor, and said only \"I'll think about it,\" which shows she was hesitant rather than eager."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "natural_science",
+      "passage": "Tide pools, the small basins of seawater left behind when the ocean retreats at low tide, are difficult places to live. The water warms quickly under the sun, grows saltier as it evaporates, and loses oxygen. Yet anemones, snails, and small crabs thrive there. Anemones pull in their tentacles and close tightly to hold moisture, while snails seal their shells with a hard plate until the tide returns.",
+      "question": "Which choice best describes the overall structure of the text?",
+      "choices": {
+        "A": "It states a hypothesis and then rejects it.",
+        "B": "It describes a harsh environment and then explains how organisms cope with it.",
+        "C": "It compares two habitats and recommends one.",
+        "D": "It tells a story about a single scientist's discovery."
+      },
+      "correct_answer": "B",
+      "explanation": "The first half lists the harsh conditions in tide pools, and the second half explains how anemones and snails adapt to them."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "In an 1845 petition, a Maine lighthouse keeper named Josiah Pell asked the district board to increase his yearly allowance of lamp oil. He explained that fog had covered the harbor on forty nights that year, forcing the lamp to burn far longer than planned, and that three fishing boats had found the channel only because of the light. He asked the board to set the allowance to match these demands.",
+      "question": "Which choice best states the main purpose of the text?",
+      "choices": {
+        "A": "To request more lamp oil by showing that the light was needed more than expected",
+        "B": "To describe how lighthouses were built in Maine",
+        "C": "To complain that fishing boats ignored the harbor light",
+        "D": "To argue that the harbor should be closed during fog"
+      },
+      "correct_answer": "A",
+      "explanation": "Pell points to forty foggy nights and three boats saved by the light as reasons the board should raise the oil allowance."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "social_science",
+      "passage": "In the Millbrook valley, fresh water became scarce during the long dry summer. The town council limited lawn watering to two days a week, and the reservoir, once brimming, dropped to half its usual level. Residents who had never given much thought to their water use began checking their meters each week and fixing leaky faucets.",
+      "question": "As used in the text, what does the word \"scarce\" most nearly mean?",
+      "choices": {
+        "A": "Dirty",
+        "B": "Costly",
+        "C": "In short supply",
+        "D": "Easy to find"
+      },
+      "correct_answer": "C",
+      "explanation": "The reservoir dropped by half and the council limited watering, which shows fresh water was in short supply."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "literature",
+      "passage_1": "Critic Dana Ruiz argues that the novel ends on a hopeful note. In the final scene, the narrator plants a small garden behind her new house, which Ruiz reads as a sign that she is ready to begin again.",
+      "passage_2": "Critic Sam Ito observes that the narrator plants her garden in mid-January, in ground too frozen for any seed to sprout. He suggests that the final scene may be less a promise of renewal than a picture of effort that cannot yet pay off.",
+      "question": "Based on the texts, how would Ito most likely respond to Ruiz's claim?",
+      "choices": {
+        "A": "By agreeing that the ending is entirely hopeful",
+        "B": "By pointing out a detail that makes the hopeful reading doubtful",
+        "C": "By arguing that the novel has no ending",
+        "D": "By claiming that Ruiz has not read the novel"
+      },
+      "correct_answer": "B",
+      "explanation": "Ito notes the garden is planted in frozen ground where nothing can grow, which casts doubt on Ruiz's hopeful reading."
+    },
+    {
+      "id": 6,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "Many moths have ears that can detect the high-pitched calls bats use to hunt in the dark. When a moth hears such a call, it dives toward the ground or flies in tight loops. In one experiment, researchers blocked the ears of some moths and left others untouched. The moths with blocked ears were caught by bats nearly twice as often as the moths with open ears.",
+      "question": "Which choice best states the main idea of the text?",
+      "choices": {
+        "A": "Moths' hearing helps them avoid being caught by bats.",
+        "B": "Bats hunt more successfully on windy nights.",
+        "C": "Moths are more active than bats.",
+        "D": "Researchers find it difficult to study moths."
+      },
+      "correct_answer": "A",
+      "explanation": "Moths that could hear were caught far less often than moths with blocked ears, showing hearing helps them escape."
+    },
+    {
+      "id": 7,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "Every spring, Mei's grandmother repaired the same paper lantern, patching each tear with new paper cut to match the old pattern. Mei once suggested buying a new one. Her grandmother smiled and ran a finger along the seams. \"This one has hung in three homes,\" she said. \"A new one would be prettier, but it would not be ours.\"",
+      "question": "Which choice best describes what the grandmother's reply suggests?",
+      "choices": {
+        "A": "She cannot afford to buy a new lantern.",
+        "B": "She believes the lantern is nearly worthless.",
+        "C": "She is annoyed that Mei brought up the subject.",
+        "D": "She values the lantern for its history more than for its appearance."
+      },
+      "correct_answer": "D",
+      "explanation": "She admits a new lantern would be prettier but says only the old one is \"ours,\" so its history matters more to her."
+    },
+    {
+      "id": 8,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "historical",
+      "passage": "A town's records from 1802 show that its ferry operator, Samuel Greer, raised the fare twice in a single year, yet the number of crossings each week rose after each increase. The same records note that the town's only bridge had washed away in a spring flood and would not be rebuilt until the following year.",
+      "question": "Which choice most logically completes the text? The ferry's growing use despite higher fares suggests that ______",
+      "choices": {
+        "A": "the ferry was faster than the old bridge",
+        "B": "travelers preferred paying higher fares",
+        "C": "residents had few other ways to cross the river",
+        "D": "the town had lowered its other taxes"
+      },
+      "correct_answer": "C",
+      "explanation": "The bridge had washed away, so riders kept using the ferry even at higher prices because they had no other way across."
+    },
+    {
+      "id": 9,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "A school librarian claims that students who read for pleasure at home build stronger vocabularies than students who do not, because they meet many unfamiliar words in context.",
+      "question": "Which finding, if true, would most directly support the librarian's claim?",
+      "choices": {
+        "A": "Students who read for fun at least three times a week scored an average of 12 points higher on a vocabulary test than students who rarely did.",
+        "B": "Many librarians recommend that students visit the library weekly.",
+        "C": "Most students say they enjoy reading more than they enjoy math.",
+        "D": "The vocabulary test used in the school takes thirty minutes to finish."
+      },
+      "correct_answer": "A",
+      "explanation": "Only the first choice directly links reading for pleasure to higher vocabulary scores."
+    },
+    {
+      "id": 10,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "natural_science",
+      "passage": "An engineer claims that planting trees along a city street lowers the air temperature on that street during the summer, since the leaves block sunlight and release moisture into the air.",
+      "question": "Which finding, if true, would most directly support the engineer's claim?",
+      "choices": {
+        "A": "Residents say they enjoy the shade that trees provide.",
+        "B": "Planting trees costs less than repaving a road.",
+        "C": "Trees grow more slowly in clay soil than in sandy soil.",
+        "D": "On a hot July afternoon, tree-lined blocks averaged 4 degrees Fahrenheit cooler than nearby blocks without trees."
+      },
+      "correct_answer": "D",
+      "explanation": "A measured temperature difference between tree-lined and treeless blocks directly supports the claim that trees lower street temperatures."
+    }
+  ]
+}
