@@ -1,0 +1,172 @@
+{
+  "date": "2026-11-07",
+  "difficulty_tier": {
+    "information_and_ideas": 2,
+    "craft_and_structure": 2
+  },
+  "graded": false,
+  "questions": [
+    {
+      "id": 1,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "literature",
+      "passage": "Tomas had inherited his grandfather's workshop, but he had never used the old tools alone. On his first morning there, he lifted the hand saw and set it against a plank of pine. His first cut was tentative: he barely pressed the blade into the wood, then stopped to check the line. Only after the third pass, when a clean groove appeared, did he allow himself to saw a little harder.",
+      "question": "As used in the text, what does the word \"tentative\" most nearly mean?",
+      "choices": {
+        "A": "Careless",
+        "B": "Powerful",
+        "C": "Cautious",
+        "D": "Final"
+      },
+      "correct_answer": "C",
+      "explanation": "Tomas barely pressed the saw and stopped to check the wood, which shows his cut was cautious rather than bold."
+    },
+    {
+      "id": 2,
+      "domain": "craft_and_structure",
+      "subtype": "words_in_context",
+      "topic_category": "social_science",
+      "passage": "When the city first proposed a neighborhood composting program, officials expected a crowd at the public meeting. Instead, attendance was sparse: only a handful of residents came, and most of the chairs in the hall stayed empty. Organizers later learned that many families had not seen the announcement, which had been posted only on a single website. After flyers were mailed to every household, the next meeting filled the room.",
+      "question": "As used in the text, what does the word \"sparse\" most nearly mean?",
+      "choices": {
+        "A": "Thin",
+        "B": "Lively",
+        "C": "Hostile",
+        "D": "Expensive"
+      },
+      "correct_answer": "A",
+      "explanation": "The text says only a handful of residents came and many chairs were empty, so attendance was thin."
+    },
+    {
+      "id": 3,
+      "domain": "craft_and_structure",
+      "subtype": "text_structure_and_purpose",
+      "topic_category": "historical",
+      "passage": "From a letter written in 1888 by a rural schoolteacher to her county's school board: \"The schoolhouse has only one stove, set near the door. On cold mornings the children seated at the back wall cannot hold their pencils, and several have missed lessons because of illness. I therefore respectfully ask that the board provide a second stove for the far end of the room, so that every pupil may sit in reasonable comfort.\"",
+      "question": "Which choice best states the main purpose of the text?",
+      "choices": {
+        "A": "To celebrate a recent harvest",
+        "B": "To request a specific improvement for the school",
+        "C": "To describe how students learn arithmetic",
+        "D": "To argue that winter lessons should end"
+      },
+      "correct_answer": "B",
+      "explanation": "The writer describes the cold classroom and then asks the board to supply a second stove, so the purpose is a request."
+    },
+    {
+      "id": 4,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "literature",
+      "passage_1": "Reader Alma Cruz claims that the river in the poem stands for sadness. She points out that the speaker watches the water slip away and never says whether it will return.",
+      "passage_2": "Reader Ben Okafor notes that the poem ends with the river carrying morning light downstream. He argues that this closing image suggests the speaker finds comfort in the water's movement, not simply grief.",
+      "question": "Based on the texts, how would the author of Text 2 most likely respond to the claim in Text 1?",
+      "choices": {
+        "A": "By agreeing that the river symbolizes only sadness",
+        "B": "By saying the poem never mentions a river",
+        "C": "By arguing that the poem is about a different season",
+        "D": "By suggesting that the poem's closing lines point to something besides sadness"
+      },
+      "correct_answer": "D",
+      "explanation": "Text 2 says the final image of the river carrying light downstream suggests hope, which challenges Text 1's reading that the river stands for sadness."
+    },
+    {
+      "id": 5,
+      "domain": "craft_and_structure",
+      "subtype": "cross_text_connections",
+      "topic_category": "natural_science",
+      "passage_1": "Biologist Lena Park proposes that fireflies in a group flash in unison so that females can spot males more easily. In her view, the synchrony is a courtship strategy.",
+      "passage_2": "Biologist Raj Mehta observed groups of fireflies that flashed in unison even when no females were nearby. He suggests that courtship may not be the only reason the insects synchronize.",
+      "question": "Based on the texts, how would the author of Text 2 most likely respond to the explanation in Text 1?",
+      "choices": {
+        "A": "By confirming that the explanation applies to every firefly species",
+        "B": "By proposing that the explanation may not account for all observed cases",
+        "C": "By denying that fireflies flash at all",
+        "D": "By claiming that fireflies flash only in daylight"
+      },
+      "correct_answer": "B",
+      "explanation": "Text 2 reports that some groups sync even when no mates are present, which suggests Text 1's explanation is incomplete."
+    },
+    {
+      "id": 6,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "natural_science",
+      "passage": "Sea otters eat clams, mussels, and snails, but these animals are protected by hard shells. To reach the meat inside, an otter floats on its back, places a flat stone on its chest, and pounds the shell against the stone until it cracks. Researchers have seen some otters keep a favorite stone tucked under a fold of loose skin for later use, carrying it from one meal to the next.",
+      "question": "Which choice best states the main idea of the text?",
+      "choices": {
+        "A": "Sea otters are the largest marine mammals.",
+        "B": "Sea otters avoid eating shellfish.",
+        "C": "Sea otters use stones to open hard-shelled food.",
+        "D": "Sea otters live only in cold rivers."
+      },
+      "correct_answer": "C",
+      "explanation": "The text describes otters resting a stone on their chests to crack open clams, which shows tool use for hard-shelled food."
+    },
+    {
+      "id": 7,
+      "domain": "information_and_ideas",
+      "subtype": "central_ideas_and_details",
+      "topic_category": "social_science",
+      "passage": "A rural district switched to a four-day school week, adding thirty minutes to each remaining day. Administrators had worried that students would struggle with the longer days. Instead, the district's average daily attendance rose from 91 percent to 94 percent over the following year. Officials credited the gain partly to the extra day off, which let families schedule medical visits and errands without pulling students out of class.",
+      "question": "Which choice best states the main idea of the text?",
+      "choices": {
+        "A": "Shorter school weeks led to a small rise in attendance in the district.",
+        "B": "Students prefer longer holidays.",
+        "C": "Teachers dislike changes to the schedule.",
+        "D": "Attendance numbers are impossible to measure."
+      },
+      "correct_answer": "A",
+      "explanation": "The district's attendance rose from 91 to 94 percent after the change, so the main idea is a small rise."
+    },
+    {
+      "id": 8,
+      "domain": "information_and_ideas",
+      "subtype": "inferences",
+      "topic_category": "literature",
+      "passage": "On Priya's third day at the bakery, the owner handed her a tray of dough and said, \"Shape these into loaves, and don't forget the scoring.\" Then, without checking her work, he walked into the front room to greet customers. Priya smiled as she reached for the knife. The owner's decision to leave her alone with the morning bread suggests that ______",
+      "question": "Which choice most logically completes the text?",
+      "choices": {
+        "A": "Priya had never baked before",
+        "B": "the bakery was closed that morning",
+        "C": "Priya disliked the smell of bread",
+        "D": "Priya had been trusted with an important task"
+      },
+      "correct_answer": "D",
+      "explanation": "The owner hands over the shaping of the day's loaves and leaves, which implies Priya was trusted with an important job."
+    },
+    {
+      "id": 9,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "social_science",
+      "passage": "A city planner claims that painting community murals on blank walls reduces graffiti in the surrounding blocks. She argues that people are less likely to deface a wall that already displays art that neighbors helped create. To test the claim, the city plans to compare records from blocks with new murals against records from similar blocks without them.",
+      "question": "Which finding, if true, would most directly support the city planner's claim?",
+      "choices": {
+        "A": "Residents said they liked the colors of the murals.",
+        "B": "Painting the murals cost less than repainting walls.",
+        "C": "Reported graffiti dropped on blocks with murals but not on blocks without them.",
+        "D": "Several muralists had also painted in other cities."
+      },
+      "correct_answer": "C",
+      "explanation": "Only a drop in graffiti on mural blocks, compared with blocks without murals, directly supports the claim that murals reduce graffiti."
+    },
+    {
+      "id": 10,
+      "domain": "information_and_ideas",
+      "subtype": "command_of_evidence",
+      "topic_category": "historical",
+      "passage": "In an 1857 article, a small-town newspaper editor argued that the railroad had made daily life more affordable for his readers. He wrote: \"The depot is a handsome brick building. Many townspeople gathered to watch the first train. The conductor was courteous to every passenger. Flour that cost four dollars a barrel last spring now sells for three.\" He concluded that the town had been well served.",
+      "question": "Which quotation from the editor's article best supports the claim that the railroad lowered local prices?",
+      "choices": {
+        "A": "\"The depot is a handsome brick building.\"",
+        "B": "\"Many townspeople gathered to watch the first train.\"",
+        "C": "\"The conductor was courteous to every passenger.\"",
+        "D": "\"Flour that cost four dollars a barrel last spring now sells for three.\""
+      },
+      "correct_answer": "D",
+      "explanation": "Only the flour price falling from four dollars to three after the railroad arrived directly shows lower local prices."
+    }
+  ]
+}
